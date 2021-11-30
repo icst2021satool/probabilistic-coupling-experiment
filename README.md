@@ -39,7 +39,7 @@ This directory contains the shell scripts and Python programs to generate the FD
 
 The main files are the shell scripts **datafilegen.sh** and **faultdetect_project.sh**.
 
-[datafilegen.sh](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/datafilegen.sh) generates several data related to the calculation of the fault detection probability (FDP) or ochiai association metric.  This script supposes it is run at **datacolletion** directory using ```src/datafilegen.sh```. The parameters are as follows:
+[datafilegen.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/datafilegen.sh) generates several data related to the calculation of the fault detection probability (FDP) or ochiai association metric.  This script supposes it is run at **datacolletion** directory using ```src/datafilegen.sh```. The parameters are as follows:
 * arg[1] Name of the project (e.g., Chart, Math)
 * arg[2] Version (e.g., 2b)
 * arg[3] Zip file with jaguar DUA data (data flow coverage for all faulty versions of a d4j project)
@@ -70,19 +70,19 @@ arg[3] options:
 edgematrix/nodematrix/cftmatrix: edge and node matrix files are saved on the  *subsumption-files/PROJECT_NAME/reduce/VERSION* directory. To keep the matrix files one should not use the -cleanup option; otherwise,  they are gzipped in a single file and moved to **subsumption-files/reduce** folder. **datafilegen.sh** calls  **createcftmatrix.py** to generate the matrix files. To generate fdp and ochiai rankings from the gzip file, it has to be converted to a zip file and moved to the **coverage/PROJECTID** folder. For fdp and ochiai ranking calculation is supposed that a zip file with the matrix data is located at **coverage/PROJECTID** folder.
 -->
 
-fdp: csv and json files are saved on ```results/PROJECTID/VERSION``` directory; they contain the DUAs sorted by the FDP or ochai ranking.  **datafilegen.sh** calls  [faultdetectv3.py](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/faultdetectv3.py) and [comparisonv2.py](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/comparisonv2.py) to generate the csv/json files. Csv and json file have the same information. The names of the csv and json files are fixed: fdp-PROJECTID-VERSION.json, fdp-PROJECTID-VERSION.csv, ochiai-PROJECTID-VERSION.json, and ochiai-PROJECTID-VERSION.csv. **datafilegen.sh** also copies the buggy classes; that is, the classes where the bug is located and, additionally, generates a file listing the buggy lines of the buggy classes. It utilizes the [get_buggy_lines.sh](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/get_buggy_lines.sh) shell script (developed by d4j team) to located the buggy lines. 
+fdp: csv and json files are saved on ```results/PROJECTID/VERSION``` directory; they contain the DUAs sorted by the FDP or ochai ranking.  **datafilegen.sh** calls  [faultdetectv3.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/faultdetectv3.py) and [comparisonv2.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/comparisonv2.py) to generate the csv/json files. Csv and json file have the same information. The names of the csv and json files are fixed: fdp-PROJECTID-VERSION.json, fdp-PROJECTID-VERSION.csv, ochiai-PROJECTID-VERSION.json, and ochiai-PROJECTID-VERSION.csv. **datafilegen.sh** also copies the buggy classes; that is, the classes where the bug is located and, additionally, generates a file listing the buggy lines of the buggy classes. It utilizes the [get_buggy_lines.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/get_buggy_lines.sh) shell script (developed by d4j team) to located the buggy lines. 
 
 For example, by running the command below:
 *  ```src/datafilegen.sh Chart 2b jfreechart.zip -fdp -copy -cleanup``` 
 
 The following files are generated at  [datacollection/results/Chart/2b](https://github.com/marcoschaim/probabilistic-coupling/tree/master/datacollection/results/Chart/2b):
 
-* [fdp-Chart-2b.csv](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/results/Chart/2b/fdp-Chart-2b.csv) (contains Chart 2b DUAs ranked by FDP)
-* [DatasetUtilities.java](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/results/Chart/2b/DatasetUtilities.java)  (buggy class of Chart 2b)
-* [Chart-2.buggy.lines](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/results/Chart/2b/Chart-2.buggy.lines) (contains the buggy lines of Chart 2b)
+* [fdp-Chart-2b.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/fdp-Chart-2b.csv) (contains Chart 2b DUAs ranked by FDP)
+* [DatasetUtilities.java](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/DatasetUtilities.java)  (buggy class of Chart 2b)
+* [Chart-2.buggy.lines](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/Chart-2.buggy.lines) (contains the buggy lines of Chart 2b)
 * fdp-Chart-2b.json (ignored in the repository because it has the save information contained in the csv file)
 
-[faultdetect_project.sh](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/faultdetect_project.sh) runs **datafile.sh** on several faulty versions.
+[faultdetect_project.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/faultdetect_project.sh) runs **datafile.sh** on several faulty versions.
 
 Example: ```src/faultdetect_project.sh Compress 1 47 commons-compress-exception.zip -fdp -copy -cleanup```
 
