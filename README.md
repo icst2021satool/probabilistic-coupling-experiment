@@ -46,12 +46,12 @@ The main files are the shell scripts **datafilegen.sh** and **faultdetect_projec
 * arg[3] Zip file with jaguar DUA data (data flow coverage for all faulty versions of a d4j project)
 * arg[4] Data file to be generated (e.g., -fdp, -ochiai)
 * arg[5] -copy: Copy faulty classes
-* arg[6] -cleanup: clean up the static and dynamic data (e.g., json, matrix, spectra files) used to generate data file
+* arg[6] -cleanup: clean up the static and dynamic data (e.g., json, matrix, spectra files) used to generate FDP data file
 
 arg[3] options:
 1. -fdp --  generate fault detection probability (FDP) for a particular faulty version
 2. -ochiai -- ochai fault detection association metric for a particular faulty version
-3. datafilegen.sh generates other data that are not relevant for fault detection probability (FDP)
+3. datafilegen.sh has other options beyond -fdp (e.g., -occhiai) that are not relevant for fault detection probability (FDP)
 
 <!--
 
