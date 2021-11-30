@@ -93,8 +93,11 @@ In the example, **faultdetect_project.sh** calls **datafilegen.sh** for each of 
 
 ### datacollection/coverage:
 
-**coverage** has a sub-directory for each of d4j's projects. In each of these sub-directories there should be one or more zip files containing the data flow coverage collected with Jaguar. Because the zip files containing the data flow coverage for each fault version occupy too much space, we make them availabe at [here](https://drive.google.com/drive/folders/1Yv_nWJrwMO1twRaqXZ3e34JWFLArYjeN?usp=sharing). To run the scripts to generate the FDP data for each version, one should place the project's zip file containing its data flow coverage on the project's folder. 
-The table below maps each project identifier to its zip file contained [here](https://drive.google.com/drive/folders/1Yv_nWJrwMO1twRaqXZ3e34JWFLArYjeN?usp=sharing). **Math** and **Closure** required to divide their coverage data into several files, each one containg a subset of the faulty versions' coverage. The table below shows the coverage zip file names for each of d4j's projects.
+**coverage** has a sub-directory for each of d4j's projects. In each of these sub-directories there should be one or more zip files containing the data flow coverage collected with Jaguar. Because the zip files occupy too much space, we make them availabe at [here](https://drive.google.com/drive/folders/1Yv_nWJrwMO1twRaqXZ3e34JWFLArYjeN?usp=sharing). 
+
+To run the scripts to generate the FDP data for each version, one should place the project's zip file containing its data flow coverage on the project's folder. 
+
+The table below maps each project identifier to its zip file contained [here](https://drive.google.com/drive/folders/1Yv_nWJrwMO1twRaqXZ3e34JWFLArYjeN?usp=sharing). **Math** and **Closure** required to divide their coverage data into several files, each one containg a subset of the faulty versions' coverage. 
 
   Identifier     |      Project zip file | Versions
 ------------------| ----------------------|--------- 
@@ -126,7 +129,8 @@ Math             | commons-math3.zip | 81-106
 Mockito          | **not available** | **none**
 Time             | joda-time.zip | all  d4j versions
 
-This repository has the `datacollection/coverage/PROJECTID` directories, but it does not contains the coverage zip files due to space restrictions. 
+This repository has already the `datacollection/coverage/PROJECTID` directories, but it does not contains the coverage zip files due to space restrictions. 
+
 For example, let us say one wants to generate data for project **Chart**, the zip file **jfreechart.zip** should be placed at ```datacolection/coverage/Chart```. **datafilegen.sh** will look for the zip file at ```datacollection/coverage/Chart/jfreechart.zip``` when the command below is issued:
 *  ```src/datafilegen.sh Chart 2b jfreechart.zip -fdp -copy -cleanup``` 
 
