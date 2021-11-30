@@ -75,12 +75,6 @@ fdp: csv and json files are saved on ```results/PROJECTID/VERSION``` directory; 
 For example, by running the command below:
 *  ```src/datafilegen.sh Chart 2b jfreechart.zip -fdp -copy -cleanup``` 
 
-The following files are generated at  [datacollection/results/Chart/2b](https://github.com/marcoschaim/probabilistic-coupling/tree/master/datacollection/results/Chart/2b):
-
-* [fdp-Chart-2b.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/fdp-Chart-2b.csv) (contains Chart 2b DUAs ranked by FDP)
-* [DatasetUtilities.java](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/DatasetUtilities.java)  (buggy class of Chart 2b)
-* [Chart-2.buggy.lines](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/Chart-2.buggy.lines) (contains the buggy lines of Chart 2b)
-* fdp-Chart-2b.json (ignored in the repository because it has the save information contained in the csv file)
 
 [faultdetect_project.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/faultdetect_project.sh) runs **datafile.sh** on several faulty versions.
 
@@ -131,7 +125,15 @@ The data from **Chart 2b** is expanded using ```datacollection/coverage/Chart/jf
 
 ### datacollection/results
 
-**results** has a sub-directory for each of the d4j's projects. And for each project, there is a sub-directory for every faulty version. These latter directories contains the fdp data generated.
+**results** has a sub-directory for each of the d4j's projects. And for each project, there is a sub-directory for every faulty version. These latter directories contains the FDP data generated.
+
+The following files are generated at  [datacollection/results/Chart/2b](https://github.com/marcoschaim/probabilistic-coupling/tree/master/datacollection/results/Chart/2b):
+
+* [fdp-Chart-2b.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/fdp-Chart-2b.csv) (contains Chart 2b DUAs ranked by FDP)
+* [DatasetUtilities.java](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/DatasetUtilities.java)  (buggy class of Chart 2b)
+* [Chart-2.buggy.lines](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/Chart-2.buggy.lines) (contains the buggy lines of Chart 2b)
+* fdp-Chart-2b.json (ignored in the repository because it has the save information contained in the csv file)
+
 
 ### datacollection/subsumption-files
 
