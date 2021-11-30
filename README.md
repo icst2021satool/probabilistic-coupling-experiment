@@ -152,6 +152,11 @@ The cvs files contains the following columns:
 3. **Status**: *clear* means that the Subsumption Algorithm (SA) could calculate the subsumption relationship for the method's DUAs; *notclear* means SA could not find the subsumption relationship. 
 4. **DUAs**: the description of the DUA; we refer the reader to the paper for the definition of definition use associations (DUAs).
 
+```
+FAULT DETECTION ;Uncon;Status;DUAs; Version;138b
+1.000000;True;clear;com.google.javascript.jscomp.ClosureReverseAbstractInterpreter%getPreciser
+ScopeKnowingConditionOutcome#0@26$(207,(208,223), paramType)
+```
 ### datacollection/subsumption-files
 
 **subsumption-files** contains a sub-directory for each of the d4j's projects and each faulty version. They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. These data can optionally be removed after the execution of the scripts to generated fdp data. The subsumption, coverage, and mapping information are generated in the form of json files.
