@@ -167,13 +167,13 @@ ScopeKnowingConditionOutcome#0@26$(207,(208,223), paramType)`
 
 Regarding the DUA description:
 * `com.google.javascript.jscomp.ClosureReverseAbstractInterpreter` is the class name;
-* `%` is delimiter
+* `%` is a delimiter
 * `getPreciserScopeKnowingConditionOutcome` is the method's name
-* `#` is delimiter
+* `#` is a delimiter
 * 0 is the method's identifier;
-* `@` is delimiter
+* `@` is a delimiter
 * 26 is the DUA's identifier;
-* `$` is delimiter
+* `$` is a  delimiter
 * `(207,(208,223), paramType)` is the DUA description where 207 is the line where the definition occurs, (208,223) is the edge where the use occurs, and `paramType` is the name of the variable object of the data flow.
 
 
@@ -187,10 +187,6 @@ Additionally, we use **subsumption-files** sub-directories to save the node and 
 
 This directory contains the **satool** jar file and the libraries it uses. **satool** generates the json files of the **subsumption-files** directory.
 
-### datacollection/src
-There are shell scripts and python programs. In what follows, we describe these programs.
-
-## Generating fault detection probability data
 
 
 
