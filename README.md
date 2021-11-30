@@ -144,7 +144,13 @@ Csv and json files are saved on ```results/PROJECTID/VERSION``` directory after 
 * [DatasetUtilities.java](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/DatasetUtilities.java)  (buggy class of Chart 2b)
 * [Chart-2.buggy.lines](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/Chart-2.buggy.lines) (contains the buggy lines of Chart 2b)
 
+#### Contents of cvs files
+The cvs files contains the following columns:
 
+1. *FAULT DETECTION*: a real value f (O < f <= 1.0) informing the probabilistic coupling (or fault detection probability -- FDP) calculated using all tests belonging to the test suite created by the project's developers. We refer the reader to [Chen et al. 2020 ASE paper]((https://doi.org/10.1145/3324884.3416667) for the definition of probablistic coupling.
+2. *Uncon*: **true** means the DUA (definition use association) is unconstrained and **false** subsumed; we refer the reader to the paper for the definition of unconstrained and subsumed DUAs. 
+3. *Status*: **clear** means that the Subsumption Algorithm (SA) could calculate the subsumption relationship for the method's DUAs; **notclear** means SA could not find the subsumption relationship. 
+4. *DUAs*: the description of the DUA; we refer the reader to the paper for the definition of definition use associations (DUAs).
 
 ### datacollection/subsumption-files
 
