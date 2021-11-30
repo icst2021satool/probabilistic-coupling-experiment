@@ -159,8 +159,13 @@ FAULT DETECTION ;Uncon;Status;DUAs; Version;138b
 1.000000;True;clear;com.google.javascript.jscomp.ClosureReverseAbstractInterpreter%getPreciser
 ScopeKnowingConditionOutcome#0@26$(207,(208,223), paramType)
 ```
-com.google.javascript.jscomp.ClosureReverseAbstractInterpreter%getPreciser
-ScopeKnowingConditionOutcome#0@26$(207,(208,223), paramType)
+For this line:
+* FAULT DETECTION: 1.0;
+* Uncon: clear;
+* DUA:`com.google.javascript.jscomp.ClosureReverseAbstractInterpreter%getPreciser
+ScopeKnowingConditionOutcome#0@26$(207,(208,223), paramType)`
+
+
 
 ### datacollection/subsumption-files
 
