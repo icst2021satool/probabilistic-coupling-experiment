@@ -31,11 +31,11 @@ In what follows, we describe **datacollection**'s directories.
 
 This directory contains the shell scripts and Python programs to generate the FDP for each faulty version of each project. We list below the Python programs and  the shell scripts of ```datacollection/src```.
 
-* [comparisonv2.py](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/comparisonv2.py)
-* [datafilegen.sh](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/datafilegen.sh)
-* [faultdetect_project.sh](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/faultdetect_project.sh)
-* [faultdetectv3.py](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/faultdetectv3.py)
-* [get_buggy_lines.sh](https://github.com/marcoschaim/probabilistic-coupling/blob/master/datacollection/src/get_buggy_lines.sh)
+* [comparisonv2.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/comparisonv2.py)
+* [datafilegen.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/datafilegen.sh)
+* [faultdetect_project.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/faultdetect_project.sh)
+* [faultdetectv3.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/faultdetectv3.py)
+* [get_buggy_lines.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/get_buggy_lines.sh)
 
 The main files are the shell scripts **datafilegen.sh** and **faultdetect_project.sh**.
 
