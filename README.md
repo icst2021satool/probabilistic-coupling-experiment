@@ -165,6 +165,16 @@ For this line:
 * DUA:`com.google.javascript.jscomp.ClosureReverseAbstractInterpreter%getPreciser
 ScopeKnowingConditionOutcome#0@26$(207,(208,223), paramType)`
 
+Regarding the DUA description:
+* `com.google.javascript.jscomp.ClosureReverseAbstractInterpreter` is the class name;
+* `%` is delimiter
+* `getPreciserScopeKnowingConditionOutcome` is the method's name
+* `#` is delimiter
+* 0 is the method's identifier;
+* `@` is delimiter
+* 26 is the DUA's identifier;
+* `$` is delimiter
+* `(207,(208,223), paramType)` is the DUA description where 207 is the line where the definition occurs, (208,223) is the edge where the use occurs, and `paramType` is the name of the variable object of the data flow.
 
 
 ### datacollection/subsumption-files
