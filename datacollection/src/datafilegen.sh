@@ -92,8 +92,8 @@ function safilesgen() {
 
   local subsumptiondir="$1/subsumption-files"
   local satooldir="$1/satool"
-  #local satool=safilestool.jar
-  local satool=asmexplore-1.0-SNAPSHOT.jar
+  local satool=safilestool.jar
+  #local satool=asmexplore-1.0-SNAPSHOT.jar
   local srcdir=$1/d4jprojects/$2
   local destdir=$subsumptiondir/$PROJECT_NAME/reduce/$VERSION
 
