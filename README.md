@@ -76,7 +76,7 @@ arg[3] options:
 For example, by running the command below:
 *  ```src/datafilegen.sh Chart 2b jfreechart.zip -fdp -copy -cleanup```  
 
-**datafilegen.sh** saves csv and json files containing FDP (or occhiai) data on ```results/Chart/2b``` directory. The descriptions of these files are presented at [xx]
+**datafilegen.sh** saves csv and json files containing FDP (or occhiai) data on ```results/Chart/2b``` directory. The descriptions of these files are presented at [results directory](### datacollection/results)
 
 <!--
 edgematrix/nodematrix/cftmatrix: edge and node matrix files are saved on the  *subsumption-files/PROJECT_NAME/reduce/VERSION* directory. To keep the matrix files one should not use the -cleanup option; otherwise,  they are gzipped in a single file and moved to **subsumption-files/reduce** folder. **datafilegen.sh** calls  **createcftmatrix.py** to generate the matrix files. To generate fdp and ochiai rankings from the gzip file, it has to be converted to a zip file and moved to the **coverage/PROJECTID** folder. For fdp and ochiai ranking calculation is supposed that a zip file with the matrix data is located at **coverage/PROJECTID** folder.
