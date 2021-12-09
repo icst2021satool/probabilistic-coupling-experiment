@@ -187,7 +187,8 @@ Regarding the DUA description:
 
   File name       |      Content 
 ------------------| ----------------------
-`<Class name>`.duas.json      | description of the DUAs of the methods of the class
+`<Class name>`.duas.json      | description of the DUAs belonging to each method of the class
+`<Class name>`.sub.json      | this file lists for each method the leaves of the reduced subsumption graph
 
 
 These data can optionally be removed after the execution of the scripts to generated FDP data. 
