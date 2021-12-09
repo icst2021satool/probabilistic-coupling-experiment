@@ -200,7 +200,22 @@ Regarding the DUA description:
 "30" :  "(120,(127,130), that.xHigh)"}]
 }
 ```
-3. `<Class name>`.**sub.json**. This file lists the leaves of the reduced subsumption graph for each method of (see in the paper the description of the reduced subsumption graph). For each leave of the method (refered to as S`<number>`) there is a list of id numbers of DUAs subsumed.
+2. `<Class name>`.**sub.json**. This file lists the leaves of the reduced subsumption graph for each method of (see in the paper the description of the reduced subsumption graph). Each leave of the method (refered to as `<number>`) has a list of *id numbers* of unconstrained DUAs subsumed.  The DUAs subsumed by leave `<number>` is referred to as `S<number>` and is associated with a list of subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.sub.json`.
+```
+{
+"Class" : "org.jfree.data.xy.YWithXInterval", 
+"Methods" : [{ "Name" : "equals" ,
+"Duas" : "31" ,
+"Subsumers" : 6,
+"0" : [ 8, 0], "S0" : [0, 8 ],
+"1" : [ 25, 19, 13, 2], "S1" : [1, 2, 9, 11, 12, 13, 19, 25 ],
+"2" : [ 27, 21, 15, 4], "S2" : [1, 3, 4, 9, 11, 12, 14, 15, 20, 21, 26, 27 ],
+"3" : [ 29, 23, 17, 6], "S3" : [1, 3, 5, 6, 9, 11, 12, 14, 16, 17, 20, 22, 23, 26, 28, 29 ],
+"4" : [ 30, 24, 18, 7], "S4" : [1, 3, 5, 7, 9, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 ],
+"5" : [ 10], "S5" : [1, 9, 10 ]
+}]
+}
+```
 
 These data can optionally be removed after the execution of the scripts to generated FDP data. 
 
