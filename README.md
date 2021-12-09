@@ -185,8 +185,8 @@ Regarding the DUA description:
 
 **subsumption-files** contains a sub-directory for each of the d4j's projects and each faulty version. They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. The subsumption, coverage, and mapping information are generated in the form of json files. We describe below the contents of each of the json files.
 
-1. `<Class name>`.duas.json. Description of the DUAs belonging to each method of the class. Each DUA of a method has an identifier number (id number) which are the used in the matrix coverage file created by Jaguar.
-2. `<Class name>`.sub.json. This file lists the leaves of the reduced subsumption graph for each method as described in the paper.
+1. `<Class name>`.**duas.json**. Description of the DUAs belonging to each method of the class. Each DUA of a method has an identifier number (*id number*) which are used in the matrix coverage file created by Jaguar to refer to the covered DUAs.
+2. `<Class name>`.**sub.json**. This file lists the leaves of the reduced subsumption graph for each method as described in the paper.
 
 These data can optionally be removed after the execution of the scripts to generated FDP data. 
 
