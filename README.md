@@ -185,9 +185,9 @@ Regarding the DUA description:
 
 **subsumption-files** contains a sub-directory for each of the d4j's projects and each faulty version. They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. The subsumption, coverage, and mapping information are generated in the form of json files. We describe below the contents of each of the json files.
 
-  File name       |      Project zip file | Versions
+  File name       |      Content | Versions
 ------------------| ----------------------|--------- 
-`Class name`      | jfreechart.zip  | all d4j versions
+`<Class name>`.duas.json      | jfreechart.zip  | all d4j versions
 
 
 These data can optionally be removed after the execution of the scripts to generated FDP data. 
