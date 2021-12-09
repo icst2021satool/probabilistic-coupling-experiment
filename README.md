@@ -206,8 +206,32 @@ Regarding the DUA description:
 }]
 }
 ```
-
-2. `<Class name>`.**duas.json**. Contains the description of the DUAs belonging to each method of the class. Each DUA of a method has an identifier number (**id number**) which are used in the matrix coverage file (created by Jaguar) to refer to the covered DUAs. Below we show excerpts of Chart 1b `org.jfree.data.xy.YWithXInterval.duas.json`.
+2. `<Class name>`.**edges.json**. Lists the **edges ids**   and associates them to the edges of program. Below we lists Chart 1b `org.jfree.data.xy.YWithXInterval.edges.json`.
+```
+{
+"Class" : "org.jfree.data.xy.YWithXInterval", 
+"Methods" : [{ "Name" : "equals" ,
+"Edges" : 16,
+"0" : [ 7,11 ],
+"1" : [ 2,8 ],
+"2" : [ 2,3 ],
+"3" : [ 9,11 ],
+"4" : [ 6,11 ],
+"5" : [ 10,11 ],
+"6" : [ 5,11 ],
+"7" : [ 1,9 ],
+"8" : [ 1,2 ],
+"9" : [ 4,6 ],
+"10" : [ 4,5 ],
+"11" : [ 0,10 ],
+"12" : [ 0,1 ],
+"13" : [ 3,7 ],
+"14" : [ 3,4 ],
+"15" : [ 8,11 ]
+}]
+}
+```
+4. `<Class name>`.**duas.json**. Contains the description of the DUAs belonging to each method of the class. Each DUA of a method has an identifier number (**id number**) which are used in the matrix coverage file (created by Jaguar) to refer to the covered DUAs. Below we show excerpts of Chart 1b `org.jfree.data.xy.YWithXInterval.duas.json`.
 ```
 {
 "Class" : "org.jfree.data.xy.YWithXInterval", 
