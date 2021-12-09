@@ -185,12 +185,12 @@ Regarding the DUA description:
 
 **subsumption-files** contains a sub-directory for each of the d4j's projects and each faulty version. They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. The subsumption, coverage, and mapping information are generated in the form of json files. We describe below the contents of each of the json files.
 
-  File name       |      Content 
+  File name       |      Contents 
 ------------------| ----------------------
 `<Class name>`.duas.json      | description of the DUAs belonging to each method of the class
-`<Class name>`.sub.json      | this file lists for each method the leaves of the reduced subsumption graph
+`<Class name>`.sub.json      | this file lists the leaves of the reduced subsumption graph for each method[^1]
 
-
+[^1]: See the description of the reduced subsumption graph in the paper.
 These data can optionally be removed after the execution of the scripts to generated FDP data. 
 
 Additionally, we use **subsumption-files** sub-directories to save the node and edge coverage, generated from data flow coverage. These data is zipped and then moved to the **subsumption-files/reduce** directory.
