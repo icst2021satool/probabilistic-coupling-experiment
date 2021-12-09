@@ -22,7 +22,7 @@ In what follows, we describe the structure of directories of the repository.
 
 There are two auxiliary files in this directory: 
 1. [projects.d4j](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/projects.d4j): lists the  identifiers and the project names and 
-2. [versions.d4j](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/versions.d4j): lists the  identifiers, the project names, and the activer versions.  
+2. [versions.d4j](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/versions.d4j): lists the  identifiers, the project names, and the active versions.  
 which are used by the scripts to generate FDP data.
 
 In what follows, we describe **datacollection**'s directories.
