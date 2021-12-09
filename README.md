@@ -185,7 +185,29 @@ Regarding the DUA description:
 
 **subsumption-files** contains a sub-directory for each of the d4j's projects and each faulty version. They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. The subsumption, coverage, and mapping information are generated in the form of json files. We describe below the contents of each of the json files.
 
-1. `<Class name>`.**duas.json**. Description of the DUAs belonging to each method of the class. Each DUA of a method has an identifier number (**id number**) which are used in the matrix coverage file (created by Jaguar) to refer to the covered DUAs. Below we show excerpts of Chart 1b `org.jfree.data.xy.YWithXInterval.duas.json`.
+1. `<Class name>`.**nodes.json**. Lists the number of the nodes (**node id**) of every method and associates them to the lines of program. Below we lists Chart 1b `org.jfree.data.xy.YWithXInterval.nodes.json`.
+```
+{
+"Class" : "org.jfree.data.xy.YWithXInterval", 
+"Methods" : [{ "Name" : "equals" ,
+"Nodes" : 12,
+"0" : [ 114 ],
+"1" : [ 117 ],
+"2" : [ 120,121 ],
+"3" : [ 124 ],
+"4" : [ 127 ],
+"5" : [ 130 ],
+"6" : [ 128 ],
+"7" : [ 125 ],
+"8" : [ 122 ],
+"9" : [ 118 ],
+"10" : [ 115 ],
+"11" : [  ]
+}]
+}
+```
+
+2. `<Class name>`.**duas.json**. Contains the description of the DUAs belonging to each method of the class. Each DUA of a method has an identifier number (**id number**) which are used in the matrix coverage file (created by Jaguar) to refer to the covered DUAs. Below we show excerpts of Chart 1b `org.jfree.data.xy.YWithXInterval.duas.json`.
 ```
 {
 "Class" : "org.jfree.data.xy.YWithXInterval", 
@@ -200,7 +222,7 @@ Regarding the DUA description:
 "30" :  "(120,(127,130), that.xHigh)"}]
 }
 ```
-2. `<Class name>`.**sub.json**. This file lists the leaves of the reduced subsumption graph for each method of (see in the paper the description of the reduced subsumption graph) with the unconstrained DUAs and the list of subsumed DUAs. Each leave of the method's graph (refered to as `<number>`) has a list of *id numbers* of unconstrained DUAs.  The DUAs subsumed by leave `<number>` is referred to as `S<number>` and is associated with a list of subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.sub.json`.
+3. `<Class name>`.**sub.json**. This file lists the leaves of the reduced subsumption graph for each method of (see in the paper the description of the reduced subsumption graph) with the unconstrained DUAs and the list of subsumed DUAs. Each leave of the method's graph (refered to as `<number>`) has a list of *id numbers* of unconstrained DUAs.  The DUAs subsumed by leave `<number>` is referred to as `S<number>` and is associated with a list of subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.sub.json`.
 ```
 {
 "Class" : "org.jfree.data.xy.YWithXInterval", 
