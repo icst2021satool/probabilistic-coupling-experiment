@@ -200,7 +200,7 @@ Regarding the DUA description:
 "30" :  "(120,(127,130), that.xHigh)"}]
 }
 ```
-2. `<Class name>`.**sub.json**. This file lists the leaves of the reduced subsumption graph for each method of (see in the paper the description of the reduced subsumption graph). Each leave of the method's graph (refered to as `<number>`) has a list of *id numbers* of unconstrained DUAs subsumed.  The DUAs subsumed by leave `<number>` is referred to as `S<number>` and is associated with a list of subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.sub.json`.
+2. `<Class name>`.**sub.json**. This file lists the leaves of the reduced subsumption graph for each method of (see in the paper the description of the reduced subsumption graph). Each leave of the method's graph (refered to as `<number>`) has a list of *id numbers* of unconstrained DUAs.  The DUAs subsumed by leave `<number>` is referred to as `S<number>` and is associated with a list of subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.sub.json`.
 ```
 {
 "Class" : "org.jfree.data.xy.YWithXInterval", 
