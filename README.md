@@ -8,11 +8,6 @@ This repository contains scripts to generate and the *probabilistic coupling* [1
 4. spreadsheets aggregating the highest FDP for every faulty version.
 
 
-[1] Yiqun T. Chen, Rahul Gopinath, Anita Tadakamalla, Michael D. Ernst, Reid Holmes, Gordon Fraser, Paul Ammann, and René Just. 2020. Revisiting the relationship between fault detection, test adequacy criteria, and test set size. In <i>Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering</i> (<i>ASE '20</i>). Association for Computing Machinery, New York, NY, USA, 237–249. [DOI](https://doi.org/10.1145/3324884.3416667)
-
-[2] H. Ribeiro, R. de Araujo, M. Chaim, H. de Souza and F. Kon,  "Jaguar: A Spectrum-Based Fault Localization Tool for Real-World Software," in 2018 IEEE 11th International Conference on Software Testing, Verification and Validation (ICST), VÃ¤sterÃ¥s, Sweden, 2018 pp. 404-409.
-[DOI](https://doi.org/10.1109/ICST.2018.00048)
-
 In what follows, we describe the structure of directories of the repository.
 
 
@@ -273,7 +268,12 @@ Additionally, we use **subsumption-files** sub-directories to save the node and 
 
 This directory contains the **satool** jar file and the libraries it uses. **satool** generates the json files of the **subsumption-files** directory.
 
+# References
 
+[1] Yiqun T. Chen, Rahul Gopinath, Anita Tadakamalla, Michael D. Ernst, Reid Holmes, Gordon Fraser, Paul Ammann, and René Just. 2020. Revisiting the relationship between fault detection, test adequacy criteria, and test set size. In <i>Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering</i> (<i>ASE '20</i>). Association for Computing Machinery, New York, NY, USA, 237–249. [DOI](https://doi.org/10.1145/3324884.3416667)
+
+[2] H. Ribeiro, R. de Araujo, M. Chaim, H. de Souza and F. Kon,  "Jaguar: A Spectrum-Based Fault Localization Tool for Real-World Software," in 2018 IEEE 11th International Conference on Software Testing, Verification and Validation (ICST), VÃ¤sterÃ¥s, Sweden, 2018 pp. 404-409.
+[DOI](https://doi.org/10.1109/ICST.2018.00048)
 
 
 
