@@ -136,6 +136,7 @@ function find_exec_dir() {
   local project=$PROJECT_NAME
   local version=$VERSION
   local projectdir=$1
+  local timetarget="1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b"
   SRCDIR="$projectdir/$version/target/classes"
   JAVADIR="$projectdir/$version/src"
 
@@ -223,6 +224,11 @@ function find_exec_dir() {
   if test $project == "Time"
   then
 	 JAVADIR=$JAVADIR/main/java
+	 targetversions=$(echo $timetarget | grep $version)
+	 if [ -z "$targetversions" ]
+	 then   # empty means classes are in the build directory
+     		SRCDIR=$projectdir/$version/build/classes
+	 fi
   fi
 
   if test $project == "Weka"
@@ -249,56 +255,35 @@ function datafile_calculation {
 	fi
 
   if [ "$DATAGEN" = "-fdp" ]; then
+    rm -f $root/results/$PROJECT_NAME/$VERSION/fdp-$PROJECT_NAME-$VERSION.csv
+    rm -f $root/results/$PROJECT_NAME/$VERSION/fdp-$PROJECT_NAME-$VERSION.json
     $root/src/faultdetectv3.py $root/coverage/$PROJECT_NAME/$project_dir/$VERSION $root/subsumption-files/$PROJECT_NAME $VERSION \
 	             -faultdetect -duas -all -csv $root/results/$PROJECT_NAME/$VERSION/fdp-$PROJECT_NAME-$VERSION.csv
   fi
-  if [ "$DATAGEN" = "-fdp-ochiai-cft" ]; then
-    $root/src/faultdetectcft.py $root/coverage/$PROJECT_NAME/$project_dir/$VERSION $root/subsumption-files/$PROJECT_NAME $VERSION \
-	             -faultdetect -edge -all -csv $root/results/$PROJECT_NAME/$VERSION/fdp-$PROJECT_NAME-edge-$VERSION.csv
-    $root/src/faultdetectcft.py $root/coverage/$PROJECT_NAME/$project_dir/$VERSION $root/subsumption-files/$PROJECT_NAME $VERSION \
-	             -faultdetect -node -all -csv $root/results/$PROJECT_NAME/$VERSION/fdp-$PROJECT_NAME-node-$VERSION.csv
-    $root/src/faultdetectcft.py $root/coverage/$PROJECT_NAME/$project_dir/$VERSION $root/subsumption-files/$PROJECT_NAME $VERSION \
-	             -ochiai -edge -all -csv $root/results/$PROJECT_NAME/$VERSION/ochiai-$PROJECT_NAME-edge-$VERSION.csv
-    $root/src/faultdetectcft.py $root/coverage/$PROJECT_NAME/$project_dir/$VERSION $root/subsumption-files/$PROJECT_NAME $VERSION \
-	             -ochiai -node -all -csv $root/results/$PROJECT_NAME/$VERSION/ochiai-$PROJECT_NAME-node-$VERSION.csv
-  fi
 	
   if [ "$DATAGEN" = "-ochiai" ]; then
+    rm -f $root/results/$PROJECT_NAME/$VERSION/ochiai-$PROJECT_NAME-$VERSION.csv
+    rm -f $root/results/$PROJECT_NAME/$VERSION/ochiai-$PROJECT_NAME-$VERSION.json
     $root/src/faultdetectv3.py $root/coverage/$PROJECT_NAME/$project_dir/$VERSION $root/subsumption-files/$PROJECT_NAME $VERSION \
 						 	 -ochiai -duas -all -csv $root/results/$PROJECT_NAME/$VERSION/ochiai-$PROJECT_NAME-$VERSION.csv
   fi
 
-  if [ "$DATAGEN" = "-nodematrix" ]; then
-    echo "Generating node matrix"
-    $root/src/createcftmatrix.py $root/coverage/$PROJECT_NAME/$project_dir $root/subsumption-files/$PROJECT_NAME $VERSION \
-              -node -all
+  if [ "$DATAGEN" = "-subsumption" ]; then
+    echo "Saving subsumption files for $PROJECT_NAME-$VERSION"
+
+  if [ -f "$root/subsumption-files/$PROJECT_NAME/$PROJECT_NAME-subsumption-json.tar.gz" ]
+  then
+    gunzip "$root/subsumption-files/$PROJECT_NAME/$PROJECT_NAME-subsumption-json.tar.gz"
   fi
-  
-  if [ "$DATAGEN" = "-edgematrix" ]; then
-    echo "Generating edge matrix"
-        $root/src/createcftmatrix.py $root/coverage/$PROJECT_NAME/$project_dir $root/subsumption-files/$PROJECT_NAME $VERSION \
-              -edge -all
+  cd $root/subsumption-files/$PROJECT_NAME/reduce
+  tar rvf $root/subsumption-files/$PROJECT_NAME/$PROJECT_NAME-subsumption-json.tar $VERSION/*
+  gzip $root/subsumption-files/$PROJECT_NAME/$PROJECT_NAME-subsumption-json.tar
+  rm -f $root/subsumption-files/$PROJECT_NAME/reduce/$VERSION/*
+  cd $root
   fi
 
-  if [ "$DATAGEN" = "-cftmatrix" ]; then
-    echo "Generating node matrix"
-    $root/src/createcftmatrix.py $root/coverage/$PROJECT_NAME/$project_dir $root/subsumption-files/$PROJECT_NAME $VERSION \
-              -node -all
-    echo "Generating edge matrix"
-        $root/src/createcftmatrix.py $root/coverage/$PROJECT_NAME/$project_dir $root/subsumption-files/$PROJECT_NAME $VERSION \
-              -edge -all
-  if [ -f "$root/subsumption-files/$PROJECT_NAME/$PROJECT_NAME-cft-json-matrix.tar.gz" ]
-  then
-    gunzip "$root/subsumption-files/$PROJECT_NAME/$PROJECT_NAME-cft-json-matrix.tar.gz"
-  fi
-    cd $root/subsumption-files/$PROJECT_NAME/reduce
-    tar rvf $root/subsumption-files/$PROJECT_NAME/$PROJECT_NAME-cft-json-matrix.tar $VERSION/*
-    gzip $root/subsumption-files/$PROJECT_NAME/$PROJECT_NAME-cft-json-matrix.tar
-    rm -f $root/subsumption-files/$PROJECT_NAME/reduce/$VERSION/*
-   cd $root
-  fi
-	leanversion=$(echo $VERSION | sed "s/b//g" | xargs)
-	$root/src/get_buggy_lines.sh $PROJECT_NAME $leanversion $root/results/$PROJECT_NAME/$VERSION
+  leanversion=$(echo $VERSION | sed "s/b//g" | xargs)
+  $root/src/get_buggy_lines.sh $PROJECT_NAME $leanversion $root/results/$PROJECT_NAME/$VERSION
 
 }
 
