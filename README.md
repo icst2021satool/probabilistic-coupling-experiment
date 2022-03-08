@@ -38,7 +38,7 @@ The main files are the shell scripts **datafilegen.sh** and **faultdetect_projec
 [datafilegen.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/datafilegen.sh) generates several data related to the calculation of the fault detection probability (FDP) or ochiai association metric.  This script supposes it is run at **datacolletion** directory using ```src/datafilegen.sh```. The parameters are as follows:
 * arg[1] Name of the project (e.g., Chart, Math)
 * arg[2] Version (e.g., 2b)
-* arg[3] Zip file with jaguar DUA data (data flow coverage for all faulty versions of a d4j project)
+* arg[3] Zip file with jaguar DUA data (data flow coverage for all faulty versions of a d4j project. See in [here](#coverage) the description and location of the zip files)
 * arg[4] Data file to be generated (e.g., -fdp, -ochiai)
 * arg[5] -copy: Copy faulty classes
 * arg[6] -cleanup: clean up the static and dynamic data (e.g., json, matrix, spectra files) used to generate FDP data file
