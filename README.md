@@ -143,12 +143,12 @@ Csv and json files are saved on ```results/PROJECTID/VERSION``` directory after 
 * [DatasetUtilities.java](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/DatasetUtilities.java)  (buggy class of Chart 2b)
 * [Chart-2.buggy.lines](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/Chart-2.buggy.lines) (contains the buggy lines of Chart 2b)
 
-Below we present the top line of the file `results/Closure/138b/fdp-Closure-138.csv`:
+Below we present the top line of the file `results/Chart/2b/fdp-Chart-2b.csv`:
 
 ```
-FAULT DETECTION ;Uncon;Status;DUAs; Version;138b
-1.000000;True;clear;com.google.javascript.jscomp.ClosureReverseAbstractInterpreter%getPreciser
-ScopeKnowingConditionOutcome#0@26$(207,(208,223), paramType)
+FAULT DETECTION ;Uncon;Status;DUAs; Version;2b
+1.000000;True;clear;org.jfree.data.xy.XYIntervalSeriesCollection%getSeries#1@7$(
+113,116, series)
 ```
 #### Contents of cvs files
 The cvs files contain the following columns:
@@ -158,22 +158,22 @@ The cvs files contain the following columns:
 3. **Status**: **clear** means that the Subsumption Algorithm (SA) could calculate the subsumption relationship for the method's DUAs; **notclear** means SA could not find the subsumption relationship. 
 4. **DUAs**: the description of the DUA; we refer the reader to the paper for the definition of definition use associations (DUAs).
 
-For the excerpt of `results/Closure/138b/fdp-Closure-138.csv`:
+For the excerpt of `results/Chart/2b/fdp-Chart-2b.csv`:
 * FAULT DETECTION: 1.0;
 * Uncon: clear;
-* DUA:`com.google.javascript.jscomp.ClosureReverseAbstractInterpreter%getPreciser
-ScopeKnowingConditionOutcome#0@26$(207,(208,223), paramType)`
+* DUA:`org.jfree.data.xy.XYIntervalSeriesCollection%getSeries#1@7$(
+113,116, series)`
 
 Regarding the DUA description:
-* `com.google.javascript.jscomp.ClosureReverseAbstractInterpreter` is the class name;
+* `org.jfree.data.xy.XYIntervalSeriesCollection` is the class name;
 * `%` is a delimiter
-* `getPreciserScopeKnowingConditionOutcome` is the method's name
+* `getSeries` is the method's name
 * `#` is a delimiter
-* 0 is the method's identifier;
+* 1 is the method's identifier;
 * `@` is a delimiter
-* 26 is the DUA's identifier;
+* 7 is the DUA's identifier;
 * `$` is a  delimiter
-* `(207,(208,223), paramType)` is the DUA description where 207 is the line where the definition occurs, (208,223) is the edge where the use occurs, and `paramType` is the name of the variable object of the data flow.
+* `(113,116, series)` is the DUA description where 113 is the line where the definition occurs, 116 is the line where the use occurs, and `series` is the name of the variable object of the data flow.
 
 
 ### datacollection/subsumption-files
