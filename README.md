@@ -178,7 +178,7 @@ Regarding the DUA description:
 
 ### datacollection/subsumption-files
 
-**subsumption-files** contain a sub-directory for each of the d4j's projects and each faulty version. They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. The subsumption, coverage, and mapping information are generated in the form of json files. We describe below the contents of each of the json files.
+**subsumption-files** contains a sub-directory for each of the d4j's projects and each faulty version. They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. The subsumption, coverage, and mapping information are generated in the form of json files. We describe below the contents of each of the json files.
 
 In order so save space, these files were compressed and available [here](https://drive.google.com/drive/folders/1r9YyHduev5Ig1RG7I-ENkjcqND2ker0M?usp=sharing)
 
@@ -243,7 +243,10 @@ In order so save space, these files were compressed and available [here](https:/
 "30" :  "(120,(127,130), that.xHigh)"}]
 }
 ```
-3. `<Class name>`.**sub.json**. This file lists the leaves of the reduced subsumption graph for each method of (see in the paper the description of the reduced subsumption graph) with the unconstrained DUAs and the list of subsumed DUAs. Each leave of the method's graph (refered to as `<number>`) has a list of *id numbers* of unconstrained DUAs.  The DUAs subsumed by leave `<number>` is referred to as `S<number>` and is associated with a list of subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.sub.json`.
+3. `<Class name>`.**sub.json**. This file describes the leaves of the *reduced subsumption graph* (RSG) for each method of a particular class (in our example, Chart 1b `org.jfree.data.xy.YWithXInterval.duas.json`), the unconstrained DUAs in the leaves, and also the DUAs subsumed by the unconstrained DUAs. 
+We refer the reader to the STVR paper for the description of the reduced subsumption graph.
+ This file lists, for each leaf of the  method's RSG
+(refered to as `<number>`),  a list of *id numbers* of unconstrained DUAs.  The DUAs subsumed by leave `<number>` is referred to as `S<number>` and is associated with a list of subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.sub.json`.
 ```
 {
 "Class" : "org.jfree.data.xy.YWithXInterval", 
