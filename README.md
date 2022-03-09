@@ -185,7 +185,7 @@ The subsumption, coverage, and mapping information are generated in the form of 
 In order so save space, these files were compressed and available [here](https://drive.google.com/drive/folders/1r9YyHduev5Ig1RG7I-ENkjcqND2ker0M?usp=sharing)
 for the d4j's projects, excepting Lang and Mockito.
 
-In what follows, we describe the contents of files used to compare the fault dectation ability of unconstrained and subsumed DUAs and the assess the yeld of data flow coverage vis-a-vis control flow coverage.
+In what follows, we describe the contents of files used to compare the fault dectation ability of unconstrained and subsumed DUAs and to assess the yield of data flow coverage vis-a-vis control flow coverage.
 
 1. `<Class name>`.**nodes.json**. Lists the nodes (**node id**) of every method and associates them to the lines of program. Below we lists Chart 1b `org.jfree.data.xy.YWithXInterval.nodes.json`.
 ```
