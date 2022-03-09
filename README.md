@@ -178,7 +178,9 @@ Regarding the DUA description:
 
 ### datacollection/subsumption-files
 
-**subsumption-files** contains a sub-directory for each of the d4j's projects and each faulty version. They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. The subsumption, coverage, and mapping information are generated in the form of json files. We describe below the contents of each of the json files.
+**subsumption-files** contains a sub-directory for each of the d4j's projects and each faulty version. 
+They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. 
+The subsumption, coverage, and mapping information are generated in the form of json files. We describe below the contents of each of the json files.
 
 In order so save space, these files were compressed and available [here](https://drive.google.com/drive/folders/1r9YyHduev5Ig1RG7I-ENkjcqND2ker0M?usp=sharing)
 
@@ -263,7 +265,7 @@ In the example file, leave *5* has a single unconstrained DUA whose identifer is
 }]
 }
 ```
-4. `<Class name>`.**edegesub.json**. This file describes the DUAs subsumed whenever a method's edge is covered. For each identifier of edge is associated with a list of the subsumed DUAs.
+4. `<Class name>`.**edgesub.json**. This file describes the DUAs subsumed whenever a method's edge is covered. Every each identifier of an edge is associated with a list of the subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.edgesub.json`.
 
 ```
 {
@@ -287,6 +289,30 @@ In the example file, leave *5* has a single unconstrained DUA whose identifer is
 "3" : [ 1, 9, 10],
 "5" : [ 0, 8],
 "CoveredDUAsByEdges" : 31,
+"Duas" : 31
+}]
+}
+```
+
+5. `<Class name>`.**nodesub.json**. This file describes the DUAs subsumed whenever a method's node is covered. Every each identifier of a node is associated with a list of the subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.nodesub.json`.
+```
+{
+"Class" : "org.jfree.data.xy.YWithXInterval", 
+"Methods" : [{ "Name" : "equals" ,
+"Nodes" : 12,
+"0" : [ ],
+"1" : [ 1, 9],
+"2" : [ 1, 9, 11, 12],
+"3" : [ 1, 3, 20, 9, 26, 11, 12, 14],
+"4" : [ 16, 1, 3, 20, 5, 22, 9, 26, 11, 12, 28, 14],
+"5" : [ 1, 3, 5, 7, 9, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+"6" : [ 1, 3, 5, 6, 9, 11, 12, 14, 16, 17, 20, 22, 23, 26, 28, 29],
+"7" : [ 1, 3, 4, 9, 11, 12, 14, 15, 20, 21, 26, 27],
+"8" : [ 1, 2, 9, 11, 12, 13, 19, 25],
+"9" : [ 1, 9, 10],
+"10" : [ 0, 8],
+"11" : [ ],
+"CoveredDUAsByNodes" : 31,
 "Duas" : 31
 }]
 }
