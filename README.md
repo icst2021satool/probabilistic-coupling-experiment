@@ -263,6 +263,7 @@ In the example file, leave *5* has a single unconstrained DUA whose identifer is
 }]
 }
 ```
+4. `<Class name>`.**edegesub.json**. This file describes the DUAs subsumed whenever a method's edge is covered. For each identifier of edge is associated with a list of the subsumed DUAs.
 
 ```
 {
