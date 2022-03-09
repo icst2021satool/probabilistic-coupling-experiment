@@ -247,6 +247,7 @@ In order so save space, these files were compressed and available [here](https:/
 We refer the reader to the STVR paper for the description of the reduced subsumption graph.
  This file lists, for each leaf of the  method's RSG
 (refered to as `<number>`),  a list of *id numbers* of unconstrained DUAs.  The DUAs subsumed by leave `<number>` is referred to as `S<number>` and is associated with a list of subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.sub.json`.
+In the example file, leave *5* has a single unconstrained DUA whose identifer is *10*, which, in turn, subsumes DUAs *1, 9, and 10*, as indicated in the label *S5*.
 ```
 {
 "Class" : "org.jfree.data.xy.YWithXInterval", 
