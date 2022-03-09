@@ -86,6 +86,20 @@ Example: ```src/faultdetect_project.sh Compress 1 47 commons-compress-exception.
 In the example, **faultdetect_project.sh** calls **datafilegen.sh** for each of 47 active versions of project Compress.
 
 
+### datacollection/batch-src:
+
+This directory contains two types of scrips:
+
+1. Scripts to collect data in batch mode.
+
+2. Scripts to generate csv file for analysis.
+
+3. Scripts to cleanup data from unreliable versions.
+
+4. Scripts to check the results.
+
+#### Scripts to collect data in batch mode
+
 ### datacollection/coverage:
 
 **coverage** has a sub-directory for each of d4j's projects. In each of these sub-directories there should be one or more zip files containing the data flow coverage collected with Jaguar. Because the zip files occupy too much space, we make them availabe at [here](https://drive.google.com/drive/folders/1Yv_nWJrwMO1twRaqXZ3e34JWFLArYjeN?usp=sharing). 
@@ -248,7 +262,7 @@ The subsumption data are generated in the form of json files. We describe below 
 We refer the reader to the STVR paper for the description of the reduced subsumption graph.
  This file lists, for each leaf of the  method's RSG
 (refered to as ``"<number>"``),  a list of *id numbers* of unconstrained DUAs.  The DUAs subsumed by leave ``"<number>"``'s unconstrained DUAs is referred to as ``"S<number>"`` and its associated list of subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.sub.json`.
-In the example file, label ``Subsumers`` informs the number of leaves; leave *5* has a single unconstrained DUA whose identifer is ``10`` which, in turn, subsumes DUAs ``1, 9, and 10`` as indicated in the label ``S5``.
+In the example file, label ``Subsumers`` informs the number of leaves; leave ``5`` has a single unconstrained DUA whose identifer is ``10`` which, in turn, subsumes DUAs ``1, 9, and 10`` as indicated in the label ``S5``.
 ```
 {
 "Class" : "org.jfree.data.xy.YWithXInterval", 
@@ -264,7 +278,7 @@ In the example file, label ``Subsumers`` informs the number of leaves; leave *5*
 }]
 }
 ```
-4. `<Class name>`.**edgesub.json**. This file describes the DUAs subsumed whenever a method's edge is covered. Every each identifier of an edge is associated with a list of the subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.edgesub.json`.
+4. `<Class name>`.**edgesub.json**. This file describes the DUAs subsumed whenever a method's edge is covered. Every identifier of an edge is associated with a list of the subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.edgesub.json`.
 
 ```
 {
@@ -293,7 +307,7 @@ In the example file, label ``Subsumers`` informs the number of leaves; leave *5*
 }
 ```
 
-5. `<Class name>`.**nodesub.json**. This file describes the DUAs subsumed whenever a method's node is covered. Every each identifier of a node is associated with a list of the subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.nodesub.json`.
+5. `<Class name>`.**nodesub.json**. This file describes the DUAs subsumed whenever a method's node is covered. Every identifier of a node is associated with a list of the subsumed DUAs. Below we show the contents of Chart 1b `org.jfree.data.xy.YWithXInterval.nodesub.json`.
 ```
 {
 "Class" : "org.jfree.data.xy.YWithXInterval", 
@@ -331,6 +345,6 @@ This directory contains the **satool** jar file and the libraries it uses. **sat
 
 [1] Yiqun T. Chen, Rahul Gopinath, Anita Tadakamalla, Michael D. Ernst, Reid Holmes, Gordon Fraser, Paul Ammann, and René Just. 2020. Revisiting the relationship between fault detection, test adequacy criteria, and test set size. In <i>Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering</i> (<i>ASE '20</i>). Association for Computing Machinery, New York, NY, USA, 237–249. [DOI](https://doi.org/10.1145/3324884.3416667)
 
-[2] H. Ribeiro, R. de Araujo, M. Chaim, H. de Souza and F. Kon,  "Jaguar: A Spectrum-Based Fault Localization Tool for Real-World Software," in 2018 IEEE 11th International Conference on Software Testing, Verification and Validation (ICST), VÃ¤sterÃ¥s, Sweden, 2018 pp. 404-409.
+[2] H. Ribeiro, R. de Araujo, M. Chaim, H. de Souza and F. Kon,  "Jaguar: A Spectrum-Based Fault Localization Tool for Real-World Software," in 2018 IEEE 11th International Conference on Software Testing, Verification and Validation (ICST), Vasteras, Sweden, 2018 pp. 404-409.
 [DOI](https://doi.org/10.1109/ICST.2018.00048)
 
