@@ -182,9 +182,6 @@ Regarding the DUA description:
 They contain subsumption  information (DUA-DUA subsumption, DUA-edge subsumption and DUA-node subsumption), coverage requirements (DUAs, nodes, edges required), and mapping information (DUA to nodes and DUA  to edges) for every method of every class of the faulty. 
 The subsumption, coverage, and mapping information are generated in the form of json files. We describe below the contents of each of the json files.
 
-In order so save space, these files were compressed and available [here](https://drive.google.com/drive/folders/1r9YyHduev5Ig1RG7I-ENkjcqND2ker0M?usp=sharing)
-for the d4j's projects, excepting Lang and Mockito.
-
 In what follows, we describe the contents of files used to compare the fault dectation ability of unconstrained and subsumed DUAs and to assess the yield of data flow coverage vis-a-vis control flow coverage.
 
 1. `<Class name>`.**nodes.json**. Lists the nodes (**node id**) of every method and associates them to the lines of program. Below we lists Chart 1b `org.jfree.data.xy.YWithXInterval.nodes.json`.
@@ -320,9 +317,12 @@ In the example file, leave *5* has a single unconstrained DUA whose identifer is
 }]
 }
 ```
-These data can optionally be removed after the execution of the scripts to generated FDP data. 
-
-Additionally, we use **subsumption-files** sub-directories to save the node and edge coverage, generated from data flow coverage. These data is zipped and then moved to the **subsumption-files/reduce** directory.
+Whenever one runs **datafilegen.sh** for a particular d4j's project ``PROJECTID`` and version ``VERSION``, the subsumption files are generated and saved on
+folder ``datacollection/subsumption-files/PROJECTID/reduce/VERSION``.
+These files can optionally be removed after the execution of the scripts 
+to generate FDP data.
+In order so save space, **subsumption files** are available compressed [here](https://drive.google.com/drive/folders/1r9YyHduev5Ig1RG7I-ENkjcqND2ker0M?usp=sharing)
+for the d4j's projects, excepting Lang and Mockito.
 
 ### datacollection/satool
 
