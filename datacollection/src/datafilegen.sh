@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -x
+#set -x
 readonly NOCOLOR="\033[0m"
 readonly GREEN="\033[0;32m"
 readonly RED="\033[0;31m"
