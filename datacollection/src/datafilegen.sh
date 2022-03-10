@@ -419,19 +419,29 @@ function main() {
   install_project $project_dir
   find_exec_dir $project_dir
   safilesgen $root $SRCDIR
-  coverage_expansion $root $PROJECT_NAME $project_dir $ZIPFILE
-  compare_files $root $project_dir
+
+  # To generate subsumption files (-subfiles), we don't need coverage data
+
+  if test $DATAGEN != "-subfiles" 
+  then
+     echo "Expand coverage data"
+     coverage_expansion $root $PROJECT_NAME $project_dir $ZIPFILE
+     compare_files $root $project_dir
+  else
+     echo "Don't expand coverage data"
+  fi
+
   datafile_calculation $root $project_dir
 
   if [ -z "$COPYFAULTYSRC" ]
-	then
+  then
     echo "Not copying faulty classes."
   else
      if test $COPYFAULTYSRC == "-copy"
   	then
 		copy_faulty_files $root $PROJECT_NAME $project_dir
 	else
-    echo "Not copying faulty classes."
+                echo "Not copying faulty classes."
      fi
   fi
   if [ -z "$CLEANUP" ]
