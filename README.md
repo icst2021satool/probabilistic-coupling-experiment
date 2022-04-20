@@ -1,11 +1,14 @@
 # Probabilistic coupling experiment
 
 ## Data generation
-This repository contains scripts to generate and the *probabilistic coupling* [1] (referred here as *fault detection probability* -- FDP)  data for a subset of defects4j (d4j) projects using data flow coverage collected with a modified version of Jaguar [2]. It includes:
+This repository contains scripts to calculate the *probabilistic coupling* [1] (referred here as *fault detection probability* -- FDP)  data for a subset of defects4j (d4j) projects. We use data flow coverage collected with a modified version of Jaguar [2] to calculate FDP. 
+
+It includes:
 1. a link to Jaguar's raw data needed to calculated FDP;
 2. the scripts to generate FDP for each faulty version;
-3. the FDP for each version of d4j's projects; and
-4. spreadsheets aggregating the highest FDP for every faulty version.
+3. the FDP for each version of d4j's projects;
+4. spreadsheets aggregating the highest FDP for every faulty version; and
+5. Dockerfile to generate the environment to run the scripts.
 
 
 In what follows, we describe the structure of directories of the repository.
