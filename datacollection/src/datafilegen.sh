@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#set -x
+set -x
 readonly NOCOLOR="\033[0m"
 readonly GREEN="\033[0;32m"
 readonly RED="\033[0;31m"
@@ -55,8 +55,16 @@ local zipfile=$ZIPFILE # program_dir
 
 if [ ! -f "$coveragedir/$zipfile" ]
 then
-  echo "$coveragedir/$zipfile does not exit. End of story"
+  echo "$coveragedir/$zipfile does not exit. Try to get it remotely"
+  mkdir -p $coveragedir
+  cd $coveragedir
+  wget --no-passive ftp://143.107.58.177/pub/${zipfile} 
+
+  if [ ! -f "$coveragedir/$zipfile" ]
+  then
+  echo "$coveragedir/$zipfile does not exit. Couldn't get it remotely. End of story."
   exit
+  fi
 fi
 
 cd $coveragedir
