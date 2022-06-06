@@ -20,7 +20,7 @@
 #         following the block of added lines.
 #
 # Usage:
-# get_buggy_lines.sh <project_id> <bug_id> <out_dir>"
+# get_buggy_lines.sh <project_id> <bug_id> <out_dir> <D4J_HOME>"
 #
 # Examples:
 #
@@ -56,6 +56,8 @@
 #   Defects4J installation that contains all minimized patches.
 # - the environment variable SLOC_HOME needs to be set and must point to the
 #   sloccount installation.
+# - This version was modified by Marcos L. Chaim from the original version from
+#   defects4j directory
 #
 ################################################################################
 
@@ -84,7 +86,7 @@ OUT_FILE="$OUT_DIR/$PID-$BID.buggy.lines"
 #[ "$SLOC_HOME" != "" ] || die "SLOC_HOME is not set!"
 
 # Put the defects4j command on the PATH
-PATH=$PATH:$D4J_HOME/framework/bin:$SLOC_HOME
+#PATH=$PATH:$D4J_HOME/framework/bin:$SLOC_HOME
 
 # Temporary directory, used to checkout the buggy and fixed version
 TMP="/tmp/get_buggy_lines_$$"

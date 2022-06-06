@@ -16,20 +16,37 @@ readonly CLEANUP=$7
 function faultdetect_project() {
 	local project_dir=$1
 	local d4j_projects="d4jprojects"
-	local coverage_zip_file="$root/coverage/$PROJECT_NAME/$COVERAGEZIP"
+	local coveragedir=$root/coverage/$PROJECT_NAME
+	local coverage_zip_file="$COVERAGEZIP"
 	local root=$(pwd)
-  echo $coverage_zip_file
-	if [ ! -f "$coverage_zip_file" ]
+
+	if [ ! -f "$coveragedir/$coverage_zip_file" ]
 	then
-		echo "Missing project $PROJECT_NAME's coverage data. End of story."
-		echo
+		echo "Missing project $PROJECT_NAME's coverage data. Trying to fetch it."
+		mkdir -p $coveragedir
+
+		if [ ! -d "$coveragedir" ]
+		then
+		echo "$coveragedir directory does not exit. End of story."
 		exit 1
+		fi	
+
+  		cd $coveragedir
+  		wget http://143.107.58.177/${coverage_zip_file} 
+
+  		if [ ! -f "$coveragedir/$coverage_zip_file" ]
+ 		then
+		echo "$coveragedir/$coverage_zip_file does not exit. Couldn't get it remotely. End of story."
+		exit 1
+		fi
+
+		cd $root
 	fi
 
 
 	for ((i = $START ; i <= $END ; i++));
 	do
-		src/datafilegen.sh $PROJECT_NAME ${i}b $COVERAGEZIP $DATAGEN $COPYFAULTYSRC $CLEANUP
+	src/datafilegen.sh $PROJECT_NAME ${i}b $COVERAGEZIP $DATAGEN $COPYFAULTYSRC $CLEANUP
 	done
 
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -x
+#set -x
 readonly NOCOLOR="\033[0m"
 readonly GREEN="\033[0;32m"
 readonly RED="\033[0;31m"
@@ -21,8 +21,8 @@ local root=$(pwd)
 
 # Uncomment and set the location and variables for running defects4j
 
-export PATH=$PATH:/home/chaim/tools/defects4j/framework/bin
-export D4J_HOME=/home/chaim/tools/defects4j
+#export PATH=$PATH:/home/chaim/tools/defects4j/framework/bin
+#export D4J_HOME=/home/chaim/tools/defects4j
 
 # create d4j projects folder
 mkdir -p $d4j_projects
@@ -58,7 +58,7 @@ then
   echo "$coveragedir/$zipfile does not exit. Try to get it remotely"
   mkdir -p $coveragedir
   cd $coveragedir
-  wget --no-passive ftp://143.107.58.177/pub/${zipfile} 
+  wget http://143.107.58.177/${zipfile} 
 
   if [ ! -f "$coveragedir/$zipfile" ]
   then
@@ -104,6 +104,8 @@ function safilesgen() {
   #local satool=asmexplore-1.0-SNAPSHOT.jar
   local srcdir=$1/d4jprojects/$2
   local destdir=$subsumptiondir/$PROJECT_NAME/reduce/$VERSION
+
+  mkdir -p subsumption-files
 
   if [ ! -d "$subsumptiondir/$PROJECT_NAME" ]
   then
@@ -256,9 +258,12 @@ function datafile_calculation {
 
   if [ ! -d "$root/results/$PROJECT_NAME/$VERSION" ]
 	then
-		mkdir "$root/results/$PROJECT_NAME/$VERSION"
+		mkdir -p "$root/results"
+		mkdir -p "$root/results/$PROJECT_NAME"
+		mkdir -p "$root/results/$PROJECT_NAME/$VERSION"
 	else
 		rm -f "$root/results/$PROJECT_NAME/$VERSION/*.csv"
+		rm -f "$root/results/$PROJECT_NAME/$VERSION/*.json"
 		rm -f "$root/results/$PROJECT_NAME/$VERSION/*.txt"
 	fi
 
