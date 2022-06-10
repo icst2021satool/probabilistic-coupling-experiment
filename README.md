@@ -1,7 +1,7 @@
 # Probabilistic coupling experiment
 
 ## Data generation
-This repository contains scripts to calculate the *probabilistic coupling* [1] (referred here as *fault detection probability* -- FDP)  data for a subset of defects4j (d4j) projects. We use data flow coverage collected with a modified version of Jaguar [2] to calculate FDP. 
+This repository contains the *probabilistic coupling* [1] (referred here as *fault detection probability* -- FDP)  data for a subset of defects4j (d4j) projects as well the scripts to calculate them. We use data flow coverage collected with a modified version of Jaguar [2] to calculate FDP. 
 
 It includes:
 1. a link to Jaguar's raw data needed to calculated FDP;
@@ -11,7 +11,7 @@ It includes:
 5. Dockerfile to generate the environment to run the scripts.
 
 
-In what follows, we describe the structure of directories of the repository.
+In what follows, we describe the structure of directories of the repository and the data they contain.
 
 
 ### datacollection
@@ -19,8 +19,8 @@ In what follows, we describe the structure of directories of the repository.
 ```datacollection```is the *root*  directory. It has the following sub-directories: ```src, batch-src, results, coverage, subsumption-files```, and ```satool```.
 
 There are two auxiliary files in this directory: 
-1. [projects.d4j](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/projects.d4j): lists the  identifiers and the project names and 
-2. [versions.d4j](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/versions.d4j): lists the  identifiers, the project names, and the active versions.  
+1. [projects.d4j](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/projects.d4j): lists the d4j's identifiers and project names and 
+2. [versions.d4j](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/versions.d4j): lists   identifiers,  project names, and  active versions of the d4j repository.  
 which are used by the scripts to generate FDP data.
 
 In what follows, we describe **datacollection**'s directories.
