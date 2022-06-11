@@ -7,7 +7,7 @@ readonly VERSION=$2
 function find_dua_cov()
 {
 local root=$(pwd)
-cd $root/results/$project_name
+cd $root/results/$PROJECT_NAME
 echo "Project;Version;DUAcov" > "$PROJECT_NAME-duacov.csv"
 
 for v in *b

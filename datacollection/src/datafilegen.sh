@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#set -x
+set -x
 readonly NOCOLOR="\033[0m"
 readonly GREEN="\033[0;32m"
 readonly RED="\033[0;31m"
@@ -147,6 +147,7 @@ function find_exec_dir() {
   local version=$VERSION
   local projectdir=$1
   local timetarget="1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b"
+  local mockitobuild="1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b"
   SRCDIR="$projectdir/$version/target/classes"
   JAVADIR="$projectdir/$version/src"
 
@@ -229,6 +230,11 @@ function find_exec_dir() {
   if test $project == "Mockito"
   then
      SRCDIR=$projectdir/$version/build/classes/main
+     mockitoversions=$(echo $mockitobuild | grep $version)
+     if [ -z "$mockitoversions" ]
+	 then   # empty means classes are in the target directory
+         SRCDIR=$projectdir/$version/target/classes
+	 fi
   fi
 
   if test $project == "Time"
@@ -297,6 +303,7 @@ function datafile_calculation {
 
   leanversion=$(echo $VERSION | sed "s/b//g" | xargs)
   $root/src/get_buggy_lines.sh $PROJECT_NAME $leanversion $root/results/$PROJECT_NAME/$VERSION
+  $root/src/coverage_project.sh $PROJECT_NAME $VERSION >& $root/results/$PROJECT_NAME/$VERSION/duacoverage.txt
 
 }
 
