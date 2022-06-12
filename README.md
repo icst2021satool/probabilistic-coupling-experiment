@@ -35,6 +35,9 @@ This directory contains the shell scripts and Python programs to generate the FD
 * [faultdetectv3.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/faultdetectv3.py)
 * [get_buggy_lines.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/get_buggy_lines.sh)
 * [init.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/init.sh)
+* [coverage_project.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/coverage_project.sh)
+* [coverage_jaguar.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/coverage_jaguar.py)
+* [coverage_csv.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/coverage_csv.sh)
 
 The main files are the shell scripts **datafilegen.sh** and **faultdetect_project.sh**.
 
