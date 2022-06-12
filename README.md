@@ -1,10 +1,10 @@
 # Probabilistic coupling experiment
 
 ## Data generation
-This repository contains the *probabilistic coupling* [1] (referred here as *fault detection probability* -- FDP)  data for a subset of defects4j (d4j) projects as well the scripts to calculate them. We use data flow coverage collected with a modified version of Jaguar [2] to calculate FDP. 
+This repository contains the *probabilistic coupling* [1] (referred to here as *fault detection probability* -- FDP)  data for a subset of defects4j (d4j) projects as well the scripts to calculate them. We use data flow coverage collected with a modified version of Jaguar [2] to calculate FDP. 
 
 It includes:
-1. a link to Jaguar's raw data needed to calculated FDP;
+1. a link to Jaguar's raw data needed to calculated FDP as well as to the scripts used to generate them;
 2. the scripts to generate FDP for each faulty version;
 3. the FDP for each version of d4j's projects;
 4. spreadsheets aggregating the highest FDP for every faulty version; and
@@ -34,6 +34,7 @@ This directory contains the shell scripts and Python programs to generate the FD
 * [faultdetect_project.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/faultdetect_project.sh)
 * [faultdetectv3.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/faultdetectv3.py)
 * [get_buggy_lines.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/get_buggy_lines.sh)
+* [init.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/init.sh)
 
 The main files are the shell scripts **datafilegen.sh** and **faultdetect_project.sh**.
 
@@ -41,7 +42,7 @@ The main files are the shell scripts **datafilegen.sh** and **faultdetect_projec
 [datafilegen.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/datafilegen.sh) generates several data related to the calculation of the fault detection probability (FDP) or ochiai association metric.  This script supposes it is run at **datacolletion** directory using ```src/datafilegen.sh```. The parameters are as follows:
 * arg[1] Name of the project (e.g., Chart, Math)
 * arg[2] Version (e.g., 2b)
-* arg[3] Zip file with jaguar DUA data (data flow coverage for all faulty versions of a d4j project. See **datacollection/coverage** section for the description and location of zip files)
+* arg[3] Zip file with jaguar DUA coverage data for the d4j project under analysis. This zip file includes data flow coverage for all faulty versions of a d4j project. See **datacollection/coverage** section for the description and location of zip files.
 * arg[4] Data file to be generated (e.g., -fdp, -ochiai)
 * arg[5] -copy: Copy faulty classes
 * arg[6] -cleanup: clean up the static and dynamic data (e.g., json, matrix, spectra files) used to generate FDP data file
