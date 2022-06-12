@@ -107,6 +107,7 @@ This directory contains two types of scrips:
 1. Scripts to collect data in batch mode.
 
 2. Scripts to generate csv file for analysis.
+* [batch-duacft-comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-duacft-comparison.sh)
 
 3. Scripts to cleanup data from unreliable versions.
 
