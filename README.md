@@ -102,12 +102,12 @@ These are scripts or python programs called by **datafilegen.sh**. See details o
 
 ### datacollection/batch-src:
 
-This directory contains two types of scrips:
+This directory contains whose purpose is to run scripts for several d4j's projects at once; that is, in batch mode. There are four types of scrips:
 
-1. Scripts to collect data in batch mode.
+1. Scripts to collect FDP data in batch mode.
 
 2. Scripts to generate csv file for analysis.
-* [batch-duacft-comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-duacft-comparison.sh)
+* [batch-duacft-comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-duacft-comparison.sh). This script runs script **src/duacftcomparison_batch.sh** for all d4j's projects. [duacftcomparison_batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison_batch.sh), in itself, is a batch script since it calls **src/duacftcomparison.py** for every faulty version of a particular d4j project. Script [duacftcomparison.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison.sh) determine whether control flow criteria (edge and node coverage) subsumes those DUAs with the highest FDP value.
 
 3. Scripts to cleanup data from unreliable versions.
 
