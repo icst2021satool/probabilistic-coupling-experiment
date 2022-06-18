@@ -8,11 +8,12 @@
 
 # Should be run from "datacollection" directory. Change to your directory "datacollection"
 
-DataCollectionHome=/home/chaim/experimentos/probabilistic-coupling-repo/datacollection
+DataCollectionHome=${DATACOLLECTION_HOME}
+
 cd ${DataCollectionHome}
 
-Identifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Math Time"
-notIdentifiers="Lang Mockito Weka"
+Identifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Math Mockito Time"
+notIdentifiers="Lang Weka"
 
 echo "==> No UncFdp, SubFdp data:"
 for projectid in $Identifiers

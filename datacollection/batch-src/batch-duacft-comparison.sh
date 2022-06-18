@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 #set -x
-DataCollectionHome=/home/chaim/experimentos/probabilistic-coupling-repo/datacollection
+DataCollectionHome=${DATACOLLECTION_HOME}
 cd ${DataCollectionHome}
+mkdir -p results/duas-vs-cfts
+
 echo "Chart:"
 rm -f results/duas-vs-cfts/Chart-dua-cft-comparison.txt
 src/duacftcomparison_batch.sh Chart 1 26 >& results/duas-vs-cfts/Chart-dua-cft-comparison.txt
@@ -87,6 +89,10 @@ src/duacftcomparison_batch.sh Math 41 80 >& results/duas-vs-cfts/Math2-dua-cft-c
 
 rm -f results/duas-vs-cfts/Math3-dua-cft-comparison.txt
 src/duacftcomparison_batch.sh Math 81 106 >& results/duas-vs-cfts/Math3-dua-cft-comparison.txt
+
+echo "Mockito:"
+rm -f results/duas-vs-cfts/Mockito-dua-cft-comparison.txt
+src/duacftcomparison_batch.sh Mockito 1 38 >& results/duas-vs-cfts/Mockito-dua-cft-comparison.txt
 
 echo "Time:"
 rm -f results/duas-vs-cfts/Time-dua-cft-comparison.txt

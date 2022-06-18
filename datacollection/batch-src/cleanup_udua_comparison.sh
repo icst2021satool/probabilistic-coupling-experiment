@@ -8,7 +8,7 @@
 
 # Should be run from "datacollection/batch-src" directory. Change to your directory "datacollection/batch-src"
 
-DataCollectionHome=/home/chaim/experimentos/probabilistic-coupling-repo/datacollection
+DataCollectionHome=${DATACOLLECTION_HOME}
 cd ${DataCollectionHome}
 
 AllIdentifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Lang Math Mockito Time Weka"
@@ -36,18 +36,19 @@ blockClosure="Closure;63b Closure;93b Closure;137b Closure;143b"
 blockCompress="Compress;44b"
 
 blockCsv="Csv;15b Csv;16b"
+blockCsv=""
 
 blockGson="Gson;8b"
 
 blockJacksonCore="JacksonCore;5b JacksonCore;19b JacksonCore;23b JacksonCore;25b"
 
-blockJacksonDatabind="JacksonDatabind;95b"
+blockJacksonDatabind="JacksonDatabind;44b JacksonDatabind;45b JacksonDatabind;95b"
 
 blockLang="Lang;"
 
 blockMath="Math;3b Math;55b Math;89b"
 
-blockMockito="Mockito;"
+blockMockito=""
 
 blockTime="Time;21b"
 
@@ -65,4 +66,10 @@ done
 
 echo "Program;Version;UncFdpMax;NoUncFdpMax;Status;SubFdpMax;NoSubFdpMax;LessFdpUnc;MoreFdpUnc;" > results/uncduas-vs-subduas/uncduas-vs-subduas-fixed.csv
 cat tmp$$ >> results/uncduas-vs-subduas/uncduas-vs-subduas-fixed.csv
+
+echo "Program;Version;UncFdpMax;NoUncFdpMax;Status;SubFdpMax;NoSubFdpMax;LessFdpUnc;MoreFdpUnc;FdpMaxDF" > results/uncduas-vs-subduas/uncduas-vs-subduas-plot.csv
+
+cat tmp$$ | awk -F";" '{printf ("%s;%s;%f;%d;%s;%f;%d;%s;%s;", $1,$2,$3,$4,$5,$6,$7,$8,$9); \
+if($3 < $6) {printf ("%f\n",$6);} else {printf ("%f\n",$3)} }' >> results/uncduas-vs-subduas/uncduas-vs-subduas-plot.csv
+
 rm -f tmp$$
