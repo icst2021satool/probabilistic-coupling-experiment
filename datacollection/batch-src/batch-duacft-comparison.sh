@@ -80,6 +80,10 @@ echo "JxPath:"
 rm -f results/duas-vs-cfts/JxPath-dua-cft-comparison.txt
 src/duacftcomparison_batch.sh JxPath 1 22 >& results/duas-vs-cfts/JxPath-dua-cft-comparison.txt
 
+echo "Lang:" # So far we can handle only up to version 34b
+rm -f results/duas-vs-cfts/Lang-dua-cft-comparison.txt
+src/duacftcomparison_batch.sh Lang 1 34 >& results/duas-vs-cfts/Lang-dua-cft-comparison.txt
+
 echo "Math:"
 rm -f results/duas-vs-cfts/Math1-dua-cft-comparison.txt
 src/duacftcomparison_batch.sh Math 1 40 >& results/duas-vs-cfts/Math1-dua-cft-comparison.txt

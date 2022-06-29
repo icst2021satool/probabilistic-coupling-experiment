@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Should be run from "datacollection/batch-src" directory. Change to your directory "datacollection/batch-src"
 
-DataCollectionHome=/home/chaim/experimentos/probabilistic-coupling-repo/datacollection
+DataCollectionHome=${DATACOLLECTION_HOME}
 cd ${DataCollectionHome}
 
-#Identifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Lang Math Mockito Time Weka"
-Identifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Math Time"
+AllIdentifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Lang Math Mockito Time Weka"
+Identifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Lang Math Mockito Time"
 
 echo "Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;" > results/duas-vs-cfts/duas-vs-cfts.csv
 for projectid in $Identifiers

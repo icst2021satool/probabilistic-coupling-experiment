@@ -12,8 +12,8 @@ DataCollectionHome=${DATACOLLECTION_HOME}
 
 cd ${DataCollectionHome}
 
-Identifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Math Mockito Time"
-notIdentifiers="Lang Weka"
+Identifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Lang Math Mockito Time"
+notIdentifiers="Weka"
 
 echo "==> No UncFdp, SubFdp data:"
 for projectid in $Identifiers
