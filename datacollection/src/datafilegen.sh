@@ -303,7 +303,6 @@ function datafile_calculation {
 
   leanversion=$(echo $VERSION | sed "s/b//g" | xargs)
   $root/src/get_buggy_lines.sh $PROJECT_NAME $leanversion $root/results/$PROJECT_NAME/$VERSION
-  $root/src/coverage_project.sh $PROJECT_NAME $VERSION >& $root/results/$PROJECT_NAME/$VERSION/duacoverage.txt
 
 }
 
