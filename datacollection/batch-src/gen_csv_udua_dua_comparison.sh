@@ -10,7 +10,7 @@
 DataCollectionHome=${DATACOLLECTION_HOME}
 cd ${DataCollectionHome}
  
-Identifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Math Mockito Time"
+Identifiers="Chart Cli Closure Codec Collections Compress Csv Gson JacksonCore JacksonDatabind JacksonXml Jsoup JxPath Lang Math Mockito Time"
 
 if [ -d "results/uncduas-vs-subduas" ]
 then
@@ -33,6 +33,7 @@ src/duafdpaggregation.py JacksonDatabind 1 112 ./results results/uncduas-vs-subd
 src/duafdpaggregation.py JacksonXml 1 6 ./results results/uncduas-vs-subduas/JacksonXml1-6.csv
 src/duafdpaggregation.py Jsoup 1 93 ./results results/uncduas-vs-subduas/Jsoup1-93.csv
 src/duafdpaggregation.py JxPath 1 22 ./results results/uncduas-vs-subduas/JxPath1-22.csv
+src/duafdpaggregation.py Lang 1 64 ./results results/uncduas-vs-subduas/Lang1-64.csv
 src/duafdpaggregation.py Math 1 106 ./results results/uncduas-vs-subduas/Math1-106.csv
 src/duafdpaggregation.py Mockito 1 38 ./results results/uncduas-vs-subduas/Mockito1-38.csv
 src/duafdpaggregation.py Time 1 27 ./results results/uncduas-vs-subduas/Time1-27.csv
