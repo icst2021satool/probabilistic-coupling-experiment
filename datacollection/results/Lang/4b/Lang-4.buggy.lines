@@ -1,0 +1,8 @@
+com/google/javascript/jscomp/CheckGlobalThis.java#108#            pType == Token.ASSIGN)) {
+com/fasterxml/jackson/databind/deser/std/JdkDeserializers.java#22#                ByteBuffer.class
+org/apache/commons/lang3/text/translate/LookupTranslator.java#31#    private final HashMap<CharSequence, CharSequence> lookupMap;
+org/apache/commons/lang3/text/translate/LookupTranslator.java#46#        lookupMap = new HashMap<CharSequence, CharSequence>();
+org/apache/commons/lang3/text/translate/LookupTranslator.java#51#                this.lookupMap.put(seq[0], seq[1]);
+org/apache/commons/lang3/text/translate/LookupTranslator.java#77#            final CharSequence result = lookupMap.get(subSeq);
+com/google/javascript/jscomp/RuntimeTypeCheck.java#247#FAULT_OF_OMISSION
+com/fasterxml/jackson/databind/deser/std/JdkDeserializers.java#47#FAULT_OF_OMISSION

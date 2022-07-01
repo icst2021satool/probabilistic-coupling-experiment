@@ -1,0 +1,5898 @@
+[
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@0$(285,(294,295), this)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@4$(285,295, this)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@6$(285,(294,295), this.protocols)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@9$(285,295, this.protocols)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@10$(289,(294,295), tagName)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@13$(289,295, tagName)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@14$(290,(300,301), attrKey)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@17$(290,301, attrKey)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@18$(295,(300,301), attrMap)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@21$(295,301, attrMap)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@26$(301,309, protSet)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@30$(86,85, numDiscarded)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addEnforcedAttribute#2@1$(236,(244,247), this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addEnforcedAttribute#2@2$(236,249, this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addEnforcedAttribute#2@3$(236,251, this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addEnforcedAttribute#2@6$(236,(244,247), this.enforcedAttributes)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addEnforcedAttribute#2@7$(236,249, this.enforcedAttributes)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addEnforcedAttribute#2@10$(240,(244,247), tagName)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addEnforcedAttribute#2@11$(240,249, tagName)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addEnforcedAttribute#2@13$(241,248, attrKey)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addEnforcedAttribute#2@15$(242,248, attrVal)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@10$(319,(327,327), this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@16$(319,(327,327), el)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@20$(319,(327,327), attr)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@40$(320,(327,327), key)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@44$(325,(327,327), attrProts)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@10$(345,(345,351), i$)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@9$(55,(55,55), i$)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@11$(55,55, i$)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@12$(55,55, i$)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@0$(341,(342,343), this)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@2$(341,343, attr)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@4$(341,(342,343), this.preserveRelativeLinks)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@8$(341,343, value)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@2$(101,(108,111), this)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@4$(101,(108,111), sourceEl)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@7$(101,(108,111), this.whitelist)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@10$(101,(108,111), sourceTag)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@15$(104,111, numDiscarded)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@20$(107,(108,111), sourceAttr)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@22$(111,116, numDiscarded)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@0$(319,(322,323), this)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@4$(319,(323,324), this)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@6$(319,(324,325), this)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@8$(319,325, this)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@21$(319,(322,323), this.attributes)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@23$(319,(323,324), this.attributes)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@25$(319,(324,325), this.protocols)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@27$(319,325, this.protocols)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@28$(319,(322,323), tag)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@30$(319,(323,324), tag)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@32$(319,(324,325), tag)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@34$(319,325, tag)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@35$(320,(323,324), key)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@37$(320,(327,327), key)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%isSafeAttribute#4@41$(325,(327,327), attrProts)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@3$(341,345, protocols)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@7$(341,(347,350), value)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@9$(345,(345,345), i$)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@11$(345,345, i$)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%testValidProtocol#5@13$(346,(347,350), prot)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@16$(107,(107,107), i$)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@18$(107,107, i$)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@23$(210,(210,210), i$)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@25$(210,210, i$)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@26$(210,210, i$)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@5$(73,94, dest)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@18$(76,(91,92), sourceChild)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@20$(76,92, sourceChild)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@21$(76,93, sourceChild)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@4$(988,(995,996), this)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@18$(988,996, accum)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@25$(988,(995,996), this.tag)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlTail#23@9$(1002,(1002,1007), this)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlTail#23@23$(1002,(1002,1007), this.tag)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertEmpty#5@5$(198,(203,206), tag)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isSelfClosing#3@1$(123,(123,123), this)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isSelfClosing#3@5$(123,(123,123), this.empty)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@17$(76,(77,91), sourceChild)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertEmpty#5@0$(198,202, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertEmpty#5@1$(198,(201,202), startTag)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertEmpty#5@3$(198,202, this.tokeniser)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@1$(113,(113,116), this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@2$(113,116, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@3$(113,117, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@5$(113,(113,116), this.attributes)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@6$(113,116, this.attributes)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@7$(113,117, this.attributes)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@8$(116,120, list)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@9$(116,118, list)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@10$(117,(117,117), i$)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@11$(117,(117,120), i$)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%asList#6@12$(117,117, i$)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@1$(285,(294,297), this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@2$(285,298, this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@3$(285,311, this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@5$(285,306, protocols)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@7$(285,(294,297), this.protocols)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@8$(285,298, this.protocols)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@11$(289,(294,297), tagName)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@12$(289,298, tagName)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@15$(290,(300,303), attrKey)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@16$(290,304, attrKey)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@23$(297,(300,303), attrMap)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@24$(297,304, attrMap)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@27$(303,309, protSet)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@28$(306,306, arr$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@29$(306,(306,306), len$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@30$(306,(306,311), len$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@31$(306,(306,306), i$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@33$(306,306, i$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@34$(306,306, i$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@35$(306,(306,306), i$)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@36$(306,(306,311), i$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@37$(306,306, i$)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addProtocols#3@38$(306,306, i$)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@1$(205,(214,218), this)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@2$(205,218, this)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@3$(205,220, this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@6$(205,(214,218), this.attributes)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@7$(205,218, this.attributes)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@10$(208,(214,218), tagName)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@11$(208,218, tagName)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@13$(209,218, attributeSet)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@15$(209,212, attributeSet)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@16$(210,210, arr$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@17$(210,(210,210), len$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@18$(210,(210,214), len$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@19$(210,(210,210), i$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@21$(210,210, i$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@22$(210,210, i$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addAttributes#1@24$(210,(210,214), i$)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%getEnforcedAttributes#6@1$(355,(357,363), this)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%getEnforcedAttributes#6@4$(355,(357,363), this.enforcedAttributes)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%getEnforcedAttributes#6@9$(356,(357,363), tag)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@0$(73,(80,81), this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@3$(73,81, this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@4$(73,86, this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@7$(73,83, dest)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@8$(73,(80,81), this.whitelist)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@12$(74,85, numDiscarded)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@23$(78,(80,81), sourceEl)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@26$(78,81, sourceEl)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@27$(78,86, sourceEl)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@28$(86,97, numDiscarded)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@0$(101,113, this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@5$(101,113, this.whitelist)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@8$(101,113, sourceTag)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@11$(102,114, destAttrs)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@13$(103,116, dest)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%createSafeElement#2@17$(107,(107,113), i$)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@1$(426,(426,427), this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@3$(426,(428,429), this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@5$(426,(430,432), this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@7$(426,(432,433), this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@9$(426,(426,427), obj)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@11$(426,(427,428), obj)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@13$(426,(428,429), obj)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@14$(426,429, obj)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@16$(426,(430,432), this.value)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@18$(426,(432,433), this.value)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@20$(429,(432,433), other)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%equals#1@24$(429,(432,433), other.value)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@0$(36,(36,37), this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@11$(36,37, this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@12$(36,38, this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@13$(36,(36,37), this.selfClosingFlagAcknowledged)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%error#7@0$(225,(225,226), this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%error#7@2$(225,226, this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%error#7@3$(225,226, this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%error#7@4$(225,226, errorMsg)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%error#7@5$(225,(225,226), this.trackErrors)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%error#7@7$(225,226, this.reader)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%error#7@8$(225,226, this.errors)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%getEnforcedAttributes#6@6$(355,363, attrs)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@10$(74,97, numDiscarded)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@13$(76,(76,76), i$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@14$(76,(76,97), i$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@15$(76,76, i$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@16$(76,(77,78), sourceChild)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Cleaner%copySafeNodes#1@22$(76,78, sourceChild)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%hashCode#0@1$(418,(420,420), this)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%hashCode#0@2$(418,420, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%hashCode#0@4$(418,(420,420), this.value)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%hashCode#0@5$(418,420, this.value)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist$TypedValue%hashCode#0@6$(419,420, result)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@0$(185,191, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@1$(185,189, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@2$(185,189, this.tagNames)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@3$(187,187, arr$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@4$(187,(187,187), len$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@5$(187,(187,191), len$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@6$(187,(187,187), i$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@8$(187,187, i$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@9$(187,187, i$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@10$(187,(187,187), i$)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@11$(187,(187,191), i$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@12$(187,187, i$)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.safety.Whitelist%addTags#0@13$(187,187, i$)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$34%read#0@7$(749,757, t)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$34%read#0@19$(749,757, SelfClosingStartTag)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$34%read#0@33$(749,(750,757), c)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@0$(51,58, doc)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@1$(52,56, body)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@2$(55,55, arr$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@3$(55,(55,55), len$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@4$(55,(55,58), len$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@5$(55,(55,55), i$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@7$(55,55, i$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@8$(55,55, i$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseBodyFragment#0@10$(55,(55,58), i$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%addAll#5@4$(96,(96,97), incoming)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@13$(16,(25,25), node)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@14$(16,(25,30), node)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@25$(17,(25,30), depth)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@2$(56,65, this)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@17$(62,(64,65), startTag)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@19$(62,(64,65), startTag.selfClosing)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$42%read#0@4$(1059,1062, t)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$42%read#0@5$(1059,1063, t)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$42%read#0@6$(1059,1064, t)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$42%read#0@9$(1059,1062, t.tagPending)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$42%read#0@11$(1059,1064, Data)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$42%read#0@14$(1059,(1060,1062), c)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$41%read#0@7$(1030,1036, t)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$41%read#0@11$(1030,1036, BeforeAttributeName)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$41%read#0@17$(1030,(1031,1036), c)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%absUrl#2@1$(164,(167,173), this)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%absUrl#2@2$(164,173, this)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%absUrl#2@4$(164,(167,173), attributeKey)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%absUrl#2@5$(164,173, this.baseUri)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@10$(425,(425,426), i)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@12$(425,426, i)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@13$(425,425, i)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@224$(247,442, tb)",
+        [
+            0.03571428571428571,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@225$(247,443, tb)",
+        [
+            0.03571428571428571,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@226$(247,444, tb)",
+        [
+            0.03571428571428571,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@396$(273,443, startTag)",
+        [
+            0.03571428571428571,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@455$(274,(441,442), name)",
+        [
+            0.03571428571428571,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@2$(988,(995,995), this)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@30$(988,(995,995), this.childNodes)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlTail#23@0$(1002,(1002,1002), this)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlTail#23@16$(1002,(1002,1002), this.childNodes)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@0$(425,(425,426), this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@2$(425,426, this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@3$(425,(425,426), this.childNodes)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@5$(425,426, this.childNodes)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@6$(425,(425,426), i)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@8$(425,426, i)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@9$(425,425, i)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@11$(425,(425,428), i)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@12$(16,(21,25), node)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@15$(16,30, node)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@16$(16,(31,32), node)",
+        [
+            0.030303030303030304,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@23$(17,30, depth)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@11$(59,66, this)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@16$(59,(65,66), context)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@19$(59,66, context)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@23$(59,66, this.doc)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@5$(380,414, this)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@22$(380,414, InBody)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@63$(388,(413,414), name)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#13@1$(419,(419,420), child)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#13@4$(419,420, child)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#13@5$(419,(419,420), child.parentNode)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#13@7$(419,420, child.parentNode)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@0$(59,90, this)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@2$(59,81, this)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@3$(59,84, this)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@4$(59,85, this)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@5$(59,86, this)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@12$(59,(64,65), context)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@14$(59,(91,92), context)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@18$(59,69, context)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@20$(59,83, baseUri)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@22$(59,84, this.doc)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@24$(59,81, this.tokeniser)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@33$(59,81, Data)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@36$(59,85, this.stack)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@39$(69,(70,72), contextTag)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@41$(69,(72,74), contextTag)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@43$(69,(74,76), contextTag)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@45$(69,(76,78), contextTag)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@47$(69,(78,81), contextTag)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%parseFragment#0@48$(83,92, root)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@12$(380,386, this)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@13$(380,386, this.contextElement)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@33$(381,(384,385), it)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@40$(386,388, node)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%outerHtmlHead#3@1$(93,(98,100), this)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertEmpty#5@7$(199,206, el)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@7$(425,(425,428), i)",
+        [
+            0.025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$37%read#0@12$(876,892, t)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$37%read#0@26$(876,892, AttributeValue_singleQuoted)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$37%read#0@36$(876,(877,892), c)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@6$(100,(107,111), lastWasWhite)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%removeChild#10@0$(392,(392,392), this)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%removeChild#10@2$(392,394, this)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%removeChild#10@3$(392,395, this)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%removeChild#10@4$(392,(392,392), out)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%removeChild#10@6$(392,393, out)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%removeChild#10@7$(392,396, out)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%removeChild#10@8$(392,(392,392), out.parentNode)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%removeChild#10@10$(392,394, this.childNodes)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$39%read#0@4$(953,960, t)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$39%read#0@10$(953,955, t)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$39%read#0@11$(953,957, r)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$39%read#0@15$(953,955, t.tagPending)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$39%read#0@16$(953,960, AfterAttributeValue_quoted)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$39%read#0@18$(953,(954,955), value)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$39%read#0@20$(953,955, value)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$39%read#0@24$(957,(958,960), c)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%isTrue#2@1$(34,(34,36), val)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@52$(247,255, tb)",
+        [
+            0.02127659574468085,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@53$(247,256, tb)",
+        [
+            0.02127659574468085,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@370$(249,(254,255), c)",
+        [
+            0.02127659574468085,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@373$(249,256, c)",
+        [
+            0.02127659574468085,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@1$(425,(425,428), this)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reindexChildren#14@4$(425,(425,428), this.childNodes)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%hasAttr#1@6$(105,(107,112), attributeKey)",
+        [
+            0.020833333333333332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%hasAttr#1@0$(105,112, this)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%hasAttr#1@7$(105,112, attributeKey)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%hasAttr#1@9$(105,112, this.attributes)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@43$(388,(392,392), name)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@46$(388,(392,395), name)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@48$(388,(395,398), name)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@49$(388,(398,398), name)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@51$(388,(398,398), name)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@54$(388,(398,401), name)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@56$(388,(401,404), name)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@58$(388,(404,407), name)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@60$(388,(407,410), name)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@62$(388,(410,413), name)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@30$(381,(382,383), it)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@32$(381,383, it)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%resetInsertionMode#19@42$(388,(389,392), name)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@4$(1457,(1459,1464), data)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@13$(1459,(1459,1464), i)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@11$(988,(988,989), this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@9$(1459,1459, i)",
+        [
+            0.014925373134328358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@11$(1460,(1461,1459), c)",
+        [
+            0.014925373134328358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@8$(988,989, this)",
+        [
+            0.014925373134328358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@19$(988,989, accum)",
+        [
+            0.014925373134328358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@20$(988,989, depth)",
+        [
+            0.014925373134328358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@24$(988,989, out)",
+        [
+            0.014925373134328358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@19$(105,(111,113), c)",
+        [
+            0.014492753623188406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%padding#1@1$(51,(51,54), width)",
+        [
+            0.014084507042253521,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%padding#1@2$(51,(54,55), width)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%padding#1@7$(51,55, width)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%padding#1@8$(51,(54,55), padding)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%padding#1@10$(51,55, padding)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@6$(988,(988,988), this)",
+        [
+            0.0136986301369863,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@9$(988,(988,988), this)",
+        [
+            0.0136986301369863,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@27$(988,(988,988), this.tag)",
+        [
+            0.0136986301369863,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@4$(98,113, sb)",
+        [
+            0.0136986301369863,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@15$(105,(106,107), c)",
+        [
+            0.0136986301369863,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@10$(167,(167,173), i$)",
+        [
+            0.012987012987012988,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@13$(168,(169,171), found)",
+        [
+            0.012987012987012988,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@0$(164,168, this)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@1$(164,(164,165), tag)",
+        [
+            0.01282051282051282,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@2$(164,(164,167), tag)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@3$(164,168, tag)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@4$(164,(164,165), node)",
+        [
+            0.01282051282051282,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@5$(164,(164,167), node)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@6$(164,167, node)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@7$(164,165, node)",
+        [
+            0.01282051282051282,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@8$(164,167, node.childNodes)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@9$(167,(167,167), i$)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@11$(167,167, i$)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@12$(168,(169,170), found)",
+        [
+            0.01282051282051282,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Document%findFirstElementByTagName#5@14$(168,170, found)",
+        [
+            0.01282051282051282,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@22$(988,(988,988), out)",
+        [
+            0.0125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@13$(988,(988,988), accum)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@448$(274,(415,420), name)",
+        [
+            0.012048192771084338,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@450$(274,(420,429), name)",
+        [
+            0.012048192771084338,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@452$(274,(429,434), name)",
+        [
+            0.012048192771084338,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@454$(274,(434,441), name)",
+        [
+            0.012048192771084338,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%outerHtmlHead#3@11$(93,(94,95), this)",
+        [
+            0.01098901098901099,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%outerHtmlHead#3@26$(93,95, html)",
+        [
+            0.01098901098901099,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%outerHtmlHead#3@27$(95,100, html)",
+        [
+            0.01098901098901099,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@14$(988,(988,990), accum)",
+        [
+            0.010869565217391304,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%outerHtmlHead#3@9$(93,(94,94), this)",
+        [
+            0.010526315789473684,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%outerHtmlHead#3@16$(93,(94,94), out)",
+        [
+            0.010526315789473684,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%outerHtmlHead#3@18$(93,(98,98), out)",
+        [
+            0.010526315789473684,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%html#7@0$(143,(143,144), this)",
+        [
+            0.010416666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%html#7@6$(143,(143,144), this.attributes)",
+        [
+            0.010416666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%outerHtmlHead#3@13$(93,100, accum)",
+        [
+            0.01020408163265306,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node$OuterHtmlVisitor%tail#0@2$(579,(579,581), node)",
+        [
+            0.01020408163265306,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%html#24@0$(1023,1024, accum)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%html#24@1$(1023,(1023,1023), i$)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%html#24@3$(1023,1023, i$)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%html#24@2$(1023,(1023,1025), i$)",
+        [
+            0.01,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@0$(988,990, this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@1$(988,993, this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@15$(988,990, accum)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@16$(988,993, accum)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@21$(988,993, out)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%outerHtmlHead#22@29$(988,993, this.attributes)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@0$(66,(69,70), string)",
+        [
+            0.009433962264150943,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@2$(66,70, string)",
+        [
+            0.009433962264150943,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@3$(66,(73,74), encoder)",
+        [
+            0.009433962264150943,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@7$(66,74, accum)",
+        [
+            0.009433962264150943,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@10$(67,(71,73), map)",
+        [
+            0.009433962264150943,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@12$(69,(69,70), pos)",
+        [
+            0.009433962264150943,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@14$(69,70, pos)",
+        [
+            0.009433962264150943,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@15$(69,69, pos)",
+        [
+            0.009433962264150943,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@17$(70,(71,73), c)",
+        [
+            0.009433962264150943,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@18$(70,(73,74), c)",
+        [
+            0.009433962264150943,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@21$(70,74, c)",
+        [
+            0.009433962264150943,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@24$(69,(69,79), pos)",
+        [
+            0.009433962264150943,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@1$(66,(69,79), string)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%escape#0@5$(66,79, accum)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node$OuterHtmlVisitor%tail#0@0$(579,580, this)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node$OuterHtmlVisitor%tail#0@1$(579,(579,580), node)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node$OuterHtmlVisitor%tail#0@3$(579,580, node)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node$OuterHtmlVisitor%tail#0@4$(579,580, depth)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node$OuterHtmlVisitor%tail#0@5$(579,580, this.accum)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node$OuterHtmlVisitor%tail#0@6$(579,580, this.out)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%attr#0@0$(71,(73,74), this)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%attr#0@3$(71,74, this)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%attr#0@4$(71,(73,74), attributeKey)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%attr#0@9$(71,74, attributeKey)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%attr#0@10$(71,(73,74), this.attributes)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%attr#0@12$(71,74, this.attributes)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%getOutputSettings#17@0$(499,(499,499), this)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%ownerDocument#3@0$(225,(225,226), this)",
+        [
+            0.00909090909090909,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%ownerDocument#3@3$(225,(227,230), this)",
+        [
+            0.00909090909090909,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%ownerDocument#3@4$(225,230, this)",
+        [
+            0.00909090909090909,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%ownerDocument#3@5$(225,226, this)",
+        [
+            0.00909090909090909,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%ownerDocument#3@7$(225,(227,230), this.parentNode)",
+        [
+            0.00909090909090909,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%ownerDocument#3@8$(225,230, this.parentNode)",
+        [
+            0.00909090909090909,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%ownerDocument#3@1$(225,(225,227), this)",
+        [
+            0.009009009009009009,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%hasKey#3@0$(78,(78,78), this)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%hasKey#3@2$(78,(78,78), this)",
+        [
+            0.008928571428571428,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%hasKey#3@4$(78,(78,78), key)",
+        [
+            0.008928571428571428,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%hasKey#3@6$(78,(78,78), this.attributes)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%hasKey#3@8$(78,(78,78), this.attributes)",
+        [
+            0.008928571428571428,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@446$(274,(400,415), name)",
+        [
+            0.008849557522123894,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%get#0@1$(31,(33,36), this)",
+        [
+            0.008,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%get#0@2$(31,36, this)",
+        [
+            0.008,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%get#0@3$(31,36, key)",
+        [
+            0.008,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%get#0@5$(31,(33,36), this.attributes)",
+        [
+            0.008,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%get#0@6$(31,36, this.attributes)",
+        [
+            0.008,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%get#0@7$(36,(37,37), attr)",
+        [
+            0.008,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%get#0@9$(36,37, attr)",
+        [
+            0.008,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@5$(52,(53,55), this)",
+        [
+            0.007407407407407408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@13$(52,(53,55), this.pendingAttributeValue)",
+        [
+            0.007407407407407408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@14$(52,55, this.pendingAttributeValue)",
+        [
+            0.007407407407407408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%finaliseTag#1@0$(64,(64,66), this)",
+        [
+            0.007352941176470588,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%finaliseTag#1@2$(64,66, this)",
+        [
+            0.007352941176470588,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%finaliseTag#1@3$(64,(64,66), this.pendingAttributeName)",
+        [
+            0.007352941176470588,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@0$(52,(52,53), this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@6$(52,55, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@7$(52,56, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@9$(52,(52,53), this.pendingAttributeName)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@11$(52,55, this.pendingAttributeName)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@15$(52,56, this.attributes)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeValue#5@0$(107,(107,107), this)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeValue#5@2$(107,107, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeValue#5@3$(107,107, append)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeValue#5@4$(107,(107,107), this.pendingAttributeValue)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeValue#5@6$(107,107, this.pendingAttributeValue)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@440$(274,(367,383), name)",
+        [
+            0.0072992700729927005,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@442$(274,(383,389), name)",
+        [
+            0.0072992700729927005,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@444$(274,(389,400), name)",
+        [
+            0.0072992700729927005,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$35%read#0@7$(792,807, t)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$35%read#0@18$(792,807, BeforeAttributeValue)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$35%read#0@26$(795,(796,807), c)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$34%read#0@15$(749,783, t)",
+        [
+            0.007246376811594203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$34%read#0@16$(749,785, t)",
+        [
+            0.007246376811594203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$34%read#0@18$(749,784, r)",
+        [
+            0.007246376811594203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$34%read#0@25$(749,783, t.tagPending)",
+        [
+            0.007246376811594203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$34%read#0@28$(749,785, AttributeName)",
+        [
+            0.007246376811594203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$34%read#0@29$(749,(750,783), c)",
+        [
+            0.007246376811594203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@1$(52,(52,58), this)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@2$(52,58, this)",
+        [
+            0.007194244604316547,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@3$(52,59, this)",
+        [
+            0.007194244604316547,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%newAttribute#0@10$(52,(52,58), this.pendingAttributeName)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeName#4@0$(99,(99,99), this)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeName#4@2$(99,99, this)",
+        [
+            0.007194244604316547,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeName#4@3$(99,99, append)",
+        [
+            0.007194244604316547,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeName#4@4$(99,(99,99), this.pendingAttributeName)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendAttributeName#4@6$(99,99, this.pendingAttributeName)",
+        [
+            0.007194244604316547,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@438$(274,(351,367), name)",
+        [
+            0.007194244604316547,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$10%read#0@6$(185,193, t)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$10%read#0@10$(185,(188,193), r)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$10%read#0@15$(185,193, BeforeAttributeName)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@434$(274,(334,341), name)",
+        [
+            0.00684931506849315,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@436$(274,(341,351), name)",
+        [
+            0.00684931506849315,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@8$(101,(121,121), modified)",
+        [
+            0.006802721088435374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@432$(274,(325,334), name)",
+        [
+            0.006802721088435374,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%preserveWhitespace#14@3$(810,(810,810), this)",
+        [
+            0.006711409395973154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%preserveWhitespace#14@5$(810,(810,810), this)",
+        [
+            0.006711409395973154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%preserveWhitespace#14@0$(810,(810,810), this)",
+        [
+            0.006666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%preserveWhitespace#14@2$(810,(810,810), this)",
+        [
+            0.006666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Element%preserveWhitespace#14@6$(810,(810,810), this.tag)",
+        [
+            0.006666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@430$(274,(317,325), name)",
+        [
+            0.006666666666666667,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@0$(98,121, string)",
+        [
+            0.006622516556291391,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@1$(98,105, string)",
+        [
+            0.006622516556291391,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@2$(98,121, sb)",
+        [
+            0.006622516556291391,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@9$(103,(104,105), l)",
+        [
+            0.006622516556291391,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@10$(103,(104,121), l)",
+        [
+            0.006622516556291391,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@11$(104,(104,105), i)",
+        [
+            0.006622516556291391,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@13$(104,105, i)",
+        [
+            0.006622516556291391,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@14$(104,104, i)",
+        [
+            0.006622516556291391,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%normaliseWhitespace#4@29$(104,(104,121), i)",
+        [
+            0.006622516556291391,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%put#1@0$(55,(56,57), this)",
+        [
+            0.006289308176100629,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%put#1@2$(55,58, this)",
+        [
+            0.006289308176100629,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%put#1@3$(55,57, this)",
+        [
+            0.006289308176100629,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%put#1@4$(55,58, attribute)",
+        [
+            0.006289308176100629,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%put#1@5$(55,(56,57), this.attributes)",
+        [
+            0.006289308176100629,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%put#1@8$(57,58, this.attributes)",
+        [
+            0.006289308176100629,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%getWholeText#1@0$(61,(61,61), this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%getWholeText#1@2$(61,61, this)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%getWholeText#1@3$(61,(61,61), this.attributes)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%getWholeText#1@5$(61,61, this.attributes)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.TextNode%getWholeText#1@6$(61,61, this.text)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@40$(247,(247,249), t)",
+        [
+            0.00510204081632653,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@41$(247,249, t)",
+        [
+            0.00510204081632653,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@335$(247,(247,249), $SwitchMap$org$jsoup$parser$Token$TokenType)",
+        [
+            0.00510204081632653,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@341$(247,(247,249), t.type)",
+        [
+            0.00510204081632653,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@369$(249,(250,254), c)",
+        [
+            0.00510204081632653,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@0$(1456,(1456,1457), t)",
+        [
+            0.005050505050505051,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@2$(1456,1457, t)",
+        [
+            0.005050505050505051,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@3$(1457,(1459,1460), data)",
+        [
+            0.005050505050505051,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@5$(1457,1460, data)",
+        [
+            0.005050505050505051,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@6$(1459,(1459,1460), i)",
+        [
+            0.005050505050505051,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState%isWhitespace#0@8$(1459,1460, i)",
+        [
+            0.005050505050505051,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$1%read#0@6$(10,26, t)",
+        [
+            0.005050505050505051,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$1%read#0@7$(10,(10,25), r)",
+        [
+            0.005050505050505051,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$1%read#0@13$(10,25, r)",
+        [
+            0.005050505050505051,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%reconstructFormattingElements#25@22$(588,(589,590), size)",
+        [
+            0.0049261083743842365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insert#6@1$(217,(217,220), this)",
+        [
+            0.004901960784313725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insert#6@2$(217,220, this)",
+        [
+            0.004901960784313725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insert#6@5$(217,220, characterToken)",
+        [
+            0.004901960784313725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insert#6@7$(217,220, this.baseUri)",
+        [
+            0.004901960784313725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insert#6@10$(220,221, node)",
+        [
+            0.004901960784313725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token%isCharacter#4@0$(229,(229,229), this)",
+        [
+            0.004830917874396135,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token%isCharacter#4@2$(229,(229,229), Character)",
+        [
+            0.004830917874396135,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token%isCharacter#4@4$(229,(229,229), this.type)",
+        [
+            0.004830917874396135,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@4$(36,(45,46), this)",
+        [
+            0.004807692307692308,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@8$(36,46, this)",
+        [
+            0.004807692307692308,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@9$(36,47, this)",
+        [
+            0.004807692307692308,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@19$(36,(45,46), this.charBuffer)",
+        [
+            0.004807692307692308,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@21$(36,46, this.charBuffer)",
+        [
+            0.004807692307692308,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@22$(36,47, this.charBuffer)",
+        [
+            0.004807692307692308,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insert#6@3$(217,221, this)",
+        [
+            0.004807692307692308,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%size#4@0$(86,(86,87), this)",
+        [
+            0.004739336492890996,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Attributes%size#4@3$(86,(86,87), this.attributes)",
+        [
+            0.004739336492890996,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@8$(446,(449,450), siblings)",
+        [
+            0.004651162790697674,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@10$(446,450, siblings)",
+        [
+            0.004651162790697674,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@11$(447,(449,450), index)",
+        [
+            0.004651162790697674,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@13$(447,450, index)",
+        [
+            0.004651162790697674,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@0$(125,(126,127), needle)",
+        [
+            0.0045662100456621,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@9$(125,(126,127), hay)",
+        [
+            0.0045662100456621,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@424$(274,(283,285), name)",
+        [
+            0.004484304932735426,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@426$(274,(285,299), name)",
+        [
+            0.004484304932735426,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@428$(274,(299,317), name)",
+        [
+            0.004484304932735426,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@35$(247,(247,760), t)",
+        [
+            0.0044444444444444444,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@38$(247,(247,273), t)",
+        [
+            0.0044444444444444444,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@46$(247,273, t)",
+        [
+            0.0044444444444444444,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@330$(247,(247,760), $SwitchMap$org$jsoup$parser$Token$TokenType)",
+        [
+            0.0044444444444444444,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@333$(247,(247,273), $SwitchMap$org$jsoup$parser$Token$TokenType)",
+        [
+            0.0044444444444444444,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@336$(247,(247,760), t.type)",
+        [
+            0.0044444444444444444,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@339$(247,(247,273), t.type)",
+        [
+            0.0044444444444444444,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilderState$7%process#0@422$(274,(275,283), name)",
+        [
+            0.0044444444444444444,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@1$(443,(443,446), this)",
+        [
+            0.004347826086956522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@2$(443,446, this)",
+        [
+            0.004347826086956522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@3$(443,447, this)",
+        [
+            0.004347826086956522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@5$(443,(443,446), this.parentNode)",
+        [
+            0.004347826086956522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@6$(443,446, this.parentNode)",
+        [
+            0.004347826086956522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@7$(443,446, this.childNodes)",
+        [
+            0.004347826086956522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@9$(446,(449,452), siblings)",
+        [
+            0.004347826086956522,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%nextSibling#15@12$(447,(449,452), index)",
+        [
+            0.004347826086956522,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@0$(16,20, this)",
+        [
+            0.004329004329004329,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@1$(16,30, this)",
+        [
+            0.004329004329004329,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@3$(16,(31,32), root)",
+        [
+            0.004329004329004329,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@5$(16,20, this.visitor)",
+        [
+            0.004329004329004329,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@6$(16,30, this.visitor)",
+        [
+            0.004329004329004329,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@8$(16,(19,20), node)",
+        [
+            0.004329004329004329,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@10$(16,20, node)",
+        [
+            0.004329004329004329,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.select.NodeTraversor%traverse#0@22$(17,20, depth)",
+        [
+            0.004329004329004329,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%matchesLetter#11@7$(170,(171,171), c)",
+        [
+            0.004291845493562232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%matchesLetter#11@9$(170,(171,171), c)",
+        [
+            0.004291845493562232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%matchesLetter#11@11$(170,(171,171), c)",
+        [
+            0.004291845493562232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@37$(93,93, this.pos)",
+        [
+            0.004273504273504274,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@1$(56,63, this)",
+        [
+            0.00425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@3$(56,(61,62), token)",
+        [
+            0.00425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@8$(56,62, token)",
+        [
+            0.00425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@9$(56,(61,62), StartTag)",
+        [
+            0.00425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@11$(56,(61,62), token.type)",
+        [
+            0.00425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendTagName#3@0$(91,(91,91), this)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendTagName#3@2$(91,91, this)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendTagName#3@3$(91,91, append)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendTagName#3@4$(91,(91,91), this.tagName)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%appendTagName#3@6$(91,91, this.tagName)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%createTagPending#3@0$(164,164, this)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%createTagPending#3@1$(164,165, this)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%createTagPending#3@2$(164,(164,164), start)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$1%read#0@2$(10,15, t)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$1%read#0@10$(10,(10,15), r)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$1%read#0@15$(10,15, TagOpen)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%matchesLetter#11@1$(168,(168,170), this)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%matchesLetter#11@2$(168,170, this)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%matchesLetter#11@3$(168,170, this.input)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%matchesLetter#11@4$(168,170, this.pos)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%matchesLetter#11@5$(170,(171,171), c)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%runParser#1@1$(101,(104,106), EOF)",
+        [
+            0.004219409282700422,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%runParser#1@3$(101,(104,106), token)",
+        [
+            0.004219409282700422,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%runParser#1@5$(101,(104,106), token.type)",
+        [
+            0.004219409282700422,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@1$(125,(126,125), needle)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@2$(125,125, arr$)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@3$(125,(125,125), len$)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@4$(125,(125,129), len$)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@5$(125,(125,125), i$)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@7$(125,125, i$)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@8$(125,125, i$)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@10$(125,(126,125), hay)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@11$(125,(125,125), i$)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@12$(125,(125,129), i$)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@13$(125,125, i$)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.StringUtil%in#5@14$(125,125, i$)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$8%read#0@7$(140,152, t)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$8%read#0@8$(140,153, t)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$8%read#0@9$(140,(140,151), r)",
+        [
+            0.004219409282700422,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$8%read#0@13$(140,(151,152), r)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$8%read#0@18$(140,153, TagName)",
+        [
+            0.004219409282700422,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$1%read#0@1$(10,22, t)",
+        [
+            0.0041841004184100415,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokeniserState$1%read#0@11$(10,(10,22), r)",
+        [
+            0.0041841004184100415,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@0$(85,(87,88), this)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@2$(85,(96,96), this)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@4$(85,96, this)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@5$(85,88, this)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@6$(85,93, this)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@7$(85,89, seq)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@11$(85,88, this.pos)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@12$(85,93, this.pos)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@13$(85,96, this.input)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@14$(85,88, this.input)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@15$(85,(96,96), start)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@17$(85,96, start)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@18$(88,(90,91), c)",
+        [
+            0.0041841004184100415,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@19$(88,(90,89), c)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@20$(89,89, arr$)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@21$(89,(89,89), len$)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@22$(89,(89,93), len$)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@23$(89,(89,89), i$)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@25$(89,89, i$)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@26$(89,89, i$)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@27$(89,(90,91), seek)",
+        [
+            0.0041841004184100415,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@28$(89,(90,89), seek)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@29$(89,(89,89), i$)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@30$(89,(89,93), i$)",
+        [
+            0.0041841004184100415,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@31$(89,89, i$)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@32$(89,89, i$)",
+        [
+            0.0041841004184100415,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@33$(93,(96,96), this.pos)",
+        [
+            0.0041841004184100415,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@35$(93,96, this.pos)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consumeToAny#5@36$(93,88, this.pos)",
+        [
+            0.0041841004184100415,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%name#2@1$(71,(71,71), this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%name#2@2$(71,72, this)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%name#2@4$(71,(71,71), this.tagName)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Token$Tag%name#2@5$(71,72, this.tagName)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@1$(36,(36,41), this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@2$(36,(41,42), this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@3$(36,(41,45), this)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@5$(36,(45,50), this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@6$(36,50, this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@7$(36,51, this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@10$(36,42, this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@14$(36,(36,41), this.selfClosingFlagAcknowledged)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@15$(36,(41,42), this.isEmitPending)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@16$(36,(41,45), this.isEmitPending)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@17$(36,42, this.state)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@18$(36,42, this.reader)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@20$(36,(45,50), this.charBuffer)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%read#0@23$(36,51, this.emitPending)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@4$(56,(61,66), token)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@6$(56,(66,71), token)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@10$(56,(61,66), StartTag)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@12$(56,(61,66), token.type)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@14$(56,(66,71), token.type)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tokeniser%emit#1@16$(56,(66,71), EndTag)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%isFalse#4@1$(53,(53,55), val)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%isFalse#5@1$(63,(63,65), val)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%runParser#1@0$(101,(104,105), EOF)",
+        [
+            0.004166666666666667,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%runParser#1@2$(101,(104,105), token)",
+        [
+            0.004166666666666667,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%runParser#1@4$(101,(104,105), token.type)",
+        [
+            0.004166666666666667,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertNode#7@1$(226,(226,228), this)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertNode#7@3$(226,(228,231), this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertNode#7@4$(226,231, this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertNode#7@7$(226,231, node)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TreeBuilder%insertNode#7@11$(226,(226,228), this.stack)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#13@0$(419,421, this)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#13@2$(419,(419,421), child)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#13@3$(419,421, child)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#13@6$(419,(419,421), child.parentNode)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%setParentNode#8@1$(373,(373,375), this)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%setParentNode#8@2$(373,375, this)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%setParentNode#8@4$(373,375, parentNode)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%setParentNode#8@6$(373,(373,375), this.parentNode)",
+        [
+            0.004166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@0$(401,402, this)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@1$(401,403, this)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@2$(401,404, this)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@3$(401,403, this.childNodes)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@4$(401,404, this.childNodes)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@5$(401,401, arr$)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@6$(401,(401,401), len$)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@7$(401,(401,406), len$)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@8$(401,(401,401), i$)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@10$(401,401, i$)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@11$(401,401, i$)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#11@13$(401,(401,406), i$)",
+        [
+            0.004166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%current#1@0$(33,(33,33), this)",
+        [
+            0.004149377593360996,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%current#1@1$(33,(33,33), this)",
+        [
+            0.004149377593360996,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consume#2@1$(37,(37,37), this)",
+        [
+            0.004149377593360996,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consume#2@2$(37,37, this)",
+        [
+            0.004149377593360996,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consume#2@3$(37,38, this)",
+        [
+            0.004149377593360996,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consume#2@4$(37,37, this.input)",
+        [
+            0.004149377593360996,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consume#2@5$(37,37, this.pos)",
+        [
+            0.004149377593360996,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%consume#2@6$(37,38, this.pos)",
+        [
+            0.004149377593360996,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%current#1@2$(33,33, this)",
+        [
+            0.004132231404958678,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%current#1@3$(33,33, this.input)",
+        [
+            0.004132231404958678,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%current#1@4$(33,33, this.pos)",
+        [
+            0.004132231404958678,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%isEmpty#0@1$(29,(29,29), this)",
+        [
+            0.004132231404958678,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%isEmpty#0@3$(29,(29,29), this.length)",
+        [
+            0.004132231404958678,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%isEmpty#0@5$(29,(29,29), this.pos)",
+        [
+            0.004132231404958678,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%isEmpty#0@0$(29,(29,29), this)",
+        [
+            0.004098360655737705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%isEmpty#0@2$(29,(29,29), this.length)",
+        [
+            0.004098360655737705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.CharacterReader%isEmpty#0@4$(29,(29,29), this.pos)",
+        [
+            0.004098360655737705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@0$(48,55, tagName)",
+        [
+            0.004098360655737705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@1$(52,(53,55), tag)",
+        [
+            0.004098360655737705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@4$(55,59, tag)",
+        [
+            0.004098360655737705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@2$(52,(53,59), tag)",
+        [
+            0.004048582995951417,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@3$(52,59, tag)",
+        [
+            0.004048582995951417,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%notEmpty#7@3$(91,(91,93), string)",
+        [
+            0.003952569169960474,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%notEmpty#7@0$(91,(91,91), string)",
+        [
+            0.00392156862745098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%notNull#0@1$(15,(15,17), obj)",
+        [
+            0.0037593984962406013,
+            true,
+            "clear"
+        ]
+    ]
+]

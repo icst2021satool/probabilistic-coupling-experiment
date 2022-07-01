@@ -1,0 +1,2634 @@
+[
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@8$(377,381, this.pos)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@39$(139,(140,142), attribute)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@2$(182,206, this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@20$(182,206, this.tq)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@37$(183,(203,206), key)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@1$(182,(186,203), this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@19$(182,(186,203), this.tq)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@39$(184,204, value)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWhitespace#7@1$(139,(139,139), this)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@0$(69,(70,71), this)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@10$(69,(70,71), count)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@9$(182,(196,199), this)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@27$(182,(196,199), this.tq)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@7$(182,(191,194), this)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@8$(182,(196,196), this)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@11$(182,(196,196), this)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@13$(182,(196,197), this)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@15$(182,197, this)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@25$(182,(191,194), this.tq)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@26$(182,(196,196), this.tq)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@29$(182,(196,196), this.tq)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@31$(182,(196,197), this.tq)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@33$(182,197, this.tq)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@42$(194,199, valueAccum)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@43$(194,197, valueAccum)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@5$(182,(189,191), this)",
+        [
+            0.010752688172043012,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@23$(182,(189,191), this.tq)",
+        [
+            0.010752688172043012,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@4$(377,(378,379), this)",
+        [
+            0.009615384615384616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@5$(377,379, this)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@9$(377,379, this.pos)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@12$(379,381, this.pos)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@13$(379,379, this.pos)",
+        [
+            0.009615384615384616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@37$(137,141, attributes)",
+        [
+            0.009615384615384616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@38$(139,(140,141), attribute)",
+        [
+            0.009615384615384616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@40$(139,141, attribute)",
+        [
+            0.009615384615384616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@36$(183,(203,204), key)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@38$(183,204, key)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@0$(377,(378,378), this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@2$(377,381, this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@3$(377,(378,378), this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@7$(377,(378,381), this)",
+        [
+            0.009523809523809525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@10$(377,381, this.queue)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeAttributeKey#21@11$(377,381, start)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@0$(132,(138,138), this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@14$(132,(138,139), this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@16$(132,139, this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@17$(132,(138,138), this.tq)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@24$(132,(138,139), this.tq)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@0$(182,(186,187), this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@3$(182,187, this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@10$(182,201, this)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@18$(182,(186,187), this.tq)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@21$(182,187, this.tq)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseAttribute#5@28$(182,201, this.tq)",
+        [
+            0.009523809523809525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWhitespace#7@2$(139,(139,139), this)",
+        [
+            0.008695652173913044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWhitespace#7@4$(139,(139,139), this.queue)",
+        [
+            0.008695652173913044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWhitespace#7@6$(139,(139,139), this.pos)",
+        [
+            0.008695652173913044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeWhitespace#16@0$(314,(315,316), this)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeWhitespace#16@2$(314,316, this)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeWhitespace#16@3$(314,316, this.pos)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeWhitespace#16@6$(317,319, seen)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@6$(233,243, this)",
+        [
+            0.007692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@9$(233,(242,243), child)",
+        [
+            0.007692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@20$(233,243, this.baseUri)",
+        [
+            0.007692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@21$(233,(242,243), bodyTag)",
+        [
+            0.007692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@23$(233,243, headTag)",
+        [
+            0.007692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@33$(240,244, implicit)",
+        [
+            0.007692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@26$(270,(270,277), i)",
+        [
+            0.007518796992481203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@10$(233,(242,246), child)",
+        [
+            0.007407407407407408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@22$(233,(242,246), bodyTag)",
+        [
+            0.007407407407407408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@1$(233,(237,239), this)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@3$(233,240, this)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@4$(233,249, this)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@5$(233,251, this)",
+        [
+            0.007352941176470588,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@11$(233,246, child)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@12$(233,251, child)",
+        [
+            0.007352941176470588,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@15$(233,(250,251), isEmptyElement)",
+        [
+            0.007352941176470588,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@17$(233,(237,239), this.relaxed)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@19$(233,240, this.baseUri)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@25$(233,251, this.stack)",
+        [
+            0.007352941176470588,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@28$(234,239, childTag)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@29$(235,(237,237), validAncestor)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@31$(240,246, implicit)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@32$(240,249, implicit)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@34$(249,252, root)",
+        [
+            0.007352941176470588,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@4$(96,(96,100), len$)",
+        [
+            0.006993006993006993,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@12$(96,(96,100), i$)",
+        [
+            0.006993006993006993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@8$(263,(273,270), childTag)",
+        [
+            0.00684931506849315,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@22$(270,270, i)",
+        [
+            0.00684931506849315,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@24$(272,(273,270), parent2)",
+        [
+            0.00684931506849315,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%getImplicitParent#5@0$(177,(177,177), this)",
+        [
+            0.00684931506849315,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%getImplicitParent#5@2$(177,177, this)",
+        [
+            0.00684931506849315,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%getImplicitParent#5@3$(177,(177,177), this.ancestors)",
+        [
+            0.00684931506849315,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%getImplicitParent#5@5$(177,177, this.ancestors)",
+        [
+            0.00684931506849315,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@10$(263,(263,264), childTag)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@17$(263,(263,264), htmlTag)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@5$(189,(192,196), child)",
+        [
+            0.006756756756756757,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@11$(189,(192,196), child.ancestors)",
+        [
+            0.006756756756756757,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@20$(192,(192,196), i)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@11$(263,(263,266), childTag)",
+        [
+            0.006666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@18$(263,(263,266), htmlTag)",
+        [
+            0.006666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%<init>#0@0$(29,41, this)",
+        [
+            0.006666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%<init>#0@1$(29,42, this)",
+        [
+            0.006666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%<init>#0@4$(29,41, baseUri)",
+        [
+            0.006666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%<init>#0@7$(29,(37,41), isBodyFragment)",
+        [
+            0.006666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%<init>#0@8$(33,42, this.stack)",
+        [
+            0.006666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@1$(189,(193,192), this)",
+        [
+            0.006666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@7$(189,(193,192), child)",
+        [
+            0.006666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@13$(189,(193,192), child.ancestors)",
+        [
+            0.006666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@17$(192,(193,192), i)",
+        [
+            0.006666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@18$(192,192, i)",
+        [
+            0.006666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%unescape#1@0$(48,(48,49), string)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Entities%unescape#1@4$(48,49, string)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@4$(132,(148,153), this)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@5$(132,153, this)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@20$(132,(148,153), this.tq)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@21$(132,153, this.tq)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@56$(147,155, isEmptyElement)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@22$(74,(76,79), this)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@26$(74,(79,82), child)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@37$(74,(79,82), child.isBlock)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@39$(74,(76,79), this.canContainBlock)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@42$(144,(158,172), tag)",
+        [
+            0.006172839506172839,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@0$(233,258, this)",
+        [
+            0.006172839506172839,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@8$(233,258, child)",
+        [
+            0.006172839506172839,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@13$(233,(257,258), isEmptyElement)",
+        [
+            0.006172839506172839,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@24$(233,258, this.stack)",
+        [
+            0.006172839506172839,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeWhitespace#16@4$(314,319, seen)",
+        [
+            0.006134969325153374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@0$(96,(97,98), this)",
+        [
+            0.006134969325153374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@9$(96,(97,98), s)",
+        [
+            0.006134969325153374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@14$(96,96, i$)",
+        [
+            0.006134969325153374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@1$(132,(138,144), this)",
+        [
+            0.006134969325153374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@18$(132,(138,144), this.tq)",
+        [
+            0.006134969325153374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@23$(74,(76,76), child)",
+        [
+            0.006134969325153374,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@34$(74,(76,76), child.isBlock)",
+        [
+            0.006134969325153374,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%notEmpty#6@0$(82,(82,82), string)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%notEmpty#6@3$(82,(82,84), string)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWhitespace#7@0$(139,(139,139), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWhitespace#7@3$(139,(139,139), this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWhitespace#7@5$(139,(139,139), this.queue)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWhitespace#7@7$(139,(139,139), this.pos)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeWhitespace#16@1$(314,(315,319), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@1$(96,(97,96), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@2$(96,96, arr$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@3$(96,(96,96), len$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@5$(96,(96,96), i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@7$(96,96, i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@8$(96,96, i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@10$(96,(97,96), s)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@11$(96,(96,96), i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#3@13$(96,96, i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@1$(104,(104,107), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@3$(104,(108,107), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@4$(104,107, seq)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@6$(104,(108,107), this.queue)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@8$(104,(108,107), this.pos)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@9$(107,107, arr$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@10$(107,(107,107), len$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@11$(107,(107,111), len$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@12$(107,(107,107), i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@14$(107,107, i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@15$(107,107, i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@17$(107,(108,107), c)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@18$(107,(107,107), i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@19$(107,(107,111), i$)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@20$(107,107, i$)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesAny#4@21$(107,107, i$)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesStartTag#5@2$(116,(116,116), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesStartTag#5@4$(116,(116,116), this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesStartTag#5@6$(116,(116,116), this.queue)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesStartTag#5@8$(116,(116,116), this.queue)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesStartTag#5@10$(116,(116,116), this.pos)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesStartTag#5@12$(116,(116,116), this.pos)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchChomp#6@1$(126,(126,130), this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchChomp#6@4$(126,(126,130), seq)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWord#8@0$(147,(147,147), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWord#8@2$(147,(147,147), this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWord#8@3$(147,(147,147), this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWord#8@4$(147,(147,147), this.queue)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWord#8@5$(147,(147,147), this.queue)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWord#8@6$(147,(147,147), this.pos)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesWord#8@7$(147,(147,147), this.pos)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consume#10@1$(175,(175,177), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consume#10@3$(175,(178,181), this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consume#10@4$(175,181, this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consume#10@6$(175,(175,177), seq)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consume#10@7$(175,177, seq)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consume#10@8$(175,181, this.pos)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consume#10@10$(177,(178,181), len)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consume#10@11$(177,181, len)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@0$(339,(340,340), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@2$(339,343, this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@3$(339,(340,340), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@4$(339,(340,341), this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@5$(339,341, this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@7$(339,(340,343), this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@9$(339,341, this.pos)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@10$(339,343, this.queue)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@11$(339,343, start)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%consumeTagName#18@12$(341,343, this.pos)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@2$(132,145, this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@6$(132,155, this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@26$(132,145, this.baseUri)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@34$(133,144, tagName)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@36$(137,145, attributes)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@51$(145,155, child)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%parseStartTag#4@53$(145,(172,179), child)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@7$(233,255, child)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@26$(233,255, parent)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@27$(233,259, parent)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%addChildToParent#7@30$(235,(237,255), validAncestor)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@0$(263,(263,263), this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@2$(263,270, this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@3$(263,271, this)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@6$(263,(266,270), childTag)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@12$(263,(263,263), this.stack)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@14$(263,270, this.stack)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@15$(263,271, this.stack)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@19$(270,(270,271), i)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%stackHasValidParent#8@21$(270,271, i)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%popStackToSuitableContainer#9@0$(281,(281,282), this)",
+        [
+            0.006097560975609756,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%popStackToSuitableContainer#9@2$(281,(282,283), this)",
+        [
+            0.006097560975609756,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%popStackToSuitableContainer#9@5$(281,283, this)",
+        [
+            0.006097560975609756,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%popStackToSuitableContainer#9@6$(281,(282,283), tag)",
+        [
+            0.006097560975609756,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Parser%popStackToSuitableContainer#9@8$(281,(281,282), this.stack)",
+        [
+            0.006097560975609756,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@3$(189,(189,192), child)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@4$(189,(192,193), child)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@9$(189,(189,192), child.ancestors)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@10$(189,(192,193), child.ancestors)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isValidAncestor#6@14$(192,(192,193), i)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@6$(201,(206,206), this)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@17$(201,(206,206), this.tagName)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@21$(204,(206,206), tag)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@25$(204,(206,206), tag.tagName)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@3$(69,(74,73), this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@5$(69,(74,73), seq)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@7$(69,(74,73), this.queue)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@9$(69,(74,73), this.pos)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@14$(73,(73,77), count)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@16$(73,(74,73), count)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@17$(73,73, count)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchesStartTag#5@0$(116,(116,116), this)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchChomp#6@0$(126,(126,127), this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchChomp#6@2$(126,127, this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchChomp#6@3$(126,(126,127), seq)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchChomp#6@5$(126,127, seq)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matchChomp#6@6$(126,127, this.pos)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@1$(201,(201,202), this)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@3$(201,(202,204), this)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@4$(201,(206,206), this)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@9$(201,(201,202), o)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@10$(201,(202,202), o)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@13$(201,(202,204), o)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@14$(201,204, o)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@15$(201,(206,206), this.tagName)",
+        [
+            0.006060606060606061,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%setParentNode#3@1$(239,(239,241), this)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%setParentNode#3@2$(239,241, this)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%setParentNode#3@4$(239,241, parentNode)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%setParentNode#3@6$(239,(239,241), this.parentNode)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@0$(267,268, this)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@1$(267,269, this)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@2$(267,270, this)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@3$(267,269, this.childNodes)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@4$(267,270, this.childNodes)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@5$(267,267, arr$)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@6$(267,(267,267), len$)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@7$(267,(267,272), len$)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@8$(267,(267,267), i$)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@10$(267,267, i$)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@11$(267,267, i$)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%addChildren#6@13$(267,(267,272), i$)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#8@0$(285,287, this)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#8@2$(285,(285,287), child)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#8@3$(285,287, child)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.nodes.Node%reparentChild#8@6$(285,(285,287), child.parentNode)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@1$(69,(70,73), this)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@2$(69,(74,75), this)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@4$(69,(74,75), seq)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@6$(69,(74,75), this.queue)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@8$(69,(74,75), this.pos)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@11$(69,(70,73), count)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@12$(69,73, count)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@13$(73,(73,74), count)",
+        [
+            0.006024096385542169,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%matches#2@15$(73,(74,75), count)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@0$(201,(201,201), this)",
+        [
+            0.005988023952095809,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%equals#7@8$(201,(201,201), o)",
+        [
+            0.005988023952095809,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@0$(50,59, defaultAncestor)",
+        [
+            0.005988023952095809,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@1$(50,59, defaultAncestor.tagName)",
+        [
+            0.005988023952095809,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@2$(51,58, tagName)",
+        [
+            0.005988023952095809,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@3$(55,(56,58), tag)",
+        [
+            0.005988023952095809,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@6$(58,64, tag)",
+        [
+            0.005988023952095809,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@1$(435,443, this)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@2$(435,438, this)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@3$(435,440, this)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@4$(435,(435,435), tagNames)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@7$(435,(435,438), tagNames)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@8$(435,438, tagNames)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@9$(435,439, tagNames)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@10$(438,440, this.ancestors)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@11$(439,439, arr$)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@12$(439,(439,439), len$)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@13$(439,(439,443), len$)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@14$(439,(439,439), i$)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@16$(439,439, i$)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@17$(439,439, i$)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setAncestor#9@19$(439,(439,443), i$)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setExcludes#10@0$(447,448, this)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setExcludes#10@1$(447,455, this)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setExcludes#10@4$(447,(447,447), tagNames)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%setExcludes#10@6$(447,(447,448), tagNames)",
+        [
+            0.005988023952095809,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@1$(74,(82,85), this)",
+        [
+            0.005952380952380952,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@2$(74,(85,85), this)",
+        [
+            0.005952380952380952,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@5$(74,(85,89), this)",
+        [
+            0.005952380952380952,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@7$(74,(89,93), this)",
+        [
+            0.005952380952380952,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@9$(74,(93,102), this)",
+        [
+            0.005952380952380952,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@11$(74,(102,109), this)",
+        [
+            0.005952380952380952,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@43$(74,(82,85), this.optionalClosing)",
+        [
+            0.005952380952380952,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@44$(74,(85,85), this.empty)",
+        [
+            0.005952380952380952,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@47$(74,(93,102), this.limitChildren)",
+        [
+            0.005952380952380952,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%canContain#1@50$(74,(102,109), this.excludes)",
+        [
+            0.005952380952380952,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isData#3@1$(141,(141,141), this)",
+        [
+            0.005952380952380952,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%isData#3@5$(141,(141,141), this.canContainInline)",
+        [
+            0.005952380952380952,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%isEmpty#0@1$(30,(30,30), this)",
+        [
+            0.005917159763313609,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.TokenQueue%isEmpty#0@0$(30,(30,30), this)",
+        [
+            0.0058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%notEmpty#5@3$(72,(72,74), string)",
+        [
+            0.005714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@4$(55,(56,64), tag)",
+        [
+            0.005714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.parser.Tag%valueOf#0@5$(55,64, tag)",
+        [
+            0.005714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%notEmpty#5@0$(72,(72,72), string)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jsoup.helper.Validate%notNull#0@1$(15,(15,17), obj)",
+        [
+            0.005555555555555556,
+            true,
+            "clear"
+        ]
+    ]
+]

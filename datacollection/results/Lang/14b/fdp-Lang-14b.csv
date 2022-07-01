@@ -1,0 +1,9 @@
+FAULT DETECTION ;Uncon;Status;DUAs; Version;14b
+0.058824;True;clear;org.apache.commons.lang3.StringUtils%equals#16@0$(782,(782,783), cs1)
+0.058824;False;clear;org.apache.commons.lang3.StringUtils%equals#16@1$(782,(782,785), cs1)
+0.058824;False;clear;org.apache.commons.lang3.StringUtils%equals#16@2$(782,(785,785), cs1)
+0.058824;True;clear;org.apache.commons.lang3.StringUtils%equals#16@4$(782,788, cs1)
+0.058824;True;clear;org.apache.commons.lang3.StringUtils%equals#16@5$(782,(782,783), cs2)
+0.058824;False;clear;org.apache.commons.lang3.StringUtils%equals#16@6$(782,(782,785), cs2)
+0.058824;True;clear;org.apache.commons.lang3.StringUtils%equals#16@8$(782,(785,788), cs2)
+0.058824;True;clear;org.apache.commons.lang3.StringUtils%equals#16@9$(782,788, cs2)

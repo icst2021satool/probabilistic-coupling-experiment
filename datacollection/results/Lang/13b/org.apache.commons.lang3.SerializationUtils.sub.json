@@ -1,0 +1,27 @@
+{
+"Class" : "org.apache.commons.lang3.SerializationUtils", 
+"Methods" : [{ "Name" : "clone" ,
+"Duas" : "7" ,
+"Subsumers" : 3,
+"0" : [ 0], "S0" : [0 ],
+"1" : [ 6, 4], "S1" : [1, 2, 3, 4, 6 ],
+"2" : [ 5], "S2" : [1, 2, 3, 5 ]
+},{ "Name" : "serialize" ,
+"Duas" : "7" ,
+"Subsumers" : 3,
+"0" : [ 6, 4], "S0" : [0, 2, 3, 4, 6 ],
+"1" : [ 5], "S1" : [0, 2, 3, 5 ],
+"2" : [ 1], "S2" : [1 ]
+},{ "Name" : "deserialize" ,
+"Duas" : "6" ,
+"Subsumers" : 3,
+"0" : [ 0], "S0" : [0 ],
+"1" : [ 5, 3], "S1" : [1, 2, 3, 5 ],
+"2" : [ 4], "S2" : [1, 2, 4 ]
+},{ "Name" : "deserialize" ,
+"Duas" : "3" ,
+"Subsumers" : 2,
+"0" : [ 0], "S0" : [0 ],
+"1" : [ 2, 1], "S1" : [1, 2 ]
+}]
+}

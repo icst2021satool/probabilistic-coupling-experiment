@@ -1,0 +1,1666 @@
+[
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@18$(300,(328,333), i)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@29$(129,(138,141), currentStrategy)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@29$(301,(328,333), length)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@27$(301,(324,345), length)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@74$(324,(324,345), i)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@75$(324,345, i)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%getStrategy#11@4$(535,(535,537), formatField)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%getStrategy#11@28$(535,(537,538), formatField)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%getStrategy#11@30$(535,538, formatField)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%getStrategy#11@56$(538,542, formatField)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@124$(273,(274,277), sub)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@125$(273,277, sub)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@128$(277,284, rule)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@2$(298,(328,333), pattern)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@17$(300,(328,328), i)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@20$(300,(328,333), i)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@28$(301,(328,328), length)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@53$(322,(333,333), inLiteral)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@55$(325,(327,328), c)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@68$(333,(335,335), inLiteral)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@69$(333,(335,340), inLiteral)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@71$(333,(333,333), inLiteral)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@79$(324,(328,328), i)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@82$(324,(328,333), i)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#2@14$(250,(251,260), date)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#2@15$(250,260, date)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%selectNumberRule#3@1$(357,359, field)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%selectNumberRule#3@4$(357,(357,359), padding)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@0$(276,282, this)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@1$(276,(285,286), this)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@2$(276,(285,289), this)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@3$(276,286, this)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@4$(276,287, this)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@5$(276,289, pos)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@6$(276,282, this.timeZone)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@7$(276,282, this.locale)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@8$(276,(285,286), this.strategies)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@9$(276,(285,289), this.strategies)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@10$(276,286, this.strategies)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@11$(276,289, offset)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@13$(277,(278,282), matcher)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@14$(277,289, matcher)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@15$(277,287, matcher)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@16$(282,290, cal)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@17$(282,287, cal)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@18$(285,(285,286), i)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@20$(285,286, i)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%parse#3@22$(286,(285,289), i)",
+        [
+            0.05714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%isNextNumber#10@1$(485,(485,485), this)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%isNextNumber#10@5$(485,(485,485), this.nextStrategy)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@23$(300,(309,345), i)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@77$(324,324, i)",
+        [
+            0.047619047619047616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@13$(300,345, i)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%getStrategy#11@16$(535,(535,566), formatField)",
+        [
+            0.03636363636363636,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%getStrategy#11@43$(535,566, DAY_OF_MONTH_STRATEGY)",
+        [
+            0.03636363636363636,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@17$(305,(306,331), c)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@8$(116,(144,145), this)",
+        [
+            0.031746031746031744,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@15$(120,(144,145), regex)",
+        [
+            0.031746031746031744,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@20$(121,145, collector)",
+        [
+            0.031746031746031744,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@39$(142,(144,145), currentStrategy)",
+        [
+            0.031746031746031744,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@41$(142,145, currentStrategy)",
+        [
+            0.031746031746031744,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@4$(116,(138,141), this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@14$(120,(138,141), regex)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@0$(304,333, regex)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@3$(304,331, regex)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@4$(304,(304,305), value)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@5$(304,(304,333), value)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@6$(304,305, value)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@12$(304,(304,305), i)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@14$(304,305, i)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@16$(304,304, i)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@20$(305,331, c)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%escapeRegex#4@27$(304,(304,333), i)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser$NumberStrategy%addRegex#0@1$(718,(718,722), parser)",
+        [
+            0.029850746268656716,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser$NumberStrategy%addRegex#0@3$(718,722, regex)",
+        [
+            0.029850746268656716,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@0$(116,128, this)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@1$(116,129, this)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@2$(116,137, this)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@5$(116,141, this)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@6$(116,142, this)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@7$(116,133, this)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@10$(116,147, this)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@11$(116,148, this)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@12$(116,149, this)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@17$(120,149, regex)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@19$(121,148, collector)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@22$(123,(124,128), patternMatcher)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@23$(123,128, patternMatcher)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@24$(123,131, patternMatcher)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@25$(123,(132,133), patternMatcher)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@26$(123,(132,136), patternMatcher)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@27$(123,136, patternMatcher)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@34$(136,141, nextFormatField)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDateParser%init#0@35$(137,142, this.nextStrategy)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@10$(70,82, timeZone)",
+        [
+            0.029411764705882353,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@14$(70,82, locale)",
+        [
+            0.029411764705882353,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@1$(70,82, this)",
+        [
+            0.024390243902439025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@2$(70,83, this)",
+        [
+            0.024390243902439025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@6$(70,82, pattern)",
+        [
+            0.024390243902439025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@16$(70,83, this.cInstanceCache)",
+        [
+            0.024390243902439025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@21$(79,83, key)",
+        [
+            0.024390243902439025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@22$(80,(81,82), format)",
+        [
+            0.024390243902439025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@25$(82,90, format)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@27$(83,(84,90), previousValue)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@1$(199,(199,208), this)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@6$(199,(199,208), this.hashCode)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@7$(199,208, this.hashCode)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@9$(168,217, this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@60$(186,217, tokenLen)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@90$(192,(194,217), c)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@105$(217,284, rule)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@8$(70,(73,76), timeZone)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@9$(70,79, timeZone)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@12$(70,(76,79), locale)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@13$(70,79, locale)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@123$(273,(274,275), sub)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@126$(273,275, sub)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@127$(275,284, rule)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@31$(301,(309,345), length)",
+        [
+            0.018867924528301886,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@60$(325,(335,335), c)",
+        [
+            0.018867924528301886,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@62$(325,(335,337), c)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@64$(325,(335,335), c)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@0$(298,325, pattern)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@5$(298,320, buf)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@7$(298,340, buf)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@11$(300,(324,325), i)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@14$(300,325, i)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@15$(300,324, i)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@26$(301,(324,325), length)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@33$(303,(304,304), c)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@35$(303,(304,320), c)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@56$(325,(327,335), c)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@57$(325,340, c)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@58$(325,(335,335), c)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@72$(337,345, i)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@73$(324,(324,325), i)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@76$(324,325, i)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@78$(324,337, i)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@43$(183,273, token)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@78$(192,(194,273), c)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@34$(303,(304,304), c)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@36$(303,(304,307), c)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@42$(303,(304,304), c)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@3$(298,310, pattern)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@4$(298,345, indexRef)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@6$(298,346, buf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@9$(298,307, buf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@22$(300,(309,310), i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@24$(300,310, i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@30$(301,(309,310), length)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@32$(303,(304,304), c)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@38$(303,307, c)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@40$(303,(311,345), c)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parseToken#2@45$(310,(311,345), peek)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@0$(168,183, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@18$(168,183, this.mPattern)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@26$(169,287, rules)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@27$(169,284, rules)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@34$(178,(181,182), length)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@35$(178,(181,287), length)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@36$(179,182, indexRef)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@37$(179,183, indexRef)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@38$(179,184, indexRef)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@39$(181,(181,182), i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@41$(181,182, i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@42$(183,192, token)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@45$(184,181, i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@47$(186,(187,192), tokenLen)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@129$(181,(181,182), i)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@130$(181,(181,287), i)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%parsePattern#1@131$(181,182, i)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@0$(148,156, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@1$(148,153, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@2$(149,153, this.mRules)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@4$(151,153, len)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@5$(152,152, i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@6$(152,(152,153), i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@7$(152,(152,156), i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@8$(152,153, i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@9$(152,152, i)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@10$(153,156, len)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FastDatePrinter%init#0@11$(153,153, len)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@0$(70,80, this)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@4$(70,(70,73), pattern)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@5$(70,79, pattern)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache%getInstance#0@15$(70,80, this.cInstanceCache)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@0$(199,(199,200), this)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@2$(199,208, this)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@3$(199,201, this)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@4$(199,206, this)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@5$(199,(199,200), this.hashCode)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@8$(199,201, this.keys)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@10$(200,203, rc)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@11$(201,201, arr$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@12$(201,(201,201), len$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@13$(201,(201,206), len$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@14$(201,(201,201), i$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@16$(201,201, i$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@17$(201,201, i$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@18$(201,(202,203), key)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@20$(201,203, key)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@21$(203,206, rc)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@22$(203,203, rc)",
+        [
+            0.016666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@23$(201,(201,201), i$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@24$(201,(201,206), i$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@25$(201,201, i$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@26$(201,201, i$)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.time.FormatCache$MultipartKey%hashCode#0@27$(206,208, this.hashCode)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ]
+]

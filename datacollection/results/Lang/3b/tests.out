@@ -1,0 +1,68 @@
+JUnit version 4.11
+DateUtilsTest: Default Locale=en
+.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................Ratio=74% array=100 count=1 extract=5574947 bitset=4132335
+Ratio=42% array=100 count=10 extract=10264432 bitset=4402867
+Ratio=9% array=100 count=50 extract=43557035 bitset=4313037
+Ratio=7% array=100 count=100 extract=49640773 bitset=3723449
+Ratio=58% array=1000 count=10 extract=47370025 bitset=27662430
+Ratio=25% array=1000 count=100 extract=79671767 bitset=20139067
+Ratio=13% array=1000 count=500 extract=82705569 bitset=11191820
+Ratio=0% array=1000 count=1000 extract=113404949 bitset=900427
+.Ratio=48% count=0 hash=258102 bits=125665
+Ratio=34% count=5 hash=1244849 bits=428052
+Ratio=32% count=10 hash=2144215 bits=687905
+Ratio=12% count=200 hash=38206780 bits=4900590
+Ratio=15% count=50 hash=7179777 bits=1138946
+Ratio=16% count=100 hash=14191259 bits=2320352
+Ratio=24% count=1000 hash=85716128 bits=20773563
+Ratio=19% count=2000 hash=214827504 bits=41763709
+...........................................................................................................................................................................................................................................................................................................................................Can't test IS_JAVA value: 1.8.0_332
+...............................................................................................................................................................................................................................III...........I.......................................................................................................................................................................................................................................................................................................................................................................................................................................E.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................>>FastDateFormatTest: FastDateParser:1673  SimpleDateFormat:5442
+.......................................................................................................................................................
+Time: 18.394
+There was 1 failure:
+1) testStringCreateNumberEnsureNoPrecisionLoss(org.apache.commons.lang3.math.NumberUtilsTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.apache.commons.lang3.math.NumberUtilsTest.testStringCreateNumberEnsureNoPrecisionLoss(NumberUtilsTest.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+
+FAILURES!!!
+Tests run: 2286,  Failures: 1
+
+
+real	0m19.089s
+user	0m36.065s
+sys	0m0.959s

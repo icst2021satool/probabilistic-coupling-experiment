@@ -1,0 +1,1026 @@
+[
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@26$(1451,(1455,1462), i)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@18$(1449,(1455,1462), csLast)",
+        [
+            0.6666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#40@0$(1715,(1715,1715), cs)",
+        [
+            0.6666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#40@2$(1715,1718, cs)",
+        [
+            0.6666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#40@4$(1715,(1715,1718), invalidChars)",
+        [
+            0.6666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#40@5$(1715,1718, invalidChars)",
+        [
+            0.6666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@0$(1372,(1372,1372), cs)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@2$(1372,1375, cs)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@3$(1372,1378, cs)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@5$(1372,(1372,1375), searchChars)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@6$(1372,1376, searchChars)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@7$(1372,(1380,1382), searchChars)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@9$(1375,(1377,1378), csLen)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@11$(1376,(1379,1380), searchLen)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@13$(1377,(1377,1378), i)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@15$(1377,1378, i)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@17$(1377,1382, i)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@18$(1378,(1380,1382), ch)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@20$(1379,(1379,1380), j)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#31@22$(1379,(1380,1382), j)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#32@0$(1412,(1412,1412), cs)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#32@2$(1412,1415, cs)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#32@4$(1412,(1412,1415), searchChars)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAny#32@5$(1412,1415, searchChars)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@28$(1537,(1538,1537), j)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@29$(1537,1537, j)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@0$(1570,(1570,1570), str)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@2$(1570,1573, str)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@3$(1570,1575, str)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@5$(1570,(1570,1573), searchChars)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@6$(1570,(1576,1577), searchChars)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@7$(1570,(1576,1574), searchChars)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@8$(1573,(1574,1575), strLen)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@10$(1574,(1574,1575), i)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@12$(1574,1575, i)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@13$(1574,1574, i)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@15$(1575,(1576,1577), ch)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@16$(1575,(1576,1574), ch)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@17$(1574,(1574,1575), i)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@19$(1574,1575, i)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@20$(1574,1574, i)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#36@21$(1574,1577, i)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@0$(1674,(1674,1674), cs)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@2$(1674,1677, cs)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@3$(1674,1680, cs)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@5$(1674,(1674,1677), searchChars)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@6$(1674,1678, searchChars)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@7$(1674,(1682,1685), searchChars)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@9$(1677,(1679,1680), csLen)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@11$(1678,(1681,1682), searchLen)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@13$(1679,(1679,1680), i)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@15$(1679,1680, i)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@17$(1680,(1682,1685), ch)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@19$(1681,(1681,1682), j)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@21$(1681,(1682,1685), j)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@8$(1674,(1682,1681), searchChars)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@10$(1677,(1679,1689), csLen)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@12$(1678,(1681,1679), searchLen)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@16$(1679,1679, i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@18$(1680,(1682,1681), ch)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@22$(1681,(1682,1681), j)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@23$(1681,1681, j)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@24$(1681,(1681,1682), j)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@25$(1681,(1681,1679), j)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@27$(1681,(1682,1681), j)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@28$(1681,1681, j)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsNone#39@30$(1679,(1679,1689), i)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#34@0$(1498,1501, cs)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#34@2$(1498,(1498,1501), searchChars)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#34@3$(1498,1501, searchChars)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.ArrayUtils%isEmpty#116@0$(3279,(3279,3279), array)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.ArrayUtils%isEmpty#116@3$(3279,(3279,3282), array)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@0$(1444,(1444,1444), cs)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@2$(1444,1447, cs)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@3$(1444,1452, cs)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@7$(1444,(1444,1447), searchChars)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@8$(1444,1448, searchChars)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@9$(1444,(1454,1455), searchChars)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@10$(1444,(1454,1453), searchChars)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@13$(1447,(1451,1452), csLength)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@14$(1447,(1451,1467), csLength)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@15$(1448,(1453,1454), searchLength)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@16$(1448,(1453,1451), searchLength)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@21$(1451,(1451,1452), i)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@23$(1451,1452, i)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@24$(1451,1451, i)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@29$(1452,(1454,1455), ch)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@30$(1452,(1454,1453), ch)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@35$(1453,(1453,1454), j)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@37$(1453,(1454,1455), j)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@38$(1453,(1454,1453), j)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@39$(1453,1453, j)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@44$(1453,(1453,1454), j)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@45$(1453,(1453,1451), j)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@47$(1453,(1454,1453), j)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@48$(1453,1453, j)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@54$(1451,(1451,1467), i)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@8$(1529,(1538,1537), searchChars)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@12$(1533,(1537,1542), searchLen)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@19$(1536,(1538,1537), ch)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@23$(1537,(1538,1537), j)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@24$(1537,1537, j)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@25$(1537,(1537,1538), j)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@26$(1537,(1537,1542), j)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@27$(1537,(1538,1539), j)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@33$(1535,1542, i)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@53$(1451,(1451,1452), i)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@55$(1451,1452, i)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%containsAny#33@56$(1451,1451, i)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@0$(1529,(1529,1529), cs)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@2$(1529,1532, cs)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@3$(1529,1536, cs)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@5$(1529,(1529,1532), searchChars)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@6$(1529,1533, searchChars)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@7$(1529,(1538,1539), searchChars)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@9$(1532,(1535,1536), csLen)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@11$(1533,(1537,1538), searchLen)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@13$(1535,(1535,1536), i)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@15$(1535,1536, i)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@17$(1535,1535, i)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@18$(1536,(1538,1539), ch)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@20$(1537,(1537,1538), j)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@22$(1537,(1538,1539), j)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@30$(1535,(1535,1536), i)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@32$(1535,1536, i)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%indexOfAnyBut#35@34$(1535,1535, i)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%isEmpty#0@3$(194,(194,194), cs)",
+        [
+            0.061855670103092786,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.lang3.StringUtils%isEmpty#0@0$(194,(194,194), cs)",
+        [
+            0.06060606060606061,
+            false,
+            "clear"
+        ]
+    ]
+]
