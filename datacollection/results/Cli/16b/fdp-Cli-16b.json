@@ -1,0 +1,6138 @@
+[
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@10$(122,(126,126), this)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@22$(122,(126,126), this.writable)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@31$(124,(126,136), f)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@9$(183,214, buffer)",
+        [
+            0.5714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@14$(183,188, buffer)",
+        [
+            0.5714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@17$(183,(183,183), helpSettings)",
+        [
+            0.5714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@20$(183,(183,183), DISPLAY_OPTIONAL)",
+        [
+            0.5714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@27$(183,(187,188), optional)",
+        [
+            0.5714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@29$(183,(213,214), optional)",
+        [
+            0.5714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@5$(137,(147,165), this)",
+        [
+            0.5714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@25$(137,(147,165), this.aliases)",
+        [
+            0.5714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@31$(246,(249,249), option)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@33$(249,(261,262), validate)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%isRequired#7@1$(473,(473,473), this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@12$(144,(158,159), commandLine)",
+        [
+            0.4,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@22$(144,159, arguments)",
+        [
+            0.4,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@52$(147,(158,159), allValuesQuoted)",
+        [
+            0.4,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@18$(137,(137,137), helpSettings)",
+        [
+            0.4,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@21$(137,(137,137), DISPLAY_OPTIONAL)",
+        [
+            0.4,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@0$(240,(273,274), this)",
+        [
+            0.4,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@3$(240,274, this)",
+        [
+            0.4,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@13$(240,(273,274), this.minimum)",
+        [
+            0.4,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@16$(240,(273,274), present)",
+        [
+            0.4,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@28$(137,(141,145), optional)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@30$(137,(167,170), optional)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@5$(142,151, this)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@8$(142,150, buffer)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@9$(142,151, buffer)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@11$(142,151, helpSettings)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@14$(142,(142,142), helpSettings)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@17$(142,151, comp)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@20$(142,151, this.argument)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@21$(142,(142,142), DISPLAY_PARENT_ARGUMENT)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@28$(142,(149,150), displayArgument)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@11$(302,380, buffer)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@12$(302,383, buffer)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@20$(302,383, comp)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@52$(302,383, helpSettingsCopy)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@97$(379,(379,380), i)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@99$(379,382, i)",
+        [
+            0.36363636363636365,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@25$(122,(122,138), i)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@31$(139,(147,147), displayAliases)",
+        [
+            0.3076923076923077,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@3$(302,(307,307), this)",
+        [
+            0.3076923076923077,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@9$(302,(310,310), this)",
+        [
+            0.3076923076923077,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@32$(302,(307,307), this.name)",
+        [
+            0.3076923076923077,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@35$(302,(310,310), this.name)",
+        [
+            0.3076923076923077,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@16$(263,298, buffer)",
+        [
+            0.2857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@21$(263,(266,266), helpSettings)",
+        [
+            0.2857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@30$(263,(266,266), DISPLAY_ARGUMENT_NUMBERED)",
+        [
+            0.2857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@39$(263,(317,318), optional)",
+        [
+            0.2857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@41$(263,(284,285), optional)",
+        [
+            0.2857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@42$(266,(297,298), numbered)",
+        [
+            0.2857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@74$(294,298, i)",
+        [
+            0.2857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@13$(183,204, buffer)",
+        [
+            0.2857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@36$(199,(203,204), i)",
+        [
+            0.2857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@0$(142,(142,142), this)",
+        [
+            0.26666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@18$(142,(142,142), this.argument)",
+        [
+            0.26666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@1$(263,(266,266), this)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@24$(263,(266,266), this.maximum)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@57$(274,(284,284), i)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@0$(137,(137,137), this)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%validate#2@1$(125,(125,130), this)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%validate#2@2$(125,130, this)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%validate#2@6$(125,130, commandLine)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@13$(302,375, buffer)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@81$(316,(387,390), outer)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@82$(316,(374,375), outer)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@1$(144,(146,189), this)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@31$(144,(146,189), this.maximum)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@71$(171,(146,147), argumentCount)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@81$(185,(146,189), argumentCount)",
+        [
+            0.23529411764705882,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@2$(137,145, this)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@3$(137,165, this)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@7$(137,145, buffer)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@8$(137,165, buffer)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@15$(137,139, helpSettings)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@16$(137,165, helpSettings)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@19$(137,165, comp)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@22$(137,139, DISPLAY_ALIASES)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%appendUsage#3@23$(137,145, this.preferredName)",
+        [
+            0.23529411764705882,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@7$(240,280, commandLine)",
+        [
+            0.23529411764705882,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@45$(278,(278,279), i)",
+        [
+            0.23529411764705882,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@47$(278,279, i)",
+        [
+            0.23529411764705882,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@80$(185,(146,147), argumentCount)",
+        [
+            0.2222222222222222,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@2$(263,(272,272), this)",
+        [
+            0.2222222222222222,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@5$(263,(307,309), this)",
+        [
+            0.2222222222222222,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@13$(263,309, buffer)",
+        [
+            0.2222222222222222,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@25$(263,(272,272), this.maximum)",
+        [
+            0.2222222222222222,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@28$(263,(307,309), this.maximum)",
+        [
+            0.2222222222222222,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@77$(171,(170,171), argumentCount)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@79$(171,171, argumentCount)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@3$(263,(272,272), this)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@6$(263,(307,313), this)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@26$(263,(272,272), this.maximum)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@29$(263,(307,313), this.maximum)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%processParent#1@0$(105,(108,110), this)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%processParent#1@3$(105,110, this)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%processParent#1@4$(105,113, this)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%processParent#1@5$(105,(108,110), commandLine)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%processParent#1@7$(105,110, commandLine)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%processParent#1@8$(105,113, arguments)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%processParent#1@9$(105,113, this.preferredName)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%processParent#1@10$(105,(108,110), arg)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@1$(72,(75,75), this)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@14$(73,(75,75), that)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@19$(302,323, buffer)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@29$(302,(304,304), DISPLAY_OPTIONAL)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@60$(302,(304,304), helpSettingsCopy)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@62$(304,(322,323), optional)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@64$(304,(374,374), optional)",
+        [
+            0.21052631578947367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@66$(304,(387,387), optional)",
+        [
+            0.21052631578947367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@2$(159,(219,225), this)",
+        [
+            0.21052631578947367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@3$(159,225, this)",
+        [
+            0.21052631578947367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@7$(159,(228,229), commandLine)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@9$(159,229, commandLine)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@18$(159,(228,229), arguments)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@20$(159,229, arguments)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@30$(159,(219,225), this.anonymous)",
+        [
+            0.21052631578947367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@31$(159,225, this.anonymous)",
+        [
+            0.21052631578947367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@62$(225,(225,226), i)",
+        [
+            0.21052631578947367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@63$(225,(225,234), i)",
+        [
+            0.21052631578947367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@64$(225,226, i)",
+        [
+            0.21052631578947367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@65$(226,(228,229), argument)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@67$(226,229, argument)",
+        [
+            0.21052631578947367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@66$(165,(170,178), values)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@68$(165,(178,182), values)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@8$(263,(317,313), this)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@10$(263,(284,288), this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@34$(263,(317,313), this.minimum)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@36$(263,(284,288), this.minimum)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@58$(274,(284,288), i)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@76$(314,(317,313), i)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@2$(122,(126,126), this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@14$(122,(126,126), this.file)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@38$(124,(126,126), f)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@1$(477,486, commandLine)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@7$(484,(484,485), i)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@9$(484,485, i)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@5$(144,(164,165), this)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@7$(144,165, this)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@8$(144,(170,171), this)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@15$(144,174, commandLine)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@20$(144,168, arguments)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@21$(144,175, arguments)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@28$(144,174, option)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@32$(144,(170,171), this.maximum)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@38$(144,(164,165), this.subsequentSplit)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@40$(144,165, this.subsequentSeparator)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@44$(144,(170,171), argumentCount)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@46$(144,171, argumentCount)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@55$(148,165, allValues)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@65$(165,(170,170), values)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@70$(165,173, values)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@0$(263,(266,266), this)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@12$(263,318, buffer)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@15$(263,302, buffer)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@17$(263,289, buffer)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@18$(263,285, buffer)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@19$(263,280, buffer)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@23$(263,(266,266), this.maximum)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@44$(269,(288,289), bracketed)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@46$(269,(301,302), bracketed)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@62$(294,(277,279), i)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@67$(294,(279,280), i)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@69$(294,(284,284), i)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@71$(294,294, i)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@77$(314,(313,314), i)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@79$(314,314, i)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@28$(302,341, DISPLAY_OPTIONAL)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@37$(302,(337,340), DISPLAY_GROUP_EXPANDED)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@54$(302,(337,340), helpSettingsCopy)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@55$(302,340, helpSettingsCopy)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@75$(310,(320,320), named)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@77$(310,(326,330), named)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@89$(340,361, childSettings)",
+        [
+            0.19047619047619047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@6$(159,(188,215), commandLine)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@17$(159,215, arguments)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@39$(164,(188,215), arg)",
+        [
+            0.19047619047619047,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@39$(253,253, present)",
+        [
+            0.18518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@2$(122,(123,124), this)",
+        [
+            0.18421052631578946,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@7$(122,124, this)",
+        [
+            0.18421052631578946,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@11$(122,124, commandLine)",
+        [
+            0.18421052631578946,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@12$(122,(123,124), this.argument)",
+        [
+            0.18421052631578946,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@14$(122,124, this.argument)",
+        [
+            0.18421052631578946,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@7$(263,(317,317), this)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@9$(263,(284,284), this)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@33$(263,(317,317), this.minimum)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@35$(263,(284,284), this.minimum)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@75$(314,(317,317), i)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@5$(74,83, messageKey)",
+        [
+            0.18181818181818182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@8$(74,(80,83), value)",
+        [
+            0.18181818181818182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@10$(74,83, helper)",
+        [
+            0.18181818181818182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@13$(78,83, buffer)",
+        [
+            0.18181818181818182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@4$(183,(193,194), this)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@6$(183,196, this)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@10$(183,194, buffer)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@11$(183,208, buffer)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@12$(183,201, buffer)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@24$(183,(193,194), this.aliases)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@26$(183,196, this.aliases)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@33$(199,(199,200), i)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@34$(199,(199,208), i)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@35$(199,200, i)",
+        [
+            0.18181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@37$(199,(203,206), i)",
+        [
+            0.18181818181818182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%canProcess#1@12$(90,(93,103), separator)",
+        [
+            0.18181818181818182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@85$(320,(330,334), both)",
+        [
+            0.18181818181818182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@87$(320,(370,374), both)",
+        [
+            0.18181818181818182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%handleInitialSeparator#6@8$(215,(217,230), initialIndex)",
+        [
+            0.1794871794871795,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%canProcess#1@0$(115,(120,121), this)",
+        [
+            0.175,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%canProcess#1@11$(115,(120,121), arg)",
+        [
+            0.175,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%canProcess#1@18$(115,(120,121), this.optionMap)",
+        [
+            0.175,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@10$(80,(90,90), aliases)",
+        [
+            0.17391304347826086,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@16$(302,365, buffer)",
+        [
+            0.17391304347826086,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@25$(302,365, separator)",
+        [
+            0.17391304347826086,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@95$(357,(364,365), i)",
+        [
+            0.17391304347826086,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%handleInitialSeparator#6@0$(212,230, arguments)",
+        [
+            0.17073170731707318,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@0$(65,(65,66), this)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@3$(65,(71,72), this)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@10$(65,72, this)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@11$(65,66, this)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@16$(65,72, commandLine)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@21$(65,72, arguments)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@22$(65,66, arguments)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@23$(65,(65,66), this.argument)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@25$(65,(71,72), this.argument)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@27$(65,72, this.argument)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@28$(65,66, this.argument)",
+        [
+            0.17073170731707318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%validate#2@5$(238,(249,257), this)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%validate#2@16$(238,(249,257), this.validator)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@31$(185,(193,193), displayAliases)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@1$(302,(304,304), this)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@4$(302,379, this)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@27$(302,(304,304), this.minimum)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@48$(302,379, this.anonymous)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@78$(314,(378,379), arguments)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@98$(379,(379,387), i)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%canProcess#1@0$(87,(89,90), this)",
+        [
+            0.16,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%canProcess#1@2$(87,90, this)",
+        [
+            0.16,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%canProcess#1@6$(87,(89,90), this.argument)",
+        [
+            0.16,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%canProcess#1@8$(87,90, this.argument)",
+        [
+            0.16,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@6$(302,349, this)",
+        [
+            0.16,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@15$(302,361, buffer)",
+        [
+            0.16,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@21$(302,(347,349), comp)",
+        [
+            0.16,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@24$(302,361, comp)",
+        [
+            0.16,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@47$(302,349, this.options)",
+        [
+            0.16,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@90$(349,357, list)",
+        [
+            0.16,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@92$(357,(357,358), i)",
+        [
+            0.16,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@94$(357,358, i)",
+        [
+            0.16,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@96$(357,(364,367), i)",
+        [
+            0.16,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%defaults#8@0$(247,(249,250), this)",
+        [
+            0.1590909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%defaults#8@5$(247,250, this)",
+        [
+            0.1590909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%defaults#8@7$(247,250, commandLine)",
+        [
+            0.1590909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%defaults#8@8$(247,(249,250), this.argument)",
+        [
+            0.1590909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%defaults#8@10$(247,250, this.argument)",
+        [
+            0.1590909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@1$(125,(127,130), this)",
+        [
+            0.15789473684210525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@2$(125,130, this)",
+        [
+            0.15789473684210525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@13$(125,(127,130), this.preferredName)",
+        [
+            0.15789473684210525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@14$(125,130, this.aliases)",
+        [
+            0.15789473684210525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@18$(125,130, name)",
+        [
+            0.15789473684210525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@42$(302,314, DISPLAY_GROUP_ARGUMENT)",
+        [
+            0.15789473684210525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@43$(302,316, DISPLAY_GROUP_OUTER)",
+        [
+            0.15789473684210525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@44$(302,318, DISPLAY_GROUP_OUTER)",
+        [
+            0.15789473684210525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@49$(302,314, helpSettingsCopy)",
+        [
+            0.15789473684210525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@50$(302,316, helpSettingsCopy)",
+        [
+            0.15789473684210525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@51$(302,318, helpSettingsCopy)",
+        [
+            0.15789473684210525,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@6$(144,(164,185), this)",
+        [
+            0.15555555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@14$(144,186, commandLine)",
+        [
+            0.15555555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@26$(144,186, option)",
+        [
+            0.15555555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@39$(144,(164,185), this.subsequentSplit)",
+        [
+            0.15555555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@43$(144,185, argumentCount)",
+        [
+            0.15555555555555556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@54$(148,186, allValues)",
+        [
+            0.15555555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%validate#2@3$(238,(244,249), this)",
+        [
+            0.15555555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%validate#2@13$(238,(244,249), this.maximum)",
+        [
+            0.15555555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%validate#2@21$(238,(244,249), values)",
+        [
+            0.15555555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@43$(266,(297,301), numbered)",
+        [
+            0.15384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@68$(307,(310,310), expanded)",
+        [
+            0.15384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@70$(307,(334,337), expanded)",
+        [
+            0.15384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@93$(357,(357,370), i)",
+        [
+            0.15384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%validate#2@1$(238,(240,244), this)",
+        [
+            0.15217391304347827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%validate#2@11$(238,(240,244), this.minimum)",
+        [
+            0.15217391304347827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%validate#2@19$(238,(240,244), values)",
+        [
+            0.15217391304347827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%setDefaultValues#11@1$(257,258, this)",
+        [
+            0.15217391304347827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%setDefaultValues#11@3$(257,258, option)",
+        [
+            0.15217391304347827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%setDefaultValues#11@4$(257,(257,258), defaults)",
+        [
+            0.15217391304347827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%setDefaultValues#11@8$(257,258, this.defaultValues)",
+        [
+            0.15217391304347827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%validate#3@1$(171,(171,176), this)",
+        [
+            0.15217391304347827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@44$(175,(167,175), previous)",
+        [
+            0.15,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@0$(302,(304,304), this)",
+        [
+            0.14814814814814814,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@26$(302,(304,304), this.minimum)",
+        [
+            0.14814814814814814,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%validate#3@2$(171,176, this)",
+        [
+            0.14583333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%validate#3@6$(171,176, commandLine)",
+        [
+            0.14583333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@5$(122,(127,131), this)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@16$(122,(127,131), this.children)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@38$(253,(273,278), present)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@13$(159,182, commandLine)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@24$(159,181, arguments)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@25$(159,182, arguments)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@45$(177,(180,181), opt)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@47$(177,182, opt)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@18$(183,(183,183), helpSettings)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@21$(183,(183,183), DISPLAY_OPTIONAL)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@0$(122,(126,126), this)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@5$(122,(126,126), this)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@7$(122,(126,126), this)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@9$(122,(126,126), this)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@12$(122,(126,126), this.existing)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@17$(122,(126,126), this.directory)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@19$(122,(126,126), this.hidden)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@21$(122,(126,126), this.readable)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@40$(124,(126,126), f)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@6$(240,(253,258), this)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@8$(240,(252,253), commandLine)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@10$(240,262, commandLine)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@12$(240,(253,258), this.maximum)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@18$(240,253, present)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@27$(246,(252,253), option)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@29$(246,262, option)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@36$(253,(253,258), present)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@43$(258,(261,262), validate)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@0$(122,(122,123), this)",
+        [
+            0.14,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@8$(122,(122,123), commandLine)",
+        [
+            0.14,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%processParent#2@0$(132,(134,135), this)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%processParent#2@17$(132,135, this)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%processParent#2@18$(132,136, this)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%processParent#2@20$(132,135, commandLine)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%processParent#2@25$(132,136, arguments)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%processParent#2@26$(132,(134,135), this.triggers)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%processParent#2@29$(132,136, this.preferredName)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%processParent#2@40$(132,(134,135), argument)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@3$(122,(123,127), this)",
+        [
+            0.13333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%validate#3@13$(122,(123,127), this.argument)",
+        [
+            0.13333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%stripBoundaryQuotes#4@1$(353,(353,354), token)",
+        [
+            0.1320754716981132,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%stripBoundaryQuotes#4@2$(353,354, token)",
+        [
+            0.1320754716981132,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%looksLikeOption#9@1$(215,(218,221), trigger)",
+        [
+            0.1320754716981132,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%looksLikeOption#9@6$(216,(218,221), prefix)",
+        [
+            0.1320754716981132,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@13$(144,(158,164), commandLine)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@53$(147,(158,164), allValuesQuoted)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@1$(240,(273,278), this)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@2$(240,278, this)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@14$(240,(273,278), this.minimum)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@15$(240,278, this.anonymous)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@46$(278,(278,282), i)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@4$(263,272, this)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@11$(263,293, this)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@14$(263,293, buffer)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@20$(263,269, helpSettings)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@27$(263,272, this.maximum)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@32$(263,269, DISPLAY_ARGUMENT_BRACKETED)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@37$(263,293, this.name)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@48$(272,(277,279), max)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@49$(272,(277,307), max)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@50$(274,(277,279), i)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@56$(274,(279,284), i)",
+        [
+            0.12903225806451613,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@59$(274,294, i)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@63$(294,(277,307), i)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@64$(294,(313,314), i)",
+        [
+            0.12903225806451613,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@66$(294,314, i)",
+        [
+            0.12903225806451613,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%appendUsage#3@78$(314,(313,321), i)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@0$(183,(183,183), this)",
+        [
+            0.12903225806451613,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@28$(183,(187,191), optional)",
+        [
+            0.12903225806451613,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@30$(183,(213,216), optional)",
+        [
+            0.12903225806451613,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@32$(61,(61,62), i)",
+        [
+            0.1282051282051282,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@34$(61,62, i)",
+        [
+            0.1282051282051282,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@35$(61,61, i)",
+        [
+            0.1282051282051282,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@4$(144,(151,158), this)",
+        [
+            0.12727272727272726,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@37$(144,(151,158), this.consumeRemaining)",
+        [
+            0.12727272727272726,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@51$(147,(151,158), allValuesQuoted)",
+        [
+            0.12727272727272726,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%looksLikeOption#9@3$(215,(215,223), i)",
+        [
+            0.12727272727272726,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@0$(144,(146,147), this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@2$(144,148, this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@17$(144,(146,146), arguments)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@19$(144,147, arguments)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@30$(144,(146,147), this.maximum)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@41$(144,(146,147), argumentCount)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%looksLikeOption#9@2$(215,(215,216), i)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%looksLikeOption#9@4$(215,216, i)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@6$(65,(75,78), this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@30$(65,(75,78), this.children)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%canProcess#0@3$(50,(50,56), arguments)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@24$(122,(122,123), i)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@26$(122,123, i)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@27$(122,136, i)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.validation.FileValidator%validate#0@29$(124,136, f)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@20$(243,(267,273), unexpected)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@23$(245,(245,267), i)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@25$(246,(249,249), option)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@32$(246,(249,249), option)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%processValues#1@18$(144,(146,189), arguments)",
+        [
+            0.12280701754385964,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@22$(245,(245,246), i)",
+        [
+            0.12280701754385964,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@24$(245,246, i)",
+        [
+            0.12280701754385964,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@15$(159,(162,235), arguments)",
+        [
+            0.12280701754385964,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@2$(183,191, this)",
+        [
+            0.12121212121212122,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@3$(183,211, this)",
+        [
+            0.12121212121212122,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@7$(183,191, buffer)",
+        [
+            0.12121212121212122,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@8$(183,211, buffer)",
+        [
+            0.12121212121212122,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@15$(183,185, helpSettings)",
+        [
+            0.12121212121212122,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@16$(183,211, helpSettings)",
+        [
+            0.12121212121212122,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@19$(183,211, comp)",
+        [
+            0.12121212121212122,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@22$(183,185, DISPLAY_ALIASES)",
+        [
+            0.12121212121212122,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%appendUsage#4@23$(183,191, this.preferredName)",
+        [
+            0.12121212121212122,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@2$(65,69, this)",
+        [
+            0.1206896551724138,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@12$(65,69, commandLine)",
+        [
+            0.1206896551724138,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@17$(65,69, arguments)",
+        [
+            0.1206896551724138,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@9$(240,(252,261), commandLine)",
+        [
+            0.12,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@28$(246,(252,261), option)",
+        [
+            0.12,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%validate#3@34$(249,(261,264), validate)",
+        [
+            0.12,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%defaults#8@3$(247,(253,256), this)",
+        [
+            0.11864406779661017,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%defaults#8@12$(247,(253,256), this.children)",
+        [
+            0.11864406779661017,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@0$(159,177, this)",
+        [
+            0.11666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@14$(159,(162,164), arguments)",
+        [
+            0.11666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@16$(159,164, arguments)",
+        [
+            0.11666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@27$(159,177, this.optionMap)",
+        [
+            0.11666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@33$(159,(167,175), previous)",
+        [
+            0.11666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@35$(164,(167,175), arg)",
+        [
+            0.11666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@36$(164,175, arg)",
+        [
+            0.11666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@37$(164,177, arg)",
+        [
+            0.11666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getUndefaultedValues#4@0$(145,149, EMPTY_LIST)",
+        [
+            0.11475409836065574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getUndefaultedValues#4@1$(145,(148,149), valueList)",
+        [
+            0.11475409836065574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getUndefaultedValues#4@4$(149,152, valueList)",
+        [
+            0.11475409836065574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@2$(477,481, commandLine)",
+        [
+            0.11475409836065574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@4$(479,(479,480), i)",
+        [
+            0.11475409836065574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@6$(479,480, i)",
+        [
+            0.11475409836065574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@0$(477,484, this)",
+        [
+            0.11290322580645161,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@3$(477,484, this.anonymous)",
+        [
+            0.11290322580645161,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@5$(479,(479,484), i)",
+        [
+            0.11290322580645161,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%defaults#8@8$(484,(484,488), i)",
+        [
+            0.11290322580645161,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@1$(65,(65,69), this)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@4$(65,(71,75), this)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@24$(65,(65,69), this.argument)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%process#0@26$(65,(71,75), this.argument)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%canProcess#0@0$(50,54, this)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%canProcess#0@1$(50,54, commandLine)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%canProcess#0@2$(50,(50,51), arguments)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%canProcess#0@4$(50,51, arguments)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%canProcess#0@5$(50,52, arguments)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@39$(302,(307,307), DISPLAY_GROUP_EXPANDED)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@59$(302,(307,307), helpSettingsCopy)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@69$(307,(310,310), expanded)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@71$(307,(334,370), expanded)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@73$(307,(320,320), expanded)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%process#2@46$(177,(180,188), opt)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%canProcess#1@10$(115,(115,120), arg)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@2$(78,79, this)",
+        [
+            0.10810810810810811,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@3$(78,(78,79), option)",
+        [
+            0.10810810810810811,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@7$(78,79, option)",
+        [
+            0.10810810810810811,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@6$(58,(103,104), this)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@8$(58,104, this)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@18$(58,104, this.group)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@23$(58,(103,104), this.helpTrigger)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@41$(70,(103,104), commandLine)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@43$(70,104, commandLine)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@4$(58,(103,103), this)",
+        [
+            0.09803921568627451,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@21$(58,(103,103), this.helpOption)",
+        [
+            0.09803921568627451,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@38$(70,(103,103), commandLine)",
+        [
+            0.09803921568627451,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@40$(70,107, commandLine)",
+        [
+            0.09615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@48$(76,(97,103), iterator)",
+        [
+            0.09615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@2$(58,(79,81), this)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@10$(58,93, this)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@16$(58,(79,81), this.group)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@20$(58,93, this.group)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@36$(70,(79,81), commandLine)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@44$(70,93, commandLine)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@45$(76,(79,81), iterator)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@50$(76,81, iterator)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@51$(76,82, iterator)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@52$(76,93, iterator)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@54$(77,(85,91), previous)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@56$(81,(85,91), next)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@57$(81,91, next)",
+        [
+            0.09433962264150944,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%defaults#8@1$(247,(249,253), this)",
+        [
+            0.09302325581395349,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%defaults#8@9$(247,(249,253), this.argument)",
+        [
+            0.09302325581395349,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getValues#3@19$(116,(140,140), valueList)",
+        [
+            0.08974358974358974,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@11$(58,(61,62), arguments)",
+        [
+            0.08771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@13$(58,62, arguments)",
+        [
+            0.08771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@27$(58,66, argumentList)",
+        [
+            0.08771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@28$(61,(61,62), i)",
+        [
+            0.08771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@30$(61,62, i)",
+        [
+            0.08771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@31$(61,61, i)",
+        [
+            0.08771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@33$(61,(61,70), i)",
+        [
+            0.08771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@1$(142,(142,142), this)",
+        [
+            0.08695652173913043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@19$(142,(142,142), this.argument)",
+        [
+            0.08695652173913043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@7$(302,327, this)",
+        [
+            0.08695652173913043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@18$(302,327, buffer)",
+        [
+            0.08695652173913043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@33$(302,327, this.name)",
+        [
+            0.08695652173913043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@74$(310,(320,320), named)",
+        [
+            0.08695652173913043,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@76$(310,(326,327), named)",
+        [
+            0.08695652173913043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@3$(58,(79,97), this)",
+        [
+            0.08620689655172414,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@17$(58,(79,97), this.group)",
+        [
+            0.08620689655172414,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@37$(70,(79,97), commandLine)",
+        [
+            0.08620689655172414,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@46$(76,(79,97), iterator)",
+        [
+            0.08620689655172414,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@0$(58,70, this)",
+        [
+            0.0847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@1$(58,73, this)",
+        [
+            0.0847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@12$(58,(61,70), arguments)",
+        [
+            0.0847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@14$(58,70, this.group)",
+        [
+            0.0847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@15$(58,73, this.group)",
+        [
+            0.0847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@25$(58,70, argumentList)",
+        [
+            0.0847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.Parser%parse#0@26$(58,76, argumentList)",
+        [
+            0.0847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@3$(142,(145,145), this)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@24$(142,(145,145), this.children)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%canProcess#1@3$(87,103, arg)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%canProcess#1@9$(87,103, triggers)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@29$(142,(149,154), displayArgument)",
+        [
+            0.08163265306122448,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%appendUsage#4@31$(145,(154,158), displayChildren)",
+        [
+            0.08,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@2$(302,(307,307), this)",
+        [
+            0.08,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@31$(302,(307,307), this.name)",
+        [
+            0.08,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@79$(314,(378,387), arguments)",
+        [
+            0.08,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@0$(135,137, this)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@1$(135,140, this)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@2$(135,143, this)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@3$(135,146, this)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@4$(135,149, this)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@6$(135,(137,137), gutterLeft)",
+        [
+            0.07954545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@7$(135,137, gutterLeft)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@9$(135,(140,140), gutterCenter)",
+        [
+            0.07954545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@10$(135,140, gutterCenter)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@12$(135,(143,143), gutterRight)",
+        [
+            0.07954545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@13$(135,143, gutterRight)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@14$(135,146, fullWidth)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@15$(135,149, fullWidth)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@16$(137,146, this.gutterLeft)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@17$(140,149, this.gutterCenter)",
+        [
+            0.07954545454545454,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.util.HelpFormatter%<init>#0@19$(149,(151,154), availableWidth)",
+        [
+            0.07954545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@4$(81,95, newAnonymous)",
+        [
+            0.0784313725490196,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@12$(90,94, i)",
+        [
+            0.0784313725490196,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@13$(91,(93,94), option)",
+        [
+            0.0784313725490196,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@18$(91,95, option)",
+        [
+            0.0784313725490196,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%looksLikeOption#9@0$(215,(218,219), trigger)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%looksLikeOption#9@5$(216,(218,219), prefix)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getValues#3@29$(120,(124,140), defaultValues)",
+        [
+            0.07608695652173914,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@30$(107,(115,115), subsequentSeparator)",
+        [
+            0.07446808510638298,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getValues#3@20$(116,140, valueList)",
+        [
+            0.07291666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getValues#3@4$(116,(119,120), defaultValues)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getValues#3@0$(116,120, this)",
+        [
+            0.0707070707070707,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getValues#3@1$(116,120, option)",
+        [
+            0.0707070707070707,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getValues#3@16$(116,120, this.defaultValues)",
+        [
+            0.0707070707070707,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@1$(74,89, this)",
+        [
+            0.06896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@2$(74,88, option)",
+        [
+            0.06896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@3$(74,(77,78), messageKey)",
+        [
+            0.06896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@12$(74,88, HELP_SETTINGS)",
+        [
+            0.06896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@14$(78,86, buffer)",
+        [
+            0.06896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@15$(78,88, buffer)",
+        [
+            0.06896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.OptionException%<init>#0@16$(78,89, buffer)",
+        [
+            0.06896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.ArgumentBuilder%withName#0@0$(127,133, this)",
+        [
+            0.06818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.ArgumentBuilder%withName#0@1$(127,134, this)",
+        [
+            0.06818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.ArgumentBuilder%withName#0@5$(127,(130,133), newName)",
+        [
+            0.06818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.ArgumentBuilder%withName#0@6$(127,133, newName)",
+        [
+            0.06818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.ArgumentBuilder%withName#0@3$(127,(127,130), newName)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getValues#3@2$(116,(119,119), defaultValues)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%getValues#3@17$(116,140, EMPTY_LIST)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@63$(304,(322,326), optional)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@65$(304,(374,378), optional)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%appendUsage#4@67$(304,(387,390), optional)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@4$(78,(78,82), option)",
+        [
+            0.06542056074766354,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@3$(72,(75,75), this)",
+        [
+            0.06382978723404255,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@16$(73,(75,75), that)",
+        [
+            0.06382978723404255,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withLongName#3@0$(148,(150,151), this)",
+        [
+            0.06,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withLongName#3@4$(148,151, this)",
+        [
+            0.06,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withLongName#3@5$(148,(150,151), this.preferredName)",
+        [
+            0.06,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withLongName#3@9$(148,151, name)",
+        [
+            0.06,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@0$(80,87, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@1$(80,90, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@2$(80,97, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@3$(80,98, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@7$(80,(83,87), preferredName)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@8$(80,87, preferredName)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@9$(80,96, preferredName)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@13$(80,90, EMPTY_SET)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.Command%<init>#0@4$(80,(83,83), preferredName)",
+        [
+            0.057971014492753624,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#2@0$(87,(87,87), left)",
+        [
+            0.05660377358490566,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#2@8$(87,(87,88), right)",
+        [
+            0.05660377358490566,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@6$(84,100, newOptionMap)",
+        [
+            0.056451612903225805,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@8$(87,104, newPrefixes)",
+        [
+            0.056451612903225805,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@14$(91,(93,97), option)",
+        [
+            0.056451612903225805,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@15$(91,97, option)",
+        [
+            0.056451612903225805,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@16$(91,104, option)",
+        [
+            0.056451612903225805,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@17$(91,100, option)",
+        [
+            0.056451612903225805,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@19$(99,(99,100), j)",
+        [
+            0.056451612903225805,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@20$(99,(99,104), j)",
+        [
+            0.056451612903225805,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@21$(99,100, j)",
+        [
+            0.056451612903225805,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@0$(69,108, this)",
+        [
+            0.056,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@1$(69,109, this)",
+        [
+            0.056,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@2$(69,110, this)",
+        [
+            0.056,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@3$(81,108, newAnonymous)",
+        [
+            0.056,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@5$(84,109, newOptionMap)",
+        [
+            0.056,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@7$(87,110, newPrefixes)",
+        [
+            0.056,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@9$(90,(90,91), i)",
+        [
+            0.056,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@10$(90,(90,108), i)",
+        [
+            0.056,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.GroupImpl%<init>#0@11$(90,91, i)",
+        [
+            0.056,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@12$(91,(99,99), aliases)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@13$(91,99, aliases)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@15$(91,(103,103), burstAliases)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@16$(91,103, burstAliases)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@6$(125,(133,134), this)",
+        [
+            0.05454545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@8$(125,134, this)",
+        [
+            0.05454545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@10$(125,(133,134), this.shortPrefix)",
+        [
+            0.05454545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@17$(125,134, this.burstAliases)",
+        [
+            0.05454545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@19$(125,(133,134), name)",
+        [
+            0.05454545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@21$(125,134, name)",
+        [
+            0.05454545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@0$(78,82, this)",
+        [
+            0.05384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@1$(78,86, this)",
+        [
+            0.05384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@5$(78,82, option)",
+        [
+            0.05384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@6$(78,86, option)",
+        [
+            0.05384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@8$(78,89, value)",
+        [
+            0.05384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@9$(78,82, this.values)",
+        [
+            0.05384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@10$(78,86, this.values)",
+        [
+            0.05384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@11$(82,(84,85), valueList)",
+        [
+            0.05384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@14$(85,89, valueList)",
+        [
+            0.05384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@29$(107,(115,115), subsequentSeparator)",
+        [
+            0.05333333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@3$(125,(133,133), this)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@5$(125,137, this)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withShortName#2@15$(125,(133,133), this.burstEnabled)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@35$(107,(124,133), valueDefaults)",
+        [
+            0.050724637681159424,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@0$(91,99, this)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@1$(91,103, this)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@2$(91,109, this)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@3$(91,110, this)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@4$(91,111, this)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@5$(91,113, this)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@6$(91,116, this)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@7$(91,118, this)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@8$(91,114, shortPrefix)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@9$(91,115, longPrefix)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@10$(91,108, preferredName)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@17$(91,99, EMPTY_SET)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@18$(91,103, EMPTY_SET)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.DefaultOption%<init>#0@19$(99,109, this.aliases)",
+        [
+            0.04895104895104895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%withLongName#3@3$(148,156, this)",
+        [
+            0.04838709677419355,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addOption#0@0$(66,70, this)",
+        [
+            0.04666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addOption#0@1$(66,70, option)",
+        [
+            0.04666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addOption#0@2$(66,70, this.nameToOption)",
+        [
+            0.04666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addOption#0@3$(69,(69,70), i)",
+        [
+            0.04666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addOption#0@5$(69,70, i)",
+        [
+            0.04666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefix#6@3$(149,(152,155), trigger)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefix#6@8$(150,(152,155), prefix)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@0$(107,109, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@1$(107,110, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@2$(107,111, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@3$(107,112, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@4$(107,113, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@5$(107,114, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@6$(107,115, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@7$(107,116, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@8$(107,117, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@9$(107,118, this)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@14$(107,(109,109), name)",
+        [
+            0.04516129032258064,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@15$(107,109, name)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@16$(107,110, description)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@17$(107,111, minimum)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@19$(107,(120,124), minimum)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@22$(107,112, maximum)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@24$(107,(120,124), maximum)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@27$(107,113, initialSeparator)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@28$(107,114, subsequentSeparator)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@31$(107,116, validator)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@32$(107,117, consumeRemaining)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ArgumentImpl%<init>#0@33$(107,118, valueDefaults)",
+        [
+            0.04516129032258064,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@2$(72,(75,75), this)",
+        [
+            0.04430379746835443,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@4$(72,(75,75), this)",
+        [
+            0.04430379746835443,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@6$(72,(75,75), this)",
+        [
+            0.04430379746835443,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@8$(72,(75,75), this)",
+        [
+            0.04430379746835443,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@15$(73,(75,75), that)",
+        [
+            0.04430379746835443,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@17$(73,(75,75), that)",
+        [
+            0.04430379746835443,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@19$(73,(75,75), that)",
+        [
+            0.04430379746835443,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@21$(73,(75,75), that)",
+        [
+            0.04430379746835443,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@2$(48,(50,51), bundleName)",
+        [
+            0.04375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@10$(51,54, bundleName)",
+        [
+            0.04375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@11$(51,56, bundleName)",
+        [
+            0.04375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@12$(51,57, bundleName)",
+        [
+            0.04375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@13$(51,70, bundleName)",
+        [
+            0.04375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@14$(51,61, bundleName)",
+        [
+            0.04375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@15$(51,62, bundleName)",
+        [
+            0.04375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@0$(72,(75,75), this)",
+        [
+            0.04375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@13$(73,(75,75), that)",
+        [
+            0.04375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#2@1$(87,(87,89), left)",
+        [
+            0.04375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#2@2$(87,(89,89), left)",
+        [
+            0.04375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#2@4$(87,92, left)",
+        [
+            0.04375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#2@6$(87,(89,92), right)",
+        [
+            0.04375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#2@7$(87,92, right)",
+        [
+            0.04375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@16$(56,(60,61), firstUnderscore)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@18$(56,61, firstUnderscore)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@19$(57,61, secondUnderscore)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@20$(57,62, secondUnderscore)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@21$(63,70, locale)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@10$(72,(72,73), thatObj)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%equals#1@12$(72,73, thatObj)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@3$(97,(102,106), this)",
+        [
+            0.04310344827586207,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@11$(99,106, hashCode)",
+        [
+            0.04310344827586207,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@0$(47,54, this)",
+        [
+            0.04294478527607362,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%<init>#0@1$(47,70, this)",
+        [
+            0.04294478527607362,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%getResourceHelper#1@2$(85,(86,87), helper)",
+        [
+            0.04294478527607362,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%getResourceHelper#1@5$(85,(86,87), bundleName)",
+        [
+            0.04294478527607362,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%getResourceHelper#1@7$(87,90, helper)",
+        [
+            0.04294478527607362,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefix#6@2$(149,(152,153), trigger)",
+        [
+            0.042682926829268296,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefix#6@4$(149,(149,150), i)",
+        [
+            0.042682926829268296,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefix#6@6$(149,150, i)",
+        [
+            0.042682926829268296,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefix#6@7$(150,(152,153), prefix)",
+        [
+            0.042682926829268296,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@0$(132,137, this)",
+        [
+            0.042682926829268296,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@1$(132,140, this)",
+        [
+            0.042682926829268296,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@2$(132,142, this)",
+        [
+            0.042682926829268296,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@3$(132,143, this)",
+        [
+            0.042682926829268296,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@5$(132,(132,137), prefixes)",
+        [
+            0.042682926829268296,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@6$(132,137, prefixes)",
+        [
+            0.042682926829268296,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@7$(132,143, prefixes)",
+        [
+            0.042682926829268296,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@8$(142,(142,143), i)",
+        [
+            0.042682926829268296,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@9$(142,(142,145), i)",
+        [
+            0.042682926829268296,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%checkPrefixes#5@10$(142,143, i)",
+        [
+            0.042682926829268296,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@12$(82,(84,89), valueList)",
+        [
+            0.041237113402061855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addValue#1@13$(82,89, valueList)",
+        [
+            0.041237113402061855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addOption#0@4$(69,(69,74), i)",
+        [
+            0.040697674418604654,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@0$(97,(98,99), this)",
+        [
+            0.03954802259887006,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@4$(97,106, this)",
+        [
+            0.03954802259887006,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@5$(97,107, this)",
+        [
+            0.03954802259887006,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@7$(97,99, this)",
+        [
+            0.03954802259887006,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@10$(97,99, hashCode)",
+        [
+            0.03954802259887006,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@0$(66,75, this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@1$(66,76, this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@2$(66,77, this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@3$(66,78, this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@4$(66,(67,67), shortPrefix)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@7$(66,(67,71), shortPrefix)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@8$(66,75, shortPrefix)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@9$(66,(71,71), longPrefix)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@12$(66,(71,75), longPrefix)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@13$(66,76, longPrefix)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%<init>#0@14$(66,77, burstEnabled)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@1$(88,(88,92), this)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@2$(88,92, this)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@3$(88,96, this)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@5$(88,(88,92), this.preferredName)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@6$(88,92, this.preferredName)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@7$(88,92, this.shortPrefix)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@8$(88,92, this.longPrefix)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@9$(88,92, this.burstEnabled)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@10$(88,92, this.description)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@11$(88,92, this.aliases)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@12$(88,92, this.burstAliases)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@13$(88,92, this.required)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@14$(88,92, this.argument)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@15$(88,92, this.children)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.builder.DefaultOptionBuilder%create#1@16$(88,92, this.id)",
+        [
+            0.03614457831325301,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.resource.ResourceHelper%getResourceHelper#1@0$(85,(86,86), helper)",
+        [
+            0.03431372549019608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%getPrefixes#2@0$(112,(112,112), this)",
+        [
+            0.03333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%getPrefixes#2@3$(112,(112,112), this.children)",
+        [
+            0.03333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%getPrefixes#2@2$(112,112, this)",
+        [
+            0.03286384976525822,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%getPrefixes#2@5$(112,112, this.children)",
+        [
+            0.03286384976525822,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.ParentImpl%getPrefixes#2@6$(112,112, EMPTY_SET)",
+        [
+            0.03286384976525822,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@2$(97,(102,103), this)",
+        [
+            0.028368794326241134,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@6$(97,103, this)",
+        [
+            0.028368794326241134,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@12$(99,103, hashCode)",
+        [
+            0.028368794326241134,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.option.OptionImpl%hashCode#3@13$(103,106, hashCode)",
+        [
+            0.028368794326241134,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addProperty#6@6$(180,(181,185), properties)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addProperty#6@7$(180,185, properties)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addProperty#6@0$(180,183, this)",
+        [
+            0.024096385542168676,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addProperty#6@1$(180,183, option)",
+        [
+            0.024096385542168676,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addProperty#6@2$(180,185, property)",
+        [
+            0.024096385542168676,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addProperty#6@3$(180,185, value)",
+        [
+            0.024096385542168676,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addProperty#6@4$(180,183, this.optionToProperties)",
+        [
+            0.024096385542168676,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addProperty#6@5$(180,(181,182), properties)",
+        [
+            0.024096385542168676,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addProperty#6@8$(182,185, properties)",
+        [
+            0.024096385542168676,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addSwitch#2@6$(94,(99,99), value)",
+        [
+            0.022988505747126436,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addSwitch#2@1$(94,(96,99), this)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addSwitch#2@2$(94,99, this)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addSwitch#2@4$(94,(96,99), option)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addSwitch#2@5$(94,99, option)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addSwitch#2@9$(94,(96,99), this.switches)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addSwitch#2@10$(94,99, this.switches)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli2.commandline.WriteableCommandLineImpl%addSwitch#2@11$(94,99, FALSE)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ]
+]

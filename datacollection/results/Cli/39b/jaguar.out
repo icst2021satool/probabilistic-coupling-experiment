@@ -1,0 +1,5 @@
+03:00:55.622 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+03:00:55.742 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Cli/39b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Cli/39b/tests.all, --logLevel, INFO]
+03:01:40.503 [main] INFO  JaguarDF - Test testExistingFilePattern(org.apache.commons.cli.PatternOptionBuilderTest) : Failed
+03:01:41.575 [main] INFO  JaguarDF - Test testExistingFilePatternFileNotExist(org.apache.commons.cli.PatternOptionBuilderTest) : Failed
+03:02:06.372 [main] INFO  JaguarDF - Jaguar-DF has finished!

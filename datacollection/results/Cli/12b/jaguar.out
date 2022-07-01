@@ -1,0 +1,6 @@
+02:21:55.191 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+02:21:55.306 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Cli/12b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Cli/12b/tests.all, --logLevel, INFO]
+02:22:03.070 [main] INFO  JaguarDF - Test testShortWithEqual(org.apache.commons.cli.GnuParserTest) : Failed
+02:22:03.368 [main] INFO  JaguarDF - Test testLongWithEqual(org.apache.commons.cli.GnuParserTest) : Failed
+02:22:03.520 [main] INFO  JaguarDF - Test testLongWithEqualSingleDash(org.apache.commons.cli.GnuParserTest) : Failed
+02:22:16.628 [main] INFO  JaguarDF - Jaguar-DF has finished!

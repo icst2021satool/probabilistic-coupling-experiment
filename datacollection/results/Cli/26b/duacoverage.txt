@@ -1,0 +1,56 @@
+/stvr/probabilistic-coupling-experiment/datacollection
+Archive:  commons-cli.zip
+   creating: commons-cli/26b/
+  inflating: commons-cli/26b/junit.out  
+  inflating: commons-cli/26b/defects4j.out  
+  inflating: commons-cli/26b/ba-dua.xml  
+   creating: commons-cli/26b/jaguar/
+   creating: commons-cli/26b/jaguar/.jaguar/
+   creating: commons-cli/26b/jaguar/.jaguar/spectra/
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.HelpFormatter.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.CommandLine.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.Util.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.OptionGroup.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.MissingOptionException.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.GnuParser.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.Options.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.OptionBuilder.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.PosixParser.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.TypeHandler.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.Option.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.OptionValidator.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.Parser.spectra  
+  inflating: commons-cli/26b/jaguar/.jaguar/spectra/org.apache.commons.cli.PatternOptionBuilder.spectra  
+   creating: commons-cli/26b/jaguar/.jaguar/matrix/
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.HelpFormatter$1.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.Util.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.Option.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.CommandLineParser.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.Options.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.OptionValidator.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.Parser.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.OptionBuilder.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.ParseException.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.HelpFormatter$OptionComparator.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.MissingArgumentException.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.HelpFormatter.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.OptionGroup.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.MissingOptionException.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.PosixParser.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.CommandLine.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.TypeHandler.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.UnrecognizedOptionException.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.GnuParser.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.BasicParser.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.AlreadySelectedException.matrix  
+  inflating: commons-cli/26b/jaguar/.jaguar/matrix/org.apache.commons.cli.PatternOptionBuilder.matrix  
+  inflating: commons-cli/26b/ba-dua_jaguar.xml  
+  inflating: commons-cli/26b/ba-dua.out  
+  inflating: commons-cli/26b/jaguar.out  
+Trying to fetch Ba-dua.
+[Cli 26b] Jaguar DUA coverage
+Analyzing /stvr/probabilistic-coupling-experiment/datacollection/coverage/Cli/commons-cli/26b/jaguar
+DUA coverage for project Cli
+Total of DUAs (calculated by BA-DUA): 1273
+Covered DUAs by Jaguar: 1151, coverage perc: 90.42
+Cli:26b:Jaguar coverage perc: 90.42

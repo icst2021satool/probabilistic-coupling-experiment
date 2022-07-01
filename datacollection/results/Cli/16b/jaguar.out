@@ -1,0 +1,11 @@
+02:31:03.159 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+02:31:03.302 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Cli/16b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Cli/16b/tests.all, --logLevel, INFO]
+02:31:17.466 [main] INFO  JaguarDF - Test testMultipleChildOptions(org.apache.commons.cli2.bug.BugCLI123Test) : Failed
+02:31:17.730 [main] INFO  JaguarDF - Test testParentOptionAndChildOption(org.apache.commons.cli2.bug.BugCLI123Test) : Failed
+02:31:17.995 [main] INFO  JaguarDF - Test testSingleChildOption(org.apache.commons.cli2.bug.BugCLI123Test) : Failed
+02:31:38.805 [main] INFO  JaguarDF - Test testGetOptions_Order(org.apache.commons.cli2.commandline.DefaultingCommandLineTest) : Failed
+02:31:51.526 [main] INFO  JaguarDF - Test testGetOptions_Order(org.apache.commons.cli2.commandline.PreferencesCommandLineTest) : Failed
+02:32:02.201 [main] INFO  JaguarDF - Test testGetOptions_Order(org.apache.commons.cli2.commandline.PropertiesCommandLineTest) : Failed
+02:32:13.127 [main] INFO  JaguarDF - Test testGetOptions_Order(org.apache.commons.cli2.commandline.WriteableCommandLineImplTest) : Failed
+02:33:25.959 [main] INFO  JaguarDF - Test testValidate_WritableFile(org.apache.commons.cli2.validation.FileValidatorTest) : Failed
+02:33:30.544 [main] INFO  JaguarDF - Jaguar-DF has finished!

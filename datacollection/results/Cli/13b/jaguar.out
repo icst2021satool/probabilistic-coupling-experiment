@@ -1,0 +1,5 @@
+02:22:40.293 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+02:22:40.441 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Cli/13b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Cli/13b/tests.all, --logLevel, INFO]
+02:22:56.058 [main] INFO  JaguarDF - Test testLoopingOptionLookAlike2(org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest) : Failed
+02:24:54.766 [main] INFO  JaguarDF - Test testValidate_WritableFile(org.apache.commons.cli2.validation.FileValidatorTest) : Failed
+02:24:59.229 [main] INFO  JaguarDF - Jaguar-DF has finished!

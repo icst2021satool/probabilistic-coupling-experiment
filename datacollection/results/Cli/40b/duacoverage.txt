@@ -1,0 +1,13 @@
+/stvr/probabilistic-coupling-experiment/datacollection
+Trying to fetch Ba-dua.
+Ba-dua report: couldn'd find it.
+[Cli 40b] Jaguar DUA coverage
+Analyzing /stvr/probabilistic-coupling-experiment/datacollection/coverage/Cli/commons-cli/40b/jaguar
+Traceback (most recent call last):
+  File "/stvr/probabilistic-coupling-experiment/datacollection/src/coverage_jaguar.py", line 21, in <module>
+    tree = ET.parse(os.path.join(project_dir, "badua_report.xml"))
+  File "/usr/lib/python3.7/xml/etree/ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "/usr/lib/python3.7/xml/etree/ElementTree.py", line 587, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/stvr/probabilistic-coupling-experiment/datacollection/coverage/Cli/commons-cli/40b/jaguar/badua_report.xml'

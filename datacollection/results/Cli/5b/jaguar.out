@@ -1,0 +1,5 @@
+02:16:12.048 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+02:16:12.161 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Cli/5b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Cli/5b/tests.all, --logLevel, INFO]
+02:16:25.901 [main] INFO  JaguarDF - Test testStripLeadingHyphens(org.apache.commons.cli.UtilTest) : Failed
+02:16:29.965 [main] INFO  JaguarDF - Test testOrder(org.apache.commons.cli.bug.BugCLI133Test) : Failed
+02:16:31.338 [main] INFO  JaguarDF - Jaguar-DF has finished!

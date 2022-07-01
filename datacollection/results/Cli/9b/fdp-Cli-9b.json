@@ -1,0 +1,1002 @@
+[
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@4$(308,(312,312), this)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@0$(308,(308,310), this)",
+        [
+            0.4,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@2$(308,310, this)",
+        [
+            0.4,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@5$(310,(317,319), iter)",
+        [
+            0.4,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@6$(310,(317,322), iter)",
+        [
+            0.4,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@7$(310,319, iter)",
+        [
+            0.4,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@8$(311,312, buff)",
+        [
+            0.4,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@9$(311,313, buff)",
+        [
+            0.4,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@10$(311,322, buff)",
+        [
+            0.4,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%checkRequiredOptions#2@11$(311,319, buff)",
+        [
+            0.4,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@3$(149,(160,163), this)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@4$(149,163, this)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@9$(149,(158,160), opt)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@15$(149,(160,163), this.requiredOpts)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@16$(149,163, this.requiredOpts)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@21$(149,(160,163), key)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@22$(149,163, key)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@0$(98,163, this)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@17$(98,163, this.tokens)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@24$(102,(106,163), iter)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processProperties#1@4$(251,(251,253), properties)",
+        [
+            0.02666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%helpOptions#2@0$(188,204, opts)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%helpOptions#2@5$(192,(194,204), iter)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%getKey#1@1$(162,(162,167), this)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%getKey#1@2$(162,167, this)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%getKey#1@5$(162,(162,167), this.opt)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%getKey#1@6$(162,167, this.opt)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@0$(149,166, this)",
+        [
+            0.021052631578947368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@1$(149,168, this)",
+        [
+            0.021052631578947368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@11$(149,166, opt)",
+        [
+            0.021052631578947368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@18$(149,166, this.shortOpts)",
+        [
+            0.021052631578947368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@19$(149,166, key)",
+        [
+            0.021052631578947368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%<init>#0@3$(126,(134,139), hasArg)",
+        [
+            0.020833333333333332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%isValidOpt#1@1$(88,(88,88), c)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%validateOption#0@7$(53,(55,60), ch)",
+        [
+            0.019801980198019802,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasLongOpt#2@1$(251,(251,251), this)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasLongOpt#2@3$(251,(251,251), this.longOpt)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@8$(149,(152,158), opt)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%validateOption#0@2$(45,(51,53), opt)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%validateOption#0@5$(45,53, opt)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%validateOption#0@1$(45,(45,51), opt)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%<init>#0@0$(126,139, this)",
+        [
+            0.01904761904761905,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%<init>#0@4$(126,139, description)",
+        [
+            0.01904761904761905,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@6$(98,137, this)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@16$(98,137, stopAtNonOption)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@40$(109,137, token)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@47$(133,(135,137), tokenLength)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%processOptionToken#3@0$(242,(242,244), this)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%processOptionToken#3@3$(242,244, this)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%processOptionToken#3@4$(242,245, this)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%processOptionToken#3@5$(242,(242,244), token)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%processOptionToken#3@7$(242,244, token)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%processOptionToken#3@8$(242,245, token)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%processOptionToken#3@11$(242,(242,244), this.options)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%processOptionToken#3@13$(242,244, this.options)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%processOptionToken#3@14$(242,245, this.tokens)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@31$(109,(131,133), token)",
+        [
+            0.01694915254237288,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@35$(109,133, token)",
+        [
+            0.01694915254237288,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@19$(397,(421,428), opt)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hashCode#17@3$(631,(632,632), this)",
+        [
+            0.016129032258064516,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hashCode#17@8$(631,(632,632), this.longOpt)",
+        [
+            0.016129032258064516,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@28$(109,(112,127), token)",
+        [
+            0.016129032258064516,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@30$(109,(127,131), token)",
+        [
+            0.016129032258064516,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@10$(604,(616,616), this)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@21$(604,(616,616), this.opt)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@33$(613,(616,616), option)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@37$(613,(616,616), option.opt)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@4$(604,(616,616), this)",
+        [
+            0.015151515151515152,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@19$(604,(616,616), this.opt)",
+        [
+            0.015151515151515152,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@1$(604,(604,608), this)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@3$(604,(608,613), this)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@13$(604,(604,608), o)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@14$(604,(608,608), o)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@17$(604,(608,613), o)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@18$(604,613, o)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasArg#3@3$(261,(261,261), this)",
+        [
+            0.014705882352941176,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasArg#3@7$(261,(261,261), this.numberOfArgs)",
+        [
+            0.014705882352941176,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@2$(98,160, this)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@23$(102,(106,109), iter)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@25$(102,109, iter)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%flatten#0@26$(102,160, iter)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%gobble#1@1$(173,(173,180), this)",
+        [
+            0.014705882352941176,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.PosixParser%gobble#1@7$(173,(173,180), this.eatTheRest)",
+        [
+            0.014705882352941176,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Util%stripLeadingHyphens#0@4$(36,(43,45), str)",
+        [
+            0.014492753623188406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Util%stripLeadingHyphens#0@7$(36,45, str)",
+        [
+            0.014492753623188406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@0$(604,(604,606), this)",
+        [
+            0.014285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%equals#16@12$(604,(604,606), o)",
+        [
+            0.014285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%helpOptions#2@2$(188,(198,202), opts)",
+        [
+            0.014285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%helpOptions#2@4$(192,(194,196), iter)",
+        [
+            0.014285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%helpOptions#2@6$(192,196, iter)",
+        [
+            0.014285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%helpOptions#2@8$(196,(198,202), item)",
+        [
+            0.014285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@2$(387,(408,421), this)",
+        [
+            0.014285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@17$(397,(408,421), opt)",
+        [
+            0.014285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%hasOption#4@1$(246,(248,248), this)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%hasOption#4@5$(246,(248,248), this.shortOpts)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%hasOption#4@9$(246,(248,248), opt)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasLongOpt#2@0$(251,(251,251), this)",
+        [
+            0.013888888888888888,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasLongOpt#2@2$(251,(251,251), this.longOpt)",
+        [
+            0.013888888888888888,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasArg#3@0$(261,(261,261), this)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasArg#3@4$(261,(261,261), this.numberOfArgs)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@6$(149,154, this)",
+        [
+            0.013888888888888888,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@7$(149,(152,154), opt)",
+        [
+            0.013888888888888888,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@12$(149,154, opt)",
+        [
+            0.013888888888888888,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@13$(149,154, this.longOpts)",
+        [
+            0.013888888888888888,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hashCode#17@0$(631,(631,631), this)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hashCode#17@5$(631,(631,631), this.opt)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%getOption#3@0$(226,(228,230), this)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%getOption#3@3$(226,230, this)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%getOption#3@4$(226,(228,230), this.shortOpts)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%getOption#3@6$(226,230, this.shortOpts)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%getOption#3@8$(226,(228,230), opt)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%getOption#3@11$(226,230, opt)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@15$(397,(401,408), opt)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@0$(387,397, this)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@3$(387,428, this)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@8$(387,397, arg)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@11$(387,428, this.cmd)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@13$(387,(390,397), hasOption)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Parser%processOption#4@20$(397,428, opt)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hashCode#17@2$(631,631, this)",
+        [
+            0.012987012987012988,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hashCode#17@7$(631,631, this.opt)",
+        [
+            0.012987012987012988,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hashCode#17@10$(631,632, result)",
+        [
+            0.012987012987012988,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Util%stripLeadingHyphens#0@3$(36,(39,43), str)",
+        [
+            0.012048192771084338,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Util%stripLeadingHyphens#0@1$(36,(36,39), str)",
+        [
+            0.011904761904761904,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@10$(149,(158,166), opt)",
+        [
+            0.010869565217391304,
+            true,
+            "clear"
+        ]
+    ]
+]

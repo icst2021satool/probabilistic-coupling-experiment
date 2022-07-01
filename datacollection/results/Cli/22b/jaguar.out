@@ -1,0 +1,5 @@
+02:39:51.873 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+02:39:52.020 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Cli/22b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Cli/22b/tests.all, --logLevel, INFO]
+02:39:56.198 [main] INFO  JaguarDF - Test testGroovy(org.apache.commons.cli.ApplicationTest) : Failed
+02:40:15.368 [main] INFO  JaguarDF - Test testStopAtExpectedArg(org.apache.commons.cli.PosixParserTest) : Failed
+02:40:20.506 [main] INFO  JaguarDF - Jaguar-DF has finished!

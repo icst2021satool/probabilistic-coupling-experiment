@@ -1,0 +1,602 @@
+[
+    [
+        "org.apache.commons.cli.HelpFormatter%appendOption#4@2$(617,634, buff)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%appendOption#4@8$(617,(632,632), option)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%appendOption#4@10$(617,(632,634), option)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%appendOption#4@12$(617,634, option)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%appendOption#4@15$(617,(617,622), required)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%appendOption#4@17$(617,(638,642), required)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@6$(514,555, buff)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@17$(529,555, option)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@19$(532,(535,555), group)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%appendOption#4@3$(617,624, buff)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%appendOption#4@5$(617,(622,624), option)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%appendOption#4@13$(617,624, option)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@4$(514,532, options)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@12$(526,(526,529), i)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@14$(526,529, i)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@16$(526,(558,562), i)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@0$(514,566, this)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@2$(514,566, pw)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@3$(514,566, width)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@5$(514,566, buff)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%printUsage#2@13$(526,(526,566), i)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@3$(149,(160,163), this)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@4$(149,163, this)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@9$(149,(158,160), opt)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@15$(149,(160,163), this.requiredOpts)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@16$(149,163, this.requiredOpts)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@21$(149,(160,163), key)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@22$(149,163, key)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%rtrim#9@11$(951,958, pos)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%rtrim#9@13$(951,(953,958), pos)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%renderWrappedText#6@4$(829,833, this)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%renderWrappedText#6@9$(829,833, sb)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%renderWrappedText#6@10$(829,835, sb)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%renderWrappedText#6@15$(829,833, text)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%renderWrappedText#6@18$(829,(831,833), pos)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%rtrim#9@0$(946,(946,946), s)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%rtrim#9@4$(946,(946,951), s)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%rtrim#9@5$(946,951, s)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%rtrim#9@6$(946,958, s)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%rtrim#9@8$(946,(953,958), s)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%rtrim#9@9$(951,(953,953), pos)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%findWrapPos#7@1$(874,(877,877), text)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%findWrapPos#7@2$(874,877, text)",
+        [
+            0.07692307692307693,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%findWrapPos#7@4$(874,(877,882), text)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%findWrapPos#7@5$(874,(882,884), text)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%findWrapPos#7@17$(874,(882,884), width)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%findWrapPos#7@26$(874,(877,877), startPos)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%findWrapPos#7@27$(874,877, startPos)",
+        [
+            0.07692307692307693,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%findWrapPos#7@29$(874,(877,882), startPos)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.HelpFormatter%findWrapPos#7@30$(874,(882,884), startPos)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasLongOpt#2@1$(251,(251,251), this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasLongOpt#2@3$(251,(251,251), this.longOpt)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@8$(149,(152,158), opt)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%<init>#0@1$(126,136, this)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%<init>#0@2$(126,(134,136), hasArg)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasArg#3@1$(261,(261,261), this)",
+        [
+            0.016129032258064516,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%hasArg#3@5$(261,(261,261), this.numberOfArgs)",
+        [
+            0.016129032258064516,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%helpOptions#2@0$(188,204, opts)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%helpOptions#2@5$(192,(194,204), iter)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%getKey#1@1$(162,(162,167), this)",
+        [
+            0.00980392156862745,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%getKey#1@2$(162,167, this)",
+        [
+            0.00980392156862745,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%getKey#1@5$(162,(162,167), this.opt)",
+        [
+            0.00980392156862745,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%getKey#1@6$(162,167, this.opt)",
+        [
+            0.00980392156862745,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@0$(149,166, this)",
+        [
+            0.009708737864077669,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@1$(149,168, this)",
+        [
+            0.009708737864077669,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@11$(149,166, opt)",
+        [
+            0.009708737864077669,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@18$(149,166, this.shortOpts)",
+        [
+            0.009708737864077669,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Options%addOption#1@19$(149,166, key)",
+        [
+            0.009708737864077669,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%isValidOpt#1@1$(88,(88,88), c)",
+        [
+            0.009259259259259259,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%validateOption#0@7$(53,(55,60), ch)",
+        [
+            0.009174311926605505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%validateOption#0@2$(45,(51,53), opt)",
+        [
+            0.00909090909090909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%validateOption#0@5$(45,53, opt)",
+        [
+            0.00909090909090909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.OptionValidator%validateOption#0@1$(45,(45,51), opt)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%<init>#0@0$(126,139, this)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.cli.Option%<init>#0@4$(126,139, description)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ]
+]

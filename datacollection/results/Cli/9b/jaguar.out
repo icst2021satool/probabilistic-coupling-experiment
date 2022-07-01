@@ -1,0 +1,5 @@
+02:19:57.131 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+02:19:57.274 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Cli/9b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Cli/9b/tests.all, --logLevel, INFO]
+02:20:10.503 [main] INFO  JaguarDF - Test testMissingOptionsException(org.apache.commons.cli.OptionsTest) : Failed
+02:20:11.125 [main] INFO  JaguarDF - Test testMissingRequiredOptions(org.apache.commons.cli.ParseRequiredTest) : Failed
+02:20:18.875 [main] INFO  JaguarDF - Jaguar-DF has finished!

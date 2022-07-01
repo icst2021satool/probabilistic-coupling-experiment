@@ -1,0 +1,5 @@
+02:36:56.366 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+02:36:56.521 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Cli/21b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Cli/21b/tests.all, --logLevel, INFO]
+02:37:13.082 [main] INFO  JaguarDF - Test testNegativeNumber(org.apache.commons.cli2.bug.BugCLI150Test) : Failed
+02:39:27.879 [main] INFO  JaguarDF - Test testValidate_WritableFile(org.apache.commons.cli2.validation.FileValidatorTest) : Failed
+02:39:32.468 [main] INFO  JaguarDF - Jaguar-DF has finished!
