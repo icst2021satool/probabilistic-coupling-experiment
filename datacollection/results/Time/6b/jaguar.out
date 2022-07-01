@@ -1,0 +1,18 @@
+14:08:02.824 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+14:08:02.951 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/6b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Time/6b/tests.all, --logLevel, INFO]
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+15:56:07.057 [main] INFO  JaguarDF - Test test_plusWeekyears_positiveToNegative_crossCutover(org.joda.time.chrono.TestGJDate) : Failed
+15:56:11.741 [main] INFO  JaguarDF - Test test_plusYears_positiveToNegative_crossCutover(org.joda.time.chrono.TestGJDate) : Failed
+15:56:18.727 [main] INFO  JaguarDF - Test test_plusWeekyears_positiveToZero_crossCutover(org.joda.time.chrono.TestGJDate) : Failed
+15:56:23.374 [main] INFO  JaguarDF - Test test_plusYears_positiveToZero_crossCutover(org.joda.time.chrono.TestGJDate) : Failed
+15:56:28.021 [main] INFO  JaguarDF - Test test_cutoverPreZero(org.joda.time.chrono.TestGJDate) : Failed
+
+TestIslamicChronology.testCalendar
+Writing zoneinfo files
+Writing ZoneInfoMap
+16:36:44.470 [main] INFO  JaguarDF - Jaguar-DF has finished!

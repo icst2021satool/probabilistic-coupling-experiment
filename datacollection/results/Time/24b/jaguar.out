@@ -1,0 +1,20 @@
+07:03:03.933 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+07:03:04.074 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/24b, --classesDir, build/classes, --testsDir, build/tests, --tests, /PPgSI/workdir/Time/24b/tests.all, --logLevel, INFO]
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+09:06:36.183 [main] INFO  JaguarDF - Test testParseLocalDate_weekyear_month_week_2010(org.joda.time.format.TestDateTimeFormatter) : Failed
+09:06:38.460 [main] INFO  JaguarDF - Test testParseLocalDate_weekyear_month_week_2011(org.joda.time.format.TestDateTimeFormatter) : Failed
+09:06:40.752 [main] INFO  JaguarDF - Test testParseLocalDate_weekyear_month_week_2012(org.joda.time.format.TestDateTimeFormatter) : Failed
+09:07:26.548 [main] INFO  JaguarDF - Test testParseLocalDate_year_month_week_2010(org.joda.time.format.TestDateTimeFormatter) : Failed
+09:07:28.832 [main] INFO  JaguarDF - Test testParseLocalDate_year_month_week_2011(org.joda.time.format.TestDateTimeFormatter) : Failed
+09:07:31.154 [main] INFO  JaguarDF - Test testParseLocalDate_year_month_week_2012(org.joda.time.format.TestDateTimeFormatter) : Failed
+09:07:40.318 [main] INFO  JaguarDF - Test testParseLocalDate_year_month_week_2016(org.joda.time.format.TestDateTimeFormatter) : Failed
+Writing zoneinfo files
+Writing ZoneInfoMap
+09:19:24.252 [main] INFO  JaguarDF - Jaguar-DF has finished!

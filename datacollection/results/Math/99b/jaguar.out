@@ -1,0 +1,9 @@
+21:09:11.910 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+21:09:12.551 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+21:43:40.513 [main] INFO  JaguarDF - Test testGcd(org.apache.commons.math.util.MathUtilsTest) : Failed
+21:43:43.414 [main] INFO  JaguarDF - Test testLcm(org.apache.commons.math.util.MathUtilsTest) : Failed
+21:47:18.517 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	38m9.314s
+user	38m42.045s
+sys	0m26.060s

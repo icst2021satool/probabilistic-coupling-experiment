@@ -1,0 +1,9 @@
+19:13:43.460 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+19:13:45.284 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+19:56:15.063 [main] INFO  JaguarDF - Test testMinpackJennrichSampson(org.apache.commons.math.optimization.general.MinpackTest) : Failed
+19:56:38.832 [main] INFO  JaguarDF - Test testMinpackFreudensteinRoth(org.apache.commons.math.optimization.general.MinpackTest) : Failed
+20:41:04.844 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	87m26.349s
+user	86m13.632s
+sys	0m55.129s

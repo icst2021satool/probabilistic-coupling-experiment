@@ -1,0 +1,746 @@
+[
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@14$(603,669, this)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@15$(603,670, this)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@63$(603,670, VALUE_STRING)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@71$(603,669, this._xmlTokens)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@117$(617,(643,669), token)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@1$(603,(604,617), this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@2$(603,617, this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@59$(603,(604,617), this._nextToken)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@68$(603,617, this._xmlTokens)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextTextValue#8@113$(617,(620,643), token)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@30$(455,(537,544), this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@31$(455,544, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@32$(455,545, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@95$(455,544, this._parsingContext)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@120$(455,544, this._xmlTokens)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@129$(455,(537,544), this._mayBeLeaf)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@138$(455,545, FIELD_NAME)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@139$(455,545, FIELD_NAME)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@2$(305,(305,330), this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@8$(305,330, this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@30$(305,(305,330), this._currentState)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@174$(480,(516,537), token)",
+        [
+            0.03333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@9$(305,(310,311), this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@18$(305,311, this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@19$(305,312, this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@20$(305,313, this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@21$(305,314, this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@35$(305,(310,311), this._nextAttributeIndex)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@37$(305,311, this._nextAttributeIndex)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@38$(305,312, this._nextAttributeIndex)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@39$(305,313, this._nextAttributeIndex)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@40$(305,(310,311), this._attributeCount)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@44$(305,311, this._xmlReader)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@45$(305,312, this._xmlReader)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@46$(305,313, this._xmlReader)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%_createParser#9@1$(556,(563,566), this)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%_createParser#9@4$(556,(563,566), this._cfgNameForTextElement)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%_createParser#9@6$(561,566, xp)",
+        [
+            0.013513513513513514,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@0$(326,(326,326), this)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@5$(326,(326,330), this)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@6$(326,330, this)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@7$(326,(326,326), START_OBJECT)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@9$(326,(326,326), this._currToken)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@13$(326,(326,330), this._currToken)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@15$(326,(326,330), START_ARRAY)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@17$(326,330, this._parsingContext)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@22$(330,(333,336), name)",
+        [
+            0.013157894736842105,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%getCurrentName#3@23$(330,336, name)",
+        [
+            0.013157894736842105,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@1$(455,(456,480), this)",
+        [
+            0.012987012987012988,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@2$(455,480, this)",
+        [
+            0.012987012987012988,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@80$(455,(456,480), this._nextToken)",
+        [
+            0.012987012987012988,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@115$(455,480, this._xmlTokens)",
+        [
+            0.012987012987012988,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@171$(480,(484,516), token)",
+        [
+            0.012987012987012988,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@1$(305,(305,310), this)",
+        [
+            0.012345679012345678,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%_next#7@29$(305,(305,310), this._currentState)",
+        [
+            0.012345679012345678,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%next#1@1$(158,(158,162), this)",
+        [
+            0.012345679012345678,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%next#1@2$(158,162, this)",
+        [
+            0.012345679012345678,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%next#1@6$(158,(158,162), this._repeatElement)",
+        [
+            0.012345679012345678,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%_initializeXmlReader#12@1$(650,(650,653), sr)",
+        [
+            0.012345679012345678,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%_initializeXmlReader#12@2$(650,653, sr)",
+        [
+            0.012345679012345678,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlReadContext%createChildObjectContext#1@0$(99,101, this)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlReadContext%createChildObjectContext#1@1$(99,101, this)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlReadContext%createChildObjectContext#1@3$(99,101, lineNr)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlReadContext%createChildObjectContext#1@5$(99,101, colNr)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlReadContext%createChildObjectContext#1@6$(99,(100,101), ctxt)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@0$(455,(456,457), this)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@71$(455,457, this)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@72$(455,458, this)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@73$(455,459, this)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@78$(455,462, this)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@79$(455,(456,457), this._nextToken)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@81$(455,457, this._nextToken)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@85$(455,(460,462), $SwitchMap$com$fasterxml$jackson$core$JsonToken)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@110$(455,462, this._parsingContext)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@165$(457,(460,462), t)",
+        [
+            0.012195121951219513,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser%nextToken#7@169$(457,478, t)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%<init>#0@0$(101,108, this)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%<init>#0@1$(101,109, this)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%<init>#0@2$(101,110, this)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%<init>#0@3$(101,111, this)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%<init>#0@4$(101,112, this)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%<init>#0@6$(101,(104,108), xmlReader)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream%<init>#0@7$(101,108, xmlReader)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@0$(108,120, this)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@1$(108,121, this)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@2$(108,122, this)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@3$(108,(112,113), xmlIn)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@7$(108,(117,118), xmlOut)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@11$(108,115, FALSE)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@12$(113,120, xmlIn)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@13$(113,121, xmlIn)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@14$(118,120, xmlOut)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.dataformat.xml.XmlFactory%<init>#0@15$(118,122, xmlOut)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ]
+]

@@ -1,0 +1,266 @@
+[
+    [
+        "org.apache.commons.math.complex.Complex%hashCode#4@1$(277,(277,280), this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%hashCode#4@2$(277,280, this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%hashCode#4@3$(277,280, this.imaginary)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%hashCode#4@4$(277,280, this.real)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%equals#3@3$(248,(258,258), this)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%equals#3@13$(248,(258,258), this.real)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%equals#3@21$(254,(258,258), rhs)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@6$(355,363, this)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@12$(355,(358,363), rhs)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@13$(355,363, rhs)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@17$(355,363, this.real)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@20$(355,363, this.imaginary)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@23$(355,363, rhs.real)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@25$(355,(358,363), rhs.imaginary)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@26$(355,363, rhs.imaginary)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@9$(355,(358,358), rhs)",
+        [
+            0.047619047619047616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@21$(355,(358,358), rhs.real)",
+        [
+            0.047619047619047616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@4$(355,(358,358), this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@18$(355,(358,358), this.imaginary)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@2$(355,(358,358), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@8$(355,(355,358), rhs)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@15$(355,(358,358), this.real)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%multiply#7@0$(355,(355,355), this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%equals#3@19$(254,(255,258), rhs)",
+        [
+            0.03333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%equals#3@25$(258,266, ret)",
+        [
+            0.03333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%equals#3@10$(248,(250,254), other)",
+        [
+            0.029411764705882353,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%equals#3@11$(248,254, other)",
+        [
+            0.029411764705882353,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%equals#3@1$(248,(248,250), this)",
+        [
+            0.02857142857142857,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%equals#3@8$(248,(248,250), other)",
+        [
+            0.02857142857142857,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%isNaN#5@3$(310,(310,310), this)",
+        [
+            0.010869565217391304,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%isNaN#5@7$(310,(310,310), this.imaginary)",
+        [
+            0.010869565217391304,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%isNaN#5@0$(310,(310,310), this)",
+        [
+            0.010638297872340425,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.complex.Complex%isNaN#5@4$(310,(310,310), this.real)",
+        [
+            0.010638297872340425,
+            false,
+            "clear"
+        ]
+    ]
+]

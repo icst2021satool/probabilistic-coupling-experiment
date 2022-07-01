@@ -1,0 +1,4 @@
+org/apache/commons/math/complex/Complex.java#258#                    ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary())); 
+com/fasterxml/jackson/core/filter/FilteringParserDelegate.java#227#FAULT_OF_OMISSION
+com/fasterxml/jackson/core/filter/FilteringParserDelegate.java#228#FAULT_OF_OMISSION
+com/fasterxml/jackson/core/filter/FilteringParserDelegate.java#230#FAULT_OF_OMISSION

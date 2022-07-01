@@ -1,0 +1,21 @@
+21:39:47.337 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+21:39:48.119 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.addExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.addExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.multiplyExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.multiplyExact(long,long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.subtractExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.subtractExact(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.toIntExact(long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorDiv(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorDiv(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorMod(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorMod(long,long)
+Cannot find FastMath method corresponding to: public static float java.lang.StrictMath.nextDown(float)
+Cannot find FastMath method corresponding to: public static double java.lang.StrictMath.nextDown(double)
+22:00:10.304 [main] INFO  JaguarDF - Test testMath835(org.apache.commons.math3.fraction.FractionTest) : Failed
+02:23:33.075 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	283m48.561s
+user	289m54.226s
+sys	2m17.722s

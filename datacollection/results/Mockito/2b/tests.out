@@ -1,0 +1,354 @@
+JUnit version 4.11
+....I.....................................................................................................############ Logging method invocation #1 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has returned: "return value" (java.lang.String)
+
+
+.############ Logging method invocation #1 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has thrown: class org.mockito.internal.debugging.VerboseMockInvocationLoggerTest$ThirdPartyException
+
+
+.############ Logging method invocation #1 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has returned: "whatever" (java.lang.String)
+
+
+.############ Logging method invocation #1 on mock/spy ########
+   stubbed: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has returned: "whatever" (java.lang.String)
+
+
+.############ Logging method invocation #1 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has thrown: class org.mockito.internal.debugging.VerboseMockInvocationLoggerTest$ThirdPartyException
+
+############ Logging method invocation #2 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has thrown: class org.mockito.internal.debugging.VerboseMockInvocationLoggerTest$ThirdPartyException
+
+############ Logging method invocation #3 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has thrown: class org.mockito.internal.debugging.VerboseMockInvocationLoggerTest$ThirdPartyException
+
+
+.
+...................................................................................................................................................................................................................................................................................................................E..................org.mockito.internal.exceptions.ExceptionIncludingMockitoWarnings: contains both: actual test failure *and* Mockito warnings.
+unused stubbing blah
+ *** The actual failure is because of: ***
+
+...I.........................................................................................................................E.E.................................I........
+Time: 0.001
+
+OK (3 tests)
+
+.....................................................................................................................................started 0
+..finished0
+......................E
+Time: 0
+There was 1 failure:
+1) initializationError(org.mockitousage.bugs.MockitoRunnerBreaksWhenNoTestMethodsTest$TestClassWithoutTestMethod)
+org.mockito.exceptions.base.MockitoException: 
+
+No tests found in TestClassWithoutTestMethod
+Haven't you forgot @Test annotation?
+
+	at org.mockito.internal.runners.RunnerFactory.create(RunnerFactory.java:37)
+	at org.mockito.runners.MockitoJUnitRunner.<init>(MockitoJUnitRunner.java:57)
+	at sun.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:29)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:21)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runner.Computer.getRunner(Computer.java:40)
+	at org.junit.runner.Computer$1.runnerForClass(Computer.java:31)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:101)
+	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:87)
+	at org.junit.runners.Suite.<init>(Suite.java:80)
+	at org.junit.runner.Computer.getSuite(Computer.java:28)
+	at org.junit.runner.Request.classes(Request.java:75)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.mockitousage.bugs.MockitoRunnerBreaksWhenNoTestMethodsTest.ensure_the_test_runner_breaks(MockitoRunnerBreaksWhenNoTestMethodsTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.mockito.internal.runners.util.RunnerProvider.newInstance(RunnerProvider.java:39)
+	at org.mockito.internal.runners.RunnerFactory.create(RunnerFactory.java:28)
+	... 51 more
+Caused by: org.junit.runners.model.InitializationError
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:357)
+	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:57)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl$1.<init>(JUnit45AndHigherRunnerImpl.java:23)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.<init>(JUnit45AndHigherRunnerImpl.java:23)
+	... 56 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+.I............II.................................................................********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsDetectsUnusedStubTest.shouldDetectUnusedStubbingWhenPrinting(PrintingInvocationsDetectsUnusedStubTest.java:22)
+********************************
+***       Unused stubs       ***
+********************************
+mock.giveMeSomeString("different arg");
+ stubbed: -> at org.mockitousage.debugging.PrintingInvocationsDetectsUnusedStubTest.shouldDetectUnusedStubbingWhenPrinting(PrintingInvocationsDetectsUnusedStubTest.java:21)
+
+.********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.businessLogicWithAsking(PrintingInvocationsWhenEverythingOkTest.java:34)
+ stubbed: -> at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.performStubbing(PrintingInvocationsWhenEverythingOkTest.java:30)
+mockTwo.doSomething("foo");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.businessLogicWithTelling(PrintingInvocationsWhenEverythingOkTest.java:39)
+
+.********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.businessLogicWithAsking(PrintingInvocationsWhenStubNotUsedTest.java:34)
+mockTwo.doSomething(null);
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.businessLogicWithTelling(PrintingInvocationsWhenStubNotUsedTest.java:39)
+********************************
+***       Unused stubs       ***
+********************************
+mock.giveMeSomeString("different arg");
+ stubbed: -> at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.performStubbing(PrintingInvocationsWhenStubNotUsedTest.java:30)
+
+........................III.....................................org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced argument matcher detected here:
+
+-> at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:43)
+-> at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:44)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at org.mockito.exceptions.Reporter.misplacedArgumentMatcher(Reporter.java:516)
+	at org.mockito.internal.progress.ArgumentMatcherStorageImpl.validateState(ArgumentMatcherStorageImpl.java:115)
+	at org.mockito.internal.progress.MockingProgressImpl.validateMostStuff(MockingProgressImpl.java:89)
+	at org.mockito.internal.progress.MockingProgressImpl.validateState(MockingProgressImpl.java:68)
+	at org.mockito.internal.progress.MockingProgressImpl.verificationStarted(MockingProgressImpl.java:40)
+	at org.mockito.internal.progress.ThreadSafeMockingProgress.verificationStarted(ThreadSafeMockingProgress.java:36)
+	at org.mockito.internal.MockitoCore.verify(MockitoCore.java:89)
+	at org.mockito.Mockito.verify(Mockito.java:1553)
+	at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+..I...........................................................................................II.....................................I..............................................................................................................................................................................................I....II......Wanted but not invoked:
+iMethods.threeArgumentMethod(12, foo, "xx");
+-> at org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.should_print_method_name_and_arguments_of_other_interactions_with_different_methods(DescriptiveMessagesWhenVerificationFailsTest.java:374)
+
+However, there were other interactions with this mock:
+iMethods.arrayMethod(["a", "b", "c"]);
+-> at org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.should_print_method_name_and_arguments_of_other_interactions_with_different_methods(DescriptiveMessagesWhenVerificationFailsTest.java:371)
+
+iMethods.forByte(25);
+-> at org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.should_print_method_name_and_arguments_of_other_interactions_with_different_methods(DescriptiveMessagesWhenVerificationFailsTest.java:372)
+
+
+..................................................................................................................................................I.................
+Time: 13.061
+There were 3 failures:
+1) should_throw_friendly_reminder_exception_when_duration_is_negative(org.mockito.internal.util.TimerTest)
+java.lang.AssertionError: It is forbidden to create timer with negative value of timer's duration.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.mockito.internal.util.TimerTest.should_throw_friendly_reminder_exception_when_duration_is_negative(TimerTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+2) should_throw_exception_when_duration_is_negative_for_timeout_method(org.mockito.verification.NegativeDurationTest)
+java.lang.AssertionError: It is forbidden to invoke Mockito.timeout() with negative value.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.mockito.verification.NegativeDurationTest.should_throw_exception_when_duration_is_negative_for_timeout_method(NegativeDurationTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+3) should_throw_exception_when_duration_is_negative_for_after_method(org.mockito.verification.NegativeDurationTest)
+java.lang.AssertionError: It is forbidden to invoke Mockito.after() with negative value.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.mockito.verification.NegativeDurationTest.should_throw_exception_when_duration_is_negative_for_after_method(NegativeDurationTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+
+FAILURES!!!
+Tests run: 1388,  Failures: 3
+
+
+real	0m13.875s
+user	0m30.634s
+sys	0m1.896s

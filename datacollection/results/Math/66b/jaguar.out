@@ -1,0 +1,11 @@
+00:21:12.444 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+00:21:13.199 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+00:58:02.331 [main] INFO  JaguarDF - Test testQuinticMin(org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest) : Failed
+00:58:06.021 [main] INFO  JaguarDF - Test testSinMin(org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest) : Failed
+01:05:35.360 [main] INFO  JaguarDF - Test testQuinticMinStatistics(org.apache.commons.math.optimization.univariate.BrentOptimizerTest) : Failed
+01:05:39.461 [main] INFO  JaguarDF - Test testSinMin(org.apache.commons.math.optimization.univariate.BrentOptimizerTest) : Failed
+01:47:16.782 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	86m7.258s
+user	84m51.418s
+sys	0m54.129s

@@ -1,0 +1,9 @@
+19:13:32.621 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+19:13:33.565 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+20:03:29.495 [main] INFO  JaguarDF - Test testPValueNearZero(org.apache.commons.math.stat.correlation.PearsonsCorrelationTest) : Failed
+20:04:22.331 [main] INFO  JaguarDF - Test testPValueNearZero(org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest) : Failed
+20:38:51.671 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	85m22.628s
+user	84m12.755s
+sys	0m52.163s

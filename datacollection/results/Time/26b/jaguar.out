@@ -1,0 +1,21 @@
+11:38:32.108 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+11:38:32.261 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/26b, --classesDir, build/classes, --testsDir, build/tests, --tests, /PPgSI/workdir/Time/26b/tests.all, --logLevel, INFO]
+11:47:13.353 [main] INFO  JaguarDF - Test testWithSecondOfMinuteInDstChange(org.joda.time.TestDateTimeZoneCutover) : Failed
+11:47:38.129 [main] INFO  JaguarDF - Test testWithMinuteOfHourInDstChange(org.joda.time.TestDateTimeZoneCutover) : Failed
+11:48:14.365 [main] INFO  JaguarDF - Test testWithMinuteOfHourInDstChange_mockZone(org.joda.time.TestDateTimeZoneCutover) : Failed
+11:48:20.082 [main] INFO  JaguarDF - Test testBug2182444_usCentral(org.joda.time.TestDateTimeZoneCutover) : Failed
+11:48:29.620 [main] INFO  JaguarDF - Test testWithMillisOfSecondInDstChange_Paris_summer(org.joda.time.TestDateTimeZoneCutover) : Failed
+11:48:31.531 [main] INFO  JaguarDF - Test testWithHourOfDayInDstChange(org.joda.time.TestDateTimeZoneCutover) : Failed
+11:49:04.171 [main] INFO  JaguarDF - Test testWithMillisOfSecondInDstChange_NewYork_winter(org.joda.time.TestDateTimeZoneCutover) : Failed
+11:49:13.833 [main] INFO  JaguarDF - Test testBug2182444_ausNSW(org.joda.time.TestDateTimeZoneCutover) : Failed
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+Writing zoneinfo files
+Writing ZoneInfoMap
+13:54:31.880 [main] INFO  JaguarDF - Jaguar-DF has finished!

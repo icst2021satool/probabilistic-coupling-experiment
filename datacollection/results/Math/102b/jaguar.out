@@ -1,0 +1,13 @@
+20:42:20.654 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+20:42:21.074 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+20:55:52.409 [main] INFO  JaguarDF - Test testChiSquareLargeTestStatistic(org.apache.commons.math.stat.inference.ChiSquareFactoryTest) : Failed
+20:55:54.189 [main] INFO  JaguarDF - Test testChiSquare(org.apache.commons.math.stat.inference.ChiSquareFactoryTest) : Failed
+20:56:04.991 [main] INFO  JaguarDF - Test testChiSquareLargeTestStatistic(org.apache.commons.math.stat.inference.ChiSquareTestTest) : Failed
+20:56:06.784 [main] INFO  JaguarDF - Test testChiSquare(org.apache.commons.math.stat.inference.ChiSquareTestTest) : Failed
+20:56:40.885 [main] INFO  JaguarDF - Test testChiSquareLargeTestStatistic(org.apache.commons.math.stat.inference.TestUtilsTest) : Failed
+20:56:42.680 [main] INFO  JaguarDF - Test testChiSquare(org.apache.commons.math.stat.inference.TestUtilsTest) : Failed
+20:59:17.009 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	16m57.657s
+user	17m31.593s
+sys	0m10.777s

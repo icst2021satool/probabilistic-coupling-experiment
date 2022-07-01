@@ -1,0 +1,15 @@
+13:56:07.431 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+13:56:07.575 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/27b, --classesDir, build/classes, --testsDir, build/tests, --tests, /PPgSI/workdir/Time/27b/tests.all, --logLevel, INFO]
+2008-08-10T00:00:00.000-03:00
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+16:06:37.398 [main] INFO  JaguarDF - Test testBug2495455(org.joda.time.format.TestPeriodFormatterBuilder) : Failed
+Writing zoneinfo files
+Writing ZoneInfoMap
+16:09:29.679 [main] INFO  JaguarDF - Jaguar-DF has finished!

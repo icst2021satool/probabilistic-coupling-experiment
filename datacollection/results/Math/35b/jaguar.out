@@ -1,0 +1,24 @@
+18:53:07.208 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+18:53:08.043 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.addExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.addExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.multiplyExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.multiplyExact(long,long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.subtractExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.subtractExact(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.toIntExact(long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorDiv(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorDiv(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorMod(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorMod(long,long)
+Cannot find FastMath method corresponding to: public static float java.lang.StrictMath.nextDown(float)
+Cannot find FastMath method corresponding to: public static double java.lang.StrictMath.nextDown(double)
+19:12:07.851 [main] INFO  JaguarDF - Test testChromosomeListConstructorTooLow(org.apache.commons.math3.genetics.ElitisticListPopulationTest) : Failed
+19:12:11.869 [main] INFO  JaguarDF - Test testConstructorTooHigh(org.apache.commons.math3.genetics.ElitisticListPopulationTest) : Failed
+19:12:13.844 [main] INFO  JaguarDF - Test testConstructorTooLow(org.apache.commons.math3.genetics.ElitisticListPopulationTest) : Failed
+19:12:17.884 [main] INFO  JaguarDF - Test testChromosomeListConstructorTooHigh(org.apache.commons.math3.genetics.ElitisticListPopulationTest) : Failed
+23:23:22.128 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	270m17.835s
+user	269m26.492s
+sys	1m31.237s

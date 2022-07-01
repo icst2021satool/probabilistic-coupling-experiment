@@ -1,0 +1,1314 @@
+[
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@5$(294,(294,294), this)",
+        [
+            0.4472135954999579,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@12$(294,(294,294), this.iZone)",
+        [
+            0.4472135954999579,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%forOffsetHoursMinutes#3@8$(254,266, minutesOffset)",
+        [
+            0.3922322702763681,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%forOffsetHoursMinutes#3@14$(262,(263,266), hoursInMinutes)",
+        [
+            0.3922322702763681,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%forOffsetHoursMinutes#3@15$(262,266, hoursInMinutes)",
+        [
+            0.3922322702763681,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%forOffsetHoursMinutes#3@18$(266,268, minutesOffset)",
+        [
+            0.3922322702763681,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%forOffsetHoursMinutes#3@1$(254,(254,257), hoursOffset)",
+        [
+            0.35355339059327373,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%forOffsetHoursMinutes#3@2$(254,262, hoursOffset)",
+        [
+            0.34299717028501764,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%forOffsetHoursMinutes#3@3$(254,(257,257), minutesOffset)",
+        [
+            0.34299717028501764,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%forOffsetHoursMinutes#3@7$(254,(257,260), minutesOffset)",
+        [
+            0.34299717028501764,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@13$(356,(357,358), ref)",
+        [
+            0.2721655269759087,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@15$(356,358, ref)",
+        [
+            0.2721655269759087,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@16$(358,(359,360), zone)",
+        [
+            0.2721655269759087,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@18$(358,360, zone)",
+        [
+            0.2721655269759087,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@0$(349,356, id)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@4$(349,(349,352), offset)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@8$(349,(352,356), iFixedOffsetCache)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@9$(349,356, iFixedOffsetCache)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeMultiply#4@2$(119,(120,120), total)",
+        [
+            0.19802950859533489,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeMultiply#4@5$(119,(120,124), total)",
+        [
+            0.19802950859533489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeMultiply#4@6$(119,124, total)",
+        [
+            0.19802950859533489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@7$(96,(101,104), zone)",
+        [
+            0.1873171623163388,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@25$(100,(101,104), chrono)",
+        [
+            0.1873171623163388,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@28$(105,(106,110), chrono)",
+        [
+            0.1873171623163388,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@29$(105,111, chrono)",
+        [
+            0.1873171623163388,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@30$(105,112, chrono)",
+        [
+            0.1873171623163388,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@0$(631,(632,633), offset)",
+        [
+            0.17277368511627203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@3$(631,639, offset)",
+        [
+            0.17277368511627203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@4$(631,641, offset)",
+        [
+            0.17277368511627203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@16$(631,633, buf)",
+        [
+            0.17277368511627203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@6$(631,640, buf)",
+        [
+            0.17025130615174972,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@7$(631,644, buf)",
+        [
+            0.17025130615174972,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@8$(631,645, buf)",
+        [
+            0.17025130615174972,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@15$(631,648, buf)",
+        [
+            0.17025130615174972,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@19$(646,(647,648), offset)",
+        [
+            0.17025130615174972,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@3$(96,105, zone)",
+        [
+            0.16116459280507606,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@9$(96,111, cFastCache)",
+        [
+            0.16116459280507606,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@10$(96,104, cCache)",
+        [
+            0.16116459280507606,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@11$(96,104, cCache)",
+        [
+            0.16116459280507606,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@12$(96,105, cCache)",
+        [
+            0.16116459280507606,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@21$(99,111, index)",
+        [
+            0.16116459280507606,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getDifference#4@1$(330,(331,331), this)",
+        [
+            0.159111456835146,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getDifference#4@6$(330,(331,331), this.iTimeField)",
+        [
+            0.159111456835146,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@3$(294,(294,294), this)",
+        [
+            0.15713484026367722,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@10$(294,(294,294), this.iField)",
+        [
+            0.15713484026367722,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@1$(294,(294,294), this)",
+        [
+            0.15617376188860607,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@2$(294,(294,294), this)",
+        [
+            0.15617376188860607,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@8$(294,(294,294), this.iTimeField)",
+        [
+            0.15617376188860607,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@9$(294,(294,294), this.iField)",
+        [
+            0.15617376188860607,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@17$(281,(282,280), field)",
+        [
+            0.14990633779917228,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@0$(294,(294,294), this)",
+        [
+            0.14744195615489714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@4$(294,294, this)",
+        [
+            0.14744195615489714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@7$(294,(294,294), this.iTimeField)",
+        [
+            0.14744195615489714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%isPrecise#1@11$(294,294, this.iField)",
+        [
+            0.14744195615489714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@20$(284,283, current)",
+        [
+            0.1466471150213533,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@21$(284,284, current)",
+        [
+            0.1466471150213533,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@22$(280,(280,281), i)",
+        [
+            0.1466471150213533,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@24$(280,281, i)",
+        [
+            0.1466471150213533,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@25$(280,280, i)",
+        [
+            0.1466471150213533,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@26$(280,285, i)",
+        [
+            0.1466471150213533,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@0$(276,281, this)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@1$(276,281, period)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@2$(276,(278,279), duration)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@4$(276,283, duration)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@5$(276,(280,281), size)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@6$(276,(280,289), size)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@8$(277,285, values)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@9$(279,283, current)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@10$(279,284, current)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@11$(280,(280,281), i)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@13$(280,281, i)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@14$(280,280, i)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@16$(281,(282,283), field)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@18$(281,283, field)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@19$(281,284, field)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@23$(280,(280,289), i)",
+        [
+            0.14071950894605836,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%add#2@1$(318,(320,320), this)",
+        [
+            0.13018891098082389,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%add#2@4$(318,(320,320), this.iTimeField)",
+        [
+            0.13018891098082389,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getOffsetFromLocalToSubtract#7@1$(354,(357,360), instant)",
+        [
+            0.11952286093343936,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getOffsetFromLocalToSubtract#7@4$(354,360, offset)",
+        [
+            0.11952286093343936,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getOffsetFromLocalToSubtract#7@8$(355,(357,360), diff)",
+        [
+            0.11952286093343936,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getDifference#4@0$(330,(331,331), this)",
+        [
+            0.1125087900926024,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getDifference#4@5$(330,(331,331), this.iTimeField)",
+        [
+            0.1125087900926024,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%getPeriodType#10@0$(286,(286,287), type)",
+        [
+            0.11145564251507056,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getDifference#4@2$(330,331, this)",
+        [
+            0.10943513103291655,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getDifference#4@3$(330,331, minuendInstant)",
+        [
+            0.10943513103291655,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getDifference#4@4$(330,331, subtrahendInstant)",
+        [
+            0.10943513103291655,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getDifference#4@7$(330,331, this.iField)",
+        [
+            0.10943513103291655,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getDifference#4@8$(330,331, offset)",
+        [
+            0.10943513103291655,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@6$(264,(266,278), this)",
+        [
+            0.105999788000636,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@19$(264,(266,278), this.iOrdinal)",
+        [
+            0.105999788000636,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@32$(264,278, chronology)",
+        [
+            0.105999788000636,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%add#2@0$(318,(320,320), this)",
+        [
+            0.10127393670836667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%add#2@3$(318,(320,320), this.iTimeField)",
+        [
+            0.10127393670836667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BaseChronology%get#4@7$(277,289, values)",
+        [
+            0.0982946374365981,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeSubtract#3@1$(100,(102,106), val1)",
+        [
+            0.09644856443408242,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeSubtract#3@9$(100,(102,106), diff)",
+        [
+            0.09644856443408242,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@12$(264,(266,290), this)",
+        [
+            0.09470274476207569,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@25$(264,(266,290), this.iOrdinal)",
+        [
+            0.09470274476207569,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@26$(264,290, chronology)",
+        [
+            0.09470274476207569,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeSubtract#3@10$(100,106, diff)",
+        [
+            0.09407208683835973,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@11$(264,(266,288), this)",
+        [
+            0.0936585811581694,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@24$(264,(266,288), this.iOrdinal)",
+        [
+            0.0936585811581694,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@27$(264,288, chronology)",
+        [
+            0.0936585811581694,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%add#2@2$(318,320, this)",
+        [
+            0.0922531208028885,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%add#2@5$(319,320, instant)",
+        [
+            0.0922531208028885,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@4$(264,(266,274), this)",
+        [
+            0.0922531208028885,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@17$(264,(266,274), this.iOrdinal)",
+        [
+            0.0922531208028885,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@34$(264,274, chronology)",
+        [
+            0.0922531208028885,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.PeriodType%getIndexedField#20@0$(674,675, period)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.PeriodType%getIndexedField#20@2$(674,(675,675), realIndex)",
+        [
+            0.08606629658238704,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.PeriodType%getIndexedField#20@3$(674,675, realIndex)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getOffsetToAdd#6@1$(344,(347,350), instant)",
+        [
+            0.08528028654224416,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getOffsetToAdd#6@8$(345,(347,350), sum)",
+        [
+            0.08528028654224416,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ZonedChronology$ZonedDurationField%getOffsetToAdd#6@4$(344,350, offset)",
+        [
+            0.0842151921066519,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@10$(264,(266,286), this)",
+        [
+            0.0842151921066519,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@23$(264,(266,286), this.iOrdinal)",
+        [
+            0.0842151921066519,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@28$(264,286, chronology)",
+        [
+            0.0842151921066519,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeToInt#7@3$(184,(184,185), value)",
+        [
+            0.0837707816583391,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeToInt#7@5$(184,185, value)",
+        [
+            0.0837707816583391,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeToInt#7@0$(184,(184,184), value)",
+        [
+            0.08290266722896783,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@9$(264,(266,284), this)",
+        [
+            0.07832604499879574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@22$(264,(266,284), this.iOrdinal)",
+        [
+            0.07832604499879574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@29$(264,284, chronology)",
+        [
+            0.07832604499879574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.PeriodType%standard#0@1$(102,(103,116), type)",
+        [
+            0.0659380473395787,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.PeriodType%standard#0@2$(102,116, type)",
+        [
+            0.0659380473395787,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@6$(50,64, buf)",
+        [
+            0.06421612990679355,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@12$(50,(62,63), value)",
+        [
+            0.06421612990679355,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@24$(50,66, value)",
+        [
+            0.06421612990679355,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@34$(50,(63,64), size)",
+        [
+            0.06421612990679355,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@36$(50,63, size)",
+        [
+            0.06421612990679355,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@58$(63,(63,66), size)",
+        [
+            0.06421612990679355,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@5$(50,66, buf)",
+        [
+            0.06415002990995841,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@5$(264,(266,276), this)",
+        [
+            0.06382256462726028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@18$(264,(266,276), this.iOrdinal)",
+        [
+            0.06382256462726028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@33$(264,276, chronology)",
+        [
+            0.06382256462726028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@7$(264,(266,280), this)",
+        [
+            0.06178020632152154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@20$(264,(266,280), this.iOrdinal)",
+        [
+            0.06178020632152154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@31$(264,280, chronology)",
+        [
+            0.06178020632152154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@11$(50,(50,62), value)",
+        [
+            0.05897678246195885,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeAdd#1@1$(64,(66,70), val1)",
+        [
+            0.05559847217497666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeAdd#1@9$(64,(66,70), sum)",
+        [
+            0.05559847217497666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeAdd#1@10$(64,70, sum)",
+        [
+            0.055006532413609206,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.PeriodType%equals#24@0$(835,(835,836), this)",
+        [
+            0.05439282932204212,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.PeriodType%equals#24@3$(835,(835,836), obj)",
+        [
+            0.05439282932204212,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeAdd#2@1$(82,(84,88), val1)",
+        [
+            0.04693232544639321,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeAdd#2@9$(82,(84,88), sum)",
+        [
+            0.04693232544639321,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%safeAdd#2@10$(82,88, sum)",
+        [
+            0.0468036377200909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%getChronology#8@0$(252,(252,253), chrono)",
+        [
+            0.041757384532966166,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@1$(96,(96,99), zone)",
+        [
+            0.03045018428126662,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@2$(96,99, zone)",
+        [
+            0.03045018428126662,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@22$(100,(101,101), chrono)",
+        [
+            0.03045018428126662,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@8$(96,100, cFastCache)",
+        [
+            0.030379844191292645,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.AssembledChronology%getZone#0@0$(107,(107,108), this)",
+        [
+            0.02874797872880345,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.AssembledChronology%getZone#0@2$(107,(107,108), this.iBase)",
+        [
+            0.02874797872880345,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.AssembledChronology%getZone#0@4$(107,108, base)",
+        [
+            0.02874797872880345,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%getChronology#8@1$(252,(252,255), chrono)",
+        [
+            0.02862405173218095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%getChronology#8@2$(252,255, chrono)",
+        [
+            0.02862405173218095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%checkPermission#2@1$(129,(130,133), sm)",
+        [
+            0.027056689037447044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%setDefault#1@1$(174,(178,181), zone)",
+        [
+            0.026320346714946822,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%setDefault#1@2$(174,182, zone)",
+        [
+            0.026320346714946822,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%setDefault#1@4$(174,(175,178), sm)",
+        [
+            0.026320346714946822,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%getDefault#0@3$(133,(134,161), zone)",
+        [
+            0.02515773027133138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%getDefault#0@4$(133,161, zone)",
+        [
+            0.02515773027133138,
+            true,
+            "clear"
+        ]
+    ]
+]

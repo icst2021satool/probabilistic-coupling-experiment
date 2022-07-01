@@ -1,0 +1,4722 @@
+[
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@6$(626,(642,641), q1)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@21$(627,(642,641), hashArea)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@43$(641,(642,641), offset)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@44$(641,641, offset)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@48$(641,(641,642), offset)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@49$(641,(641,646), offset)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@51$(641,(642,641), offset)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@52$(641,641, offset)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@6$(894,(930,931), this)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@8$(894,(931,932), this)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@10$(894,936, this)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@11$(894,932, this)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@19$(894,(931,932), this._failOnDoS)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@50$(919,(930,931), this._spilloverEnd)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@52$(929,(930,931), end)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_reportTooManyCollisions#30@0$(1183,(1183,1184), this)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_reportTooManyCollisions#30@3$(1183,(1183,1184), this._hashSize)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@0$(626,641, this)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@1$(626,(641,642), this)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@2$(626,(641,646), this)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@11$(626,(641,642), this._spilloverEnd)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@12$(626,(641,646), this._spilloverEnd)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@28$(629,(629,641), end)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@34$(629,(629,641), offset)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@40$(641,(641,642), offset)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@41$(641,(641,646), offset)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@8$(626,(631,634), q1)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@13$(626,(629,630), offset)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@15$(626,630, offset)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@17$(626,(631,634), offset)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@18$(626,629, offset)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@24$(627,630, hashArea)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@26$(627,(631,634), hashArea)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@27$(629,(629,630), end)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@29$(630,(634,635), len)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@30$(630,(634,629), len)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@33$(629,(629,630), offset)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@35$(629,630, offset)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@37$(629,(631,634), offset)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findSecondary#13@38$(629,629, offset)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@1$(470,497, this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@4$(470,497, q1)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@6$(470,(489,497), q1)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@13$(470,497, offset)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@19$(472,(489,497), hashArea)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@27$(484,(489,497), offset2)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@29$(486,(488,489), len)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@13$(1646,1691, this)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@45$(1661,(1670,1690), codes)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@67$(1668,1691, q)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@71$(1669,(1670,1690), i)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@72$(1669,(1690,1691), i)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@0$(470,484, this)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@8$(470,(477,484), q1)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@11$(470,484, this._secondaryStart)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@12$(470,484, offset)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@15$(470,(477,484), offset)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@17$(472,486, hashArea)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@21$(472,(477,484), hashArea)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@30$(486,(488,492), len)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@31$(486,(492,493), len)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@2$(681,(689,690), this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@43$(681,690, this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@50$(681,(689,690), this._tokenIncomplete)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@18$(2509,(2527,2525), codes)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@41$(2526,(2525,2526), ptr)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@44$(2526,2526, ptr)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@47$(2526,(2527,2525), c)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@4$(865,(867,869), this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@15$(865,(867,869), this._count)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@20$(866,(867,869), spillCount)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@0$(2506,2518, this)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@1$(2506,2519, this)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@3$(2506,2528, this)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@13$(2506,2518, this._inputPtr)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@15$(2506,2519, this._inputEnd)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@17$(2509,(2527,2528), codes)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@24$(2510,2526, inputBuffer)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@26$(2518,(2520,2525), ptr)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@27$(2518,(2525,2526), ptr)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@30$(2518,2526, ptr)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@32$(2519,(2520,2525), max)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@33$(2519,(2525,2526), max)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@45$(2526,2528, ptr)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@46$(2526,(2527,2528), c)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipString#51@48$(2526,(2535,2536), c)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@3$(894,918, this)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@4$(894,919, this)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@5$(894,929, this)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@7$(894,(930,938), this)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@16$(894,918, this._spilloverEnd)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@17$(894,919, this._spilloverEnd)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@18$(894,929, this._hashSize)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@42$(910,(910,918), end)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@44$(910,(910,918), offset2)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@49$(918,938, offset)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@51$(919,(930,938), this._spilloverEnd)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@53$(929,(930,938), end)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@6$(865,(867,869), this)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@10$(865,(867,869), this._hashSize)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@16$(865,(867,869), this._count)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@3$(865,(867,867), this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@7$(865,(867,872), this)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@11$(865,(867,872), this._hashSize)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@14$(865,(867,867), this._count)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@17$(865,(867,872), this._count)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@19$(866,(867,867), spillCount)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@17$(1646,1686, this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@47$(1661,(1673,1685), codes)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@77$(1671,1686, q)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@81$(1672,(1673,1685), i)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@82$(1672,(1685,1686), i)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@1$(894,908, this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@2$(894,909, this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@13$(894,908, this._tertiaryStart)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@14$(894,908, this._tertiaryShift)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@15$(894,909, this._tertiaryShift)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@24$(894,908, offset)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@29$(895,(902,908), hashArea)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@30$(895,(911,913), hashArea)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@31$(895,(911,910), hashArea)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@33$(901,(902,908), offset2)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@35$(908,(910,911), offset2)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@37$(908,(911,913), offset2)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@38$(908,(911,910), offset2)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@39$(908,910, offset2)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@40$(908,913, offset2)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@41$(910,(910,911), end)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@43$(910,(910,911), offset2)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@45$(910,(911,913), offset2)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@46$(910,(911,910), offset2)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@47$(910,910, offset2)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@48$(910,913, offset2)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@0$(865,(865,866), this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@2$(865,866, this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@5$(865,869, this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@8$(865,(865,866), this._hashSize)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@12$(865,(865,866), this._count)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@18$(865,866, this._spilloverEnd)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@9$(1646,1696, this)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@43$(1661,(1667,1695), codes)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@57$(1663,1696, q)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@61$(1666,(1667,1695), i)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@62$(1666,(1695,1696), i)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@0$(894,901, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@12$(894,901, this._secondaryStart)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@22$(894,(896,901), offset)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@23$(894,901, offset)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@27$(895,(896,901), hashArea)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@28$(895,(902,904), hashArea)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@32$(901,(902,904), offset2)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@34$(901,904, offset2)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@22$(474,(476,477), len)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@25$(681,748, this)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@26$(681,749, this)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@27$(681,750, this)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@73$(681,749, VALUE_STRING)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@95$(742,750, this._currToken)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@96$(744,(747,748), i)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@8$(2931,2970, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@9$(2931,2970, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@12$(2931,2975, this)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@36$(2931,2970, this._inputBuffer)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@71$(2961,2970, this._inputPtr)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@74$(2961,(2962,2969), i)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@76$(2961,(2969,2970), i)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@84$(2970,2975, this._inputPtr)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@85$(2970,(2971,2972), i)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@87$(2970,(2972,2972), i)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@90$(2970,(2972,2975), i)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@91$(2970,2976, i)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@3$(2931,2958, this)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@4$(2931,2958, this)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@6$(2931,2961, this)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@7$(2931,2961, this)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@30$(2931,2958, this._inputPtr)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@34$(2931,2958, this._inputBuffer)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@35$(2931,2961, this._inputBuffer)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@40$(2935,(2936,2957), i)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@42$(2935,(2957,2958), i)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@68$(2958,2961, this._inputPtr)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@69$(2958,(2960,2961), i)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%loadMore#1@1$(171,(174,193), this)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%loadMore#1@9$(171,(174,193), this._inputStream)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@0$(40,(48,53), this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@3$(40,53, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@4$(40,53, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@5$(40,(54,55), this)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@7$(40,55, this)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@9$(40,53, this.lock)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@10$(40,53, this.lock)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%findName#43@0$(2177,2184, this)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%findName#43@1$(2177,2185, this)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%findName#43@2$(2177,2185, lastQuadBytes)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%findName#43@3$(2177,2184, this._quadBuffer)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%findName#43@4$(2177,2185, this._quadBuffer)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%findName#43@5$(2177,2184, q1)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%findName#43@7$(2179,(2180,2184), name)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@14$(1646,1672, this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@15$(1646,1672, this)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@38$(1660,1672, input)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@44$(1661,(1670,1671), codes)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@68$(1668,1671, q)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@69$(1669,1672, this._inputPtr)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@70$(1669,(1670,1671), i)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@75$(1669,1671, i)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@10$(1646,1669, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@11$(1646,1669, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@37$(1660,1669, input)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@42$(1661,(1667,1668), codes)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@58$(1663,1668, q)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@59$(1666,1669, this._inputPtr)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@60$(1666,(1667,1668), i)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@65$(1666,1668, i)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@0$(2852,(2852,2853), this)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@21$(2852,(2853,2854), this)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@23$(2852,2854, this)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@24$(2852,(2852,2853), this._inputEnd)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@28$(2852,(2852,2853), this._inputPtr)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@68$(2267,(2263,2264), ix)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@70$(2267,2264, ix)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@71$(2267,2265, ix)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@72$(2267,2267, ix)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@177$(2331,(2328,2331), cix)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@178$(2331,2331, cix)",
+        [
+            0.02631578947368421,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@41$(681,695, this)",
+        [
+            0.02564102564102564,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@42$(681,696, this)",
+        [
+            0.02564102564102564,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@79$(692,(693,695), i)",
+        [
+            0.02564102564102564,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%createParser#12@1$(832,(833,839), this)",
+        [
+            0.025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%createParser#12@2$(832,839, this)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%createParser#12@5$(832,839, data)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%createParser#12@8$(832,(833,839), this._inputDecorator)",
+        [
+            0.025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%createParser#12@10$(832,839, ctxt)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_releaseBuffers#4@1$(257,(260,271), this)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_releaseBuffers#4@6$(257,(260,271), this._bufferRecyclable)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@6$(1646,1666, this)",
+        [
+            0.023809523809523808,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@7$(1646,1666, this)",
+        [
+            0.023809523809523808,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@36$(1660,1666, input)",
+        [
+            0.023809523809523808,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@40$(1661,(1665,1666), codes)",
+        [
+            0.023809523809523808,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@50$(1663,1666, this._inputPtr)",
+        [
+            0.023809523809523808,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@51$(1663,(1665,1666), q)",
+        [
+            0.023809523809523808,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@1$(1646,(1650,1660), this)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@2$(1646,1660, this)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@3$(1646,1663, this)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@4$(1646,1663, this)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@30$(1646,(1650,1660), this._inputEnd)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@32$(1646,(1650,1660), this._inputPtr)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@33$(1646,1663, this._inputPtr)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@34$(1646,1660, this._inputBuffer)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@35$(1646,1661, _icLatin1)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@23$(474,(476,480), len)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%findName#9@24$(474,(480,481), len)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@0$(681,(686,687), this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@44$(681,687, this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@45$(681,(686,687), FIELD_NAME)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@48$(681,(686,687), this._currToken)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%pad#83@2$(3616,(3616,3616), bytes)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@12$(681,(736,740), this)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@13$(681,740, this)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@14$(681,741, this)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@15$(681,742, this)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@16$(681,744, this)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@47$(681,742, FIELD_NAME)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@60$(681,(736,740), this._parsingContext)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@61$(681,741, this._parsingContext)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@85$(692,740, i)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextAfterName#19@0$(846,855, this)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextAfterName#19@4$(846,(850,852), START_ARRAY)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextAfterName#19@12$(846,(852,855), START_OBJECT)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextAfterName#19@14$(847,(850,852), t)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextAfterName#19@16$(847,(852,855), t)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextAfterName#19@17$(847,855, t)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextAfterName#19@18$(847,855, t)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@14$(814,823, this)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@15$(814,824, this)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@16$(814,825, this)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@33$(814,823, q)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@34$(814,824, q)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@38$(814,(820,823), qlen)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@54$(814,824, this._hashArea)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@55$(814,825, this._hashArea)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@63$(823,855, offset)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@10$(2242,2338, quads)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@15$(2242,2252, quads)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@16$(2242,2254, quads)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@18$(2242,2338, qlen)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@19$(2242,2252, qlen)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@20$(2242,2254, qlen)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@21$(2242,(2251,2252), lastQuadBytes)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@23$(2242,(2337,2338), lastQuadBytes)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@25$(2242,2254, lastQuadBytes)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@34$(2252,2338, lastQuad)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@32$(681,(717,720), this)",
+        [
+            0.020833333333333332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@33$(681,720, this)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@34$(681,721, this)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@64$(681,(717,720), this._parsingContext)",
+        [
+            0.020833333333333332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@65$(681,720, this._parsingContext)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@71$(681,721, END_OBJECT)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@72$(681,721, END_OBJECT)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@83$(692,(716,717), i)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%pad#83@0$(3616,3616, q)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%pad#83@3$(3616,3616, bytes)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_parseName#35@27$(1646,(1646,1650), i)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@1$(2931,(2931,2935), this)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@2$(2931,2935, this)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@26$(2931,(2931,2935), this._inputEnd)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@28$(2931,(2931,2935), this._inputPtr)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@29$(2931,2935, this._inputPtr)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipColon#62@33$(2931,2935, this._inputBuffer)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@0$(2242,2260, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@1$(2242,2340, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@9$(2242,2340, quads)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@11$(2242,2264, quads)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@17$(2242,2340, qlen)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@26$(2242,2260, this._textBuffer)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@29$(2242,2340, this._symbols)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@30$(2242,(2263,2264), byteLen)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@31$(2242,(2263,2335), byteLen)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@36$(2260,2335, cbuf)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@38$(2260,(2328,2331), cbuf)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@39$(2260,2331, cbuf)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@45$(2261,(2328,2331), cix)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@46$(2261,2331, cix)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@50$(2263,(2263,2264), ix)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@52$(2263,2264, ix)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@53$(2263,2265, ix)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@54$(2263,2267, ix)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@56$(2266,(2269,2328), ch)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@57$(2266,2331, ch)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@69$(2267,(2263,2335), ix)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@175$(2331,2335, cix)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%addName#47@182$(2335,2340, baseName)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%ensureLoaded#10@13$(482,(483,497), gotten)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%release#1@2$(324,(324,325), this)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%release#1@4$(324,325, this)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%release#1@5$(324,325, this)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%release#1@6$(324,329, this)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%release#1@9$(324,325, this._parent)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%mergeChild#2@0$(335,352, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%mergeChild#2@1$(335,352, childState)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%mergeChild#2@2$(335,352, this._tableInfo)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%mergeChild#2@4$(335,(340,348), childCount)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%mergeChild#2@6$(335,(348,352), childCount)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%mergeChild#2@8$(336,(340,348), currState)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%mergeChild#2@9$(336,352, currState)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%mergeChild#2@11$(336,(340,348), currState.count)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%maybeDirty#4@0$(380,(380,380), this)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%maybeDirty#4@2$(380,(380,380), this._hashShared)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@21$(894,(896,898), offset)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@25$(894,898, offset)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_findOffsetForAdd#25@26$(895,(896,898), hashArea)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@1$(865,(865,872), this)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@9$(865,(865,872), this._hashSize)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifyNeedForRehash#23@13$(865,(865,872), this._count)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@0$(814,(815,816), this)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@7$(814,855, this)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@8$(814,858, this)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@9$(814,859, this)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@25$(814,816, name)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@44$(814,(815,816), this._intern)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@46$(814,816, instance)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@59$(814,855, this._names)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@60$(814,858, this._count)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@61$(816,855, name)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%addName#22@62$(816,860, name)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifySharing#24@0$(876,(876,877), this)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifySharing#24@3$(876,(883,886), this)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifySharing#24@5$(876,877, this)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifySharing#24@6$(876,878, this)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifySharing#24@7$(876,879, this)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifySharing#24@8$(876,(876,877), this._hashShared)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifySharing#24@10$(876,877, this._hashArea)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifySharing#24@11$(876,878, this._names)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_verifySharing#24@13$(876,(883,886), this._needRehash)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@43$(2857,(2865,2876), i)",
+        [
+            0.016666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextTokenNotInObject#18@0$(803,812, this)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextTokenNotInObject#18@1$(803,813, this)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextTokenNotInObject#18@27$(803,(807,812), i)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextTokenNotInObject#18@34$(803,812, this._parsingContext)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextTokenNotInObject#18@36$(803,812, this._tokenInputRow)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextTokenNotInObject#18@38$(803,812, this._tokenInputCol)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextTokenNotInObject#18@42$(803,813, START_OBJECT)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextTokenNotInObject#18@43$(803,813, START_OBJECT)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_closeInput#3@1$(240,(240,246), this)",
+        [
+            0.015151515151515152,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_closeInput#3@9$(240,(240,246), this._inputStream)",
+        [
+            0.015151515151515152,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@76$(2877,(2879,2883), i)",
+        [
+            0.014285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@77$(2877,2883, i)",
+        [
+            0.014285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@73$(2877,(2879,2879), i)",
+        [
+            0.014084507042253521,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@4$(2852,(2876,2877), this)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@7$(2852,2877, this)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@8$(2852,2877, this)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@26$(2852,(2876,2877), this._inputEnd)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@32$(2852,2877, this._inputBuffer)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@35$(2857,(2876,2877), this._inputPtr)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@37$(2857,2877, this._inputPtr)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@41$(2857,(2858,2865), i)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@62$(2877,(2878,2879), i)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@1$(40,(48,59), this)",
+        [
+            0.0136986301369863,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@2$(40,60, this)",
+        [
+            0.0136986301369863,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@8$(40,59, input)",
+        [
+            0.0136986301369863,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@12$(40,(41,48), result)",
+        [
+            0.0136986301369863,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%getCurrentName#4@0$(358,(358,358), this)",
+        [
+            0.013513513513513514,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%getCurrentName#4@4$(358,(358,362), this)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%getCurrentName#4@5$(358,362, this)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%getCurrentName#4@6$(358,(358,358), START_OBJECT)",
+        [
+            0.013513513513513514,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%getCurrentName#4@8$(358,(358,358), this._currToken)",
+        [
+            0.013513513513513514,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%getCurrentName#4@11$(358,(358,362), this._currToken)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%getCurrentName#4@13$(358,(358,362), START_ARRAY)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%getCurrentName#4@15$(358,362, this._parsingContext)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%close#6@1$(382,(382,392), this)",
+        [
+            0.011494252873563218,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%close#6@6$(382,(382,392), this._closed)",
+        [
+            0.011494252873563218,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%_handleEOF#11@1$(500,(500,503), this)",
+        [
+            0.011111111111111112,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%_handleEOF#11@4$(500,(500,503), this._parsingContext)",
+        [
+            0.011111111111111112,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@11$(40,(41,41), result)",
+        [
+            0.010638297872340425,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.InternCache%intern#0@13$(40,41, result)",
+        [
+            0.010638297872340425,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonStreamContext%inRoot#1@0$(68,(68,68), this)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonStreamContext%inRoot#1@2$(68,(68,68), this._type)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%setCurrentName#4@1$(191,(192,193), this)",
+        [
+            0.009615384615384616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%setCurrentName#4@5$(191,(192,193), this._dups)",
+        [
+            0.009615384615384616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@22$(117,(143,147), this)",
+        [
+            0.008928571428571428,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@49$(127,(143,147), quad)",
+        [
+            0.008928571428571428,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@18$(117,(132,141), this)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@20$(117,(141,143), this)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@45$(127,(132,141), quad)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@47$(127,(141,143), quad)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%handleBOM#7@24$(384,(415,421), quad)",
+        [
+            0.008849557522123894,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%checkUTF32#8@6$(429,(429,431), quad)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%checkUTF32#8@8$(429,(431,433), quad)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%checkUTF32#8@10$(429,(433,435), quad)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%checkUTF32#8@12$(429,(435,439), quad)",
+        [
+            0.008849557522123894,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%createChildObjectContext#2@0$(136,(138,138), this)",
+        [
+            0.008849557522123894,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%createChildObjectContext#2@8$(136,(138,138), this._dups)",
+        [
+            0.008849557522123894,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_nextTokenNotInObject#18@19$(803,(803,807), i)",
+        [
+            0.008771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@0$(117,(126,127), this)",
+        [
+            0.008771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@16$(117,127, this)",
+        [
+            0.008771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@24$(117,127, this._inputBuffer)",
+        [
+            0.008771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@26$(117,127, this._inputPtr)",
+        [
+            0.008771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%handleBOM#7@17$(384,(384,401), quad)",
+        [
+            0.008771929824561403,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%handleBOM#7@22$(384,401, quad)",
+        [
+            0.008771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%handleBOM#7@31$(401,(402,408), msw)",
+        [
+            0.008771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%handleBOM#7@33$(401,(408,415), msw)",
+        [
+            0.008771929824561403,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%emptyAndGetCurrentSegment#18@3$(538,552, this)",
+        [
+            0.008771929824561403,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%emptyAndGetCurrentSegment#18@4$(538,552, this)",
+        [
+            0.008771929824561403,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%emptyAndGetCurrentSegment#18@9$(550,(551,552), curr)",
+        [
+            0.008771929824561403,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%emptyAndGetCurrentSegment#18@12$(552,554, curr)",
+        [
+            0.008771929824561403,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%createChildObjectContext#2@2$(136,138, this)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%createChildObjectContext#2@3$(136,138, this)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%createChildObjectContext#2@5$(136,138, lineNr)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%createChildObjectContext#2@7$(136,138, colNr)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%createChildObjectContext#2@10$(136,138, this._dups)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%createChildObjectContext#2@11$(136,(137,138), ctxt)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%emptyAndGetCurrentSegment#18@1$(538,(547,550), this)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%emptyAndGetCurrentSegment#18@2$(538,550, this)",
+        [
+            0.00847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%emptyAndGetCurrentSegment#18@7$(538,(547,550), this._hasSegments)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%emptyAndGetCurrentSegment#18@8$(538,550, this._currentSegment)",
+        [
+            0.00847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@51$(2857,(2859,2859), i)",
+        [
+            0.008403361344537815,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@54$(2857,(2859,2863), i)",
+        [
+            0.008403361344537815,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@55$(2857,2863, i)",
+        [
+            0.008403361344537815,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@1$(681,(686,689), this)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@3$(681,(689,692), this)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@4$(681,692, this)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@5$(681,701, this)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@6$(681,702, this)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@7$(681,703, this)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@8$(681,706, this)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@10$(681,(725,736), this)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@11$(681,(736,737), this)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@28$(681,737, this)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@46$(681,(686,689), FIELD_NAME)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@49$(681,(686,689), this._currToken)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@51$(681,(689,692), this._tokenIncomplete)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@52$(681,701, this._currInputProcessed)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@53$(681,701, this._inputPtr)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@54$(681,703, this._inputPtr)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@55$(681,702, this._currInputRow)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@56$(681,703, this._currInputRowStart)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@58$(681,(725,736), this._parsingContext)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@59$(681,(736,737), this._parsingContext)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@80$(692,(693,701), i)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@82$(692,(709,716), i)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@84$(692,(716,725), i)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%nextToken#17@86$(692,737, i)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@40$(2857,(2858,2859), i)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@28$(117,159, UTF8)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@42$(117,(158,159), foundEncoding)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@60$(159,171, enc)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@61$(159,172, enc)",
+        [
+            0.008333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%checkUTF16#9@6$(449,(451,454), i16)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@2$(136,(139,141), this)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@4$(136,141, this)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@5$(136,143, this)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@6$(136,144, this)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@7$(136,145, this)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@11$(136,145, this._allocator)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@12$(136,(139,141), this._currentSegment)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@14$(136,143, this._currentSegment)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%resetWithEmpty#1@1$(156,(165,168), this)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%resetWithEmpty#1@4$(156,(165,168), this._hasSegments)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@1$(2852,(2852,2857), this)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@2$(2852,2857, this)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@3$(2852,2857, this)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@25$(2852,(2852,2857), this._inputEnd)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@29$(2852,(2852,2857), this._inputPtr)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@30$(2852,2857, this._inputPtr)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.UTF8StreamJsonParser%_skipWSOrEnd#60@31$(2852,2857, this._inputBuffer)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%checkUTF16#9@4$(449,(449,451), i16)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@1$(215,223, this)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@3$(215,223, parserFeatures)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@5$(215,223, codec)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@6$(215,222, rootByteSymbols)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@9$(215,(221,222), factoryFeatures)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@11$(215,222, factoryFeatures)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@12$(215,(217,221), UTF8)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@14$(215,(221,222), CANONICALIZE_FIELD_NAMES)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@17$(215,223, this._context)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@18$(215,223, this._in)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@19$(215,223, this._inputBuffer)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@20$(215,223, this._inputPtr)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@21$(215,223, this._inputEnd)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@22$(215,223, this._bufferRecyclable)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%constructParser#2@23$(215,(217,221), enc)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%release#1@0$(324,(324,324), this)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%release#1@7$(324,(324,324), this._parent)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%ensureLoaded#10@5$(482,(483,497), minimum)",
+        [
+            0.00819672131147541,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@10$(117,171, this)",
+        [
+            0.00819672131147541,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper%detectEncoding#0@41$(117,171, this._context)",
+        [
+            0.00819672131147541,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%buf#5@0$(234,(234,235), this)",
+        [
+            0.007936507936507936,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%buf#5@2$(234,235, this)",
+        [
+            0.007936507936507936,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%buf#5@4$(234,235, needed)",
+        [
+            0.007936507936507936,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%buf#5@5$(234,(234,235), this._allocator)",
+        [
+            0.007936507936507936,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%buf#5@7$(234,235, this._allocator)",
+        [
+            0.007936507936507936,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonStreamContext%inObject#2@0$(74,(74,74), this)",
+        [
+            0.0070921985815602835,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonStreamContext%inObject#2@2$(74,(74,74), this._type)",
+        [
+            0.0070921985815602835,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%expectComma#3@0$(186,(187,187), this)",
+        [
+            0.0058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%expectComma#3@2$(186,(187,187), this._type)",
+        [
+            0.0058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%expectComma#3@5$(186,(187,187), ix)",
+        [
+            0.0058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer%<init>#0@0$(270,290, this)",
+        [
+            0.004975124378109453,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer%<init>#0@1$(270,290, this)",
+        [
+            0.004975124378109453,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer%<init>#0@3$(270,(276,282), sz)",
+        [
+            0.004975124378109453,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer%<init>#0@5$(270,(282,290), sz)",
+        [
+            0.004975124378109453,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer%<init>#0@6$(270,290, sz)",
+        [
+            0.004975124378109453,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%<init>#0@0$(222,241, this)",
+        [
+            0.004901960784313725,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%<init>#0@2$(222,(228,233), sz)",
+        [
+            0.004901960784313725,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%<init>#0@4$(222,(233,241), sz)",
+        [
+            0.004901960784313725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%<init>#0@5$(222,241, sz)",
+        [
+            0.004901960784313725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer%_calcTertiaryShift#31@0$(1195,(1198,1199), tertSlots)",
+        [
+            0.004878048780487805,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%_releaseBuffers#10@4$(486,(487,491), buf)",
+        [
+            0.004807692307692308,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%close#6@0$(382,(382,383), this)",
+        [
+            0.004784688995215311,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%close#6@2$(382,383, this)",
+        [
+            0.004784688995215311,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%close#6@3$(382,385, this)",
+        [
+            0.004784688995215311,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%close#6@4$(382,389, this)",
+        [
+            0.004784688995215311,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%close#6@5$(382,(382,383), this._closed)",
+        [
+            0.004784688995215311,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%expectComma#3@1$(186,(187,187), this)",
+        [
+            0.004784688995215311,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.json.JsonReadContext%expectComma#3@3$(186,(187,187), this._type)",
+        [
+            0.004784688995215311,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@1$(136,(136,139), this)",
+        [
+            0.004761904761904762,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.TextBuffer%releaseBuffers#0@10$(136,(136,139), this._allocator)",
+        [
+            0.004761904761904762,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%<init>#0@0$(284,287, this)",
+        [
+            0.0047169811320754715,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%<init>#0@1$(284,289, this)",
+        [
+            0.0047169811320754715,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%<init>#0@3$(284,(287,287), features)",
+        [
+            0.0047169811320754715,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.base.ParserBase%<init>#0@5$(284,(287,287), STRICT_DUPLICATE_DETECTION)",
+        [
+            0.0047169811320754715,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonParser$Feature%enabledIn#1@1$(246,(246,246), this)",
+        [
+            0.0047169811320754715,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonParser$Feature%enabledIn#1@3$(246,(246,246), flags)",
+        [
+            0.0047169811320754715,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonParser$Feature%enabledIn#1@5$(246,(246,246), this._mask)",
+        [
+            0.0047169811320754715,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@17$(120,(123,126), minSize)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@2$(118,126, this)",
+        [
+            0.00398406374501992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@4$(118,126, ix)",
+        [
+            0.00398406374501992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@11$(118,126, this._charBuffers)",
+        [
+            0.00398406374501992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@18$(122,(123,123), buffer)",
+        [
+            0.00398406374501992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@21$(122,(123,126), buffer)",
+        [
+            0.00398406374501992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@22$(122,128, buffer)",
+        [
+            0.00398406374501992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonStreamContext%inObject#2@1$(74,(74,74), this)",
+        [
+            0.003875968992248062,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonStreamContext%inObject#2@3$(74,(74,74), this._type)",
+        [
+            0.003875968992248062,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%_getBufferRecycler#25@0$(1433,(1433,1434), this)",
+        [
+            0.003816793893129771,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%_getBufferRecycler#25@2$(1433,(1433,1434), USE_THREAD_LOCAL_FOR_BUFFER_RECYCLING)",
+        [
+            0.003816793893129771,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%_getBufferRecycler#25@4$(1433,1434, _recyclerRef)",
+        [
+            0.003816793893129771,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%_getBufferRecycler#25@7$(1434,(1435,1435), ref)",
+        [
+            0.003816793893129771,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%_getBufferRecycler#25@8$(1434,1435, ref)",
+        [
+            0.003816793893129771,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%_getBufferRecycler#25@10$(1435,(1437,1441), br)",
+        [
+            0.003816793893129771,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%_getBufferRecycler#25@11$(1435,1444, br)",
+        [
+            0.003816793893129771,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@5$(118,(119,120), minSize)",
+        [
+            0.0038022813688212928,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@12$(118,(119,120), DEF_SIZE)",
+        [
+            0.0038022813688212928,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@14$(118,120, DEF_SIZE)",
+        [
+            0.0038022813688212928,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@0$(118,122, this)",
+        [
+            0.003787878787878788,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@3$(118,122, ix)",
+        [
+            0.003787878787878788,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocCharBuffer#1@10$(118,122, this._charBuffers)",
+        [
+            0.003787878787878788,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%isEnabled#5@0$(564,(564,564), this)",
+        [
+            0.003787878787878788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%isEnabled#5@2$(564,(564,564), f)",
+        [
+            0.003787878787878788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory%isEnabled#5@4$(564,(564,564), this._factoryFeatures)",
+        [
+            0.003787878787878788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory$Feature%enabledIn#1@0$(141,(141,141), this)",
+        [
+            0.003703703703703704,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.JsonFactory$Feature%enabledIn#1@2$(141,(141,141), flags)",
+        [
+            0.003703703703703704,
+            true,
+            "clear"
+        ]
+    ]
+]

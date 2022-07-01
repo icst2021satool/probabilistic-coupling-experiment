@@ -1,0 +1,16 @@
+11:34:36.557 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+11:34:36.798 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/5b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Time/5b/tests.all, --logLevel, INFO]
+12:58:19.721 [main] INFO  JaguarDF - Test testNormalizedStandard_periodType_months2(org.joda.time.TestPeriod_Basics) : Failed
+12:58:28.321 [main] INFO  JaguarDF - Test testNormalizedStandard_periodType_monthsWeeks(org.joda.time.TestPeriod_Basics) : Failed
+12:59:33.873 [main] INFO  JaguarDF - Test testNormalizedStandard_periodType_months1(org.joda.time.TestPeriod_Basics) : Failed
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+Writing zoneinfo files
+Writing ZoneInfoMap
+14:06:19.481 [main] INFO  JaguarDF - Jaguar-DF has finished!

@@ -1,0 +1,6698 @@
+[
+    [
+        "org.joda.time.LocalDate%equals#8@6$(570,(576,576), this)",
+        [
+            0.7777777777777778,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@16$(570,(576,576), this.iLocalMillis)",
+        [
+            0.7777777777777778,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@20$(574,(576,576), other)",
+        [
+            0.7777777777777778,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@24$(574,(576,576), other.iLocalMillis)",
+        [
+            0.7777777777777778,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@2$(400,530, builder)",
+        [
+            0.6666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@68$(408,530, tokenLen)",
+        [
+            0.6666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@116$(412,(414,530), c)",
+        [
+            0.6666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@14$(400,467, builder)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@82$(408,467, tokenLen)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@120$(412,(465,467), c)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@129$(453,467, maxDigits)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%compareTo#1@0$(482,488, this)",
+        [
+            0.4666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%compareTo#1@1$(482,488, this.iField)",
+        [
+            0.4666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%compareTo#1@2$(482,488, other)",
+        [
+            0.4666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%compareTo#1@4$(483,(485,488), result)",
+        [
+            0.4666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@1$(331,(331,336), this)",
+        [
+            0.4117647058823529,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@2$(331,336, this)",
+        [
+            0.4117647058823529,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@4$(331,(338,347), this)",
+        [
+            0.4117647058823529,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@8$(331,336, year)",
+        [
+            0.4117647058823529,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@11$(331,336, monthOfYear)",
+        [
+            0.4117647058823529,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@14$(331,336, dayOfMonth)",
+        [
+            0.4117647058823529,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@17$(331,336, millisOfDay)",
+        [
+            0.4117647058823529,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@20$(331,336, this.iGregorianChronology)",
+        [
+            0.4117647058823529,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@22$(331,(338,347), this.iCutoverMillis)",
+        [
+            0.4117647058823529,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@28$(336,(338,347), instant)",
+        [
+            0.4117647058823529,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getDateTimeMillis#4@29$(336,347, instant)",
+        [
+            0.4117647058823529,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%get#5@1$(490,(493,496), this)",
+        [
+            0.30434782608695654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%get#5@2$(490,496, this)",
+        [
+            0.30434782608695654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%get#5@6$(490,(493,496), fieldType)",
+        [
+            0.30434782608695654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%get#5@7$(490,496, fieldType)",
+        [
+            0.30434782608695654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@1$(516,518, this)",
+        [
+            0.30434782608695654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@2$(516,(517,518), instant)",
+        [
+            0.30434782608695654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@8$(516,518, year)",
+        [
+            0.30434782608695654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@9$(516,(517,518), firstWeekMillis1)",
+        [
+            0.30434782608695654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%get#5@4$(490,(490,493), fieldType)",
+        [
+            0.2916666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%isSupported#6@0$(508,515, this)",
+        [
+            0.25925925925925924,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%isSupported#6@6$(508,515, type)",
+        [
+            0.25925925925925924,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%isSupported#6@8$(508,(512,515), DATE_DURATION_TYPES)",
+        [
+            0.25925925925925924,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%isSupported#6@10$(511,(512,515), durType)",
+        [
+            0.25925925925925924,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%isSupported#6@4$(508,(508,511), type)",
+        [
+            0.2413793103448276,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%isSupported#6@5$(508,511, type)",
+        [
+            0.2413793103448276,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.BaseDurationField%compareTo#1@0$(146,(149,150), otherMillis)",
+        [
+            0.21875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.BaseDurationField%compareTo#1@4$(147,(149,150), thisMillis)",
+        [
+            0.21875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@1$(795,(801,802), text)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@3$(795,802, text)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@5$(797,806, chrono)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@6$(798,802, bucket)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@7$(798,(803,804), bucket)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@9$(798,804, bucket)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@10$(799,(800,801), newPos)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@13$(799,(801,802), newPos)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@16$(802,808, millis)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%parseLocalDateTime#14@17$(806,808, chrono)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.ISODateTimeFormat%yearMonthDay#41@1$(1326,(1326,1333), ymd)",
+        [
+            0.19444444444444445,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.ISODateTimeFormat%yearMonthDay#41@2$(1326,1333, ymd)",
+        [
+            0.19444444444444445,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField%getMaximumValueForSet#2@3$(111,(111,111), value)",
+        [
+            0.19444444444444445,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@26$(194,(206,204), cutoverInstant)",
+        [
+            0.1891891891891892,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField%getMaximumValueForSet#2@0$(111,111, this)",
+        [
+            0.1891891891891892,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField%getMaximumValueForSet#2@1$(111,111, instant)",
+        [
+            0.1891891891891892,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@41$(205,(206,204), chrono)",
+        [
+            0.18421052631578946,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@3$(349,(349,350), offset)",
+        [
+            0.1794871794871795,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%fixedOffsetZone#5@6$(349,350, UTC)",
+        [
+            0.1794871794871795,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@0$(851,(851,852), this)",
+        [
+            0.175,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@3$(851,852, this)",
+        [
+            0.175,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@5$(851,(853,862), this)",
+        [
+            0.175,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@9$(851,(851,852), instant)",
+        [
+            0.175,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@12$(851,852, instant)",
+        [
+            0.175,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@13$(851,(851,852), this.iCutover)",
+        [
+            0.175,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@16$(851,(853,862), this.iCutover)",
+        [
+            0.175,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@19$(851,852, this.iGregorianField)",
+        [
+            0.175,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@24$(852,(853,862), instant)",
+        [
+            0.175,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%roundFloor#12@25$(852,862, instant)",
+        [
+            0.175,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@33$(400,(458,462), pattern)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@47$(401,(458,462), indexRef)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@16$(128,(179,180), year)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@47$(168,180, workInstant)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@48$(173,(179,180), workWoyYear)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@52$(180,189, workInstant)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@53$(180,191, workInstant)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.base.AbstractInstant%equals#3@3$(259,(266,266), this)",
+        [
+            0.16279069767441862,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.base.AbstractInstant%equals#3@12$(265,(266,266), otherInstant)",
+        [
+            0.16279069767441862,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%withZone#3@0$(317,(320,321), this)",
+        [
+            0.1590909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%withZone#3@3$(317,321, this)",
+        [
+            0.1590909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%withZone#3@6$(317,(320,321), zone)",
+        [
+            0.1590909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@38$(400,(456,457), length)",
+        [
+            0.15384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@45$(401,457, indexRef)",
+        [
+            0.15384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@48$(401,462, indexRef)",
+        [
+            0.15384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@60$(406,(456,457), i)",
+        [
+            0.15384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekyear#8@0$(493,498, this)",
+        [
+            0.15,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekyear#8@2$(493,498, instant)",
+        [
+            0.15,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekyear#8@7$(494,(497,498), week)",
+        [
+            0.15,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@6$(189,(206,204), minDaysInFirstWeek)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@39$(205,(206,204), chrono)",
+        [
+            0.14583333333333334,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@37$(204,204, i)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%withZone#3@5$(317,(317,320), zone)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@3$(570,(575,576), this)",
+        [
+            0.1346153846153846,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@13$(570,(575,576), this.iChronology)",
+        [
+            0.1346153846153846,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@17$(574,(575,576), other)",
+        [
+            0.1346153846153846,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@21$(574,(575,576), other.iChronology)",
+        [
+            0.1346153846153846,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%get#1@0$(631,(631,632), this)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%get#1@3$(631,632, this)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%get#1@4$(631,(631,632), instant)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%get#1@7$(631,632, instant)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%get#1@8$(631,(631,632), this.iCutover)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%get#1@10$(631,632, this.iGregorianField)",
+        [
+            0.1346153846153846,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@31$(144,(146,146), weeksInFromYear)",
+        [
+            0.13043478260869565,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@34$(145,(146,146), weeksInToYear)",
+        [
+            0.13043478260869565,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@1$(570,(570,573), this)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@8$(570,(570,573), partial)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@9$(570,(573,574), partial)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.LocalDate%equals#8@12$(570,574, partial)",
+        [
+            0.12962962962962962,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@13$(697,(699,724), this)",
+        [
+            0.12727272727272726,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@39$(697,(699,724), this.iCutover)",
+        [
+            0.12727272727272726,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@51$(698,(699,724), instant)",
+        [
+            0.12727272727272726,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@52$(698,724, instant)",
+        [
+            0.12727272727272726,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%isNumericToken#3@5$(634,(635,662), c)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.ISODateTimeFormat%dateTimeNoMillis#21@1$(953,(953,959), dtx)",
+        [
+            0.11864406779661017,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.ISODateTimeFormat%dateTimeNoMillis#21@2$(953,959, dtx)",
+        [
+            0.11864406779661017,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%isNumericToken#3@0$(632,634, token)",
+        [
+            0.11764705882352941,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%isNumericToken#3@1$(632,(633,634), tokenLen)",
+        [
+            0.11764705882352941,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%roundFloor#4@0$(234,239, instant)",
+        [
+            0.11538461538461539,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%roundFloor#4@3$(235,(236,239), wow)",
+        [
+            0.11538461538461539,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@11$(480,(482,504), this)",
+        [
+            0.11475409836065574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@35$(480,(482,504), this.iOrdinal)",
+        [
+            0.11475409836065574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@60$(480,504, chronology)",
+        [
+            0.11475409836065574,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekyear#8@1$(493,496, this)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekyear#8@3$(493,496, instant)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekyear#8@5$(494,(495,496), week)",
+        [
+            0.1111111111111111,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@0$(630,(631,632), offset)",
+        [
+            0.1076923076923077,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@3$(630,638, offset)",
+        [
+            0.1076923076923077,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@4$(630,640, offset)",
+        [
+            0.1076923076923077,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@16$(630,632, buf)",
+        [
+            0.1076923076923077,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@22$(2072,(2074,2077), est)",
+        [
+            0.1076923076923077,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@6$(630,639, buf)",
+        [
+            0.1044776119402985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@7$(630,643, buf)",
+        [
+            0.1044776119402985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@8$(630,644, buf)",
+        [
+            0.1044776119402985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@15$(630,647, buf)",
+        [
+            0.1044776119402985,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%printOffset#13@19$(645,(646,647), offset)",
+        [
+            0.1044776119402985,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendShortText#13@0$(511,514, this)",
+        [
+            0.1044776119402985,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendShortText#13@2$(511,(511,514), fieldType)",
+        [
+            0.1044776119402985,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendShortText#13@3$(511,514, fieldType)",
+        [
+            0.1044776119402985,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TextField%estimatePrintedLength#0@0$(1693,(1693,1693), this)",
+        [
+            0.1044776119402985,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TextField%estimatePrintedLength#0@2$(1693,(1693,1693), this.iShort)",
+        [
+            0.1044776119402985,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@0$(2070,(2071,2072), this)",
+        [
+            0.1044776119402985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@7$(2070,2072, this)",
+        [
+            0.1044776119402985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@8$(2070,2072, this.iMinFields)",
+        [
+            0.1044776119402985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@9$(2070,(2071,2072), this.iShowSeparators)",
+        [
+            0.1044776119402985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@19$(2070,2072, est)",
+        [
+            0.1044776119402985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@20$(2072,2077, est)",
+        [
+            0.1044776119402985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@1$(189,(191,194), gregorianCutover)",
+        [
+            0.10144927536231885,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@2$(189,194, gregorianCutover)",
+        [
+            0.10144927536231885,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@25$(194,(206,209), cutoverInstant)",
+        [
+            0.10144927536231885,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@5$(189,(206,206), minDaysInFirstWeek)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@8$(189,199, cCache)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@13$(189,199, zone)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@28$(199,(200,204), chronos)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@29$(199,204, chronos)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@31$(199,205, chronos)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@33$(204,204, i)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@34$(204,(204,205), i)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@36$(204,205, i)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@38$(205,(206,206), chrono)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@40$(205,(206,209), chrono)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getInstance#0@42$(205,209, chrono)",
+        [
+            0.09859154929577464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.base.AbstractInstant%equals#3@0$(259,(259,260), this)",
+        [
+            0.09722222222222222,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.base.AbstractInstant%equals#3@6$(259,(259,260), readableInstant)",
+        [
+            0.09722222222222222,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@2$(2070,(2074,2074), this)",
+        [
+            0.09722222222222222,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@5$(2070,(2074,2077), this)",
+        [
+            0.09722222222222222,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@11$(2070,(2074,2074), this.iZeroOffsetPrintText)",
+        [
+            0.09722222222222222,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset%estimatePrintedLength#1@14$(2070,(2074,2077), this.iZeroOffsetPrintText)",
+        [
+            0.09722222222222222,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@80$(408,(424,453), tokenLen)",
+        [
+            0.09523809523809523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@0$(128,140, this)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@1$(128,144, this)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@2$(128,145, this)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@3$(128,154, this)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@4$(128,168, this)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@5$(128,173, this)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@6$(128,189, this)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@7$(128,200, this)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@8$(128,140, instant)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@9$(128,154, instant)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@10$(128,162, instant)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@13$(128,(134,140), year)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@14$(128,145, year)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@15$(128,168, year)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@20$(128,140, this.iChronology)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@21$(128,144, this.iChronology)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@22$(128,145, this.iChronology)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@23$(128,154, this.iChronology)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@24$(128,168, this.iChronology)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@25$(128,189, this.iChronology)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@26$(128,200, this.iChronology)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@28$(133,(134,140), thisWeekyear)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@29$(133,144, thisWeekyear)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@30$(140,200, thisDow)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@33$(144,146, weeksInFromYear)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@36$(145,146, weeksInToYear)",
+        [
+            0.09375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@38$(146,(155,162), maxOutWeeks)",
+        [
+            0.09375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@41$(154,(155,162), setToWeek)",
+        [
+            0.09375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicWeekyearDateTimeField%set#2@42$(154,191, setToWeek)",
+        [
+            0.09375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@0$(339,(342,344), this)",
+        [
+            0.09210526315789473,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@2$(339,(342,344), this.iMinDaysInFirstWeek)",
+        [
+            0.09210526315789473,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@5$(339,344, jan1millis)",
+        [
+            0.09210526315789473,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@6$(340,(342,344), jan1dayOfWeek)",
+        [
+            0.09210526315789473,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@9$(340,344, jan1dayOfWeek)",
+        [
+            0.09210526315789473,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@19$(400,486, builder)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@87$(408,(479,486), tokenLen)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@88$(408,486, tokenLen)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@0$(2609,2623, this)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@1$(2609,2614, this)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@5$(2609,2614, printerList)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@7$(2609,2623, parserList)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@17$(2611,(2613,2614), element)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@20$(2611,2614, element)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@23$(2620,(2622,2623), element)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@26$(2620,2623, element)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@0$(2632,2634, list)",
+        [
+            0.0875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@1$(2632,(2632,2633), array)",
+        [
+            0.0875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@3$(2632,(2633,2634), array)",
+        [
+            0.0875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@4$(2632,(2633,2637), array)",
+        [
+            0.0875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@5$(2632,2634, array)",
+        [
+            0.0875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@6$(2633,(2633,2634), i)",
+        [
+            0.0875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@8$(2633,2634, i)",
+        [
+            0.0875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@9$(2633,2633, i)",
+        [
+            0.0875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@10$(2633,(2633,2634), i)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@11$(2633,(2633,2637), i)",
+        [
+            0.0875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@12$(2633,2634, i)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%addArrayToList#9@13$(2633,2633, i)",
+        [
+            0.0875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@50$(589,589, i)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getZone#2@1$(293,(293,296), this)",
+        [
+            0.07608695652173914,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology%getZone#2@2$(293,296, UTC)",
+        [
+            0.07608695652173914,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@0$(448,460, this)",
+        [
+            0.07407407407407407,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@4$(448,460, fieldType)",
+        [
+            0.07407407407407407,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@11$(448,(457,460), minDigits)",
+        [
+            0.07407407407407407,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@12$(448,460, minDigits)",
+        [
+            0.07407407407407407,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@18$(448,460, maxDigits)",
+        [
+            0.07407407407407407,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%append#3@0$(209,212, this)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%append#3@2$(209,(209,212), formatter)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%append#3@3$(209,212, formatter)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%getZone#9@1$(269,(269,272), zone)",
+        [
+            0.0673076923076923,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%getZone#9@2$(269,272, zone)",
+        [
+            0.0673076923076923,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@107$(412,(414,424), c)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@3$(448,(448,451), fieldType)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@7$(448,(451,454), minDigits)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@8$(448,(454,454), minDigits)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@15$(448,(451,454), maxDigits)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendSignedDecimal#10@17$(448,(454,457), maxDigits)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@60$(601,(611,611), c)",
+        [
+            0.06451612903225806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@62$(601,(611,613), c)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@64$(601,(611,611), c)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@65$(601,(611,613), c)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@105$(412,(414,479), c)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@1$(339,(342,348), this)",
+        [
+            0.06097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@3$(339,(342,348), this.iMinDaysInFirstWeek)",
+        [
+            0.06097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@4$(339,348, jan1millis)",
+        [
+            0.06097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@7$(340,(342,348), jan1dayOfWeek)",
+        [
+            0.06097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getFirstWeekOfYearMillis#6@8$(340,348, jan1dayOfWeek)",
+        [
+            0.06097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@13$(400,470, builder)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@81$(408,470, tokenLen)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@121$(412,(465,470), c)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@128$(453,470, maxDigits)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@30$(400,551, builder)",
+        [
+            0.05714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@134$(549,(550,551), sub)",
+        [
+            0.05714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@137$(549,551, sub)",
+        [
+            0.05714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@0$(2546,2558, buf)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@1$(2546,2558, partial)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@2$(2546,(2551,2553), locale)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@6$(2546,(2547,2551), elements)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@7$(2546,2556, elements)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@8$(2546,2558, elements)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@9$(2553,2558, locale)",
+        [
+            0.056910569105691054,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@10$(2556,(2557,2558), len)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@11$(2556,(2557,2560), len)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@12$(2557,(2557,2558), i)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@14$(2557,2558, i)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@15$(2557,2557, i)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@16$(2557,(2557,2558), i)",
+        [
+            0.056910569105691054,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@17$(2557,(2557,2560), i)",
+        [
+            0.056910569105691054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@18$(2557,2558, i)",
+        [
+            0.056910569105691054,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%printTo#3@19$(2557,2557, i)",
+        [
+            0.056910569105691054,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@12$(679,(680,687), formatter)",
+        [
+            0.056818181818181816,
+            true,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@13$(679,688, formatter)",
+        [
+            0.056818181818181816,
+            true,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber%printTo#0@0$(1427,(1427,1429), this)",
+        [
+            0.056,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber%printTo#0@3$(1427,1429, this)",
+        [
+            0.056,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber%printTo#0@5$(1427,1429, buf)",
+        [
+            0.056,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber%printTo#0@6$(1427,(1427,1429), partial)",
+        [
+            0.056,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber%printTo#0@8$(1427,1429, partial)",
+        [
+            0.056,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber%printTo#0@9$(1427,(1427,1429), this.iFieldType)",
+        [
+            0.056,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber%printTo#0@11$(1427,1429, this.iFieldType)",
+        [
+            0.056,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber%printTo#0@13$(1427,1429, this.iMinPrintedDigits)",
+        [
+            0.056,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@51$(598,(611,611), inLiteral)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@58$(601,(611,611), c)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@72$(613,621, i)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@78$(600,613, i)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%printTo#7@0$(531,535, this)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%printTo#7@1$(531,535, buf)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%printTo#7@3$(531,(532,535), partial)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%printTo#7@4$(531,535, partial)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%printTo#7@5$(531,535, this.iLocale)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%printTo#7@6$(531,535, printer)",
+        [
+            0.05511811023622047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@57$(405,549, token)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@98$(412,(414,549), c)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@138$(403,(403,404), i)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@140$(403,404, i)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@0$(574,601, pattern)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@5$(574,596, buf)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@7$(574,616, buf)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@11$(576,(600,601), i)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@14$(576,601, i)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@15$(576,600, i)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@26$(577,(600,601), length)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@33$(579,(580,580), c)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@35$(579,(580,596), c)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@40$(579,(587,621), c)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@45$(586,(587,621), peek)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@56$(601,(603,611), c)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@57$(601,616, c)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@59$(601,(611,611), c)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@61$(601,(611,616), c)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@73$(600,(600,601), i)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@76$(600,601, i)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%selectChronology#18@14$(917,922, chrono)",
+        [
+            0.05384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@0$(697,(697,698), this)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@11$(697,698, this)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@20$(697,(697,698), instant)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@23$(697,698, instant)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@28$(697,698, value)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@32$(697,(697,698), this.iCutover)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GJChronology$CutoverField%set#5@42$(697,698, this.iGregorianField)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@46$(589,(585,586), i)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@49$(589,586, i)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@47$(589,(585,621), i)",
+        [
+            0.04878048780487805,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@0$(674,(674,674), pattern)",
+        [
+            0.04861111111111111,
+            false,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@3$(674,(674,677), pattern)",
+        [
+            0.04861111111111111,
+            false,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@4$(674,679, pattern)",
+        [
+            0.04861111111111111,
+            false,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@7$(674,678, cPatternedCache)",
+        [
+            0.04861111111111111,
+            false,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@8$(674,678, cPatternedCache)",
+        [
+            0.04861111111111111,
+            false,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@9$(674,679, cPatternedCache)",
+        [
+            0.04861111111111111,
+            false,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekyear#8@6$(494,(495,497), week)",
+        [
+            0.04838709677419355,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@10$(574,588, buf)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@25$(576,589, i)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@39$(579,(587,588), c)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@41$(579,588, c)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@44$(586,(587,588), peek)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@48$(589,621, i)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@3$(574,586, pattern)",
+        [
+            0.0425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@22$(576,(585,586), i)",
+        [
+            0.0425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@24$(576,586, i)",
+        [
+            0.0425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@30$(577,(585,586), length)",
+        [
+            0.0425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@34$(579,(580,580), c)",
+        [
+            0.0425531914893617,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@36$(579,(580,583), c)",
+        [
+            0.0425531914893617,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@42$(579,(580,580), c)",
+        [
+            0.0425531914893617,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%selectChronology#18@0$(915,(916,917), this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%selectChronology#18@5$(915,917, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%selectChronology#18@6$(915,(916,917), this.iChrono)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%selectChronology#18@8$(915,917, this.iChrono)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@1$(255,(255,258), this)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@2$(255,258, this)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@5$(255,(255,258), chrono)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@6$(255,258, chrono)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@8$(255,(255,258), this.iChrono)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@9$(255,258, this.iPrinter)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@10$(255,258, this.iParser)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@11$(255,258, this.iLocale)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@12$(255,258, this.iOffsetParsed)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@13$(255,258, this.iZone)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@14$(255,258, this.iPivotYear)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%withChronology#4@15$(255,258, this.iDefaultYear)",
+        [
+            0.03825136612021858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%setZone#1@2$(162,(163,163), zone)",
+        [
+            0.03723404255319149,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%setZone#1@5$(162,(163,163), UTC)",
+        [
+            0.03723404255319149,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%compareReverse#7@1$(494,(494,495), a)",
+        [
+            0.03723404255319149,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%compareReverse#7@5$(494,(495,495), b)",
+        [
+            0.03723404255319149,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%compareReverse#7@8$(494,(495,498), b)",
+        [
+            0.03723404255319149,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@43$(579,(580,583), c)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@33$(88,(93,93), i)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@54$(1268,(1289,1295), c)",
+        [
+            0.03553299492385787,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@4$(2609,2616, printerList)",
+        [
+            0.03553299492385787,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@18$(2611,(2613,2616), element)",
+        [
+            0.03553299492385787,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@19$(2611,2616, element)",
+        [
+            0.03553299492385787,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%getMillisKeepLocal#24@0$(1027,(1030,1031), this)",
+        [
+            0.035175879396984924,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%getMillisKeepLocal#24@5$(1027,(1030,1031), newZone)",
+        [
+            0.035175879396984924,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%getMillisKeepLocal#24@10$(1027,1031, oldInstant)",
+        [
+            0.035175879396984924,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@6$(2609,2625, parserList)",
+        [
+            0.035175879396984924,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@24$(2620,(2622,2625), element)",
+        [
+            0.035175879396984924,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@25$(2620,2625, element)",
+        [
+            0.035175879396984924,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@31$(88,(93,93), i)",
+        [
+            0.03508771929824561,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@138$(1316,(1315,1316), i)",
+        [
+            0.03482587064676617,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@140$(1316,1316, i)",
+        [
+            0.03482587064676617,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@143$(1316,1316, value)",
+        [
+            0.03482587064676617,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@29$(2481,2481, printEst)",
+        [
+            0.034482758620689655,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@30$(2479,(2479,2480), i)",
+        [
+            0.034482758620689655,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@32$(2479,2480, i)",
+        [
+            0.034482758620689655,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@33$(2479,2482, i)",
+        [
+            0.034482758620689655,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@34$(2479,2479, i)",
+        [
+            0.034482758620689655,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%isPrinter#6@0$(2597,(2597,2597), this)",
+        [
+            0.034482758620689655,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%isPrinter#6@2$(2597,(2597,2597), this.iPrinters)",
+        [
+            0.034482758620689655,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@2$(2609,2611, elementPairs)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@3$(2609,2620, elementPairs)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@8$(2609,(2610,2611), size)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@10$(2610,(2610,2611), i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@12$(2610,2611, i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@13$(2610,2620, i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@14$(2610,2610, i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@15$(2611,(2612,2613), element)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@21$(2620,(2621,2622), element)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@27$(2610,(2610,2611), i)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@28$(2610,(2610,2629), i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@29$(2610,2611, i)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@30$(2610,2620, i)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@31$(2610,2610, i)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@0$(2465,2477, this)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@1$(2465,2484, this)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@2$(2465,2492, this)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@3$(2465,2499, this)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@4$(2465,2497, this)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@7$(2465,2482, this)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@11$(2467,(2472,2476), printerList)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@12$(2467,2476, printerList)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@13$(2467,2480, printerList)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@15$(2468,(2487,2491), parserList)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@16$(2468,2491, parserList)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@17$(2468,2495, parserList)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@18$(2476,(2479,2480), size)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@19$(2476,(2479,2484), size)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@20$(2477,2482, this.iPrinters)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@22$(2478,2481, printEst)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@23$(2479,(2479,2480), i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@25$(2479,2480, i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@26$(2479,2482, i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@27$(2479,2479, i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@28$(2481,2484, printEst)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@31$(2479,(2479,2484), i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@35$(2491,(2494,2495), size)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@36$(2491,(2494,2499), size)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@37$(2492,2497, this.iParsers)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@39$(2493,2496, parseEst)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@40$(2494,(2494,2495), i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@42$(2494,2495, i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@43$(2494,2497, i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@44$(2494,2494, i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@45$(2496,2499, parseEst)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@46$(2496,2496, parseEst)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@47$(2494,(2494,2495), i)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@48$(2494,(2494,2499), i)",
+        [
+            0.03414634146341464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@49$(2494,2495, i)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@50$(2494,2497, i)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%<init>#0@51$(2494,2494, i)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%isParser#7@0$(2601,(2601,2601), this)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%isParser#7@2$(2601,(2601,2601), this.iParsers)",
+        [
+            0.03414634146341464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%isPrinter#16@2$(1098,(1099,1100), f)",
+        [
+            0.03317535545023697,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%isPrinter#16@4$(1098,1100, f)",
+        [
+            0.03317535545023697,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%isParser#17@2$(1108,(1109,1110), f)",
+        [
+            0.03317535545023697,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%isParser#17@4$(1108,1110, f)",
+        [
+            0.03317535545023697,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@0$(516,520, this)",
+        [
+            0.03296703296703297,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@3$(516,(517,520), instant)",
+        [
+            0.03296703296703297,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@5$(516,(521,524), instant)",
+        [
+            0.03296703296703297,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@6$(516,524, instant)",
+        [
+            0.03296703296703297,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@7$(516,520, year)",
+        [
+            0.03296703296703297,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@10$(516,(517,520), firstWeekMillis1)",
+        [
+            0.03296703296703297,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@11$(516,524, firstWeekMillis1)",
+        [
+            0.03296703296703297,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getWeekOfWeekyear#9@13$(520,(521,524), firstWeekMillis2)",
+        [
+            0.03296703296703297,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%getFormatter#15@1$(1071,(1074,1087), this)",
+        [
+            0.03286384976525822,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%getFormatter#15@3$(1071,1088, this)",
+        [
+            0.03286384976525822,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%getFormatter#15@7$(1071,(1074,1087), this.iElementPairs)",
+        [
+            0.03286384976525822,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%getFormatter#15@8$(1071,1088, this.iElementPairs)",
+        [
+            0.03286384976525822,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%getFormatter#15@14$(1071,(1087,1088), f)",
+        [
+            0.03286384976525822,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%getFormatter#15@35$(1088,1091, f)",
+        [
+            0.03286384976525822,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%getFormatter#15@36$(1088,1094, f)",
+        [
+            0.03286384976525822,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%decompose#8@9$(2609,(2610,2629), size)",
+        [
+            0.03286384976525822,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@67$(353,363, millis)",
+        [
+            0.03211009174311927,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@50$(341,(344,350), months)",
+        [
+            0.03167420814479638,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@54$(343,(344,350), first)",
+        [
+            0.03167420814479638,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@39$(332,353, savedFields)",
+        [
+            0.03070175438596491,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@40$(332,343, savedFields)",
+        [
+            0.03070175438596491,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@3$(332,(362,363), this)",
+        [
+            0.030434782608695653,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@9$(332,363, this)",
+        [
+            0.030434782608695653,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@31$(332,(362,363), this.iZone)",
+        [
+            0.030434782608695653,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@37$(332,363, this.iOffset)",
+        [
+            0.030434782608695653,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@73$(363,377, millis)",
+        [
+            0.030434782608695653,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@37$(400,(403,563), length)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@139$(403,(403,563), i)",
+        [
+            0.030303030303030304,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@9$(574,583, buf)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@31$(577,(585,621), length)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@32$(579,(580,580), c)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@38$(579,583, c)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@14$(683,688, formatter)",
+        [
+            0.030303030303030304,
+            true,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@31$(400,405, pattern)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@36$(400,(403,404), length)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@42$(401,404, indexRef)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@43$(401,405, indexRef)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@44$(401,406, indexRef)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@53$(403,(403,404), i)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@55$(403,404, i)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@56$(405,412, token)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@59$(406,403, i)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parsePatternTo#1@65$(408,(409,412), tokenLen)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@4$(574,621, indexRef)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%parseToken#2@6$(574,622, buf)",
+        [
+            0.029850746268656716,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@5$(674,682, pattern)",
+        [
+            0.029850746268656716,
+            true,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@6$(674,685, pattern)",
+        [
+            0.029850746268656716,
+            true,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@10$(674,685, cPatternedCache)",
+        [
+            0.029850746268656716,
+            true,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormat%createFormatterForPattern#4@11$(679,(680,681), formatter)",
+        [
+            0.029850746268656716,
+            true,
+            "wrong"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%toFormatter#0@0$(104,(106,107), this)",
+        [
+            0.029166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%toFormatter#0@4$(104,(106,107), f)",
+        [
+            0.029166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%toFormatter#0@9$(104,107, f)",
+        [
+            0.029166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%toFormatter#0@14$(107,(113,114), printer)",
+        [
+            0.029166666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%toFormatter#0@15$(107,114, printer)",
+        [
+            0.029166666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%toFormatter#0@2$(104,(110,111), this)",
+        [
+            0.029045643153526972,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%toFormatter#0@6$(104,(110,111), f)",
+        [
+            0.029045643153526972,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%toFormatter#0@8$(104,111, f)",
+        [
+            0.029045643153526972,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%toFormatter#0@19$(111,114, parser)",
+        [
+            0.029045643153526972,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@1$(399,(403,402), array)",
+        [
+            0.028925619834710745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@18$(403,(403,402), j)",
+        [
+            0.028925619834710745,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@1$(332,(334,338), this)",
+        [
+            0.02880658436213992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@26$(332,(334,338), this.iSavedFieldsShared)",
+        [
+            0.02880658436213992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@38$(332,338, savedFields)",
+        [
+            0.02880658436213992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%isParser#17@0$(1108,(1108,1109), f)",
+        [
+            0.028455284552845527,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%isPrinter#16@0$(1098,(1098,1099), f)",
+        [
+            0.02834008097165992,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%getFormatter#15@2$(1071,1091, this)",
+        [
+            0.028112449799196786,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%getFormatter#15@11$(1071,(1073,1074), f)",
+        [
+            0.028112449799196786,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%compareTo#1@3$(483,(485,486), result)",
+        [
+            0.02766798418972332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%compareTo#1@5$(483,486, result)",
+        [
+            0.02766798418972332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@68$(353,353, millis)",
+        [
+            0.02734375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@69$(352,(352,353), i)",
+        [
+            0.02734375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@71$(352,353, i)",
+        [
+            0.02734375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@72$(352,352, i)",
+        [
+            0.02734375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@15$(403,(403,403), j)",
+        [
+            0.02734375,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@31$(402,(402,403), i)",
+        [
+            0.02734375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@33$(402,403, i)",
+        [
+            0.02734375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@34$(402,402, i)",
+        [
+            0.02734375,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@3$(465,471, this)",
+        [
+            0.027131782945736434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@7$(465,(470,471), reset)",
+        [
+            0.027131782945736434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@13$(465,471, this.iField)",
+        [
+            0.027131782945736434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@18$(466,471, millis)",
+        [
+            0.027131782945736434,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@21$(471,473, millis)",
+        [
+            0.027131782945736434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%compareReverse#7@4$(494,503, a)",
+        [
+            0.026923076923076925,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%compareReverse#7@12$(494,(500,503), b)",
+        [
+            0.026923076923076925,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%compareReverse#7@13$(494,503, b)",
+        [
+            0.026923076923076925,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral%parseInto#0@7$(1173,1192, position)",
+        [
+            0.02681992337164751,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral%parseInto#0@12$(1177,(1180,1192), a)",
+        [
+            0.02681992337164751,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral%parseInto#0@15$(1178,(1180,1192), b)",
+        [
+            0.02681992337164751,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDateTimeMillis#2@1$(153,(153,157), this)",
+        [
+            0.02681992337164751,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDateTimeMillis#2@2$(153,159, this)",
+        [
+            0.02681992337164751,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDateTimeMillis#2@3$(153,159, year)",
+        [
+            0.02681992337164751,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDateTimeMillis#2@5$(153,159, monthOfYear)",
+        [
+            0.02681992337164751,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDateTimeMillis#2@7$(153,159, dayOfMonth)",
+        [
+            0.02681992337164751,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDateTimeMillis#2@9$(153,157, millisOfDay)",
+        [
+            0.02681992337164751,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDateTimeMillis#2@10$(153,159, millisOfDay)",
+        [
+            0.02681992337164751,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%compareReverse#7@3$(494,(494,500), a)",
+        [
+            0.026717557251908396,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%compareReverse#7@9$(494,(500,500), b)",
+        [
+            0.026717557251908396,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@0$(465,(465,466), this)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@4$(465,466, this)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@6$(465,466, millis)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@9$(465,(465,466), this.iText)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@14$(465,466, this.iField)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket$SavedField%set#0@15$(465,466, this.iValue)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%compareReverse#7@0$(494,(494,494), a)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@10$(332,341, this)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@11$(332,342, this)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@17$(332,353, resetFields)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@27$(332,341, this.iChrono)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@28$(332,342, this.iChrono)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@42$(333,(339,341), count)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@44$(333,(352,353), count)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@60$(350,353, millis)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@61$(352,(352,353), i)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@63$(352,353, i)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@64$(352,352, i)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@70$(352,(352,360), i)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@8$(399,(402,403), high)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@11$(402,(402,403), i)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@13$(402,403, i)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@14$(402,402, i)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@16$(403,(403,402), j)",
+        [
+            0.026415094339622643,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@32$(402,(402,410), i)",
+        [
+            0.026415094339622643,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@26$(1263,(1267,1295), limit)",
+        [
+            0.025362318840579712,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@106$(1292,(1267,1295), length)",
+        [
+            0.025362318840579712,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@2$(332,350, this)",
+        [
+            0.02527075812274368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@30$(332,350, this.iMillis)",
+        [
+            0.02527075812274368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@41$(333,338, count)",
+        [
+            0.02527075812274368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%computeMillis#5@45$(333,(352,360), count)",
+        [
+            0.02527075812274368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@7$(399,(399,402), high)",
+        [
+            0.02527075812274368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%sort#6@9$(399,(402,410), high)",
+        [
+            0.02527075812274368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral%parseInto#0@0$(1173,1178, this)",
+        [
+            0.02456140350877193,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral%parseInto#0@2$(1173,(1173,1177), text)",
+        [
+            0.02456140350877193,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral%parseInto#0@3$(1173,1177, text)",
+        [
+            0.02456140350877193,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral%parseInto#0@5$(1173,(1173,1177), position)",
+        [
+            0.02456140350877193,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral%parseInto#0@6$(1173,1177, position)",
+        [
+            0.02456140350877193,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral%parseInto#0@10$(1173,1178, this.iValue)",
+        [
+            0.02456140350877193,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%<init>#0@4$(118,(122,122), locale)",
+        [
+            0.02456140350877193,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.base.AbstractInstant%equals#3@1$(259,(259,262), this)",
+        [
+            0.024475524475524476,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.base.AbstractInstant%equals#3@7$(259,(259,262), readableInstant)",
+        [
+            0.024475524475524476,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.base.AbstractInstant%equals#3@9$(259,(262,265), readableInstant)",
+        [
+            0.024475524475524476,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.base.AbstractInstant%equals#3@10$(259,265, readableInstant)",
+        [
+            0.024475524475524476,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@141$(1316,1323, value)",
+        [
+            0.024390243902439025,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@5$(1263,1316, text)",
+        [
+            0.024305555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@31$(1265,(1306,1310), negative)",
+        [
+            0.024305555555555556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@33$(1265,(1318,1323), negative)",
+        [
+            0.024305555555555556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@46$(1266,1292, length)",
+        [
+            0.024305555555555556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@117$(1292,1292, length)",
+        [
+            0.024305555555555556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@126$(1305,1310, i)",
+        [
+            0.024305555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@129$(1310,(1315,1316), i)",
+        [
+            0.024305555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@131$(1310,1316, i)",
+        [
+            0.024305555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@134$(1310,1316, value)",
+        [
+            0.024305555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@135$(1314,(1315,1316), position)",
+        [
+            0.024305555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@139$(1316,(1315,1318), i)",
+        [
+            0.024305555555555556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@0$(1263,1323, this)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@3$(1263,1323, bucket)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@4$(1263,1310, text)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@12$(1263,1305, position)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@13$(1263,1314, position)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@24$(1263,1323, this.iFieldType)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@56$(1268,(1289,1292), c)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@105$(1292,(1267,1268), length)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@108$(1292,(1295,1300), length)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@110$(1292,(1300,1305), length)",
+        [
+            0.02422145328719723,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@111$(1292,1314, length)",
+        [
+            0.02422145328719723,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@114$(1292,1268, length)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@116$(1292,(1269,1289), length)",
+        [
+            0.02422145328719723,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@136$(1314,(1315,1318), position)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@137$(1314,1324, position)",
+        [
+            0.02422145328719723,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@11$(2589,(2590,2593), len)",
+        [
+            0.024054982817869417,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@17$(2591,(2590,2591), position)",
+        [
+            0.024054982817869417,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@19$(2591,2591, position)",
+        [
+            0.024054982817869417,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@21$(2590,(2590,2593), i)",
+        [
+            0.024054982817869417,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@22$(2590,2591, i)",
+        [
+            0.024054982817869417,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@23$(2590,2590, i)",
+        [
+            0.024054982817869417,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@2$(249,261, this)",
+        [
+            0.023972602739726026,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@3$(249,263, this)",
+        [
+            0.023972602739726026,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@5$(249,(252,261), this)",
+        [
+            0.023972602739726026,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@6$(249,262, field)",
+        [
+            0.023972602739726026,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@8$(249,(252,261), this.iSavedFieldsShared)",
+        [
+            0.023972602739726026,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@9$(249,(252,252), savedFields)",
+        [
+            0.023972602739726026,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@15$(249,262, savedFields)",
+        [
+            0.023972602739726026,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@16$(250,(252,252), savedFieldsCount)",
+        [
+            0.023972602739726026,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@21$(250,262, savedFieldsCount)",
+        [
+            0.023972602739726026,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%saveField#2@22$(250,263, savedFieldsCount)",
+        [
+            0.023972602739726026,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%getMillisKeepLocal#24@4$(1027,(1027,1030), newZone)",
+        [
+            0.023809523809523808,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@62$(1268,(1269,1289), c)",
+        [
+            0.023411371237458192,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@53$(1268,(1289,1289), c)",
+        [
+            0.023333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@57$(1268,(1269,1269), c)",
+        [
+            0.023333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@7$(1263,1268, text)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@16$(1263,1268, position)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@25$(1263,(1267,1268), limit)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@34$(1266,(1267,1268), length)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@43$(1266,1268, length)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter%parseInto#0@44$(1266,(1269,1269), length)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@0$(2584,2591, bucket)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@1$(2584,2591, text)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@3$(2584,(2590,2591), position)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@5$(2584,2591, position)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@7$(2584,(2585,2589), elements)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@8$(2584,2589, elements)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@9$(2584,2591, elements)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@10$(2589,(2590,2590), len)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@12$(2590,(2590,2590), i)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@14$(2590,2591, i)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@15$(2590,2590, i)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@16$(2591,2593, position)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder$Composite%parseInto#5@20$(2590,(2590,2590), i)",
+        [
+            0.023178807947019868,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%requireParser#17@1$(900,(901,904), parser)",
+        [
+            0.0220125786163522,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%requireParser#17@2$(900,904, parser)",
+        [
+            0.0220125786163522,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%setZone#1@0$(162,163, this)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%setZone#1@1$(162,164, this)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%setZone#1@4$(162,163, zone)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%<init>#0@0$(118,122, this)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%<init>#0@1$(118,123, this)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%<init>#0@2$(118,124, this)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%<init>#0@3$(118,125, this)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%<init>#0@6$(118,122, locale)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%<init>#0@7$(118,124, pivotYear)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%<init>#0@8$(118,125, defaultYear)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeParserBucket%<init>#0@9$(119,123, chrono)",
+        [
+            0.0220125786163522,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%setYear#5@15$(176,(179,195), dayOfYear)",
+        [
+            0.020895522388059702,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@22$(88,(93,93), i)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@44$(88,(93,93), i)",
+        [
+            0.01948051948051948,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@10$(480,(482,502), this)",
+        [
+            0.01935483870967742,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@34$(480,(482,502), this.iOrdinal)",
+        [
+            0.01935483870967742,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@61$(480,502, chronology)",
+        [
+            0.01935483870967742,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.BaseDurationField%compareTo#1@3$(146,(152,155), otherMillis)",
+        [
+            0.018276762402088774,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.BaseDurationField%compareTo#1@7$(147,(152,155), thisMillis)",
+        [
+            0.018276762402088774,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.BaseDurationField%compareTo#1@1$(146,(149,152), otherMillis)",
+        [
+            0.017721518987341773,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.BaseDurationField%compareTo#1@5$(147,(149,152), thisMillis)",
+        [
+            0.017721518987341773,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@18$(50,(82,83), value)",
+        [
+            0.01728395061728395,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@66$(83,(87,90), digits)",
+        [
+            0.01728395061728395,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@0$(396,408, this)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@4$(396,408, fieldType)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@11$(396,(405,408), minDigits)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@12$(396,408, minDigits)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@18$(396,408, maxDigits)",
+        [
+            0.017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@17$(50,(80,82), value)",
+        [
+            0.017241379310344827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@0$(50,90, buf)",
+        [
+            0.0170316301703163,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@15$(50,(67,80), value)",
+        [
+            0.0170316301703163,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@21$(50,90, value)",
+        [
+            0.0170316301703163,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@29$(50,(87,90), size)",
+        [
+            0.0170316301703163,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@3$(396,(396,399), fieldType)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@7$(396,(399,402), minDigits)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@8$(396,(402,402), minDigits)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@15$(396,(399,402), maxDigits)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatterBuilder%appendDecimal#8@17$(396,(402,405), maxDigits)",
+        [
+            0.014705882352941176,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@6$(50,64, buf)",
+        [
+            0.014492753623188406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@12$(50,(62,63), value)",
+        [
+            0.014492753623188406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@24$(50,66, value)",
+        [
+            0.014492753623188406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@34$(50,(63,64), size)",
+        [
+            0.014492753623188406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@36$(50,63, size)",
+        [
+            0.014492753623188406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@58$(63,(63,66), size)",
+        [
+            0.014492753623188406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@5$(50,66, buf)",
+        [
+            0.014462809917355372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.PreciseDurationDateTimeField%roundFloor#1@1$(92,93, this)",
+        [
+            0.01443298969072165,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.PreciseDurationDateTimeField%roundFloor#1@2$(92,(92,93), instant)",
+        [
+            0.01443298969072165,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.PreciseDurationDateTimeField%roundFloor#1@5$(92,93, instant)",
+        [
+            0.01443298969072165,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.PreciseDurationDateTimeField%roundFloor#1@7$(92,93, this.iUnitMillis)",
+        [
+            0.01443298969072165,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@5$(264,(266,276), this)",
+        [
+            0.014314928425357873,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@18$(264,(266,276), this.iOrdinal)",
+        [
+            0.014314928425357873,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@33$(264,276, chronology)",
+        [
+            0.014314928425357873,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@13$(50,(62,67), value)",
+        [
+            0.0137524557956778,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@2$(399,(414,417), this)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@4$(399,(422,424), instant)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@15$(404,(414,417), year)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@16$(404,424, year)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@18$(406,420, yearStart)",
+        [
+            0.013513513513513514,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@21$(407,(411,414), diff)",
+        [
+            0.013513513513513514,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@25$(417,420, oneYear)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@26$(420,(422,424), yearStart)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@28$(424,428, year)",
+        [
+            0.013513513513513514,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%requirePrinter#11@1$(655,(656,659), printer)",
+        [
+            0.01348747591522158,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%requirePrinter#11@2$(655,659, printer)",
+        [
+            0.01348747591522158,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@7$(264,(266,280), this)",
+        [
+            0.013409961685823755,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@20$(264,(266,280), this.iOrdinal)",
+        [
+            0.013409961685823755,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DurationFieldType$StandardDurationFieldType%getField#0@31$(264,280, chronology)",
+        [
+            0.013409961685823755,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%setYear#5@16$(176,195, dayOfYear)",
+        [
+            0.013307984790874524,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@11$(50,(50,62), value)",
+        [
+            0.012216404886561954,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%selectChronology#18@3$(915,(919,922), this)",
+        [
+            0.012048192771084338,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.DateTimeFormatter%selectChronology#18@10$(915,(919,922), this.iZone)",
+        [
+            0.012048192771084338,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@11$(88,(93,93), i)",
+        [
+            0.011111111111111112,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDayOfWeek#10@0$(534,(534,535), instant)",
+        [
+            0.010819165378670788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDayOfWeek#10@3$(534,535, instant)",
+        [
+            0.010819165378670788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getDayOfWeek#10@4$(535,544, daysSince19700101)",
+        [
+            0.010819165378670788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@8$(480,(482,498), this)",
+        [
+            0.009873060648801129,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@32$(480,(482,498), this.iOrdinal)",
+        [
+            0.009873060648801129,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@63$(480,498, chronology)",
+        [
+            0.009873060648801129,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@16$(88,(93,93), i)",
+        [
+            0.009538950715421303,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@7$(480,(482,496), this)",
+        [
+            0.009308510638297872,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@31$(480,(482,496), this.iOrdinal)",
+        [
+            0.009308510638297872,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@64$(480,496, chronology)",
+        [
+            0.009308510638297872,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@5$(480,(482,492), this)",
+        [
+            0.009186351706036745,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@29$(480,(482,492), this.iOrdinal)",
+        [
+            0.009186351706036745,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType%getField#1@66$(480,492, chronology)",
+        [
+            0.009186351706036745,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@0$(88,(93,93), this)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@2$(88,(93,93), year)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicMonthOfYearDateTimeField%set#4@0$(292,303, this)",
+        [
+            0.008588957055214725,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicMonthOfYearDateTimeField%set#4@1$(292,303, instant)",
+        [
+            0.008588957055214725,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicMonthOfYearDateTimeField%set#4@2$(292,303, month)",
+        [
+            0.008588957055214725,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicMonthOfYearDateTimeField%set#4@3$(292,303, this.iChronology)",
+        [
+            0.008588957055214725,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicMonthOfYearDateTimeField%set#4@4$(294,303, thisYear)",
+        [
+            0.008588957055214725,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicMonthOfYearDateTimeField%set#4@6$(296,(298,303), thisDom)",
+        [
+            0.008588957055214725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicMonthOfYearDateTimeField%set#4@7$(296,303, thisDom)",
+        [
+            0.008588957055214725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicMonthOfYearDateTimeField%set#4@9$(297,(298,303), maxDom)",
+        [
+            0.008588957055214725,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%setYear#5@0$(175,195, this)",
+        [
+            0.00850546780072904,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%setYear#5@7$(175,195, year)",
+        [
+            0.00850546780072904,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%setYear#5@19$(177,196, millisOfDay)",
+        [
+            0.00850546780072904,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getTotalMillisByYearMonth#3@0$(139,(139,140), this)",
+        [
+            0.008012820512820512,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getTotalMillisByYearMonth#3@2$(139,(139,140), year)",
+        [
+            0.008012820512820512,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getTotalMillisByYearMonth#3@5$(139,140, month)",
+        [
+            0.008012820512820512,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getTotalMillisByYearMonth#3@6$(139,140, MAX_TOTAL_MILLIS_BY_MONTH_ARRAY)",
+        [
+            0.008012820512820512,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GregorianChronology%isLeapYear#4@3$(197,(197,197), year)",
+        [
+            0.007936507936507936,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getMillisOfDay#11@0$(551,(551,552), instant)",
+        [
+            0.007874015748031496,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getMillisOfDay#11@3$(551,552, instant)",
+        [
+            0.007874015748031496,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@32$(50,(68,74), size)",
+        [
+            0.007832898172323759,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@14$(50,(67,68), value)",
+        [
+            0.0078125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@22$(50,74, value)",
+        [
+            0.0078125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@23$(50,77, value)",
+        [
+            0.0078125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@2$(50,75, buf)",
+        [
+            0.007792207792207792,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.format.FormatUtils%appendPaddedInteger#0@3$(50,77, buf)",
+        [
+            0.007792207792207792,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GregorianChronology%isLeapYear#4@0$(197,(197,197), year)",
+        [
+            0.007633587786259542,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@9$(88,(93,93), i)",
+        [
+            0.007633587786259542,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@38$(88,(93,93), i)",
+        [
+            0.006756756756756757,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@4$(88,(93,93), i)",
+        [
+            0.0066518847006651885,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%verifyValueBounds#9@5$(232,(232,237), value)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%verifyValueBounds#9@11$(232,(232,237), upperBound)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%verifyValueBounds#9@1$(232,(232,232), value)",
+        [
+            0.006244424620874219,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%verifyValueBounds#9@6$(232,(232,232), lowerBound)",
+        [
+            0.006244424620874219,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%getChronology#8@0$(252,(252,253), chrono)",
+        [
+            0.00611353711790393,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@1$(88,(93,93), this)",
+        [
+            0.006008583690987125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@3$(88,(93,93), year)",
+        [
+            0.006008583690987125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getTotalMillisByYearMonth#3@1$(139,(139,142), this)",
+        [
+            0.005809128630705394,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getTotalMillisByYearMonth#3@3$(139,(139,142), year)",
+        [
+            0.005809128630705394,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getTotalMillisByYearMonth#3@4$(139,142, month)",
+        [
+            0.005809128630705394,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getTotalMillisByYearMonth#3@7$(139,142, MIN_TOTAL_MILLIS_BY_MONTH_ARRAY)",
+        [
+            0.005809128630705394,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%verifyValueBounds#8@5$(214,(214,219), value)",
+        [
+            0.005695687550854353,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%verifyValueBounds#8@11$(214,(214,219), upperBound)",
+        [
+            0.005695687550854353,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%verifyValueBounds#8@1$(214,(214,214), value)",
+        [
+            0.005686433793663688,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.field.FieldUtils%verifyValueBounds#8@6$(214,(214,214), lowerBound)",
+        [
+            0.005686433793663688,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@26$(88,(93,93), i)",
+        [
+            0.005660377358490566,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.GregorianChronology%isLeapYear#4@1$(197,(197,197), year)",
+        [
+            0.005376344086021506,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@13$(404,428, year)",
+        [
+            0.005113221329437546,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@22$(407,(411,428), diff)",
+        [
+            0.005113221329437546,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@0$(399,406, this)",
+        [
+            0.005105762217359592,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@3$(399,407, instant)",
+        [
+            0.005105762217359592,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@6$(399,404, unitMillis)",
+        [
+            0.005105762217359592,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@9$(400,(401,404), i2)",
+        [
+            0.005105762217359592,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@10$(400,404, i2)",
+        [
+            0.005105762217359592,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYear#7@20$(407,(409,411), diff)",
+        [
+            0.005105762217359592,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@29$(88,(93,93), i)",
+        [
+            0.004889975550122249,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYearInfo#12@5$(738,(739,743), year)",
+        [
+            0.004768392370572207,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYearInfo#12@7$(738,(739,739), info)",
+        [
+            0.004768392370572207,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYearInfo#12@10$(738,(739,743), info)",
+        [
+            0.004768392370572207,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYearInfo#12@11$(738,743, info)",
+        [
+            0.004768392370572207,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicChronology%getYearInfo#12@13$(738,(739,743), info.iYear)",
+        [
+            0.004768392370572207,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@27$(88,(93,93), i)",
+        [
+            0.0047169811320754715,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getDaysInYearMonth#1@0$(120,(120,121), this)",
+        [
+            0.0046439628482972135,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getDaysInYearMonth#1@2$(120,(120,121), year)",
+        [
+            0.0046439628482972135,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getDaysInYearMonth#1@5$(120,121, month)",
+        [
+            0.0046439628482972135,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getDaysInYearMonth#1@6$(120,121, MAX_DAYS_PER_MONTH_ARRAY)",
+        [
+            0.0046439628482972135,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getDaysInYearMonth#1@1$(120,(120,123), this)",
+        [
+            0.003676470588235294,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getDaysInYearMonth#1@3$(120,(120,123), year)",
+        [
+            0.003676470588235294,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getDaysInYearMonth#1@4$(120,123, month)",
+        [
+            0.003676470588235294,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getDaysInYearMonth#1@7$(120,123, MIN_DAYS_PER_MONTH_ARRAY)",
+        [
+            0.003676470588235294,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@6$(96,(101,102), zone)",
+        [
+            0.0033003300330033004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@24$(100,(101,102), chrono)",
+        [
+            0.00328484279680901,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@26$(100,102, chrono)",
+        [
+            0.00328484279680901,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@1$(96,(96,99), zone)",
+        [
+            0.0032497678737233053,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@2$(96,99, zone)",
+        [
+            0.0032497678737233053,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@22$(100,(101,101), chrono)",
+        [
+            0.003246753246753247,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.ISOChronology%getInstance#0@8$(96,100, cFastCache)",
+        [
+            0.003234750462107209,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.AssembledChronology%getZone#0@0$(107,(107,108), this)",
+        [
+            0.0028949545078577337,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.AssembledChronology%getZone#0@2$(107,(107,108), this.iBase)",
+        [
+            0.0028949545078577337,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.AssembledChronology%getZone#0@4$(107,108, base)",
+        [
+            0.0028949545078577337,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%getChronology#8@1$(252,(252,255), chrono)",
+        [
+            0.002871205906480722,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%getChronology#8@2$(252,255, chrono)",
+        [
+            0.002871205906480722,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeUtils%checkPermission#2@1$(129,(130,133), sm)",
+        [
+            0.002564102564102564,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%setDefault#1@1$(174,(178,181), zone)",
+        [
+            0.0024271844660194173,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%setDefault#1@2$(174,182, zone)",
+        [
+            0.0024271844660194173,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%setDefault#1@4$(174,(175,178), sm)",
+        [
+            0.0024271844660194173,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%getDefault#0@3$(133,(134,161), zone)",
+        [
+            0.0022172949002217295,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.DateTimeZone%getDefault#0@4$(133,161, zone)",
+        [
+            0.0022172949002217295,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@7$(88,(93,93), i)",
+        [
+            0.0015432098765432098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.joda.time.chrono.BasicGJChronology%getMonthOfYear#0@5$(88,(93,93), i)",
+        [
+            0.0014925373134328358,
+            false,
+            "clear"
+        ]
+    ]
+]

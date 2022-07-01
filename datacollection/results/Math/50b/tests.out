@@ -1,0 +1,84 @@
+JUnit version 4.11
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.addExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.addExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.multiplyExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.multiplyExact(long,long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.subtractExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.subtractExact(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.toIntExact(long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorDiv(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorDiv(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorMod(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorMod(long,long)
+Cannot find FastMath method corresponding to: public static float java.lang.StrictMath.nextDown(float)
+Cannot find FastMath method corresponding to: public static double java.lang.StrictMath.nextDown(double)
+..............................................................................................................................................................................................................................................E............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$ElliRotated BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$ElliRotated END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Elli BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Elli END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$TwoAxes BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$TwoAxes END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Cigar BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Cigar END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rastrigin BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rastrigin END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$SsDiffPow BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$SsDiffPow END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli END
+..org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$CigTab BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$CigTab END
+..org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli BEGIN
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Sphere BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Sphere END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Tablet BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Tablet END
+.org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................I...................................................................................................................................................
+Time: 31.953
+There was 1 failure:
+1) testIssue631(org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest)
+java.lang.AssertionError: Expected exception: org.apache.commons.math.exception.TooManyEvaluationsException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+
+FAILURES!!!
+Tests run: 2487,  Failures: 1
+
+
+real	0m32.743s
+user	1m31.019s
+sys	0m2.052s

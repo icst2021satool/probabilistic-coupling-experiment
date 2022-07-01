@@ -1,0 +1,26 @@
+com/fasterxml/jackson/core/util/JsonParserSequence.java#104#    public JsonToken nextToken() throws IOException, JsonParseException
+com/fasterxml/jackson/core/util/JsonParserSequence.java#107#        if (t != null) return t;
+com/fasterxml/jackson/core/util/JsonParserSequence.java#108#        while (switchToNext()) {
+com/fasterxml/jackson/core/util/JsonParserSequence.java#109#            t = delegate.nextToken();
+com/fasterxml/jackson/core/util/JsonParserSequence.java#110#            if (t != null) return t;
+com/fasterxml/jackson/core/util/JsonParserSequence.java#112#        return null;
+org/apache/commons/compress/archivers/ArchiveStreamFactory.java#297#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/ArchiveStreamFactory.java#298#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/ArchiveStreamFactory.java#360#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/ArchiveStreamFactory.java#361#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java#97#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java#155#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java#98#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java#162#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java#80#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java#104#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java#79#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java#142#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java#90#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java#155#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java#65#FAULT_OF_OMISSION
+org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java#184#FAULT_OF_OMISSION
+org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java#435#FAULT_OF_OMISSION
+com/fasterxml/jackson/core/util/JsonParserSequence.java#35#FAULT_OF_OMISSION
+com/fasterxml/jackson/core/util/JsonParserSequence.java#45#FAULT_OF_OMISSION
+com/fasterxml/jackson/core/util/JsonParserSequence.java#106#FAULT_OF_OMISSION

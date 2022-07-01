@@ -1,0 +1,18 @@
+05:57:03.629 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+05:57:03.783 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/3b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Time/3b/tests.all, --logLevel, INFO]
+06:57:50.502 [main] INFO  JaguarDF - Test testAdd_DurationFieldType_int_dstOverlapWinter_addZero(org.joda.time.TestMutableDateTime_Adds) : Failed
+06:58:01.823 [main] INFO  JaguarDF - Test testAddYears_int_dstOverlapWinter_addZero(org.joda.time.TestMutableDateTime_Adds) : Failed
+06:58:13.134 [main] INFO  JaguarDF - Test testAddMonths_int_dstOverlapWinter_addZero(org.joda.time.TestMutableDateTime_Adds) : Failed
+06:58:17.693 [main] INFO  JaguarDF - Test testAddDays_int_dstOverlapWinter_addZero(org.joda.time.TestMutableDateTime_Adds) : Failed
+06:58:22.222 [main] INFO  JaguarDF - Test testAddWeeks_int_dstOverlapWinter_addZero(org.joda.time.TestMutableDateTime_Adds) : Failed
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+Writing zoneinfo files
+Writing ZoneInfoMap
+08:37:01.557 [main] INFO  JaguarDF - Jaguar-DF has finished!

@@ -1,0 +1,3330 @@
+[
+    [
+        "org.mockito.internal.matchers.Same%appendQuoting#1@3$(35,(37,40), this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.matchers.Same%appendQuoting#1@9$(35,(37,40), this.wanted)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.matchers.Same%appendQuoting#1@1$(35,(35,37), this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.matchers.Same%appendQuoting#1@7$(35,(35,37), this.wanted)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.matchers.Same%matches#0@1$(23,(23,23), this)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.matchers.Same%matches#0@3$(23,(23,23), actual)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.matchers.Same%matches#0@5$(23,(23,23), this.wanted)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.HandyReturnValues%returnFor#1@1$(59,(59,59), instance)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.HandyReturnValues%returnFor#1@0$(59,59, this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.HandyReturnValues%returnFor#1@3$(59,59, instance)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder%findSimilarInvocation#2@2$(65,(73,74), wanted)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder%findSimilarInvocation#2@12$(66,(73,74), invocation)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder%findSimilarInvocation#2@14$(66,74, invocation)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@19$(81,(87,87), methodEquals)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder%findSimilarInvocation#2@1$(65,(67,70), wanted)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder%findSimilarInvocation#2@5$(65,(70,71), firstSimilar)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder%findSimilarInvocation#2@11$(66,(67,70), invocation)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder%findSimilarInvocation#2@15$(66,71, invocation)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@20$(87,(89,89), overloadedButSameArgs)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@17$(80,(83,87), mockIsTheSame)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@14$(79,(83,83), isUnverified)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@12$(78,(83,83), methodNameEquals)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder%findSimilarInvocation#2@7$(66,(66,66), i$)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder%findSimilarInvocation#2@9$(66,66, i$)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@5$(75,(79,79), candidate)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@0$(75,(80,80), this)",
+        [
+            0.017543859649122806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@7$(75,(80,80), candidate)",
+        [
+            0.017543859649122806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@2$(75,81, this)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSimilarMethod#2@9$(75,81, candidate)",
+        [
+            0.016666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%varArgsMatch#2@1$(34,(34,36), actual)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#1@12$(24,(25,26), i)",
+        [
+            0.006711409395973154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#1@2$(21,(25,26), invocationMatcher)",
+        [
+            0.00641025641025641,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#1@8$(21,(25,26), actualArgs)",
+        [
+            0.00641025641025641,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%matches#1@5$(57,(57,57), this)",
+        [
+            0.006369426751592357,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%matches#1@11$(57,(57,57), actual)",
+        [
+            0.006369426751592357,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.cglib.CGLIBHacker%setMockitoNamingPolicy#0@0$(19,26, INSTANCE)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.cglib.CGLIBHacker%setMockitoNamingPolicy#0@1$(22,(25,26), createInfo)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.cglib.CGLIBHacker%setMockitoNamingPolicy#0@3$(22,26, createInfo)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.cglib.CGLIBHacker%setMockitoNamingPolicy#0@4$(23,(25,26), namingPolicyField)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.cglib.CGLIBHacker%setMockitoNamingPolicy#0@6$(23,26, namingPolicyField)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.MatchersBinder%validateMatchers#0@0$(28,30, invocation)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.MatchersBinder%validateMatchers#0@1$(28,(28,29), matchers)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.MatchersBinder%validateMatchers#0@3$(28,29, matchers)",
+        [
+            0.006097560975609756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.MatchersBinder%validateMatchers#0@5$(29,(31,35), recordedMatchersSize)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.MatchersBinder%validateMatchers#0@8$(30,(31,35), expectedMatchersSize)",
+        [
+            0.006097560975609756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#0@3$(16,(17,17), this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#0@7$(16,(17,17), invocationMatcher)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#0@9$(16,(17,17), actual)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%pullMatchers#0@1$(38,(38,42), this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%pullMatchers#0@2$(38,42, this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%pullMatchers#0@3$(38,43, this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%pullMatchers#0@5$(38,(38,42), this.matcherStack)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%pullMatchers#0@6$(38,42, this.matcherStack)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%pullMatchers#0@7$(38,43, this.matcherStack)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#0@0$(16,(17,17), this)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#0@4$(16,(17,17), invocationMatcher)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#0@10$(16,(17,17), actualArgs)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching%isOut#0@0$(134,(134,134), this)",
+        [
+            0.00546448087431694,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching%isOut#0@2$(134,(134,134), invocation)",
+        [
+            0.00546448087431694,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationsFinder$RemoveNotMatching%isOut#0@4$(134,(134,134), this.wanted)",
+        [
+            0.00546448087431694,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@1$(13,(15,18), filter)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@8$(14,(15,18), t)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%<init>#0@0$(27,32, this)",
+        [
+            0.004608294930875576,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%<init>#0@4$(27,(29,32), matchers)",
+        [
+            0.004608294930875576,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%<init>#0@5$(27,32, matchers)",
+        [
+            0.004608294930875576,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.verification.VerificationDataImpl%assertWantedIsVerifiable#0@1$(36,(36,39), this)",
+        [
+            0.003424657534246575,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.verification.VerificationDataImpl%assertWantedIsVerifiable#0@3$(36,(40,43), this)",
+        [
+            0.003424657534246575,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.verification.VerificationDataImpl%assertWantedIsVerifiable#0@5$(36,(36,39), this.wanted)",
+        [
+            0.003424657534246575,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.verification.VerificationDataImpl%assertWantedIsVerifiable#0@7$(36,(40,43), this.wanted)",
+        [
+            0.003424657534246575,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.verification.VerificationDataImpl%assertWantedIsVerifiable#0@9$(39,(40,43), o)",
+        [
+            0.003424657534246575,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.verification.Times%<init>#0@0$(25,29, this)",
+        [
+            0.0034129692832764505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.verification.Times%<init>#0@2$(25,(26,29), wantedNumberOfInvocations)",
+        [
+            0.0034129692832764505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.verification.Times%<init>#0@3$(25,29, wantedNumberOfInvocations)",
+        [
+            0.0034129692832764505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%pullVerificationMode#0@1$(52,(52,56), this)",
+        [
+            0.003367003367003367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%pullVerificationMode#0@2$(52,56, this)",
+        [
+            0.003367003367003367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%pullVerificationMode#0@3$(52,57, this)",
+        [
+            0.003367003367003367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%pullVerificationMode#0@5$(52,(52,56), this.verificationMode)",
+        [
+            0.003367003367003367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%pullVerificationMode#0@6$(52,56, this.verificationMode)",
+        [
+            0.003367003367003367,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@24$(84,(108,110), type)",
+        [
+            0.0033112582781456954,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@26$(84,(110,112), type)",
+        [
+            0.0033112582781456954,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@28$(84,(112,114), type)",
+        [
+            0.0033112582781456954,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@30$(84,(114,116), type)",
+        [
+            0.0033112582781456954,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@32$(84,(116,120), type)",
+        [
+            0.0033112582781456954,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@18$(84,(102,104), type)",
+        [
+            0.0033003300330033004,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@20$(84,(104,106), type)",
+        [
+            0.0033003300330033004,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@22$(84,(106,108), type)",
+        [
+            0.0033003300330033004,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockitoCore%verify#1@1$(70,(72,75), this)",
+        [
+            0.003278688524590164,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockitoCore%verify#1@2$(70,75, this)",
+        [
+            0.003278688524590164,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockitoCore%verify#1@6$(70,(70,72), mock)",
+        [
+            0.003278688524590164,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockitoCore%verify#1@8$(70,(72,75), mock)",
+        [
+            0.003278688524590164,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockitoCore%verify#1@9$(70,75, mock)",
+        [
+            0.003278688524590164,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockitoCore%verify#1@10$(70,76, mock)",
+        [
+            0.003278688524590164,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockitoCore%verify#1@12$(70,75, mode)",
+        [
+            0.003278688524590164,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockitoCore%verify#1@16$(70,(72,75), this.mockUtil)",
+        [
+            0.003278688524590164,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockitoCore%verify#1@17$(70,75, this.mockingProgress)",
+        [
+            0.003278688524590164,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@4$(84,(86,90), type)",
+        [
+            0.003257328990228013,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@6$(84,(90,92), type)",
+        [
+            0.003257328990228013,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@8$(84,(92,94), type)",
+        [
+            0.003257328990228013,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@10$(84,(94,96), type)",
+        [
+            0.003257328990228013,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@12$(84,(96,98), type)",
+        [
+            0.003257328990228013,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@14$(84,(98,100), type)",
+        [
+            0.003257328990228013,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@16$(84,(100,102), type)",
+        [
+            0.003257328990228013,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%returnValueFor#1@2$(84,(84,86), type)",
+        [
+            0.003246753246753247,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@0$(13,(15,16), filter)",
+        [
+            0.0031746031746031746,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@3$(13,16, filtered)",
+        [
+            0.0031746031746031746,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@7$(14,(15,16), t)",
+        [
+            0.0031746031746031746,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@9$(14,16, t)",
+        [
+            0.0031746031746031746,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@4$(14,(14,14), i$)",
+        [
+            0.0031545741324921135,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@6$(14,14, i$)",
+        [
+            0.0031545741324921135,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@13$(100,(104,103), params1)",
+        [
+            0.003115264797507788,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@17$(101,(104,103), params2)",
+        [
+            0.003115264797507788,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@21$(103,(104,103), i)",
+        [
+            0.003115264797507788,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@22$(103,103, i)",
+        [
+            0.003115264797507788,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@24$(103,(103,107), i)",
+        [
+            0.003115264797507788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#1@6$(21,(24,25), actualArgs)",
+        [
+            0.003115264797507788,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#1@10$(24,(24,25), i)",
+        [
+            0.003115264797507788,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@10$(100,(103,104), params1)",
+        [
+            0.003067484662576687,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@18$(103,(103,104), i)",
+        [
+            0.003067484662576687,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@2$(13,19, filtered)",
+        [
+            0.0029154518950437317,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ListUtil%filter#0@5$(14,(14,19), i$)",
+        [
+            0.0029154518950437317,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%createMockFor#0@2$(35,36, this)",
+        [
+            0.0028011204481792717,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%createMockFor#0@3$(35,(35,36), annotation)",
+        [
+            0.0028011204481792717,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%createMockFor#0@11$(35,36, annotation)",
+        [
+            0.0028011204481792717,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%createMockFor#0@14$(35,36, field)",
+        [
+            0.0028011204481792717,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%processAnnotationOn#1@1$(49,(50,53), annotation)",
+        [
+            0.0028011204481792717,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%processAnnotationOn#1@2$(49,(53,54), annotation)",
+        [
+            0.0028011204481792717,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%processAnnotationOn#1@5$(49,60, annotation)",
+        [
+            0.0028011204481792717,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%processAnnotationOn#1@7$(49,61, field)",
+        [
+            0.0028011204481792717,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%processAnnotationOn#1@8$(49,54, field)",
+        [
+            0.0028011204481792717,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%processAnnotationOn#1@10$(49,60, mockSettings)",
+        [
+            0.0028011204481792717,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%processAnnotationOn#1@11$(49,61, mockSettings)",
+        [
+            0.0028011204481792717,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%processAnnotationOn#1@12$(49,54, mockSettings)",
+        [
+            0.0028011204481792717,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@1$(81,87, this)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@2$(81,90, testClass)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@11$(82,87, field)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@12$(82,90, field)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@13$(83,87, alreadyAssigned)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@21$(85,(86,87), mock)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@23$(85,90, mock)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%throwIfAlreadyAssigned#4@2$(101,(101,104), alreadyAssigned)",
+        [
+            0.002793296089385475,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@1$(117,124, testClass)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@3$(117,121, field)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@4$(117,124, field)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@5$(117,121, alreadyAssigned)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@13$(119,(120,121), mock)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@15$(119,124, mock)",
+        [
+            0.002793296089385475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%throwIfAlreadyAssigned#3@2$(134,(134,137), alreadyAssigned)",
+        [
+            0.002785515320334262,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%isMock#3@0$(88,(88,88), this)",
+        [
+            0.0027548209366391185,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%isMock#3@4$(88,(88,88), mock)",
+        [
+            0.0027548209366391185,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@0$(117,119, annotationEngine)",
+        [
+            0.002688172043010753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@2$(117,119, field)",
+        [
+            0.002688172043010753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@6$(118,118, arr$)",
+        [
+            0.002688172043010753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@7$(118,(118,118), len$)",
+        [
+            0.002688172043010753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@9$(118,(118,118), i$)",
+        [
+            0.002688172043010753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@11$(118,118, i$)",
+        [
+            0.002688172043010753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@12$(118,118, i$)",
+        [
+            0.002688172043010753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@18$(118,(118,131), i$)",
+        [
+            0.002688172043010753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@0$(81,85, this)",
+        [
+            0.002680965147453083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@10$(82,85, field)",
+        [
+            0.002680965147453083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@14$(84,84, arr$)",
+        [
+            0.002680965147453083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@15$(84,(84,84), len$)",
+        [
+            0.002680965147453083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@17$(84,(84,84), i$)",
+        [
+            0.002680965147453083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@19$(84,84, i$)",
+        [
+            0.002680965147453083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@20$(84,84, i$)",
+        [
+            0.002680965147453083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@26$(84,(84,82), i$)",
+        [
+            0.002680965147453083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockName%<init>#0@0$(16,21, this)",
+        [
+            0.00267379679144385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockName%<init>#0@4$(16,(17,21), mockName)",
+        [
+            0.00267379679144385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockName%<init>#0@5$(16,21, mockName)",
+        [
+            0.00267379679144385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@14$(145,(146,149), arg)",
+        [
+            0.0026246719160104987,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@10$(145,(146,146), arg)",
+        [
+            0.0025906735751295338,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@1$(144,149, matchers)",
+        [
+            0.0025575447570332483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@12$(145,149, arg)",
+        [
+            0.0025575447570332483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@3$(145,145, arr$)",
+        [
+            0.0025252525252525255,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@4$(145,(145,145), len$)",
+        [
+            0.0025252525252525255,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@6$(145,(145,145), i$)",
+        [
+            0.0025252525252525255,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@8$(145,145, i$)",
+        [
+            0.0025252525252525255,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@9$(145,145, i$)",
+        [
+            0.0025252525252525255,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@17$(145,(145,152), i$)",
+        [
+            0.0025252525252525255,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%isMock#3@2$(88,(88,88), mock)",
+        [
+            0.0024630541871921183,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%matches#1@2$(57,(57,57), this)",
+        [
+            0.002403846153846154,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%matches#1@8$(57,(57,57), actual)",
+        [
+            0.002403846153846154,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.reflection.AccessibilityChanger%safelyDisableAccess#0@0$(17,19, this)",
+        [
+            0.002403846153846154,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.reflection.AccessibilityChanger%safelyDisableAccess#0@3$(17,19, accessibleObject)",
+        [
+            0.002403846153846154,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.reflection.AccessibilityChanger%safelyDisableAccess#0@5$(17,(17,19), $assertionsDisabled)",
+        [
+            0.002403846153846154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.reflection.AccessibilityChanger%safelyDisableAccess#0@6$(17,19, this.wasAccessible)",
+        [
+            0.002403846153846154,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#1@1$(21,(21,24), invocationMatcher)",
+        [
+            0.0023923444976076554,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.ArgumentsComparator%argumentsMatch#1@5$(21,(21,24), actualArgs)",
+        [
+            0.0023923444976076554,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@11$(100,(103,107), params1)",
+        [
+            0.0023752969121140144,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@8$(100,(102,103), params1)",
+        [
+            0.002347417840375587,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@14$(101,(102,103), params2)",
+        [
+            0.002347417840375587,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@2$(95,(98,100), m1)",
+        [
+            0.002331002331002331,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@4$(95,100, m1)",
+        [
+            0.002331002331002331,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@5$(96,(98,100), m2)",
+        [
+            0.002331002331002331,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@7$(96,101, m2)",
+        [
+            0.002331002331002331,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ObjectMethodsGuru%isToString#0@1$(22,(22,22), method)",
+        [
+            0.0022675736961451248,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%matches#1@0$(57,(57,57), this)",
+        [
+            0.0022172949002217295,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%matches#1@6$(57,(57,57), actual)",
+        [
+            0.0022172949002217295,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%matches#1@12$(57,(57,57), this.invocation)",
+        [
+            0.0022172949002217295,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%hasSameMethod#3@0$(95,(98,98), m1)",
+        [
+            0.002183406113537118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%isMockitoMock#2@0$(84,(84,84), this)",
+        [
+            0.0021691973969631237,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%isMockitoMock#2@2$(84,(84,84), mock)",
+        [
+            0.0021691973969631237,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%getInterceptor#4@3$(96,(97,98), callback)",
+        [
+            0.0021691973969631237,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%getInterceptor#4@5$(96,98, callback)",
+        [
+            0.0021691973969631237,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%getInterceptor#4@1$(92,(92,95), mock)",
+        [
+            0.0021645021645021645,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%getInterceptor#4@2$(92,95, mock)",
+        [
+            0.0021645021645021645,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@11$(34,(35,35), proxy)",
+        [
+            0.0021551724137931034,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@19$(34,(35,35), args)",
+        [
+            0.0021551724137931034,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@0$(34,(34,35), this)",
+        [
+            0.002136752136752137,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@13$(34,(34,35), method)",
+        [
+            0.002136752136752137,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@22$(34,(34,35), this.objectMethodsGuru)",
+        [
+            0.002136752136752137,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ObjectMethodsGuru%isEqualsMethod#1@0$(27,(27,27), method)",
+        [
+            0.0021321961620469083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ObjectMethodsGuru%isEqualsMethod#1@2$(27,(27,27), method)",
+        [
+            0.0021321961620469083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ObjectMethodsGuru%isEqualsMethod#1@4$(27,(27,27), method)",
+        [
+            0.0021321961620469083,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%answer#0@3$(64,(72,79), this)",
+        [
+            0.0018587360594795538,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%answer#0@4$(64,80, this)",
+        [
+            0.0018587360594795538,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%answer#0@8$(64,(72,79), invocation)",
+        [
+            0.0018587360594795538,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%answer#0@9$(64,79, invocation)",
+        [
+            0.0018587360594795538,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%answer#0@14$(64,(72,79), this.methodsGuru)",
+        [
+            0.0018587360594795538,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ObjectMethodsGuru%isCompareToMethod#3@1$(35,(35,35), method)",
+        [
+            0.0018552875695732839,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%answer#0@1$(64,(64,72), this)",
+        [
+            0.0018484288354898336,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%answer#0@6$(64,(64,72), invocation)",
+        [
+            0.0018484288354898336,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues%answer#0@12$(64,(64,72), this.methodsGuru)",
+        [
+            0.0018484288354898336,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@9$(59,99, this)",
+        [
+            0.0017761989342806395,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@10$(59,106, this)",
+        [
+            0.0017761989342806395,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@17$(59,99, invocation)",
+        [
+            0.0017761989342806395,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@28$(59,106, this.invocationContainerImpl)",
+        [
+            0.0017761989342806395,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@39$(59,99, this.mockSettings)",
+        [
+            0.0017761989342806395,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@47$(68,106, invocationMatcher)",
+        [
+            0.0017761989342806395,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@50$(93,(95,99), stubbedInvocation)",
+        [
+            0.0017761989342806395,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.InvocationContainerImpl%findAnswerFor#1@5$(75,(75,82), i$)",
+        [
+            0.0017667844522968198,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@5$(59,89, this)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@6$(59,90, this)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@7$(59,91, this)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@8$(59,93, this)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@16$(59,93, invocation)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@25$(59,89, this.invocationContainerImpl)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@26$(59,90, this.invocationContainerImpl)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@27$(59,93, this.invocationContainerImpl)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@36$(59,91, this.mockingProgress)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@41$(66,(74,89), verificationMode)",
+        [
+            0.0017482517482517483,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@46$(68,89, invocationMatcher)",
+        [
+            0.0017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@1$(59,(59,66), this)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@2$(59,66, this)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@3$(59,68, this)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@4$(59,71, this)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@15$(59,68, invocation)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@24$(59,(59,66), this.invocationContainerImpl)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@31$(59,68, this.matchersBinder)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@33$(59,66, this.mockingProgress)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@34$(59,68, this.mockingProgress)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.MockHandler%handle#0@35$(59,71, this.mockingProgress)",
+        [
+            0.0017271157167530224,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.cglib.CGLIBHacker%setMockitoNamingPolicy#0@2$(22,(25,31), createInfo)",
+        [
+            0.0017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.cglib.CGLIBHacker%setMockitoNamingPolicy#0@5$(23,(25,31), namingPolicyField)",
+        [
+            0.0017241379310344827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%pullVerificationMode#0@0$(52,(52,53), this)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%pullVerificationMode#0@4$(52,(52,53), this.verificationMode)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@3$(34,(36,40), this)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@4$(34,40, this)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@5$(34,41, this)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@6$(34,43, this)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@7$(34,47, this)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@9$(34,46, proxy)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@16$(34,(36,40), method)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@17$(34,43, method)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@18$(34,46, args)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@21$(34,40, methodProxy)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@25$(34,(36,40), this.objectMethodsGuru)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@26$(34,41, this.cglibHacker)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@27$(34,47, this.handler)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%createMockitoMethodProxy#1@1$(59,(59,61), this)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%createMockitoMethodProxy#1@2$(59,61, methodProxy)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%createMockitoMethodProxy#1@5$(59,(59,61), this.mockSettings)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%createMockitoMethod#2@1$(65,(65,68), this)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%createMockitoMethod#2@2$(65,68, method)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%createMockitoMethod#2@5$(65,(65,68), this.mockSettings)",
+        [
+            0.0017152658662092624,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.MatchersBinder%validateMatchers#0@2$(28,(28,35), matchers)",
+        [
+            0.0017006802721088435,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%pullMatchers#0@0$(38,(38,39), this)",
+        [
+            0.0017006802721088435,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%pullMatchers#0@4$(38,(38,39), this.matcherStack)",
+        [
+            0.0017006802721088435,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.InvocationContainerImpl%hasAnswersForStubbing#2@1$(96,(96,96), this)",
+        [
+            0.0016835016835016834,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.stubbing.InvocationContainerImpl%hasAnswersForStubbing#2@3$(96,(96,96), this.answersForStubbing)",
+        [
+            0.0016835016835016834,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.cglib.CGLIBHacker%reflectOnCreateInfo#1@2$(37,(41,44), cglibMethodProxyClass)",
+        [
+            0.0016806722689075631,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.cglib.CGLIBHacker%reflectOnCreateInfo#1@3$(37,44, cglibMethodProxyClass)",
+        [
+            0.0016806722689075631,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ObjectMethodsGuru%isHashCodeMethod#2@1$(31,(31,31), method)",
+        [
+            0.0016778523489932886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@1$(34,(34,36), this)",
+        [
+            0.001669449081803005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@14$(34,(34,36), method)",
+        [
+            0.001669449081803005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.MethodInterceptorFilter%intercept#0@23$(34,(34,36), this.objectMethodsGuru)",
+        [
+            0.001669449081803005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.DelegatingMethod%<init>#0@0$(15,17, this)",
+        [
+            0.001652892561983471,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.DelegatingMethod%<init>#0@1$(15,17, method)",
+        [
+            0.001652892561983471,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.DelegatingMethod%<init>#0@5$(15,(16,17), $assertionsDisabled)",
+        [
+            0.001652892561983471,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.ObjectMethodsGuru%isEqualsMethod#1@1$(27,(27,27), method)",
+        [
+            0.0016366612111292963,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%<init>#0@1$(27,30, this)",
+        [
+            0.0015600624024961,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%<init>#0@2$(27,30, invocation)",
+        [
+            0.0015600624024961,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.InvocationMatcher%<init>#0@3$(27,(29,30), matchers)",
+        [
+            0.0015600624024961,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%setConstructorsAccessible#1@5$(58,(58,61), i$)",
+        [
+            0.0015455950540958269,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@1$(64,79, this)",
+        [
+            0.0015455950540958269,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@5$(64,(77,78), mockedType)",
+        [
+            0.0015455950540958269,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@10$(64,79, mockedType)",
+        [
+            0.0015455950540958269,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@12$(64,79, interfaces)",
+        [
+            0.0015455950540958269,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@30$(68,78, enhancer)",
+        [
+            0.0015455950540958269,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@31$(68,79, enhancer)",
+        [
+            0.0015455950540958269,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@0$(144,152, matchers)",
+        [
+            0.0015290519877675841,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%argumentsToMatchers#3@5$(145,(145,152), len$)",
+        [
+            0.0015290519877675841,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%expandVarArgs#0@1$(66,(66,67), isVarArgs)",
+        [
+            0.0015128593040847202,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%expandVarArgs#0@3$(66,(67,67), args)",
+        [
+            0.0015128593040847202,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.invocation.Invocation%expandVarArgs#0@4$(66,67, args)",
+        [
+            0.0015128593040847202,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@15$(52,(56,60), spiedInstance)",
+        [
+            0.0013869625520110957,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockCreationValidator%validateMockedType#2@5$(36,(36,37), spiedInstance)",
+        [
+            0.0013850415512465374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@2$(35,(46,49), settings)",
+        [
+            0.0013458950201884253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@6$(43,(49,49), interfaces)",
+        [
+            0.0013458950201884253,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@8$(43,49, interfaces)",
+        [
+            0.0013458950201884253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@13$(49,54, ancillaryTypes)",
+        [
+            0.0013458950201884253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockCreationValidator%validateExtraInterfaces#1@3$(24,(24,25), extraInterfaces)",
+        [
+            0.001321003963011889,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%mockingStarted#3@1$(112,(112,115), this)",
+        [
+            0.0013192612137203166,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%mockingStarted#3@2$(112,115, this)",
+        [
+            0.0013192612137203166,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%mockingStarted#3@10$(112,(112,115), this.listener)",
+        [
+            0.0013192612137203166,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@0$(35,54, classToMock)",
+        [
+            0.0013192612137203166,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@3$(35,52, settings)",
+        [
+            0.0013192612137203166,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@4$(35,54, INSTANCE)",
+        [
+            0.0013192612137203166,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@5$(42,54, filter)",
+        [
+            0.0013192612137203166,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockUtil%createMock#0@17$(54,60, mock)",
+        [
+            0.0013192612137203166,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockCreationValidator%validateType#0@1$(18,(18,21), this)",
+        [
+            0.0013175230566534915,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockCreationValidator%validateType#0@3$(18,(18,21), classToMock)",
+        [
+            0.0013175230566534915,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%canImposterise#0@2$(44,(44,44), type)",
+        [
+            0.0013157894736842105,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.util.MockCreationValidator%validateMockedType#2@0$(36,(36,36), classToMock)",
+        [
+            0.0013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%canImposterise#0@0$(44,(44,44), type)",
+        [
+            0.001314060446780552,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@0$(28,40, loaders)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@1$(28,44, loaders)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@2$(28,49, loaders)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@3$(28,32, loaders)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@4$(31,31, arr$)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@5$(31,(31,31), len$)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@6$(31,(31,40), len$)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@7$(31,(31,31), i$)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@9$(31,31, i$)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@10$(31,31, i$)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combineLoadersOf#0@12$(31,(31,40), i$)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combine#1@1$(53,59, loader)",
+        [
+            0.0013123359580052493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%combine#1@4$(55,(55,59), i)",
+        [
+            0.0013123359580052493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%addIfNewElement#2@0$(63,(63,64), loaders)",
+        [
+            0.0013123359580052493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%addIfNewElement#2@1$(63,(63,66), loaders)",
+        [
+            0.0013123359580052493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%addIfNewElement#2@2$(63,64, loaders)",
+        [
+            0.0013123359580052493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%addIfNewElement#2@3$(63,(63,63), c)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%addIfNewElement#2@5$(63,(63,64), c)",
+        [
+            0.0013123359580052493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%addIfNewElement#2@6$(63,(63,66), c)",
+        [
+            0.0013123359580052493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.SearchingClassLoader%addIfNewElement#2@7$(63,64, c)",
+        [
+            0.0013123359580052493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%setConstructorsAccessible#1@3$(58,(58,61), len$)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@0$(64,68, this)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@3$(64,(64,68), mockedType)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@4$(64,75, mockedType)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@9$(64,(86,89), mockedType)",
+        [
+            0.0013123359580052493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@13$(64,85, IGNORE_BRIDGE_METHODS)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@15$(64,89, INSTANCE)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@25$(68,84, enhancer)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@26$(68,85, enhancer)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@27$(68,89, enhancer)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.creation.jmock.ClassImposterizer%createProxyClass#2@28$(68,93, enhancer)",
+        [
+            0.0013123359580052493,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@18$(84,(84,82), i$)",
+        [
+            0.00102880658436214,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@10$(118,(118,131), i$)",
+        [
+            0.00102880658436214,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@8$(96,(94,95), clazz)",
+        [
+            0.00102880658436214,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@10$(96,95, clazz)",
+        [
+            0.00102880658436214,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@11$(96,96, clazz)",
+        [
+            0.00102880658436214,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@3$(82,82, arr$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@4$(82,(82,82), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@5$(82,(82,98), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@6$(82,(82,82), i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@8$(82,82, i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@9$(82,82, i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@16$(84,(84,82), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.DefaultAnnotationEngine%process#3@30$(82,(82,98), i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.InjectingAnnotationEngine%process#0@3$(41,41, arr$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.InjectingAnnotationEngine%process#0@4$(41,(41,41), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.InjectingAnnotationEngine%process#0@5$(41,(41,47), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.InjectingAnnotationEngine%process#0@6$(41,(41,41), i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.InjectingAnnotationEngine%process#0@8$(41,41, i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.InjectingAnnotationEngine%process#0@9$(41,41, i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.InjectingAnnotationEngine%process#0@11$(41,(42,41), field)",
+        [
+            0.0010204081632653062,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.InjectingAnnotationEngine%process#0@14$(41,(41,47), i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.SpyAnnotationEngine%process#0@4$(29,29, arr$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.SpyAnnotationEngine%process#0@5$(29,(29,29), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.SpyAnnotationEngine%process#0@6$(29,(29,54), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.SpyAnnotationEngine%process#0@7$(29,(29,29), i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.SpyAnnotationEngine%process#0@9$(29,29, i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.SpyAnnotationEngine%process#0@10$(29,29, i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.SpyAnnotationEngine%process#0@12$(29,(30,29), field)",
+        [
+            0.0010204081632653062,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.SpyAnnotationEngine%process#0@22$(29,(29,54), i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%processAnnotationDeprecatedWay#2@8$(118,(118,131), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@1$(89,(89,93), testClass)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@2$(89,93, testClass)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@3$(89,95, testClass)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@4$(93,(94,95), clazz)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@6$(93,95, clazz)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@7$(93,96, clazz)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%initMocks#0@9$(96,(94,98), clazz)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@0$(101,112, testClass)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@1$(101,108, testClass)",
+        [
+            0.0010204081632653062,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@2$(101,112, clazz)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@3$(101,112, annotationEngine)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@4$(101,(105,108), annotationEngine)",
+        [
+            0.0010204081632653062,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@6$(101,108, annotationEngine)",
+        [
+            0.0010204081632653062,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@7$(103,103, arr$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@8$(103,(103,103), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@9$(103,(103,112), len$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@10$(103,(103,103), i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@12$(103,103, i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@13$(103,103, i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@14$(103,108, field)",
+        [
+            0.0010204081632653062,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.MockitoAnnotations%scan#1@16$(103,(103,112), i$)",
+        [
+            0.0010204081632653062,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%validateState#1@1$(67,(70,75), this)",
+        [
+            0.001017293997965412,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%validateState#1@6$(67,(70,75), this.stubbingInProgress)",
+        [
+            0.001017293997965412,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ThreadSafeMockingProgress%threadSafely#0@1$(21,(21,24), mockingProgress)",
+        [
+            0.0010131712259371835,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ThreadSafeMockingProgress%threadSafely#0@2$(21,24, mockingProgress)",
+        [
+            0.0010131712259371835,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%validateMostStuff#2@1$(80,(82,88), this)",
+        [
+            0.0010131712259371835,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%validateMostStuff#2@2$(80,88, this)",
+        [
+            0.0010131712259371835,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.MockingProgressImpl%validateMostStuff#2@7$(80,(82,88), this.verificationMode)",
+        [
+            0.0010131712259371835,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%validateState#6@1$(100,(100,105), this)",
+        [
+            0.0010131712259371835,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.progress.ArgumentMatcherStorageImpl%validateState#6@5$(100,(100,105), this.matcherStack)",
+        [
+            0.0010131712259371835,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.mockito.internal.configuration.GlobalConfiguration%<init>#0@2$(29,(31,34), globalConfiguration)",
+        [
+            0.0010070493454179255,
+            true,
+            "clear"
+        ]
+    ]
+]

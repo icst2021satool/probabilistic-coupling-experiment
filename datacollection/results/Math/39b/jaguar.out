@@ -1,0 +1,51 @@
+08:38:43.465 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+08:38:43.839 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.addExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.addExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.multiplyExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.multiplyExact(long,long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.subtractExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.subtractExact(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.toIntExact(long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorDiv(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorDiv(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorMod(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorMod(long,long)
+Cannot find FastMath method corresponding to: public static float java.lang.StrictMath.nextDown(float)
+Cannot find FastMath method corresponding to: public static double java.lang.StrictMath.nextDown(double)
+09:34:24.279 [main] INFO  JaguarDF - Test testTooLargeFirstStep(org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest) : Failed
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$ElliRotated BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$ElliRotated END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Elli BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Elli END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$TwoAxes BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$TwoAxes END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Cigar BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Cigar END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rastrigin BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rastrigin END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$SsDiffPow BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$SsDiffPow END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$CigTab BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$CigTab END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Sphere BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Sphere END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Tablet BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Tablet END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+12:50:06.712 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	251m25.621s
+user	249m47.061s
+sys	1m25.880s

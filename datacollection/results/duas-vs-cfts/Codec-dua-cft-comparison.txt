@@ -1,0 +1,3441 @@
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033[1;33m'
++ YELLOW='\033[1;33m'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly START=1
++ START=1
++ readonly END=18
++ END=18
++ readonly COVERAGEZIP=
++ COVERAGEZIP=
++ readonly DATAGEN=
++ DATAGEN=
++ readonly COPYFAULTYSRC=
++ COPYFAULTYSRC=
++ readonly CLEANUP=
++ CLEANUP=
++ main
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 1 ']'
++ '[' -z 18 ']'
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
+++ cat projects.d4j
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
++ prepare_and_run_project_file commons-codec
++ local project_dir=commons-codec
++ local subsumption_dir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec
++ local results_dir=/stvr/probabilistic-coupling-experiment/datacollection/results/Codec
++ local coverage_zip_file=/stvr/probabilistic-coupling-experiment/datacollection/coverage/Codec/
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ echo /stvr/probabilistic-coupling-experiment/datacollection/coverage/Codec/
+/stvr/probabilistic-coupling-experiment/datacollection/coverage/Codec/
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec ']'
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce
++ local 'filesdir=commons-codec/*'
++ (( i = 1  ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 1b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=1b
++ VERSION=1b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 1b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=1b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/1b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/1b
++ echo -e '\033[Codec 1b] checkout\033[0m'
+[Codec 1b] checkout[0m
++ defects4j checkout -p Codec -v 1b -w d4jprojects/commons-codec/1b
+Checking out 52d82d1d to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 52d82d1d:9c0cabea..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-1b........................................ OK
++ cd d4jprojects/commons-codec/1b
++ echo -e '\033[Codec 1b] compiling\033[0m'
+[Codec 1b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 1b] running tests\033[0m'
+[Codec 1b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testLocaleIndependence
+  - org.apache.commons.codec.language.MetaphoneTest::testLocaleIndependence
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
++ echo -e '\033[0;32m[Codec 1b] checkout done\033[0m'
+[0;32m[Codec 1b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=1b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/1b/target/classes
++ JAVADIR=commons-codec/1b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/1b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/1b/target/classes
+commons-codec/1b/target/classes
++ echo commons-codec/1b/src/java
+commons-codec/1b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/1b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/1b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/1b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/1b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/1b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/1b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/1b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/1b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/1b
+
+real	0m7.898s
+user	0m22.985s
+sys	0m0.396s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/1b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/1b
+
+real	0m1.203s
+user	0m3.314s
+sys	0m0.140s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/1b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/1b
+
+real	0m1.159s
+user	0m3.066s
+sys	0m0.128s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/1b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/1b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/1b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/1b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 1b
+++ sed s/b//g
+++ xargs
++ leanversion=1
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 1 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/1b
+Checking out 52d82d1d to /tmp/get_buggy_lines_13658/Codec-1................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 52d82d1d:9c0cabea..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-1f........................................ OK
+Check out program version: Codec-1f........................................ OK
+Check out program version: Codec-1b........................................ OK
+Check out program version: Codec-1f........................................ OK
+Check out program version: Codec-1b........................................ OK
+Check out program version: Codec-1f........................................ OK
+Check out program version: Codec-1b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 1b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 1b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/1b/fdp-dua-cft-comparison-1b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-1b;clear;0.5;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/1b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 2b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=2b
++ VERSION=2b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 2b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=2b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/2b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/2b
++ echo -e '\033[Codec 2b] checkout\033[0m'
+[Codec 2b] checkout[0m
++ defects4j checkout -p Codec -v 2b -w d4jprojects/commons-codec/2b
+Checking out b8c2d9d9 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff b8c2d9d9:2f7454a0..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-2b........................................ OK
++ cd d4jprojects/commons-codec/2b
++ echo -e '\033[Codec 2b] compiling\033[0m'
+[Codec 2b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 2b] running tests\033[0m'
+[Codec 2b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64EmptyInputStream
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64EmptyOutputStream
++ echo -e '\033[0;32m[Codec 2b] checkout done\033[0m'
+[0;32m[Codec 2b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=2b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/2b/target/classes
++ JAVADIR=commons-codec/2b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/2b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/2b/target/classes
+commons-codec/2b/target/classes
++ echo commons-codec/2b/src/java
+commons-codec/2b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/2b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/2b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/2b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/2b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/2b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/2b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/2b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/2b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/2b
+
+real	0m8.477s
+user	0m22.331s
+sys	0m0.349s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/2b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/2b
+
+real	0m1.284s
+user	0m3.573s
+sys	0m0.115s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/2b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/2b
+
+real	0m1.243s
+user	0m3.319s
+sys	0m0.112s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/2b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/2b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/2b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/2b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 2b
+++ sed s/b//g
+++ xargs
++ leanversion=2
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 2 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/2b
+Checking out b8c2d9d9 to /tmp/get_buggy_lines_13993/Codec-2................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff b8c2d9d9:2f7454a0..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-2f........................................ OK
+Check out program version: Codec-2f........................................ OK
+Check out program version: Codec-2b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 2b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 2b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/2b/fdp-dua-cft-comparison-2b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-2b;clear;0.6667;0.0;0.0;False;False;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/2b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 3b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=3b
++ VERSION=3b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 3b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=3b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/3b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/3b
++ echo -e '\033[Codec 3b] checkout\033[0m'
+[Codec 3b] checkout[0m
++ defects4j checkout -p Codec -v 3b -w d4jprojects/commons-codec/3b
+Checking out a5dfe5cb to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff a5dfe5cb:d7b01850..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-3b........................................ OK
++ cd d4jprojects/commons-codec/3b
++ echo -e '\033[Codec 3b] compiling\033[0m'
+[Codec 3b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 3b] running tests\033[0m'
+[Codec 3b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphone2Test::testDoubleMetaphoneAlternate
++ echo -e '\033[0;32m[Codec 3b] checkout done\033[0m'
+[0;32m[Codec 3b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=3b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/3b/target/classes
++ JAVADIR=commons-codec/3b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/3b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/3b/target/classes
+commons-codec/3b/target/classes
++ echo commons-codec/3b/src/java
+commons-codec/3b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/3b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/3b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/3b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/3b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/3b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/3b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/3b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/3b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/3b
+
+real	0m8.440s
+user	0m24.540s
+sys	0m0.420s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/3b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/3b
+
+real	0m1.274s
+user	0m3.553s
+sys	0m0.126s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/3b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/3b
+
+real	0m1.179s
+user	0m3.238s
+sys	0m0.116s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/3b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/3b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/3b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/3b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 3b
+++ sed s/b//g
+++ xargs
++ leanversion=3
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 3 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/3b
+Checking out a5dfe5cb to /tmp/get_buggy_lines_14292/Codec-3................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff a5dfe5cb:d7b01850..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-3f........................................ OK
+Check out program version: Codec-3f........................................ OK
+Check out program version: Codec-3b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 3b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 3b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/3b/fdp-dua-cft-comparison-3b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-3b;clear;0.5;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/3b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 4b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=4b
++ VERSION=4b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 4b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=4b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/4b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/4b
++ echo -e '\033[Codec 4b] checkout\033[0m'
+[Codec 4b] checkout[0m
++ defects4j checkout -p Codec -v 4b -w d4jprojects/commons-codec/4b
+Checking out bcfef890 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff bcfef890:38ba1323..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-4b........................................ OK
++ cd d4jprojects/commons-codec/4b
++ echo -e '\033[Codec 4b] compiling\033[0m'
+[Codec 4b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 4b] running tests\033[0m'
+[Codec 4b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.binary.Base64Codec13Test::testEncoder
+  - org.apache.commons.codec.binary.Base64Codec13Test::testBinaryEncoder
++ echo -e '\033[0;32m[Codec 4b] checkout done\033[0m'
+[0;32m[Codec 4b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=4b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/4b/target/classes
++ JAVADIR=commons-codec/4b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/4b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/4b/target/classes
+commons-codec/4b/target/classes
++ echo commons-codec/4b/src/java
+commons-codec/4b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/4b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/4b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/4b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/4b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/4b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/4b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/4b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/4b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/4b
+
+real	0m8.538s
+user	0m22.920s
+sys	0m0.400s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/4b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/4b
+
+real	0m1.291s
+user	0m3.622s
+sys	0m0.107s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/4b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/4b
+
+real	0m1.193s
+user	0m3.255s
+sys	0m0.151s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/4b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/4b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/4b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/4b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 4b
+++ sed s/b//g
+++ xargs
++ leanversion=4
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 4 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/4b
+Checking out bcfef890 to /tmp/get_buggy_lines_14591/Codec-4................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff bcfef890:38ba1323..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-4f........................................ OK
+Check out program version: Codec-4f........................................ OK
+Check out program version: Codec-4b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 4b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 4b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/4b/fdp-dua-cft-comparison-4b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-4b;clear;0.6667;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/4b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 5b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=5b
++ VERSION=5b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 5b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=5b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/5b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/5b
++ echo -e '\033[Codec 5b] checkout\033[0m'
+[Codec 5b] checkout[0m
++ defects4j checkout -p Codec -v 5b -w d4jprojects/commons-codec/5b
+Checking out 800f0531 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 800f0531:4c6eea41..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-5b........................................ OK
++ cd d4jprojects/commons-codec/5b
++ echo -e '\033[Codec 5b] compiling\033[0m'
+[Codec 5b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 5b] running tests\033[0m'
+[Codec 5b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE
++ echo -e '\033[0;32m[Codec 5b] checkout done\033[0m'
+[0;32m[Codec 5b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=5b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/5b/target/classes
++ JAVADIR=commons-codec/5b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/5b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/5b/target/classes
+commons-codec/5b/target/classes
++ echo commons-codec/5b/src/java
+commons-codec/5b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/5b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/5b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/5b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/5b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/5b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/5b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/5b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/5b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/5b
+
+real	0m9.189s
+user	0m25.172s
+sys	0m0.444s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/5b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/5b
+
+real	0m1.244s
+user	0m3.471s
+sys	0m0.135s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/5b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/5b
+
+real	0m1.149s
+user	0m3.159s
+sys	0m0.124s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/5b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/5b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/5b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/5b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 5b
+++ sed s/b//g
+++ xargs
++ leanversion=5
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 5 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/5b
+Checking out 800f0531 to /tmp/get_buggy_lines_14890/Codec-5................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 800f0531:4c6eea41..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-5f........................................ OK
+Check out program version: Codec-5f........................................ OK
+Check out program version: Codec-5b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 5b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 5b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/5b/fdp-dua-cft-comparison-5b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-5b;clear;0.3333;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/5b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 6b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=6b
++ VERSION=6b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 6b ']'
+++ cat projects.d4j
+++ grep Codec
+++ xargs
+++ sed s/Codec//g
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=6b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/6b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/6b
++ echo -e '\033[Codec 6b] checkout\033[0m'
+[Codec 6b] checkout[0m
++ defects4j checkout -p Codec -v 6b -w d4jprojects/commons-codec/6b
+Checking out d74fc316 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff d74fc316:5a0d6b1d..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-6b........................................ OK
++ cd d4jprojects/commons-codec/6b
++ echo -e '\033[Codec 6b] compiling\033[0m'
+[Codec 6b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 6b] running tests\033[0m'
+[Codec 6b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec101
++ echo -e '\033[0;32m[Codec 6b] checkout done\033[0m'
+[0;32m[Codec 6b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=6b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/6b/target/classes
++ JAVADIR=commons-codec/6b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/6b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/6b/target/classes
+commons-codec/6b/target/classes
++ echo commons-codec/6b/src/java
+commons-codec/6b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/6b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/6b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/6b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/6b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/6b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/6b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/6b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/6b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/6b
+
+real	0m8.620s
+user	0m22.681s
+sys	0m0.356s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/6b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/6b
+
+real	0m1.348s
+user	0m3.783s
+sys	0m0.156s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/6b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/6b
+
+real	0m1.281s
+user	0m3.552s
+sys	0m0.116s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/6b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/6b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/6b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/6b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 6b
+++ sed s/b//g
+++ xargs
++ leanversion=6
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 6 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/6b
+Checking out d74fc316 to /tmp/get_buggy_lines_15189/Codec-6................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff d74fc316:5a0d6b1d..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-6f........................................ OK
+Check out program version: Codec-6f........................................ OK
+Check out program version: Codec-6b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 6b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 6b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/6b/fdp-dua-cft-comparison-6b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-6b;clear;0.25;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/6b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 7b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=7b
++ VERSION=7b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 7b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=7b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/7b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/7b
++ echo -e '\033[Codec 7b] checkout\033[0m'
+[Codec 7b] checkout[0m
++ defects4j checkout -p Codec -v 7b -w d4jprojects/commons-codec/7b
+Checking out 954d995c to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 954d995c:f7966c1b..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-7b........................................ OK
++ cd d4jprojects/commons-codec/7b
++ echo -e '\033[Codec 7b] compiling\033[0m'
+[Codec 7b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 7b] running tests\033[0m'
+[Codec 7b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.binary.Base64Test::testByteToStringVariations
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode
++ echo -e '\033[0;32m[Codec 7b] checkout done\033[0m'
+[0;32m[Codec 7b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=7b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/7b/target/classes
++ JAVADIR=commons-codec/7b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/7b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/7b/target/classes
+commons-codec/7b/target/classes
++ echo commons-codec/7b/src/java
+commons-codec/7b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/7b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/7b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/7b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/7b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/7b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/7b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/7b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/7b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/7b
+
+real	0m9.353s
+user	0m24.506s
+sys	0m0.416s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/7b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/7b
+
+real	0m1.229s
+user	0m3.578s
+sys	0m0.105s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/7b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/7b
+
+real	0m1.299s
+user	0m3.628s
+sys	0m0.080s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/7b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/7b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/7b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/7b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 7b
+++ xargs
+++ sed s/b//g
++ leanversion=7
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 7 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/7b
+Checking out 954d995c to /tmp/get_buggy_lines_15496/Codec-7................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 954d995c:f7966c1b..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-7f........................................ OK
+Check out program version: Codec-7f........................................ OK
+Check out program version: Codec-7b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 7b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 7b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/7b/fdp-dua-cft-comparison-7b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-7b;clear;0.25;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/7b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 8b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=8b
++ VERSION=8b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 8b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=8b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/8b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/8b
++ echo -e '\033[Codec 8b] checkout\033[0m'
+[Codec 8b] checkout[0m
++ defects4j checkout -p Codec -v 8b -w d4jprojects/commons-codec/8b
+Checking out 2c13032a to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 2c13032a:931e2592..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-8b........................................ OK
++ cd d4jprojects/commons-codec/8b
++ echo -e '\033[Codec 8b] compiling\033[0m'
+[Codec 8b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 8b] running tests\033[0m'
+[Codec 8b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec105
++ echo -e '\033[0;32m[Codec 8b] checkout done\033[0m'
+[0;32m[Codec 8b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=8b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/8b/target/classes
++ JAVADIR=commons-codec/8b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/8b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/8b/target/classes
+commons-codec/8b/target/classes
++ echo commons-codec/8b/src/java
+commons-codec/8b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/8b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/8b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/8b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/8b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/8b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/8b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/8b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/8b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/8b
+
+real	0m10.076s
+user	0m26.727s
+sys	0m0.457s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/8b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/8b
+
+real	0m1.364s
+user	0m3.909s
+sys	0m0.112s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/8b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/8b
+
+real	0m1.252s
+user	0m3.484s
+sys	0m0.136s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/8b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/8b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/8b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/8b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 8b
+++ sed s/b//g
+++ xargs
++ leanversion=8
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 8 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/8b
+Checking out 2c13032a to /tmp/get_buggy_lines_15795/Codec-8................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 2c13032a:931e2592..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-8f........................................ OK
+Check out program version: Codec-8f........................................ OK
+Check out program version: Codec-8b........................................ OK
+Check out program version: Codec-8f........................................ OK
+Check out program version: Codec-8b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 8b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 8b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/8b/fdp-dua-cft-comparison-8b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-8b;clear;0.5;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/8b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 9b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=9b
++ VERSION=9b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 9b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=9b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/9b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/9b
++ echo -e '\033[Codec 9b] checkout\033[0m'
+[Codec 9b] checkout[0m
++ defects4j checkout -p Codec -v 9b -w d4jprojects/commons-codec/9b
+Checking out c5291ab1 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff c5291ab1:b396c535..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-9b........................................ OK
++ cd d4jprojects/commons-codec/9b
++ echo -e '\033[Codec 9b] compiling\033[0m'
+[Codec 9b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 9b] running tests\033[0m'
+[Codec 9b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.Base64Test::testCodec112
++ echo -e '\033[0;32m[Codec 9b] checkout done\033[0m'
+[0;32m[Codec 9b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=9b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/9b/target/classes
++ JAVADIR=commons-codec/9b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/9b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/9b/target/classes
+commons-codec/9b/target/classes
++ echo commons-codec/9b/src/java
+commons-codec/9b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/9b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/9b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/9b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/9b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/9b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/9b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/9b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/9b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/9b
+
+real	0m9.919s
+user	0m25.816s
+sys	0m0.608s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/9b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/9b
+
+real	0m1.427s
+user	0m4.065s
+sys	0m0.125s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/9b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/9b
+
+real	0m1.344s
+user	0m3.763s
+sys	0m0.143s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/9b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/9b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/9b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/9b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 9b
+++ sed s/b//g
+++ xargs
++ leanversion=9
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 9 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/9b
+Checking out c5291ab1 to /tmp/get_buggy_lines_16104/Codec-9................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff c5291ab1:b396c535..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-9f........................................ OK
+Check out program version: Codec-9f........................................ OK
+Check out program version: Codec-9b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 9b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 9b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/9b/fdp-dua-cft-comparison-9b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-9b;clear;0.5;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/9b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 10b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=10b
++ VERSION=10b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 10b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=10b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/10b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/10b
++ echo -e '\033[Codec 10b] checkout\033[0m'
+[Codec 10b] checkout[0m
++ defects4j checkout -p Codec -v 10b -w d4jprojects/commons-codec/10b
+Checking out 41c68e9e to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 41c68e9e:2a8fd84f..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-10b....................................... OK
++ cd d4jprojects/commons-codec/10b
++ echo -e '\033[Codec 10b] compiling\033[0m'
+[Codec 10b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 10b] running tests\033[0m'
+[Codec 10b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
++ echo -e '\033[0;32m[Codec 10b] checkout done\033[0m'
+[0;32m[Codec 10b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=10b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/10b/target/classes
++ JAVADIR=commons-codec/10b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/10b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/10b/target/classes
+commons-codec/10b/target/classes
++ echo commons-codec/10b/src/java
+commons-codec/10b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/10b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/10b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/10b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/10b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/10b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/10b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/10b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/10b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/10b
+
+real	0m8.309s
+user	0m24.233s
+sys	0m0.412s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/10b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/10b
+
+real	0m1.399s
+user	0m4.017s
+sys	0m0.080s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/10b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/10b
+
+real	0m1.326s
+user	0m3.681s
+sys	0m0.105s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/10b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/10b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/10b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/10b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 10b
+++ sed s/b//g
+++ xargs
++ leanversion=10
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 10 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/10b
+Checking out 41c68e9e to /tmp/get_buggy_lines_16403/Codec-10............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 41c68e9e:2a8fd84f..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-10f....................................... OK
+Check out program version: Codec-10f....................................... OK
+Check out program version: Codec-10b....................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 10b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 10b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/10b/fdp-dua-cft-comparison-10b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-10b;clear;0.0909;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/10b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 11b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=11b
++ VERSION=11b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 11b ']'
+++ cat projects.d4j
+++ grep Codec
+++ xargs
+++ sed s/Codec//g
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=11b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/11b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/11b
++ echo -e '\033[Codec 11b] checkout\033[0m'
+[Codec 11b] checkout[0m
++ defects4j checkout -p Codec -v 11b -w d4jprojects/commons-codec/11b
+Checking out 7e8c20bd to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 7e8c20bd:99999379..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-11b....................................... OK
++ cd d4jprojects/commons-codec/11b
++ echo -e '\033[Codec 11b] compiling\033[0m'
+[Codec 11b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 11b] running tests\033[0m'
+[Codec 11b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSkipNotEncodedCRLF
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSoftLineBreakDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSoftLineBreakEncode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUltimateSoftBreak
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testTrailingSpecial
++ echo -e '\033[0;32m[Codec 11b] checkout done\033[0m'
+[0;32m[Codec 11b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=11b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/11b/target/classes
++ JAVADIR=commons-codec/11b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/11b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/11b/target/classes
+commons-codec/11b/target/classes
++ echo commons-codec/11b/src/java
+commons-codec/11b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/11b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/11b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/11b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/11b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/11b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/11b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/11b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/11b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/11b
+
+real	0m8.942s
+user	0m26.470s
+sys	0m0.499s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/11b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/11b
+
+real	0m1.517s
+user	0m4.363s
+sys	0m0.161s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/11b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/11b
+
+real	0m1.454s
+user	0m4.162s
+sys	0m0.143s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/11b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/11b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/11b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/11b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 11b
+++ sed s/b//g
+++ xargs
++ leanversion=11
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 11 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/11b
+Checking out 7e8c20bd to /tmp/get_buggy_lines_16703/Codec-11............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 7e8c20bd:99999379..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-11f....................................... OK
+Check out program version: Codec-11f....................................... OK
+Check out program version: Codec-11b....................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 11b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 11b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/11b/fdp-dua-cft-comparison-11b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-11b;clear;0.5;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/11b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 12b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=12b
++ VERSION=12b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 12b ']'
+++ cat projects.d4j
+++ grep Codec
+++ xargs
+++ sed s/Codec//g
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=12b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/12b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/12b
++ echo -e '\033[Codec 12b] checkout\033[0m'
+[Codec 12b] checkout[0m
++ defects4j checkout -p Codec -v 12b -w d4jprojects/commons-codec/12b
+Checking out 1fc451c7 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 1fc451c7:caa142d0..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-12b....................................... OK
++ cd d4jprojects/commons-codec/12b
++ echo -e '\033[Codec 12b] compiling\033[0m'
+[Codec 12b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 12b] running tests\033[0m'
+[Codec 12b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipToEnd
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipWrongArgument
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testAvailable
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipPastEnd
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipBig
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipToEnd
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipWrongArgument
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testAvailable
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipPastEnd
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipBig
++ echo -e '\033[0;32m[Codec 12b] checkout done\033[0m'
+[0;32m[Codec 12b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=12b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/12b/target/classes
++ JAVADIR=commons-codec/12b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/12b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/12b/target/classes
+commons-codec/12b/target/classes
++ echo commons-codec/12b/src/java
+commons-codec/12b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/12b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/12b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/12b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/12b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/12b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/12b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/12b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/12b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/12b
+
+real	0m9.430s
+user	0m27.672s
+sys	0m0.548s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/12b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/12b
+
+real	0m1.480s
+user	0m4.204s
+sys	0m0.164s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/12b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/12b
+
+real	0m1.472s
+user	0m4.172s
+sys	0m0.120s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/12b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/12b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/12b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/12b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 12b
+++ sed s/b//g
+++ xargs
++ leanversion=12
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 12 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/12b
+Checking out 1fc451c7 to /tmp/get_buggy_lines_17071/Codec-12............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 1fc451c7:caa142d0..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-12f....................................... OK
+Check out program version: Codec-12f....................................... OK
+Check out program version: Codec-12b....................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 12b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 12b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/12b/fdp-dua-cft-comparison-12b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-12b;clear;1.0;0.0;0.0;False;False;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/12b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 13b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=13b
++ VERSION=13b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 13b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=13b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/13b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/13b
++ echo -e '\033[Codec 13b] checkout\033[0m'
+[Codec 13b] checkout[0m
++ defects4j checkout -p Codec -v 13b -w d4jprojects/commons-codec/13b
+Checking out 37ba197e to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 37ba197e:8c145775..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-13b....................................... OK
++ cd d4jprojects/commons-codec/13b
++ echo -e '\033[Codec 13b] compiling\033[0m'
+[Codec 13b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 13b] running tests\033[0m'
+[Codec 13b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
++ echo -e '\033[0;32m[Codec 13b] checkout done\033[0m'
+[0;32m[Codec 13b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=13b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/13b/target/classes
++ JAVADIR=commons-codec/13b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/13b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/13b/target/classes
+commons-codec/13b/target/classes
++ echo commons-codec/13b/src/java
+commons-codec/13b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/13b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/13b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/13b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/13b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/13b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/13b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/13b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/13b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/13b
+
+real	0m9.753s
+user	0m27.157s
+sys	0m0.573s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/13b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/13b
+
+real	0m1.594s
+user	0m4.644s
+sys	0m0.128s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/13b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/13b
+
+real	0m1.590s
+user	0m4.603s
+sys	0m0.156s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/13b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/13b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/13b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/13b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 13b
+++ sed s/b//g
+++ xargs
++ leanversion=13
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 13 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/13b
+Checking out 37ba197e to /tmp/get_buggy_lines_17387/Codec-13............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 37ba197e:8c145775..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-13f....................................... OK
+Check out program version: Codec-13f....................................... OK
+Check out program version: Codec-13b....................................... OK
+cp: cannot stat '/tmp/get_buggy_lines_17387/Codec-13/src/main/java/org/apache/commons/codec/binary/CharSequenceUtils.java': No such file or directory
+diff: /tmp/get_buggy_lines_17387/buggy: No such file or directory
+Check out program version: Codec-13f....................................... OK
+Check out program version: Codec-13b....................................... OK
+Check out program version: Codec-13f....................................... OK
+Check out program version: Codec-13b....................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 13b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 13b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/13b/fdp-dua-cft-comparison-13b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-13b;clear;0.4;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/13b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 14b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=14b
++ VERSION=14b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 14b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=14b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/14b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/14b
++ echo -e '\033[Codec 14b] checkout\033[0m'
+[Codec 14b] checkout[0m
++ defects4j checkout -p Codec -v 14b -w d4jprojects/commons-codec/14b
+Checking out 39d5df29 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 39d5df29:50a1d17b..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-14b....................................... OK
++ cd d4jprojects/commons-codec/14b
++ echo -e '\033[Codec 14b] compiling\033[0m'
+[Codec 14b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 14b] running tests\033[0m'
+[Codec 14b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
++ echo -e '\033[0;32m[Codec 14b] checkout done\033[0m'
+[0;32m[Codec 14b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=14b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/14b/target/classes
++ JAVADIR=commons-codec/14b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/14b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/14b/target/classes
+commons-codec/14b/target/classes
++ echo commons-codec/14b/src/java
+commons-codec/14b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/14b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/14b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/14b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/14b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/14b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/14b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/14b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/14b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/14b
+
+real	0m9.562s
+user	0m26.762s
+sys	0m0.608s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/14b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/14b
+
+real	0m1.535s
+user	0m4.450s
+sys	0m0.148s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/14b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/14b
+
+real	0m1.615s
+user	0m4.643s
+sys	0m0.137s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/14b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/14b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/14b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/14b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 14b
+++ sed s/b//g
+++ xargs
++ leanversion=14
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 14 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/14b
+Checking out 39d5df29 to /tmp/get_buggy_lines_17723/Codec-14............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 39d5df29:50a1d17b..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-14f....................................... OK
+Check out program version: Codec-14f....................................... OK
+Check out program version: Codec-14b....................................... OK
+Check out program version: Codec-14f....................................... OK
+Check out program version: Codec-14b....................................... OK
+Check out program version: Codec-14f....................................... OK
+Check out program version: Codec-14b....................................... OK
+Check out program version: Codec-14f....................................... OK
+cp: cannot stat '/tmp/get_buggy_lines_17723/Codec-14/src/main/java/src/main/resources/org/apache/commons/codec/language/bm/ash_lang/txt.java': No such file or directory
+Check out program version: Codec-14b....................................... OK
+cp: cannot stat '/tmp/get_buggy_lines_17723/Codec-14/src/main/java/src/main/resources/org/apache/commons/codec/language/bm/ash_lang/txt.java': No such file or directory
+Check out program version: Codec-14f....................................... OK
+cp: cannot stat '/tmp/get_buggy_lines_17723/Codec-14/src/main/java/src/main/resources/org/apache/commons/codec/language/bm/gen_lang/txt.java': No such file or directory
+Check out program version: Codec-14b....................................... OK
+cp: cannot stat '/tmp/get_buggy_lines_17723/Codec-14/src/main/java/src/main/resources/org/apache/commons/codec/language/bm/gen_lang/txt.java': No such file or directory
+Check out program version: Codec-14f....................................... OK
+cp: cannot stat '/tmp/get_buggy_lines_17723/Codec-14/src/main/java/src/main/resources/org/apache/commons/codec/language/bm/sep_lang/txt.java': No such file or directory
+Check out program version: Codec-14b....................................... OK
+cp: cannot stat '/tmp/get_buggy_lines_17723/Codec-14/src/main/java/src/main/resources/org/apache/commons/codec/language/bm/sep_lang/txt.java': No such file or directory
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 14b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 14b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/14b/fdp-dua-cft-comparison-14b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-14b;clear;0.2;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/14b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 15b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=15b
++ VERSION=15b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 15b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=15b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/15b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/15b
++ echo -e '\033[Codec 15b] checkout\033[0m'
+[Codec 15b] checkout[0m
++ defects4j checkout -p Codec -v 15b -w d4jprojects/commons-codec/15b
+Checking out 28b7b958 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 28b7b958:8fc19352..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-15b....................................... OK
++ cd d4jprojects/commons-codec/15b
++ echo -e '\033[Codec 15b] compiling\033[0m'
+[Codec 15b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 15b] running tests\033[0m'
+[Codec 15b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
++ echo -e '\033[0;32m[Codec 15b] checkout done\033[0m'
+[0;32m[Codec 15b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=15b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/15b/target/classes
++ JAVADIR=commons-codec/15b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/15b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/15b/target/classes
+commons-codec/15b/target/classes
++ echo commons-codec/15b/src/java
+commons-codec/15b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/15b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/15b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/15b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/15b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/15b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/15b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/15b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/15b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/15b
+
+real	0m9.759s
+user	0m25.982s
+sys	0m0.560s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/15b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/15b
+
+real	0m1.808s
+user	0m5.050s
+sys	0m0.204s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/15b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/15b
+
+real	0m1.768s
+user	0m5.168s
+sys	0m0.153s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/15b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/15b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/15b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/15b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 15b
+++ sed s/b//g
+++ xargs
++ leanversion=15
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 15 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/15b
+Checking out 28b7b958 to /tmp/get_buggy_lines_18129/Codec-15............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 28b7b958:8fc19352..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-15f....................................... OK
+Check out program version: Codec-15f....................................... OK
+Check out program version: Codec-15b....................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 15b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 15b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/15b/fdp-dua-cft-comparison-15b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-15b;clear;1.0;0.0;0.0;False;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/15b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 16b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=16b
++ VERSION=16b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 16b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=16b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/16b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/16b
++ echo -e '\033[Codec 16b] checkout\033[0m'
+[Codec 16b] checkout[0m
++ defects4j checkout -p Codec -v 16b -w d4jprojects/commons-codec/16b
+Checking out c82fe35c to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff c82fe35c:38357dff..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-16b....................................... OK
++ cd d4jprojects/commons-codec/16b
++ echo -e '\033[Codec 16b] compiling\033[0m'
+[Codec 16b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 16b] running tests\033[0m'
+[Codec 16b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.Base32Test::testCodec200
++ echo -e '\033[0;32m[Codec 16b] checkout done\033[0m'
+[0;32m[Codec 16b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=16b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/16b/target/classes
++ JAVADIR=commons-codec/16b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/16b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/16b/target/classes
+commons-codec/16b/target/classes
++ echo commons-codec/16b/src/java
+commons-codec/16b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/16b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/16b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/16b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/16b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/16b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/16b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/16b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/16b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/16b
+
+real	0m10.911s
+user	0m28.554s
+sys	0m0.714s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/16b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/16b
+
+real	0m1.728s
+user	0m5.080s
+sys	0m0.175s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/16b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/16b
+
+real	0m1.704s
+user	0m4.928s
+sys	0m0.149s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/16b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/16b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/16b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/16b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 16b
+++ xargs
+++ sed s/b//g
++ leanversion=16
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 16 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/16b
+Checking out c82fe35c to /tmp/get_buggy_lines_18433/Codec-16............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff c82fe35c:38357dff..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-16f....................................... OK
+Check out program version: Codec-16f....................................... OK
+Check out program version: Codec-16b....................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 16b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 16b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/16b/fdp-dua-cft-comparison-16b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-16b;clear;1.0;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/16b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 17b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=17b
++ VERSION=17b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 17b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=17b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/17b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/17b
++ echo -e '\033[Codec 17b] checkout\033[0m'
+[Codec 17b] checkout[0m
++ defects4j checkout -p Codec -v 17b -w d4jprojects/commons-codec/17b
+Checking out d2f27093 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff d2f27093:1a4d9cc2..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-17b....................................... OK
++ cd d4jprojects/commons-codec/17b
++ echo -e '\033[Codec 17b] compiling\033[0m'
+[Codec 17b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 17b] running tests\033[0m'
+[Codec 17b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.StringUtilsTest::testNewStringNullInput_CODEC229
++ echo -e '\033[0;32m[Codec 17b] checkout done\033[0m'
+[0;32m[Codec 17b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=17b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/17b/target/classes
++ JAVADIR=commons-codec/17b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/17b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/17b/target/classes
+commons-codec/17b/target/classes
++ echo commons-codec/17b/src/java
+commons-codec/17b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/17b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/17b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/17b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/17b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/17b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/17b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/17b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/17b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/17b
+
+real	0m10.331s
+user	0m27.648s
+sys	0m0.660s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/17b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/17b
+
+real	0m1.783s
+user	0m5.354s
+sys	0m0.195s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/17b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/17b
+
+real	0m1.779s
+user	0m5.070s
+sys	0m0.140s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/17b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/17b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/17b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/17b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 17b
+++ sed s/b//g
+++ xargs
++ leanversion=17
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 17 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/17b
+Checking out d2f27093 to /tmp/get_buggy_lines_18739/Codec-17............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff d2f27093:1a4d9cc2..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-17f....................................... OK
+Check out program version: Codec-17f....................................... OK
+Check out program version: Codec-17b....................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 17b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 17b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/17b/fdp-dua-cft-comparison-17b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-17b;clear;0.3333;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/17b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Codec/dummy.zip
++ src/datafilegen.sh Codec 18b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Codec
++ PROJECT_NAME=Codec
++ readonly VERSION=18b
++ VERSION=18b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Codec ']'
++ '[' -z 18b ']'
+++ cat projects.d4j
+++ grep Codec
+++ sed s/Codec//g
+++ xargs
++ local project_dir=commons-codec
++ '[' -z commons-codec ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project commons-codec
++ local project_dir=commons-codec
++ local version=18b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/commons-codec/18b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/commons-codec
++ mkdir -p d4jprojects/commons-codec/18b
++ echo -e '\033[Codec 18b] checkout\033[0m'
+[Codec 18b] checkout[0m
++ defects4j checkout -p Codec -v 18b -w d4jprojects/commons-codec/18b
+Checking out 5ef5bd19 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 5ef5bd19:ca30fae3..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-18b....................................... OK
++ cd d4jprojects/commons-codec/18b
++ echo -e '\033[Codec 18b] compiling\033[0m'
+[Codec 18b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Codec 18b] running tests\033[0m'
+[Codec 18b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS1
+  - org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS2
++ echo -e '\033[0;32m[Codec 18b] checkout done\033[0m'
+[0;32m[Codec 18b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir commons-codec
++ local project=Codec
++ local version=18b
++ local projectdir=commons-codec
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=commons-codec/18b/target/classes
++ JAVADIR=commons-codec/18b/src
++ test Codec == Chart
++ test Codec == Cli
++ test Codec == Closure
++ test Codec == Codec
++ JAVADIR=commons-codec/18b/src/java
++ test Codec == Collections
++ test Codec == Compress
++ test Codec == Csv
++ test Codec == Gson
++ test Codec == JacksonCore
++ test Codec == JacksonDatabind
++ test Codec == JacksonXml
++ test Codec == Jsoup
++ test Codec == JxPath
++ test Codec == Lang
++ test Codec == Math
++ test Codec == Mockito
++ test Codec == Time
++ test Codec == Weka
++ echo commons-codec/18b/target/classes
+commons-codec/18b/target/classes
++ echo commons-codec/18b/src/java
+commons-codec/18b/src/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection commons-codec/18b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/18b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/18b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/18b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/18b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/18b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/18b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/18b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/18b
+
+real	0m10.482s
+user	0m29.776s
+sys	0m0.628s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/18b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/18b
+
+real	0m1.628s
+user	0m5.012s
+sys	0m0.161s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/commons-codec/18b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/18b
+
+real	0m1.781s
+user	0m5.177s
+sys	0m0.173s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection commons-codec
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=commons-codec
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/18b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/18b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/18b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Codec/18b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 18b
+++ sed s/b//g
+++ xargs
++ leanversion=18
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Codec 18 /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/18b
+Checking out 5ef5bd19 to /tmp/get_buggy_lines_19087/Codec-18............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 5ef5bd19:ca30fae3..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Codec-18f....................................... OK
+Check out program version: Codec-18f....................................... OK
+Check out program version: Codec-18b....................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Codec 18b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Codec 18b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Codec/18b/fdp-dua-cft-comparison-18b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Codec-18b;clear;1.0;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Codec/reduce/18b
++ rm coverage/Codec/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))

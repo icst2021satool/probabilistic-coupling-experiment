@@ -1,0 +1,12 @@
+{
+"Class" : "org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter", 
+"Methods" : [{ "Name" : "filterCandidate" ,
+"Duas" : 7,
+"0" :  "(24,41, this)",
+"1" :  "(24,27, this)",
+"2" :  "(24,(24,25), mocks)",
+"3" :  "(24,(24,41), mocks)",
+"4" :  "(24,25, mocks)",
+"5" :  "(24,27, field)",
+"6" :  "(24,27, fieldInstance)"}]
+}

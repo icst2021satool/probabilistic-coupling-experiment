@@ -1,0 +1,21 @@
+04:59:52.538 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+04:59:52.688 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/12b, --classesDir, build/classes, --testsDir, build/tests, --tests, /PPgSI/workdir/Time/12b/tests.all, --logLevel, INFO]
+05:34:06.687 [main] INFO  JaguarDF - Test testFactory_fromDateFields_beforeYearZero1(org.joda.time.TestLocalDateTime_Constructors) : Failed
+05:34:08.847 [main] INFO  JaguarDF - Test testFactory_fromDateFields_beforeYearZero3(org.joda.time.TestLocalDateTime_Constructors) : Failed
+05:34:19.620 [main] INFO  JaguarDF - Test testFactory_fromCalendarFields_beforeYearZero1(org.joda.time.TestLocalDateTime_Constructors) : Failed
+05:34:21.775 [main] INFO  JaguarDF - Test testFactory_fromCalendarFields_beforeYearZero3(org.joda.time.TestLocalDateTime_Constructors) : Failed
+05:41:08.020 [main] INFO  JaguarDF - Test testFactory_fromDateFields_beforeYearZero1(org.joda.time.TestLocalDate_Constructors) : Failed
+05:41:10.182 [main] INFO  JaguarDF - Test testFactory_fromDateFields_beforeYearZero3(org.joda.time.TestLocalDate_Constructors) : Failed
+05:41:18.829 [main] INFO  JaguarDF - Test testFactory_fromCalendarFields_beforeYearZero1(org.joda.time.TestLocalDate_Constructors) : Failed
+05:41:20.994 [main] INFO  JaguarDF - Test testFactory_fromCalendarFields_beforeYearZero3(org.joda.time.TestLocalDate_Constructors) : Failed
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+Writing zoneinfo files
+Writing ZoneInfoMap
+07:23:57.516 [main] INFO  JaguarDF - Jaguar-DF has finished!

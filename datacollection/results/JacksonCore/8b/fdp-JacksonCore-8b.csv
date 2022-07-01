@@ -1,0 +1,13 @@
+FAULT DETECTION ;Uncon;Status;DUAs; Version;8b
+0.020000;True;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@6$(301,(307,307), this)
+0.020000;True;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@9$(301,307, this)
+0.020000;True;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@24$(301,(307,307), this._hasSegments)
+0.020000;True;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@26$(301,307, this._currentSegment)
+0.019608;False;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@5$(301,(303,307), this)
+0.019608;False;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@21$(301,(303,307), this._resultString)
+0.018868;False;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@1$(301,(301,302), this)
+0.018868;False;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@3$(301,(302,303), this)
+0.018868;False;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@15$(301,(301,302), this._inputStart)
+0.018868;False;clear;com.fasterxml.jackson.core.util.TextBuffer%getTextBuffer#9@18$(301,(302,303), this._resultArray)
+0.009524;True;clear;com.fasterxml.jackson.core.util.TextBuffer%resetWithEmpty#1@1$(156,(165,168), this)
+0.009524;True;clear;com.fasterxml.jackson.core.util.TextBuffer%resetWithEmpty#1@4$(156,(165,168), this._hasSegments)

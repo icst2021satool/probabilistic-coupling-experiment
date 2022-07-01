@@ -1,0 +1,48 @@
+18:09:43.308 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+18:09:44.068 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.addExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.addExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.multiplyExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.multiplyExact(long,long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.subtractExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.subtractExact(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.toIntExact(long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorDiv(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorDiv(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorMod(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorMod(long,long)
+Cannot find FastMath method corresponding to: public static float java.lang.StrictMath.nextDown(float)
+Cannot find FastMath method corresponding to: public static double java.lang.StrictMath.nextDown(double)
+20:32:52.696 [main] INFO  JaguarDF - Test testTrivial(org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest) : Failed
+20:45:10.105 [main] INFO  JaguarDF - Test testConstrainedRosen(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:45:21.966 [main] INFO  JaguarDF - Test testElliRotated(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:45:33.953 [main] INFO  JaguarDF - Test testEllipse(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:45:46.084 [main] INFO  JaguarDF - Test testTwoAxes(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:45:57.673 [main] INFO  JaguarDF - Test testCigar(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:46:10.799 [main] INFO  JaguarDF - Test testRosen(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:47:12.389 [main] INFO  JaguarDF - Test testRastrigin(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:47:36.655 [main] INFO  JaguarDF - Test testDiagonalRosen(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:47:48.568 [main] INFO  JaguarDF - Test testSsDiffPow(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:48:00.996 [main] INFO  JaguarDF - Test testMaximize(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:48:13.115 [main] INFO  JaguarDF - Test testAckley(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:48:25.132 [main] INFO  JaguarDF - Test testCigTab(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:48:36.878 [main] INFO  JaguarDF - Test testDiffPow(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:48:59.727 [main] INFO  JaguarDF - Test testSphere(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:49:11.270 [main] INFO  JaguarDF - Test testTablet(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:49:45.473 [main] INFO  JaguarDF - Test testCigarWithBoundaries(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) : Failed
+20:50:42.915 [main] INFO  JaguarDF - Test testSumSinc(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest) : Failed
+20:51:05.941 [main] INFO  JaguarDF - Test testMaximize1(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest) : Failed
+20:51:17.352 [main] INFO  JaguarDF - Test testMaximize2(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest) : Failed
+20:51:51.846 [main] INFO  JaguarDF - Test testMinimize1(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest) : Failed
+20:52:03.417 [main] INFO  JaguarDF - Test testMinimize2(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest) : Failed
+20:52:37.769 [main] INFO  JaguarDF - Test testMaximize1(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest) : Failed
+20:52:49.600 [main] INFO  JaguarDF - Test testMaximize2(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest) : Failed
+20:53:58.504 [main] INFO  JaguarDF - Test testMinimize1(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest) : Failed
+20:54:09.922 [main] INFO  JaguarDF - Test testMinimize2(org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest) : Failed
+20:58:11.236 [main] INFO  JaguarDF - Test testGetIterations(org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest) : Failed
+21:02:34.588 [main] INFO  JaguarDF - Test testGetIterations(org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest) : Failed
+03:40:31.591 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	570m51.174s
+user	578m25.724s
+sys	3m42.198s

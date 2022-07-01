@@ -1,0 +1,6690 @@
+[
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%initializeStep#2@14$(250,(252,252), forward)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%initializeStep#2@0$(250,(250,252), this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%initializeStep#2@9$(250,252, this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%initializeStep#2@37$(250,(250,252), this.initialStep)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%initializeStep#2@39$(250,252, this.initialStep)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%setInitialStepSize#0@0$(209,(209,209), this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%setInitialStepSize#0@4$(209,(209,212), this)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%setInitialStepSize#0@5$(209,212, this)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%setInitialStepSize#0@6$(209,(209,209), initialStepSize)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%setInitialStepSize#0@9$(209,(209,212), initialStepSize)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%setInitialStepSize#0@10$(209,212, initialStepSize)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%setInitialStepSize#0@11$(209,(209,209), this.minStep)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%setInitialStepSize#0@14$(209,(209,212), this.maxStep)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@164$(267,229, ta)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@165$(268,(221,221), ga)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@167$(209,(209,212), i)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@169$(209,212, i)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@170$(209,209, i)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@4$(329,(333,334), this)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@9$(329,(339,339), this)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@12$(329,334, this)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@15$(329,334, t)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@16$(329,334, y)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@23$(329,(333,334), RESET_STATE)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@26$(329,(339,339), RESET_STATE)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@27$(329,(333,334), this.nextAction)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@30$(329,(339,339), this.nextAction)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@33$(329,334, this.handler)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@112$(363,(363,363), this.isLastStep)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@4$(3364,(3369,3373), x)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@8$(3368,(3369,3373), y)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@9$(3368,3373, y)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@12$(3373,(3375,3379), y)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@13$(3373,3379, y)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@17$(278,341, this)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@18$(278,342, this)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@39$(278,340, y)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@40$(278,341, y)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@42$(278,341, yDot)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@77$(312,(337,340), currentEvent)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@82$(316,(337,340), eventT)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@86$(316,341, eventT)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@87$(316,343, eventT)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@89$(322,(337,340), eventY)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@91$(322,340, eventY)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@16$(278,(331,337), this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@94$(324,(331,337), this.isLastStep)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@0$(329,(329,329), this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@3$(329,(329,333), this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@6$(329,336, this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@7$(329,337, this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@14$(329,(329,333), t)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@17$(329,(329,329), this.pendingEvent)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@20$(329,(329,333), this.pendingEventTime)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reset#5@22$(329,(329,333), this.convergence)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@13$(278,324, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@14$(278,327, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@27$(278,317, interpolator)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@28$(278,318, interpolator)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@29$(278,321, interpolator)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@30$(278,322, interpolator)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@36$(278,(302,304), interpolator)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@55$(278,327, this.stepHandlers)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@56$(278,317, previousT)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@66$(292,(308,311), occuringEvents)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@68$(292,311, occuringEvents)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@70$(292,304, occuringEvents)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@74$(301,(302,304), state)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@76$(301,304, state)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@101$(327,(327,331), i$)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@13$(190,(225,227), this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@37$(190,227, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@38$(190,(229,229), this)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@40$(190,229, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@60$(190,(225,227), this.solver)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@65$(190,227, this.solver)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@68$(190,229, this.maxIterationCount)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@70$(190,229, LEFT_SIDE)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@72$(190,229, RIGHT_SIDE)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@87$(190,(229,229), this.forward)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@99$(200,229, f)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@117$(212,229, tb)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@124$(227,229, bracketing)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@125$(229,256, root)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@3$(298,(307,307), this)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@32$(299,(307,307), this.g0)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@203$(252,287, nextX)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@250$(283,(284,287), nextY)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@10$(190,(217,221), this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@12$(190,221, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@23$(190,(246,254), this)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@25$(190,(254,256), this)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@26$(190,256, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@27$(190,257, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@58$(190,(217,221), this.g0Positive)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@74$(190,(246,254), this.previousEventTime)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@76$(190,(254,256), this.previousEventTime)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@118$(214,(217,217), gb)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@119$(214,(217,217), gb)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@121$(214,(221,221), gb)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@0$(298,(301,301), this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@6$(298,(301,303), this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@8$(298,303, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@9$(298,304, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@10$(298,(305,305), this)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@12$(298,305, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@13$(298,(301,303), t)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@15$(298,303, t)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@16$(298,305, t)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@17$(298,305, y)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@18$(298,305, this.handler)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@19$(298,(301,301), this.pendingEvent)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@21$(298,(301,303), this.pendingEventTime)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@23$(298,(301,303), this.convergence)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@25$(298,304, this.increasing)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@26$(298,(305,305), this.increasing)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@28$(298,(305,305), this.forward)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%getEventTime#2@0$(285,(285,285), this)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%getEventTime#2@4$(285,285, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%getEventTime#2@5$(285,(285,285), this.pendingEvent)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%getEventTime#2@9$(285,285, this.pendingEventTime)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@48$(147,(169,172), y)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@63$(172,247, nbPoints)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@74$(173,198, signChangeIndex)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@75$(173,199, signChangeIndex)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@76$(173,202, signChangeIndex)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@77$(173,203, signChangeIndex)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@10$(278,(363,363), this)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@12$(278,363, this)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@37$(278,(302,306), interpolator)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@38$(278,285, interpolator)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@52$(278,(363,363), this.isLastStep)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@61$(279,362, currentT)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@63$(284,(284,284), i$)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@65$(284,284, i$)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@71$(301,(301,301), i$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@73$(301,301, i$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@75$(301,(302,306), state)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@104$(360,362, currentY)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@105$(361,(361,361), i$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@107$(361,361, i$)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@109$(361,(363,363), state)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@110$(363,(365,365), this.isLastStep)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@1$(298,(301,307), this)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@4$(298,307, this)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@5$(298,308, this)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@20$(298,(301,307), this.pendingEvent)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stepAccepted#3@30$(298,308, CONTINUE)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stop#4@1$(317,(317,317), this)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stop#4@3$(317,(317,317), STOP)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%stop#4@5$(317,(317,317), this.nextAction)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@1$(190,(193,197), this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@2$(190,197, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@3$(190,200, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@4$(190,207, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@5$(190,208, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@6$(190,274, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@7$(190,275, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@8$(190,212, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@9$(190,214, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@11$(190,(217,267), this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@41$(190,200, interpolator)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@42$(190,213, interpolator)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@43$(190,214, interpolator)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@44$(190,207, this.t0)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@45$(190,212, this.t0)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@47$(190,(193,197), this.convergence)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@55$(190,197, this.maxCheckInterval)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@56$(190,208, this.g0)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@57$(190,214, this.handler)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@59$(190,(217,267), this.g0Positive)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@90$(192,(193,197), dt)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@91$(192,197, dt)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@92$(192,198, dt)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@93$(197,(209,212), n)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@94$(197,(209,274), n)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@95$(198,212, h)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@108$(209,(209,212), i)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@110$(209,212, i)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@111$(209,209, i)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@113$(212,267, tb)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@120$(214,268, gb)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%evaluateStep#1@168$(209,(209,274), i)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reinitializeBegin#0@1$(154,(157,177), this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reinitializeBegin#0@3$(154,(177,177), this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reinitializeBegin#0@4$(154,177, this)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reinitializeBegin#0@15$(156,(157,177), this.g0)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.events.EventState%reinitializeBegin#0@17$(156,(177,177), this.g0)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@1$(318,(318,361), this)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@41$(318,(318,361), this.vectorsInitialized)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@2$(146,211, this)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@10$(146,(213,233), this)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@11$(146,252, this)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@12$(146,283, this)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@28$(146,195, x)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@29$(146,198, x)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@30$(146,202, x)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@31$(146,251, x)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@56$(147,199, y)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@57$(147,203, y)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@58$(147,252, y)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@119$(195,251, tmpX)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@120$(195,252, tmpX)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@121$(198,211, xA)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@122$(198,(213,213), xA)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@128$(198,(254,254), xA)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@141$(200,(213,233), absYA)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@143$(201,(233,236), agingA)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@145$(202,211, xB)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@146$(202,(213,213), xB)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@154$(202,(254,273), xB)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@159$(204,(213,233), absYB)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@161$(205,(236,241), agingB)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@163$(211,(213,213), xTol)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@167$(241,252, targetY)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@168$(246,251, start)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@169$(246,252, start)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@181$(247,251, end)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@182$(247,252, end)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@191$(252,(254,254), nextX)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@194$(252,(254,273), nextX)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@196$(252,(273,275), nextX)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@198$(252,(275,283), nextX)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@199$(252,283, nextX)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@0$(318,(318,320), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@2$(318,(371,372), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@3$(318,(371,385), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@4$(318,372, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@5$(318,380, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@7$(318,(320,328), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@8$(318,328, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@9$(318,(331,332), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@10$(318,(331,357), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@11$(318,357, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@12$(318,332, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@13$(318,333, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@14$(318,334, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@15$(318,335, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@16$(318,336, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@17$(318,337, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@18$(318,338, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@19$(318,339, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@20$(318,340, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@21$(318,341, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@22$(318,342, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@23$(318,343, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@24$(318,344, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@25$(318,347, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@26$(318,348, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@27$(318,350, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@30$(318,361, theta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@31$(318,362, theta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@32$(318,363, theta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@33$(318,365, theta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@34$(318,366, theta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@35$(318,367, theta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@36$(318,368, theta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@37$(318,369, theta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@38$(318,372, theta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@39$(318,372, oneMinusThetaH)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@40$(318,(318,320), this.vectorsInitialized)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@42$(318,372, this.v)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@43$(318,380, this.v)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@45$(318,(320,328), this.v)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@46$(318,344, this.v)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@47$(318,347, this.v)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@48$(318,348, this.v)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@49$(318,350, this.v)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@50$(318,(371,372), this.interpolatedState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@51$(318,(371,385), this.interpolatedState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@52$(318,372, this.interpolatedState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@53$(318,(331,332), this.interpolatedState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@54$(318,(331,357), this.interpolatedState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@56$(318,332, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@57$(318,333, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@58$(318,334, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@59$(318,335, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@60$(318,336, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@61$(318,337, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@62$(318,338, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@63$(318,339, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@64$(318,340, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@65$(318,348, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@66$(318,341, this.yDotKLast)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@67$(318,342, this.yDotKLast)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@68$(318,343, this.yDotKLast)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@69$(318,(349,350), D)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@70$(318,(349,331), D)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@71$(318,350, D)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@72$(318,372, this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@73$(318,380, this.interpolatedDerivatives)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@89$(331,(331,332), i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@91$(331,332, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@92$(331,333, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@93$(331,334, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@94$(331,335, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@95$(331,336, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@96$(331,337, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@97$(331,338, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@98$(331,339, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@99$(331,340, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@100$(331,341, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@101$(331,342, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@102$(331,343, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@103$(331,344, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@104$(331,347, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@105$(331,348, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@106$(331,331, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@107$(331,350, i)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@108$(332,350, yDot1)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@109$(333,350, yDot6)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@110$(334,350, yDot7)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@111$(335,350, yDot8)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@112$(336,350, yDot9)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@113$(337,350, yDot10)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@114$(338,350, yDot11)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@115$(339,350, yDot12)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@116$(340,350, yDot13)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@117$(341,350, yDot14)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@118$(342,350, yDot15)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@119$(343,350, yDot16)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@120$(349,(349,350), k)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@122$(349,350, k)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@123$(349,349, k)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@124$(349,(349,350), k)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@125$(349,(349,331), k)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@126$(349,350, k)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@127$(349,349, k)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@129$(331,(331,357), i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@147$(361,372, eta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@148$(364,380, dot1)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@149$(365,380, dot2)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@150$(366,380, dot3)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@151$(367,380, dot4)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@152$(368,380, dot5)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@153$(369,380, dot6)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@154$(371,(371,372), i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@156$(371,372, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@157$(371,380, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@158$(371,371, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%computeInterpolatedStateAndDerivatives#2@160$(371,(371,385), i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@1$(391,(391,397), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@2$(391,397, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@3$(391,398, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@4$(391,(401,402), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@5$(391,(401,407), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@6$(391,407, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@7$(391,(410,411), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@8$(391,(410,417), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@9$(391,417, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@10$(391,(420,421), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@11$(391,(420,427), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@12$(391,427, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@13$(391,421, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@14$(391,425, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@15$(391,411, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@16$(391,415, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@17$(391,402, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@18$(391,405, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@20$(391,(391,397), this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@21$(391,397, this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@22$(391,(401,402), this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@23$(391,(401,407), this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@24$(391,(410,411), this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@25$(391,(410,417), this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@26$(391,(420,421), this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@27$(391,(420,427), this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@28$(391,425, this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@29$(391,415, this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@30$(391,405, this.currentState)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@31$(391,421, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@32$(391,411, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@33$(391,402, this.yDotK)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@34$(391,407, this.h)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@35$(391,417, this.h)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@36$(391,427, this.h)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@37$(391,425, this.h)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@38$(391,415, this.h)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@39$(391,405, this.h)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@40$(391,407, this.integrator)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@41$(391,417, this.integrator)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@42$(391,427, this.integrator)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@43$(391,407, this.yDotKLast)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@44$(391,417, this.yDotKLast)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@45$(391,427, this.yDotKLast)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@46$(391,421, this.yDotKLast)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@47$(391,411, this.yDotKLast)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@48$(397,407, yTmp)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@49$(397,417, yTmp)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@50$(397,427, yTmp)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@51$(397,425, yTmp)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@52$(397,415, yTmp)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@53$(397,405, yTmp)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@54$(398,407, pT)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@55$(398,417, pT)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@56$(398,427, pT)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@57$(401,(401,402), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@59$(401,402, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@60$(401,405, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@61$(401,401, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@63$(401,(401,407), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@67$(410,(410,411), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@69$(410,411, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@70$(410,415, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@71$(410,410, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@73$(410,(410,417), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@77$(420,(420,421), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@79$(420,421, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@80$(420,425, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@81$(420,420, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@83$(420,(420,427), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@3$(255,(269,269), this)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@14$(255,(269,269), this.vecAbsoluteTolerance)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@0$(365,375, targetY)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@1$(365,375, x)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@2$(365,368, x)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@3$(365,375, y)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@4$(365,368, y)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@5$(365,(374,375), start)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@6$(365,(374,378), start)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@7$(365,366, start)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@8$(365,(365,366), end)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@9$(365,(365,373), end)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@10$(365,374, end)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@11$(365,367, end)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@12$(365,(365,366), i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@14$(365,366, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@15$(365,(367,368), i)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@16$(365,(367,365), i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@17$(365,365, i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@18$(366,368, delta)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@19$(367,(367,368), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@21$(367,368, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@22$(367,367, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@24$(367,(367,365), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@28$(365,(365,373), i)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@34$(373,375, x0)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@35$(374,(374,375), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@37$(374,375, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@38$(374,374, j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@39$(375,378, x0)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@40$(375,375, x0)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@41$(374,(374,375), j)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@42$(374,(374,378), j)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@43$(374,375, j)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%guessX#4@44$(374,374, j)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@0$(146,161, this)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@25$(146,161, x)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@44$(147,(155,161), y)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@45$(147,161, y)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%doSolve#3@47$(147,(162,169), y)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%<init>#0@0$(82,86, this)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%<init>#0@1$(82,87, this)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%<init>#0@3$(82,(83,86), maximalOrder)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%<init>#0@4$(82,86, maximalOrder)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver%<init>#0@6$(82,87, ANY_SIDE)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@0$(391,(391,393), this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%doFinalize#3@19$(391,(391,393), this.currentState)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%<init>#0@11$(244,248, this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%<init>#0@12$(244,249, this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%<init>#0@13$(244,250, this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%<init>#0@14$(244,(246,248), interpolator)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%<init>#0@20$(244,(246,248), interpolator.currentState)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@0$(288,(293,294), this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@1$(288,(293,297), this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@2$(288,297, this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@3$(288,(298,299), this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@4$(288,(298,302), this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@5$(288,302, this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@6$(288,299, this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@7$(288,294, this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@8$(290,299, dimension)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@9$(290,294, dimension)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@10$(292,(293,294), this.yDotKLast)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@11$(292,(293,297), this.yDotKLast)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@12$(292,294, this.yDotKLast)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@13$(293,(293,294), k)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@15$(293,294, k)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@16$(293,293, k)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@17$(293,(293,294), k)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@18$(293,(293,297), k)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@19$(293,294, k)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@20$(293,293, k)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@21$(297,(298,299), this.v)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@22$(297,(298,302), this.v)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@23$(297,299, this.v)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@24$(298,(298,299), k)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@26$(298,299, k)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@27$(298,298, k)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@28$(298,(298,299), k)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@29$(298,(298,302), k)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@30$(298,299, k)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator%reinitialize#1@31$(298,298, k)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@0$(255,(258,259), this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@1$(255,(258,278), this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@2$(255,283, this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@5$(255,269, this)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@6$(255,259, yDotK)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@7$(255,263, yDotK)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@8$(255,268, y0)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@9$(255,268, y1)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@10$(255,283, h)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@11$(255,(258,259), this.mainSetDimension)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@12$(255,(258,278), this.mainSetDimension)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@13$(255,283, this.mainSetDimension)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@16$(255,269, this.vecAbsoluteTolerance)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@17$(255,269, this.vecRelativeTolerance)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@20$(255,273, error1)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@22$(256,275, error2)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@23$(258,(258,259), j)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@25$(258,259, j)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@26$(258,263, j)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@27$(258,268, j)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@28$(258,269, j)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@29$(258,258, j)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@30$(259,272, errSum1)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@31$(263,274, errSum2)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@32$(268,269, yScale)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@33$(273,278, error1)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@34$(273,283, error1)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@36$(275,278, error2)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@39$(258,(258,278), j)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@46$(278,(279,283), den)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator%estimateError#0@47$(278,283, den)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%sanityChecks#1@1$(221,(225,229), this)",
+        [
+            0.011363636363636364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%sanityChecks#1@3$(221,(229,233), this)",
+        [
+            0.011363636363636364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%sanityChecks#1@11$(221,(225,229), this.vecAbsoluteTolerance)",
+        [
+            0.011363636363636364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%sanityChecks#1@16$(221,(229,233), this.vecRelativeTolerance)",
+        [
+            0.011363636363636364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@3$(321,(331,333), this)",
+        [
+            0.010752688172043012,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@5$(321,(333,337), this)",
+        [
+            0.010752688172043012,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@23$(321,(331,333), this.maxStep)",
+        [
+            0.010752688172043012,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@25$(321,(333,337), this.maxStep)",
+        [
+            0.010752688172043012,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@29$(321,(331,333), filteredH)",
+        [
+            0.010752688172043012,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@31$(321,(333,337), filteredH)",
+        [
+            0.010752688172043012,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@32$(321,337, filteredH)",
+        [
+            0.010752688172043012,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@1$(321,(322,331), this)",
+        [
+            0.010638297872340425,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@11$(321,(322,331), h)",
+        [
+            0.010638297872340425,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator%filterStep#3@18$(321,(322,331), this.minStep)",
+        [
+            0.010638297872340425,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@16$(171,181, this)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@17$(171,182, this)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@18$(171,183, this)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@19$(171,184, this)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@20$(171,(180,181), interpolator)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@33$(171,(203,203), interpolator)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@38$(171,(180,181), interpolator.currentState)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@53$(171,(203,203), interpolator.secondaryMappers)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator%<init>#0@0$(82,95, this)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator%<init>#0@1$(82,100, this)",
+        [
+            0.009900990099009901,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator%<init>#0@7$(82,(84,95), interpolator)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator%<init>#0@13$(82,(84,95), interpolator.currentState)",
+        [
+            0.009900990099009901,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@9$(171,199, this)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@10$(171,200, this)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@11$(171,201, this)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@12$(171,202, this)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@13$(171,203, this)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@29$(171,199, interpolator)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@30$(171,200, interpolator)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@31$(171,201, interpolator)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@32$(171,202, interpolator)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@35$(171,203, interpolator)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@49$(171,199, interpolator.finalized)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@50$(171,200, interpolator.forward)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@51$(171,201, interpolator.dirtyState)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@52$(171,202, interpolator.primaryMapper)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%<init>#1@55$(171,203, interpolator.secondaryMappers)",
+        [
+            0.009615384615384616,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%finalizeStep#4@0$(482,(482,483), this)",
+        [
+            0.009523809523809525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%finalizeStep#4@2$(482,483, this)",
+        [
+            0.009523809523809525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%finalizeStep#4@3$(482,484, this)",
+        [
+            0.009523809523809525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%finalizeStep#4@4$(482,(482,483), this.finalized)",
+        [
+            0.009523809523809525,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@22$(278,(291,291), interpolator)",
+        [
+            0.009259259259259259,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@14$(212,213, this)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@15$(212,214, this)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@16$(212,215, this)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@17$(212,216, this)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@18$(212,217, this)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@19$(212,218, this)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@20$(212,(212,213), dimension)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@17$(272,(278,278), xInt)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@0$(278,(283,284), this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@1$(278,(283,291), this)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@2$(278,292, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@3$(278,301, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@4$(278,361, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@5$(278,(365,365), this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@7$(278,365, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@8$(278,368, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@20$(278,284, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@21$(278,287, this)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@24$(278,359, interpolator)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@25$(278,360, interpolator)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@44$(278,(365,365), tEnd)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@45$(278,(283,284), this.statesInitialized)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@46$(278,(283,291), this.statesInitialized)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@47$(278,301, this.eventsStates)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@48$(278,361, this.eventsStates)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@49$(278,284, this.eventsStates)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@54$(278,368, this.stepHandlers)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@57$(279,359, currentT)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@58$(279,372, currentT)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@60$(279,(365,365), currentT)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@64$(284,(284,287), i$)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@67$(292,(308,359), occuringEvents)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@72$(301,(301,308), i$)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@106$(361,(361,365), i$)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%acceptStep#3@116$(368,(368,372), i$)",
+        [
+            0.0072992700729927005,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#44@0$(3495,(3495,3495), a)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#44@3$(3495,(3495,3495), b)",
+        [
+            0.0072992700729927005,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils%verifyInterval#6@1$(336,(336,340), lower)",
+        [
+            0.007246376811594203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils%verifyInterval#6@4$(336,(336,340), upper)",
+        [
+            0.007246376811594203,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%getTotalDimension#0@0$(96,(96,98), this)",
+        [
+            0.007142857142857143,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%getTotalDimension#0@3$(96,98, this)",
+        [
+            0.007142857142857143,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%getTotalDimension#0@4$(96,(96,98), this.components)",
+        [
+            0.007142857142857143,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%getTotalDimension#0@7$(96,98, this.primaryMapper)",
+        [
+            0.007142857142857143,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%getSecondaryMappers#3@7$(164,(164,167), i)",
+        [
+            0.007142857142857143,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@6$(267,(271,272), xInt)",
+        [
+            0.0070921985815602835,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@10$(267,272, xInt)",
+        [
+            0.0070921985815602835,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%computeDerivatives#1@7$(119,(119,126), i$)",
+        [
+            0.006993006993006993,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%getSecondaryMappers#3@3$(163,(164,167), mappers)",
+        [
+            0.006944444444444444,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%getSecondaryMappers#3@4$(163,167, mappers)",
+        [
+            0.006944444444444444,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%getCompleteState#7@0$(285,293, completeState)",
+        [
+            0.006944444444444444,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%getCompleteState#7@3$(289,(289,293), i$)",
+        [
+            0.006944444444444444,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%insertEquationData#1@1$(92,(92,95), this)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%insertEquationData#1@2$(92,95, this)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%insertEquationData#1@5$(92,(92,95), equationData)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%insertEquationData#1@6$(92,95, equationData)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%insertEquationData#1@8$(92,95, complete)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%insertEquationData#1@10$(92,(92,95), this.dimension)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%insertEquationData#1@11$(92,95, this.dimension)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%insertEquationData#1@13$(92,95, this.firstIndex)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@0$(402,(402,403), this)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@2$(402,403, this)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@4$(402,(404,404), this)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@5$(402,404, this)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@6$(402,405, this)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@7$(402,406, this)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@8$(402,(402,403), this.dirtyState)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@10$(402,403, this.globalCurrentTime)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@11$(402,403, this.interpolatedTime)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@13$(402,(404,404), this.h)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@14$(402,404, this.h)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@15$(403,404, oneMinusThetaH)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%evaluateCompleteInterpolatedState#3@16$(403,405, oneMinusThetaH)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%sanityChecks#4@2$(384,(387,392), threshold)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%sanityChecks#4@5$(386,(387,392), dt)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%setPrimaryState#4@1$(192,(192,197), this)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%setPrimaryState#4@2$(192,197, this)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%setPrimaryState#4@5$(192,(192,197), primaryState)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%setPrimaryState#4@6$(192,197, primaryState)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%setPrimaryState#4@9$(192,(192,197), this.primaryState)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.ExpandableStatefulODE%setPrimaryState#4@10$(192,197, this.primaryState)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@37$(230,(230,236), i)",
+        [
+            0.006711409395973154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%extractEquationData#0@1$(77,(77,80), this)",
+        [
+            0.006578947368421052,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%extractEquationData#0@2$(77,80, this)",
+        [
+            0.006578947368421052,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%extractEquationData#0@4$(77,80, complete)",
+        [
+            0.006578947368421052,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%extractEquationData#0@6$(77,(77,80), equationData)",
+        [
+            0.006578947368421052,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%extractEquationData#0@7$(77,80, equationData)",
+        [
+            0.006578947368421052,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%extractEquationData#0@10$(77,(77,80), this.dimension)",
+        [
+            0.006578947368421052,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%extractEquationData#0@11$(77,80, this.dimension)",
+        [
+            0.006578947368421052,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.EquationsMapper%extractEquationData#0@13$(77,80, this.firstIndex)",
+        [
+            0.006578947368421052,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@0$(212,220, this)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@1$(212,221, this)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@2$(212,222, this)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@3$(212,223, this)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@5$(212,(224,228), this)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@6$(212,228, this)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@7$(212,229, this)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@9$(212,(230,236), this)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@21$(212,(212,220), dimension)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@22$(212,220, dimension)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@23$(212,221, dimension)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@24$(212,222, this.primaryMapper)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@25$(212,223, this.primaryMapper)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@27$(212,(224,228), this.secondaryMappers)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@28$(212,228, this.secondaryMappers)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@29$(212,229, this.secondaryMappers)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.sampling.AbstractStepInterpolator%allocateInterpolatedArrays#2@31$(212,(230,236), this.secondaryMappers)",
+        [
+            0.006535947712418301,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%setMaxEvaluations#1@0$(169,169, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%setMaxEvaluations#1@1$(169,(169,169), maxEvaluations)",
+        [
+            0.006211180124223602,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%setMaxEvaluations#1@3$(169,169, maxEvaluations)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.ode.AbstractIntegrator%setMaxEvaluations#1@4$(169,169, this.evaluations)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ulp#31@1$(3032,(3032,3035), x)",
+        [
+            0.006134969325153374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ulp#31@2$(3032,3035, x)",
+        [
+            0.006134969325153374,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@3$(3364,(3369,3370), x)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@7$(3368,(3369,3370), y)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@10$(3368,3370, y)",
+        [
+            0.006024096385542169,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@1$(3364,(3364,3368), x)",
+        [
+            0.0058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%ceil#38@2$(3364,3368, x)",
+        [
+            0.0058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@8$(826,(919,920), extra)",
+        [
+            0.005813953488372093,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@11$(826,920, extra)",
+        [
+            0.005813953488372093,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@61$(903,920, z)",
+        [
+            0.005813953488372093,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@64$(910,920, tempA)",
+        [
+            0.005813953488372093,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@67$(911,920, tempB)",
+        [
+            0.005813953488372093,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@70$(917,920, tempC)",
+        [
+            0.005813953488372093,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@71$(920,931, result)",
+        [
+            0.005813953488372093,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@3$(1420,(1431,1456), x)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@5$(1420,(1456,1467), x)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@7$(1420,(1479,1503), x)",
+        [
+            0.005747126436781609,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@9$(1420,(1517,1534), x)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@10$(1420,1546, x)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@26$(1420,(1467,1479), y)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@28$(1420,(1503,1517), y)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@29$(1420,(1534,1534), y)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@33$(1420,(1534,1535), y)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@35$(1420,1535, y)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@36$(1420,1536, y)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@37$(1420,1537, y)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@79$(1420,1546, lns)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@80$(1420,1551, lns)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@81$(1420,1552, lns)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@100$(1536,1561, ya)",
+        [
+            0.005747126436781609,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@101$(1536,1562, ya)",
+        [
+            0.005747126436781609,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@102$(1537,1562, yb)",
+        [
+            0.005747126436781609,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@107$(1546,(1547,1551), lores)",
+        [
+            0.005747126436781609,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@1$(1420,(1426,1431), x)",
+        [
+            0.005714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%pow#13@24$(1420,(1422,1426), y)",
+        [
+            0.005714285714285714,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@17$(1106,(1218,1220), hiPrec)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@19$(1106,(1319,1320), hiPrec)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@21$(1106,1320, hiPrec)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@22$(1106,1321, hiPrec)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@39$(1106,1233, LN_HI_PREC_COEF)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@40$(1106,1234, LN_HI_PREC_COEF)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@41$(1106,1236, LN_HI_PREC_COEF)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@42$(1106,1246, LN_HI_PREC_COEF)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@43$(1106,1247, LN_HI_PREC_COEF)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@51$(1109,1227, bits)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@52$(1109,1228, bits)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@122$(1213,1220, epsilon)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@123$(1213,1221, epsilon)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@124$(1213,1222, epsilon)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@127$(1223,1255, xa)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@128$(1223,1256, xa)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@129$(1223,1238, xa)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@130$(1223,1239, xa)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@131$(1230,1256, xb)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@132$(1230,1239, xb)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@135$(1233,1238, ya)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@136$(1233,1239, ya)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@138$(1234,1239, yb)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@139$(1236,(1236,1238), i)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@141$(1236,1246, i)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@142$(1236,1247, i)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@143$(1236,1236, i)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@144$(1250,1255, ya)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@145$(1250,1256, ya)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@146$(1250,1238, ya)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@147$(1250,1239, ya)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@148$(1251,1256, yb)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@149$(1251,1239, yb)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@150$(1236,(1236,1238), i)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@151$(1236,(1236,1255), i)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@152$(1236,1246, i)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@153$(1236,1247, i)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@154$(1236,1236, i)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@155$(1264,1299, lnza)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@156$(1264,1300, lnza)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@157$(1265,1314, lnzb)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@158$(1265,1315, lnzb)",
+        [
+            0.00558659217877095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@162$(1316,1320, a)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@164$(1317,1321, b)",
+        [
+            0.00558659217877095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#44@2$(3495,3495, a)",
+        [
+            0.004672897196261682,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#44@5$(3495,3495, b)",
+        [
+            0.004672897196261682,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%min#43@0$(3470,(3470,3471), a)",
+        [
+            0.004484304932735426,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%min#43@9$(3470,(3470,3471), b)",
+        [
+            0.004484304932735426,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%min#43@16$(3470,3471, b)",
+        [
+            0.004484304932735426,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%abs#28@0$(3005,(3005,3005), x)",
+        [
+            0.0040650406504065045,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@9$(267,(278,278), xInt)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@51$(864,(866,874), intVal)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@52$(864,874, intVal)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@53$(864,875, intVal)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@54$(864,882, intVal)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@55$(864,890, intVal)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@56$(874,910, intPartA)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@57$(874,911, intPartA)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@58$(875,911, intPartB)",
+        [
+            0.004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@14$(268,(278,278), yInt)",
+        [
+            0.003952569169960474,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@1$(826,(826,864), x)",
+        [
+            0.00390625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@2$(826,864, x)",
+        [
+            0.00390625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@8$(267,(278,278), xInt)",
+        [
+            0.003745318352059925,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@13$(268,(278,278), yInt)",
+        [
+            0.003745318352059925,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@5$(267,(278,278), maxUlps)",
+        [
+            0.0037313432835820895,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@21$(278,(280,280), isEqual)",
+        [
+            0.0037313432835820895,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@0$(267,(280,280), x)",
+        [
+            0.0035587188612099642,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@2$(267,(280,280), y)",
+        [
+            0.0035587188612099642,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@4$(267,(278,278), maxUlps)",
+        [
+            0.0035587188612099642,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@20$(278,(280,280), isEqual)",
+        [
+            0.0035587188612099642,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%floor#37@15$(3345,(3350,3354), y)",
+        [
+            0.0033003300330033004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%floor#37@16$(3345,3354, y)",
+        [
+            0.0033003300330033004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%abs#28@1$(3005,(3005,3005), x)",
+        [
+            0.0029154518950437317,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@7$(267,(271,274), xInt)",
+        [
+            0.002881844380403458,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Precision%equals#10@12$(268,(274,278), yInt)",
+        [
+            0.002881844380403458,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%floor#37@9$(3337,(3346,3350), x)",
+        [
+            0.0028328611898017,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%floor#37@2$(3337,(3341,3341), x)",
+        [
+            0.002824858757062147,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%floor#37@6$(3337,(3341,3345), x)",
+        [
+            0.002824858757062147,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%floor#37@7$(3337,3345, x)",
+        [
+            0.002824858757062147,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%floor#37@1$(3337,(3337,3341), x)",
+        [
+            0.0028089887640449437,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%abs#28@2$(3005,3005, x)",
+        [
+            0.0027472527472527475,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#47@0$(3538,(3538,3539), a)",
+        [
+            0.0027247956403269754,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#47@8$(3538,3539, a)",
+        [
+            0.0027247956403269754,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#47@9$(3538,(3538,3539), b)",
+        [
+            0.0027247956403269754,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@60$(1132,(1154,1202), exp)",
+        [
+            0.0025906735751295338,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@49$(1109,1202, bits)",
+        [
+            0.0025575447570332483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@50$(1109,1213, bits)",
+        [
+            0.0025575447570332483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@56$(1132,1292, exp)",
+        [
+            0.0025575447570332483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@57$(1132,1304, exp)",
+        [
+            0.0025575447570332483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@58$(1132,1305, exp)",
+        [
+            0.0025575447570332483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@15$(826,(925,931), hiPrec)",
+        [
+            0.002551020408163265,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@112$(1202,1294, lnm)",
+        [
+            0.002551020408163265,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@113$(1202,1295, lnm)",
+        [
+            0.002551020408163265,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@114$(1202,1309, lnm)",
+        [
+            0.002551020408163265,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@115$(1202,1310, lnm)",
+        [
+            0.002551020408163265,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@161$(1316,1324, a)",
+        [
+            0.002551020408163265,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@163$(1317,1324, b)",
+        [
+            0.002551020408163265,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@54$(1132,(1154,1154), exp)",
+        [
+            0.0024875621890547263,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@48$(1109,(1134,1154), bits)",
+        [
+            0.0024813895781637717,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@6$(1106,(1123,1132), x)",
+        [
+            0.0024752475247524753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@46$(1109,1132, bits)",
+        [
+            0.0024752475247524753,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@1$(1106,(1106,1109), x)",
+        [
+            0.0024691358024691358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@2$(1106,1109, x)",
+        [
+            0.0024691358024691358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@16$(1106,(1112,1123), x)",
+        [
+            0.0024691358024691358,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%log#10@44$(1109,(1112,1112), bits)",
+        [
+            0.0024691358024691358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@3$(826,882, x)",
+        [
+            0.002398081534772182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%exp#8@4$(826,890, x)",
+        [
+            0.002398081534772182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#47@2$(3538,(3541,3542), a)",
+        [
+            0.002304147465437788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#47@11$(3538,(3541,3542), b)",
+        [
+            0.002304147465437788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#47@16$(3538,3542, b)",
+        [
+            0.002304147465437788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Incrementor%incrementCount#2@1$(150,(150,153), this)",
+        [
+            0.002242152466367713,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Incrementor%incrementCount#2@4$(150,(150,153), this.maximalCount)",
+        [
+            0.002242152466367713,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.Incrementor%incrementCount#2@8$(150,(150,153), this.count)",
+        [
+            0.002242152466367713,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#47@1$(3538,(3538,3541), a)",
+        [
+            0.0020161290322580645,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%max#47@10$(3538,(3538,3541), b)",
+        [
+            0.0020161290322580645,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.MathUtils%checkNotNull#21@1$(515,(515,518), o)",
+        [
+            0.0016835016835016834,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%abs#30@2$(3023,(3023,3023), x)",
+        [
+            0.0014792899408284023,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%abs#30@0$(3023,(3023,3023), x)",
+        [
+            0.001288659793814433,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%abs#30@3$(3023,(3023,3023), x)",
+        [
+            0.0011376564277588168,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%abs#30@1$(3023,(3023,3023), x)",
+        [
+            0.0010718113612004287,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math.util.FastMath%abs#30@4$(3023,3023, x)",
+        [
+            0.001049317943336831,
+            false,
+            "clear"
+        ]
+    ]
+]

@@ -1,0 +1,21 @@
+09:49:15.480 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+09:49:15.634 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/14b, --classesDir, build/classes, --testsDir, build/tests, --tests, /PPgSI/workdir/Time/14b/tests.all, --logLevel, INFO]
+10:38:41.083 [main] INFO  JaguarDF - Test testPlusMonths_int_negativeFromLeap(org.joda.time.TestMonthDay_Basics) : Failed
+10:39:20.482 [main] INFO  JaguarDF - Test testMinusDays_int_negativeFromLeap(org.joda.time.TestMonthDay_Basics) : Failed
+10:39:48.938 [main] INFO  JaguarDF - Test testPlusMonths_int_fromLeap(org.joda.time.TestMonthDay_Basics) : Failed
+10:39:57.677 [main] INFO  JaguarDF - Test testPlusMonths_int_negativeEndOfMonthAdjust(org.joda.time.TestMonthDay_Basics) : Failed
+10:40:15.190 [main] INFO  JaguarDF - Test testMinusMonths_int_endOfMonthAdjust(org.joda.time.TestMonthDay_Basics) : Failed
+10:40:26.115 [main] INFO  JaguarDF - Test testMinusMonths_int_negativeFromLeap(org.joda.time.TestMonthDay_Basics) : Failed
+10:40:28.300 [main] INFO  JaguarDF - Test testMinusMonths_int_fromLeap(org.joda.time.TestMonthDay_Basics) : Failed
+10:40:50.144 [main] INFO  JaguarDF - Test testPlusDays_int_fromLeap(org.joda.time.TestMonthDay_Basics) : Failed
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+Writing zoneinfo files
+Writing ZoneInfoMap
+12:11:07.250 [main] INFO  JaguarDF - Jaguar-DF has finished!

@@ -1,0 +1,9 @@
+20:29:24.676 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+20:29:25.013 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+20:32:26.347 [main] INFO  JaguarDF - Test testMath209(org.apache.commons.math.linear.BigMatrixImplTest) : Failed
+20:33:00.572 [main] INFO  JaguarDF - Test testMath209(org.apache.commons.math.linear.RealMatrixImplTest) : Failed
+20:46:16.264 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	16m52.925s
+user	17m22.307s
+sys	0m13.053s

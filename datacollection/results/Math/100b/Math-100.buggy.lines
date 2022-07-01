@@ -1,0 +1,6 @@
+org/apache/commons/csv/CSVFormat.java#1189#                if (newRecord && (c < 0x20 || c > 0x21 && c < 0x23 || c > 0x2B && c < 0x2D || c > 0x7E)) {
+org/apache/commons/csv/CSVFormat.java#1190#                    quote = true;
+org/apache/commons/csv/CSVFormat.java#1191#                } else if (c <= COMMENT) {
+org/apache/commons/math/estimation/AbstractEstimator.java#166#        final int cols = problem.getAllParameters().length;
+org/apache/commons/math/estimation/AbstractEstimator.java#202#        int p = problem.getAllParameters().length;
+org/apache/commons/math/estimation/AbstractEstimator.java#207#        double[] errors = new double[problem.getAllParameters().length];

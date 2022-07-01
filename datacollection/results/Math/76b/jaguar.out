@@ -1,0 +1,9 @@
+23:42:08.715 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+23:42:08.901 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+00:00:33.484 [main] INFO  JaguarDF - Test testMath320A(org.apache.commons.math.linear.SingularValueSolverTest) : Failed
+00:00:35.499 [main] INFO  JaguarDF - Test testMath320B(org.apache.commons.math.linear.SingularValueSolverTest) : Failed
+00:52:39.620 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	70m31.780s
+user	71m34.838s
+sys	0m45.245s

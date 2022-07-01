@@ -1,0 +1,138 @@
+[
+    [
+        "com.fasterxml.jackson.core.io.IOContext%_verifyAlloc#6@0$(269,(269,269), buffer)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.io.IOContext%_verifyRelease#7@0$(274,274, this)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.io.IOContext%_verifyRelease#7@1$(274,(274,274), toRelease)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.io.IOContext%_verifyRelease#7@3$(274,(274,274), toRelease)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.io.IOContext%_verifyRelease#7@5$(274,(274,274), src)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.io.IOContext%_verifyRelease#7@7$(274,(274,274), src)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@1$(90,96, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@15$(92,96, minSize)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@19$(94,(95,96), buffer)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@23$(96,100, buffer)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@0$(90,94, this)",
+        [
+            0.007751937984496124,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@3$(90,94, ix)",
+        [
+            0.007751937984496124,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@5$(90,(91,92), minSize)",
+        [
+            0.007751937984496124,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@10$(90,94, this._byteBuffers)",
+        [
+            0.007751937984496124,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@12$(90,(91,92), DEF_SIZE)",
+        [
+            0.007751937984496124,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.util.BufferRecycler%allocByteBuffer#0@14$(90,92, DEF_SIZE)",
+        [
+            0.007751937984496124,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.core.io.IOContext%_verifyAlloc#6@1$(269,(269,270), buffer)",
+        [
+            0.0038461538461538464,
+            true,
+            "clear"
+        ]
+    ]
+]

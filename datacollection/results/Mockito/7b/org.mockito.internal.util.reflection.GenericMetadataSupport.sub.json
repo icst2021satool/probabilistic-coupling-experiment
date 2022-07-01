@@ -1,0 +1,59 @@
+{
+"Class" : "org.mockito.internal.util.reflection.GenericMetadataSupport", 
+"Methods" : [{ "Name" : "registerTypeVariablesOn" ,
+"Duas" : "31" ,
+"Subsumers" : 6,
+"0" : [ 24, 22, 18, 16, 5, 0], "S0" : [0, 3, 4, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 18, 21, 22, 24, 27 ],
+"1" : [ 25, 20, 19, 6, 1], "S1" : [1, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 19, 20, 25, 27 ],
+"2" : [ 2], "S2" : [2 ],
+"3" : [ 23, 17], "S3" : [3, 4, 7, 8, 9, 10, 11, 13, 14, 15, 17, 21, 23, 27 ],
+"4" : [ 30, 28, 29, 26], "S4" : [3, 4, 7, 8, 9, 10, 11, 13, 14, 15, 26, 27, 28, 29, 30 ],
+"5" : [ 12], "S5" : [3, 4, 9, 12 ]
+},{ "Name" : "registerTypeParametersOn" ,
+"Duas" : "1" ,
+"Subsumers" : 1,
+"0" : [ 0], "S0" : [0 ]
+},{ "Name" : "registerTypeVariableIfNotPresent" ,
+"Duas" : "9" ,
+"Subsumers" : 2,
+"0" : [ 8, 6, 5, 3, 2, 0], "S0" : [0, 2, 3, 5, 6, 8 ],
+"1" : [ 7, 4, 1], "S1" : [1, 4, 7 ]
+},{ "Name" : "boundsOf" ,
+"Duas" : "5" ,
+"Subsumers" : 2,
+"0" : [ 4, 1, 0], "S0" : [0, 1, 4 ],
+"1" : [ 3, 2], "S1" : [2, 3 ]
+},{ "Name" : "boundsOf" ,
+"Duas" : "5" ,
+"Subsumers" : 2,
+"0" : [ 4, 1, 0], "S0" : [0, 1, 4 ],
+"1" : [ 3, 2], "S1" : [2, 3 ]
+},{ "Name" : "hasRawExtraInterfaces" ,
+"Duas" : "2" ,
+"Subsumers" : 2,
+"0" : [ 0], "S0" : [0 ],
+"1" : [ 1], "S1" : [1 ]
+},{ "Name" : "actualTypeArguments" ,
+"Duas" : "3" ,
+"Subsumers" : 1,
+"0" : [ 2, 0], "S0" : [0, 1, 2 ]
+},{ "Name" : "getActualTypeArgumentFor" ,
+"Duas" : "5" ,
+"Subsumers" : 2,
+"0" : [ 4, 1, 0], "S0" : [0, 1, 4 ],
+"1" : [ 3, 2], "S1" : [2, 3 ]
+},{ "Name" : "resolveGenericReturnType" ,
+"Duas" : "14" ,
+"Subsumers" : 4,
+"0" : [ 12, 9, 3, 0], "S0" : [0, 3, 6, 8, 9, 12 ],
+"1" : [ 7, 4, 1], "S1" : [1, 4, 6, 7 ],
+"2" : [ 11, 10, 2], "S2" : [2, 6, 8, 10, 11 ],
+"3" : [ 13, 5], "S3" : [5, 13 ]
+},{ "Name" : "inferFrom" ,
+"Duas" : "7" ,
+"Subsumers" : 3,
+"0" : [ 6, 0], "S0" : [0, 6 ],
+"1" : [ 5, 2], "S1" : [1, 2, 5 ],
+"2" : [ 4, 3], "S2" : [1, 3, 4 ]
+}]
+}

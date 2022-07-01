@@ -1,0 +1,16 @@
+09:21:01.351 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+09:21:01.475 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/25b, --classesDir, build/classes, --testsDir, build/tests, --tests, /PPgSI/workdir/Time/25b/tests.all, --logLevel, INFO]
+09:30:32.103 [main] INFO  JaguarDF - Test test_DateTime_constructor_Moscow_Autumn(org.joda.time.TestDateTimeZoneCutover) : Failed
+09:32:05.898 [main] INFO  JaguarDF - Test test_getOffsetFromLocal_Moscow_Autumn_overlap_mins(org.joda.time.TestDateTimeZoneCutover) : Failed
+09:32:42.569 [main] INFO  JaguarDF - Test test_getOffsetFromLocal_Moscow_Autumn(org.joda.time.TestDateTimeZoneCutover) : Failed
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+Writing zoneinfo files
+Writing ZoneInfoMap
+11:36:55.197 [main] INFO  JaguarDF - Jaguar-DF has finished!

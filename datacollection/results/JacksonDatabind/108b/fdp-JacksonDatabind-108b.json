@@ -1,0 +1,194 @@
+[
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%_bindAsTree#33@11$(1673,1682, this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%_bindAsTree#33@23$(1673,1682, this._config)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%_bindAsTree#33@39$(1680,(1681,1682), t)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%_bindAsTree#33@18$(1673,1680, p)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%_bindAsTree#33@35$(1678,(1679,1680), t)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%_bindAsTree#33@1$(1673,(1674,1678), this)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%_bindAsTree#33@13$(1673,1678, p)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%_bindAsTree#33@25$(1673,(1674,1678), this._schema)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%with#2@0$(568,(568,569), this)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%with#2@3$(568,569, this)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%with#2@4$(568,(568,569), injectableValues)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%with#2@7$(568,(568,569), this._injectableValues)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.ObjectReader%_prefetchRootDeserializer#44@6$(1972,(1972,1973), valueType)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%useRootWrapping#25@1$(711,(711,714), this)",
+        [
+            0.0007818608287724785,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%useRootWrapping#25@2$(711,714, this)",
+        [
+            0.0007818608287724785,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%useRootWrapping#25@6$(711,(711,714), this._rootName)",
+        [
+            0.0007818608287724785,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%useRootWrapping#25@9$(711,714, UNWRAP_ROOT_VALUE)",
+        [
+            0.0007818608287724785,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%initialize#24@1$(694,(694,697), this)",
+        [
+            0.0007656967840735069,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%initialize#24@3$(694,(697,700), this)",
+        [
+            0.0007656967840735069,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%initialize#24@9$(694,(694,697), this._parserFeaturesToChange)",
+        [
+            0.0007656967840735069,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%initialize#24@13$(694,(697,700), this._formatReadFeaturesToChange)",
+        [
+            0.0007656967840735069,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%isEnabled#26@1$(718,(718,718), this)",
+        [
+            0.0007633587786259542,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%isEnabled#26@3$(718,(718,718), f)",
+        [
+            0.0007633587786259542,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.fasterxml.jackson.databind.DeserializationConfig%isEnabled#26@5$(718,(718,718), this._deserFeatures)",
+        [
+            0.0007633587786259542,
+            true,
+            "clear"
+        ]
+    ]
+]

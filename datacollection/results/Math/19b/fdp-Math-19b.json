@@ -1,0 +1,3898 @@
+[
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@2$(505,(546,561), this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@18$(505,(546,561), this.inputSigma)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@0$(569,(569,570), this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@41$(569,(576,576), this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@44$(569,570, this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@49$(569,(569,570), this.lambda)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@68$(569,570, this.dimension)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@72$(569,(576,576), this.inputSigma)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@76$(570,588, this.lambda)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@77$(570,605, this.lambda)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@78$(570,630, this.lambda)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@39$(569,(575,575), this)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@70$(569,(575,575), this.boundaries)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@1$(913,(913,916), this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@2$(913,918, this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@3$(913,919, this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@4$(913,916, x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@5$(913,(917,918), x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@6$(913,(917,921), x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@7$(913,919, x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@10$(913,(913,916), this.this$0)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@11$(913,918, this.this$0)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@12$(913,919, this.this$0)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@13$(916,921, res)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@14$(916,919, res)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@15$(917,(917,918), i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@17$(917,918, i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@18$(917,919, i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@19$(917,917, i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%encode#0@21$(917,(917,921), i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@1$(939,(939,942), this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@2$(939,944, this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@3$(939,945, this)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@4$(939,942, x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@5$(939,(943,944), x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@6$(939,(943,947), x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@7$(939,945, x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@10$(939,(939,942), this.this$0)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@11$(939,944, this.this$0)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@12$(939,945, this.this$0)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@13$(942,947, res)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@14$(942,945, res)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@15$(943,(943,944), i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@17$(943,944, i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@18$(943,945, i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@19$(943,943, i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%decode#2@21$(943,(943,947), i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@0$(999,(1000,1001), x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@1$(999,(1000,1009), x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@3$(999,(1001,1003), x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@5$(999,(1003,1006), x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@6$(999,1006, x)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@7$(999,1009, repaired)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@8$(999,1006, repaired)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@11$(1000,(1000,1001), i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@14$(1000,(1001,1003), i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@16$(1000,(1003,1006), i)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@17$(1000,1006, i)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@18$(1000,1000, i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction%repair#5@22$(1000,(1000,1009), i)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@14$(505,535, this)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@15$(505,536, this)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@16$(505,537, this)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@36$(506,(521,529), lB)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@37$(506,536, lB)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@42$(507,537, uB)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@66$(519,(529,535), hasInfiniteBounds)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@77$(521,(521,529), i)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@44$(507,(522,521), uB)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@72$(521,(522,521), i)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@73$(521,521, i)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@35$(506,(521,522), lB)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@38$(506,(522,522), lB)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@41$(506,(512,514), lB)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@52$(511,(512,514), i)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@56$(514,(520,521), hasFiniteBounds)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@67$(521,(521,522), i)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@69$(521,(522,522), i)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@8$(313,(315,315), inputSigma)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@2$(569,579, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@3$(569,582, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@4$(569,583, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@5$(569,584, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@6$(569,585, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@7$(569,588, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@8$(569,589, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@9$(569,590, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@10$(569,(593,594), this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@11$(569,(593,598), this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@12$(569,598, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@13$(569,599, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@14$(569,602, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@15$(569,604, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@16$(569,605, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@17$(569,610, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@18$(569,611, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@19$(569,613, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@20$(569,614, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@21$(569,615, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@22$(569,618, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@23$(569,620, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@24$(569,621, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@25$(569,622, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@26$(569,623, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@27$(569,624, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@28$(569,626, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@29$(569,627, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@30$(569,628, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@31$(569,629, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@32$(569,630, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@33$(569,631, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@34$(569,(632,633), this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@35$(569,(632,635), this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@36$(569,633, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@37$(569,594, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@40$(569,575, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@43$(569,576, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@45$(569,573, guess)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@46$(569,(574,575), guess)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@47$(569,(574,578), guess)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@48$(569,618, guess)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@54$(569,602, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@55$(569,604, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@56$(569,605, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@57$(569,610, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@58$(569,611, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@59$(569,613, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@60$(569,614, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@61$(569,615, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@62$(569,622, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@63$(569,623, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@64$(569,626, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@65$(569,627, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@66$(569,628, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@67$(569,630, this.dimension)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@71$(569,575, this.boundaries)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@74$(569,576, this.inputSigma)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@75$(569,605, this.maxIterations)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@79$(573,578, sigmaArray)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@80$(573,576, sigmaArray)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@81$(574,(574,575), i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@83$(574,575, i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@84$(574,576, i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@85$(574,574, i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@86$(575,576, range)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@88$(574,(574,578), i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@92$(578,620, insigma)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@93$(579,620, this.sigma)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@94$(588,(593,594), this.mu)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@95$(588,(593,598), this.mu)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@96$(590,598, this.weights)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@97$(590,594, this.weights)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@100$(591,595, sumw)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@102$(592,596, sumwq)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@103$(593,(593,594), i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@105$(593,594, i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@106$(593,593, i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@107$(595,598, sumw)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@108$(595,599, sumw)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@109$(595,595, sumw)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@110$(596,599, sumwq)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@111$(596,596, sumwq)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@112$(593,(593,594), i)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@113$(593,(593,598), i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@114$(593,594, i)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@115$(593,593, i)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@116$(630,(632,633), this.historySize)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@117$(630,(632,635), this.historySize)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@118$(631,633, this.fitnessHistory)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@119$(632,(632,633), i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@121$(632,633, i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@122$(632,632, i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@123$(632,(632,633), i)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@124$(632,(632,635), i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@125$(632,633, i)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%initializeCMA#3@126$(632,632, i)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@0$(1034,(1035,1036), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@1$(1034,(1035,1040), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@2$(1034,(1036,1037), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@3$(1034,(1036,1035), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@4$(1034,1037, m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@5$(1034,1040, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@6$(1034,1037, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@7$(1035,(1035,1036), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@9$(1035,1035, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@10$(1035,1037, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@11$(1036,(1036,1037), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@13$(1036,1037, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@14$(1036,1036, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@16$(1036,(1036,1035), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@19$(1035,(1035,1036), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@20$(1035,(1035,1040), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@21$(1035,1035, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%log#10@22$(1035,1037, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@0$(1063,(1064,1065), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@1$(1063,(1064,1070), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@2$(1063,(1065,1066), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@3$(1063,(1065,1064), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@4$(1063,1066, m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@5$(1063,1070, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@6$(1063,1067, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@7$(1064,(1064,1065), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@9$(1064,1064, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@10$(1064,1066, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@11$(1064,1067, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@12$(1065,(1065,1066), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@14$(1065,1066, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@15$(1065,1067, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@16$(1065,1065, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@18$(1065,(1065,1064), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%square#12@23$(1064,(1064,1070), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@0$(1079,(1080,1081), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@1$(1079,(1080,1085), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@2$(1079,(1081,1082), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@3$(1079,(1081,1080), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@4$(1079,1082, m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@5$(1079,1082, n)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@6$(1079,1085, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@7$(1079,1082, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@8$(1080,(1080,1081), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@10$(1080,1080, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@11$(1080,1082, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@12$(1081,(1081,1082), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@14$(1081,1082, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@15$(1081,1081, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@17$(1081,(1081,1080), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%times#13@21$(1080,(1080,1085), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@0$(1155,(1155,1156), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@6$(1155,1156, m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@7$(1155,(1157,1158), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@8$(1155,(1157,1160), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@9$(1155,1158, m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@10$(1156,1160, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@11$(1156,1158, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@12$(1157,(1157,1158), i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@14$(1157,1158, i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@15$(1157,1157, i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%diag#18@17$(1157,(1157,1160), i)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%ones#20@0$(1190,(1191,1192), n)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%ones#20@1$(1190,(1191,1194), n)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%ones#20@2$(1190,1194, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%ones#20@3$(1190,1192, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%ones#20@4$(1191,(1191,1192), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%ones#20@6$(1191,1192, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%ones#20@7$(1191,1191, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%ones#20@9$(1191,(1191,1194), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@0$(1203,(1204,1205), n)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@1$(1203,(1204,1209), n)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@2$(1203,(1205,1206), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@4$(1203,1209, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@5$(1203,1206, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@6$(1204,(1204,1205), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@8$(1204,(1205,1206), r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@10$(1204,1204, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@11$(1204,1206, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%eye#21@13$(1204,(1204,1209), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@0$(1228,1233, mat)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@1$(1228,(1231,1232), n)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@2$(1228,(1231,1236), n)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@3$(1228,(1232,1233), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@4$(1228,(1232,1231), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@5$(1228,(1231,1232), rd)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@6$(1228,(1231,1236), rd)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@7$(1228,1233, rd)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@8$(1229,(1232,1233), cd)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@9$(1229,(1232,1231), cd)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@10$(1229,1233, cd)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@11$(1230,1236, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@12$(1230,1233, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@13$(1231,(1231,1232), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@15$(1231,1231, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@16$(1231,1233, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@17$(1232,(1232,1233), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@19$(1232,1233, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@20$(1232,1232, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@22$(1232,(1232,1231), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%repmat#22@26$(1231,(1231,1236), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@0$(1246,1251, step)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@1$(1246,(1249,1250), size)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@2$(1246,(1249,1253), size)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@3$(1247,1253, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@4$(1247,1250, d)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@5$(1248,1250, value)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@6$(1248,1251, value)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@7$(1249,(1249,1250), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@9$(1249,1250, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@10$(1249,1249, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@11$(1251,1250, value)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@12$(1251,1251, value)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@13$(1249,(1249,1250), r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@14$(1249,(1249,1253), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@15$(1249,1250, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%sequence#23@16$(1249,1249, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@0$(1261,(1262,1263), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@1$(1261,(1262,1270), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@2$(1261,(1263,1264), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@3$(1261,(1263,1262), m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@4$(1261,1264, m)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@6$(1261,(1265,1266), max)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@8$(1262,(1262,1263), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@10$(1262,1262, r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@11$(1262,1264, r)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@12$(1263,(1263,1264), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@14$(1263,1264, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@15$(1263,1263, c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@16$(1264,(1265,1266), e)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@18$(1264,1266, e)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@19$(1266,1270, max)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@23$(1263,(1263,1262), c)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%max#24@27$(1262,(1262,1270), r)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@1$(339,(339,342), columnData)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@2$(339,342, columnData)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@3$(339,345, columnData)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@4$(342,(344,345), nRows)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@5$(342,(344,347), nRows)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@6$(343,347, m)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@7$(343,345, m)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@8$(344,(344,345), i)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@10$(344,345, i)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@11$(344,344, i)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createColumnRealMatrix#12@13$(344,(344,347), i)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@0$(112,117, this)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@1$(112,117, d)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@2$(112,(115,116), rowCount)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@3$(112,(115,121), rowCount)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@4$(113,(116,117), columnCount)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@5$(113,(116,115), columnCount)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@6$(114,121, out)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@7$(114,117, out)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@8$(115,(115,116), row)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@10$(115,115, row)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@11$(115,117, row)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@12$(116,(116,117), col)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@14$(116,117, col)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@15$(116,116, col)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@17$(116,(116,115), col)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@20$(115,(115,116), row)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@21$(115,(115,121), row)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@22$(115,115, row)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarAdd#3@23$(115,117, row)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@0$(3221,(3221,3221), d)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@3$(3221,(3223,3225), d)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@5$(3221,(3225,3227), d)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@7$(3221,(3227,3233), d)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@8$(3221,3233, d)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@10$(3221,(3235,3235), d)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@14$(3221,(3221,3223), direction)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@16$(3221,(3223,3225), direction)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@18$(3221,(3235,3235), direction)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@23$(3233,3236, bits)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@24$(3234,(3235,3235), sign)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%nextAfter#36@27$(3234,3236, sign)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@25$(116,(116,121), r)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@0$(126,131, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@1$(126,131, d)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@2$(126,(129,130), rowCount)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@3$(126,(129,135), rowCount)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@4$(127,(130,131), columnCount)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@5$(127,(130,129), columnCount)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@6$(128,135, out)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@7$(128,131, out)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@8$(129,(129,130), row)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@10$(129,129, row)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@11$(129,131, row)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@12$(130,(130,131), col)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@14$(130,131, col)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@15$(130,130, col)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@17$(130,(130,129), col)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@20$(129,(129,130), row)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@21$(129,(129,135), row)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@22$(129,129, row)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%scalarMultiply#4@23$(129,131, row)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@33$(506,(511,512), lB)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%checkParameters#2@49$(511,(511,512), i)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@0$(313,315, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@1$(313,316, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@2$(313,317, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@3$(313,318, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@4$(313,319, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@5$(313,320, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@6$(313,321, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@7$(313,322, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@10$(313,315, inputSigma)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@11$(313,316, maxIterations)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@12$(313,317, stopFitness)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@13$(313,318, isActiveCMA)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@14$(313,319, diagonalOnly)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@15$(313,320, checkFeasableCount)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@16$(313,321, random)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizer%<init>#0@17$(313,322, generateStatistics)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createRealMatrix#0@0$(81,(81,81), rows)",
+        [
+            0.01020408163265306,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createRealMatrix#0@3$(81,81, rows)",
+        [
+            0.01020408163265306,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createRealMatrix#0@4$(81,(81,81), columns)",
+        [
+            0.01020408163265306,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%createRealMatrix#0@7$(81,81, columns)",
+        [
+            0.01020408163265306,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@0$(141,151, this)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@1$(141,151, m)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@2$(143,(147,148), nRows)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@3$(143,(147,157), nRows)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@4$(144,(148,149), nCols)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@5$(144,(148,147), nCols)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@6$(145,(150,151), nSum)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@7$(145,(150,153), nSum)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@8$(146,157, out)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@9$(146,153, out)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@10$(147,(147,148), row)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@12$(147,147, row)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@13$(147,153, row)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@14$(147,151, row)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@15$(148,(148,149), col)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@17$(148,153, col)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@18$(148,148, col)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@19$(148,151, col)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@21$(149,151, sum)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@22$(150,(150,151), i)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@24$(150,151, i)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@25$(150,150, i)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@26$(151,153, sum)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@29$(150,(150,153), i)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@33$(148,(148,147), col)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%multiply#5@38$(147,(147,157), row)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@8$(101,(117,116), d)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@17$(108,(116,117), nRows)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@22$(112,(117,116), nCols)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@24$(116,(116,117), r)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@27$(116,(117,116), r)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@28$(116,116, r)",
+        [
+            0.010101010101010102,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@31$(116,(116,121), r)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@0$(101,121, this)",
+        [
+            0.00980392156862745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@3$(101,(105,108), d)",
+        [
+            0.00980392156862745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@4$(101,108, d)",
+        [
+            0.00980392156862745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@5$(101,112, d)",
+        [
+            0.00980392156862745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@6$(101,121, d)",
+        [
+            0.00980392156862745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@12$(101,(102,105), copyArray)",
+        [
+            0.00980392156862745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@16$(108,(109,112), nRows)",
+        [
+            0.00980392156862745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@18$(108,(116,121), nRows)",
+        [
+            0.00980392156862745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%<init>#0@20$(112,(113,116), nCols)",
+        [
+            0.00980392156862745,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%checkMultiplicationCompatible#20@1$(541,(541,545), left)",
+        [
+            0.008,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%checkMultiplicationCompatible#20@4$(541,(541,545), right)",
+        [
+            0.008,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@0$(406,410, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@1$(406,415, visitor)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@2$(406,412, visitor)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@3$(406,410, this.data)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@4$(406,(409,410), rows)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@5$(406,(409,415), rows)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@6$(407,(411,412), columns)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@7$(407,(411,409), columns)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@8$(409,(409,410), i)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@10$(409,410, i)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@11$(409,409, i)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@12$(409,412, i)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@13$(410,412, rowI)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@14$(411,(411,412), j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@16$(411,412, j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@17$(411,411, j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@19$(411,(411,409), j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%walkInRowOrder#11@23$(409,(409,415), i)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.exception.util.ArgUtils%flatten#0@10$(44,(44,54), i$)",
+        [
+            0.004149377593360996,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getRowDimension#6@1$(335,(335,335), this)",
+        [
+            0.002857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getRowDimension#6@2$(335,335, this)",
+        [
+            0.002857142857142857,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getRowDimension#6@4$(335,(335,335), this.data)",
+        [
+            0.002857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getRowDimension#6@5$(335,335, this.data)",
+        [
+            0.002857142857142857,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getColumnDimension#7@0$(341,(341,341), this)",
+        [
+            0.002849002849002849,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getColumnDimension#7@2$(341,341, this)",
+        [
+            0.002849002849002849,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getColumnDimension#7@4$(341,(341,341), this)",
+        [
+            0.002849002849002849,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getColumnDimension#7@5$(341,(341,341), this.data)",
+        [
+            0.002849002849002849,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getColumnDimension#7@7$(341,341, this.data)",
+        [
+            0.002849002849002849,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.Array2DRowRealMatrix%getColumnDimension#7@9$(341,(341,341), this.data)",
+        [
+            0.002849002849002849,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%<init>#0@1$(67,(68,71), rowDimension)",
+        [
+            0.0024390243902439024,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.AbstractRealMatrix%<init>#0@4$(67,(71,74), columnDimension)",
+        [
+            0.0024390243902439024,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%checkRowIndex#14@2$(402,(402,407), m)",
+        [
+            0.002398081534772182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%checkRowIndex#14@3$(402,(402,402), row)",
+        [
+            0.002398081534772182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%checkRowIndex#14@7$(402,(402,407), row)",
+        [
+            0.002398081534772182,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%checkColumnIndex#15@2$(418,(418,422), m)",
+        [
+            0.0023923444976076554,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%checkColumnIndex#15@3$(418,(418,418), column)",
+        [
+            0.0023923444976076554,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.linear.MatrixUtils%checkColumnIndex#15@7$(418,(418,422), column)",
+        [
+            0.0023923444976076554,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.Incrementor%incrementCount#3@1$(155,(155,158), this)",
+        [
+            0.0019569471624266144,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.Incrementor%incrementCount#3@4$(155,(155,158), this.maximalCount)",
+        [
+            0.0019569471624266144,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.Incrementor%incrementCount#3@8$(155,(155,158), this.count)",
+        [
+            0.0019569471624266144,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.Incrementor%<init>#0@0$(80,84, this)",
+        [
+            0.0017667844522968198,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.Incrementor%<init>#0@1$(80,85, this)",
+        [
+            0.0017667844522968198,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.Incrementor%<init>#0@2$(80,84, max)",
+        [
+            0.0017667844522968198,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.Incrementor%<init>#0@4$(80,(81,84), cb)",
+        [
+            0.0017667844522968198,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.Incrementor%<init>#0@5$(80,85, cb)",
+        [
+            0.0017667844522968198,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.exception.util.ArgUtils%flatten#0@0$(42,(43,44), array)",
+        [
+            0.00129366106080207,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.exception.util.ArgUtils%flatten#0@2$(42,44, array)",
+        [
+            0.00129366106080207,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.exception.util.ArgUtils%flatten#0@3$(42,54, list)",
+        [
+            0.00129366106080207,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.exception.util.ArgUtils%flatten#0@8$(44,(44,54), len$)",
+        [
+            0.00129366106080207,
+            false,
+            "clear"
+        ]
+    ]
+]

@@ -1,0 +1,9 @@
+21:09:02.097 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+21:09:02.399 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+21:35:23.788 [main] INFO  JaguarDF - Test testMinimizeMaximize(org.apache.commons.math.optimization.direct.MultiDirectionalTest) : Failed
+21:35:27.081 [main] INFO  JaguarDF - Test testMath283(org.apache.commons.math.optimization.direct.MultiDirectionalTest) : Failed
+22:16:41.556 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	67m40.520s
+user	69m2.107s
+sys	0m35.820s

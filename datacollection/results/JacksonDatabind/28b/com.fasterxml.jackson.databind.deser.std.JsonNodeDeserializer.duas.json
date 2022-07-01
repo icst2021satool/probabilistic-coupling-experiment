@@ -1,0 +1,23 @@
+{
+"Class" : "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer", 
+"Methods" : [{ "Name" : "getDeserializer" ,
+"Duas" : 5,
+"0" :  "(32,(32,33), nodeClass)",
+"1" :  "(32,(32,35), nodeClass)",
+"2" :  "(32,(35,36), nodeClass)",
+"3" :  "(32,(35,39), nodeClass)",
+"4" :  "(32,39, instance)"},{ "Name" : "deserialize" ,
+"Duas" : 12,
+"0" :  "(67,71, this)",
+"1" :  "(67,69, this)",
+"2" :  "(67,73, this)",
+"3" :  "(67,(67,73), p)",
+"4" :  "(67,(67,69), p)",
+"5" :  "(67,(67,71), p)",
+"6" :  "(67,71, p)",
+"7" :  "(67,69, p)",
+"8" :  "(67,73, p)",
+"9" :  "(67,71, ctxt)",
+"10" :  "(67,69, ctxt)",
+"11" :  "(67,73, ctxt)"}]
+}

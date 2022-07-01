@@ -1,0 +1,22 @@
+{
+"Class" : "org.apache.commons.math.distribution.PoissonDistributionImpl", 
+"Methods" : [{ "Name" : "<init>" ,
+"Duas" : "12" ,
+"Subsumers" : 2,
+"0" : [ 10, 9, 6, 7, 5, 0, 1, 2, 3], "S0" : [0, 1, 2, 3, 5, 6, 7, 9, 10 ],
+"1" : [ 11, 8, 4], "S1" : [4, 8, 11 ]
+},{ "Name" : "probability" ,
+"Duas" : "14" ,
+"Subsumers" : 4,
+"0" : [ 13, 9, 8, 7, 0], "S0" : [0, 2, 5, 7, 8, 9, 13 ],
+"1" : [ 12, 10, 6, 1], "S1" : [1, 2, 5, 6, 10, 12 ],
+"2" : [ 4], "S2" : [2, 4, 11 ],
+"3" : [ 3], "S3" : [3, 11 ]
+},{ "Name" : "cumulativeProbability" ,
+"Duas" : "9" ,
+"Subsumers" : 3,
+"0" : [ 8, 7, 6, 5, 4, 0], "S0" : [0, 2, 4, 5, 6, 7, 8 ],
+"1" : [ 1], "S1" : [1 ],
+"2" : [ 3], "S2" : [2, 3 ]
+}]
+}

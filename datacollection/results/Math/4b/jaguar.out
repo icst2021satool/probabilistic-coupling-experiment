@@ -1,0 +1,22 @@
+22:46:52.666 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+22:46:53.465 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.addExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.addExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.multiplyExact(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.multiplyExact(long,long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.subtractExact(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.subtractExact(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.toIntExact(long)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorDiv(long,long)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorDiv(int,int)
+Cannot find FastMath method corresponding to: public static int java.lang.StrictMath.floorMod(int,int)
+Cannot find FastMath method corresponding to: public static long java.lang.StrictMath.floorMod(long,long)
+Cannot find FastMath method corresponding to: public static float java.lang.StrictMath.nextDown(float)
+Cannot find FastMath method corresponding to: public static double java.lang.StrictMath.nextDown(double)
+23:40:10.997 [main] INFO  JaguarDF - Test testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest) : Failed
+23:45:56.480 [main] INFO  JaguarDF - Test testIntersectionParallel(org.apache.commons.math3.geometry.euclidean.twod.SubLineTest) : Failed
+08:05:19.430 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	558m30.352s
+user	554m25.531s
+sys	2m51.294s

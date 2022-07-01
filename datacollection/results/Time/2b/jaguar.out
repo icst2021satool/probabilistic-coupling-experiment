@@ -1,0 +1,14 @@
+03:20:53.983 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+03:20:54.137 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Time/2b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Time/2b/tests.all, --logLevel, INFO]
+04:39:19.882 [main] INFO  JaguarDF - Test testWith_baseAndArgHaveNoRange(org.joda.time.TestPartial_Basics) : Failed
+
+TestBuddhistChronology.testCalendar
+
+TestCopticChronology.testCalendar
+
+TestEthiopicChronology.testCalendar
+
+TestIslamicChronology.testCalendar
+Writing zoneinfo files
+Writing ZoneInfoMap
+05:55:24.220 [main] INFO  JaguarDF - Jaguar-DF has finished!

@@ -1,0 +1,48 @@
+JUnit version 4.12
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Time: 6.617
+There was 1 failure:
+1) testC3P0Types(com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest)
+junit.framework.AssertionFailedError: Expected an exception with one of substrings ([Illegal type]): got one with message "Can not instantiate value of type [simple type, class com.mchange.v2.c3p0.jacksontest.ComboPooledDataSource] from String value ('/tmp/foobar.txt'); no single-String constructor/factory method
+ at [Source: {"v":["com.mchange.v2.c3p0.jacksontest.ComboPooledDataSource","/tmp/foobar.txt"]}; line: 1, column: 63] (through reference chain: com.fasterxml.jackson.databind.interop.PolyWrapper["v"])"
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at com.fasterxml.jackson.databind.BaseTest.verifyException(BaseTest.java:368)
+	at com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest._verifyException(IllegalTypesCheckTest.java:156)
+	at com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest._verifySecurityException(IllegalTypesCheckTest.java:140)
+	at com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest._testIllegalType(IllegalTypesCheckTest.java:133)
+	at com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest._testIllegalType(IllegalTypesCheckTest.java:119)
+	at com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest.testC3P0Types(IllegalTypesCheckTest.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+FAILURES!!!
+Tests run: 1581,  Failures: 1
+
+
+real	0m8.322s
+user	0m20.969s
+sys	0m1.510s

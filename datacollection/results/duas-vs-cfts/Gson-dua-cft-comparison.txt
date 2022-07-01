@@ -1,0 +1,3494 @@
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033[1;33m'
++ YELLOW='\033[1;33m'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly START=1
++ START=1
++ readonly END=18
++ END=18
++ readonly COVERAGEZIP=
++ COVERAGEZIP=
++ readonly DATAGEN=
++ DATAGEN=
++ readonly COPYFAULTYSRC=
++ COPYFAULTYSRC=
++ readonly CLEANUP=
++ CLEANUP=
++ main
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 1 ']'
++ '[' -z 18 ']'
+++ cat projects.d4j
+++ grep Gson
+++ xargs
+++ sed s/Gson//g
++ local project_dir=gson
++ '[' -z gson ']'
++ prepare_and_run_project_file gson
++ local project_dir=gson
++ local subsumption_dir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson
++ local results_dir=/stvr/probabilistic-coupling-experiment/datacollection/results/Gson
++ local coverage_zip_file=/stvr/probabilistic-coupling-experiment/datacollection/coverage/Gson/
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ echo /stvr/probabilistic-coupling-experiment/datacollection/coverage/Gson/
+/stvr/probabilistic-coupling-experiment/datacollection/coverage/Gson/
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson ']'
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce
++ local 'filesdir=gson/*'
++ (( i = 1  ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 1b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=1b
++ VERSION=1b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 1b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=1b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/1b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/1b
++ echo -e '\033[Gson 1b] checkout\033[0m'
+[Gson 1b] checkout[0m
++ defects4j checkout -p Gson -v 1b -w d4jprojects/gson/1b
+Checking out c6a4f55d to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff c6a4f55d:4413c299..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-1b......................................... OK
++ cd d4jprojects/gson/1b
++ echo -e '\033[Gson 1b] compiling\033[0m'
+[Gson 1b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 1b] running tests\033[0m'
+[Gson 1b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.TypeVariableTest::testSingle
++ echo -e '\033[0;32m[Gson 1b] checkout done\033[0m'
+[0;32m[Gson 1b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=1b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/1b/target/classes
++ JAVADIR=gson/1b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/1b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/1b/target/classes
+gson/1b/target/classes
++ echo gson/1b/gson/src/main/java
+gson/1b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/1b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/1b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/1b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/1b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/1b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/1b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/1b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/1b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/1b
+
+real	0m1.593s
+user	0m4.567s
+sys	0m0.141s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/1b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/1b
+
+real	0m1.250s
+user	0m3.673s
+sys	0m0.177s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/1b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/1b
+
+real	0m1.234s
+user	0m3.575s
+sys	0m0.168s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/1b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/1b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/1b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/1b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 1b
+++ sed s/b//g
+++ xargs
++ leanversion=1
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 1 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/1b
+Checking out c6a4f55d to /tmp/get_buggy_lines_9226/Gson-1.................. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff c6a4f55d:4413c299..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-1f......................................... OK
+Check out program version: Gson-1f......................................... OK
+Check out program version: Gson-1b......................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 1b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 1b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/1b/fdp-dua-cft-comparison-1b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-1b;clear;1.0;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/1b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 2b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=2b
++ VERSION=2b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 2b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=2b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/2b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/2b
++ echo -e '\033[Gson 2b] checkout\033[0m'
+[Gson 2b] checkout[0m
++ defects4j checkout -p Gson -v 2b -w d4jprojects/gson/2b
+Checking out fe101c10 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff fe101c10:10714ef0..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-2b......................................... OK
++ cd d4jprojects/gson/2b
++ echo -e '\033[Gson 2b] compiling\033[0m'
+[Gson 2b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 2b] running tests\033[0m'
+[Gson 2b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementTypeMismatch
++ echo -e '\033[0;32m[Gson 2b] checkout done\033[0m'
+[0;32m[Gson 2b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=2b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/2b/target/classes
++ JAVADIR=gson/2b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/2b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/2b/target/classes
+gson/2b/target/classes
++ echo gson/2b/gson/src/main/java
+gson/2b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/2b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/2b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/2b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/2b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/2b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/2b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/2b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/2b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/2b
+
+real	0m3.381s
+user	0m9.987s
+sys	0m0.284s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/2b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/2b
+
+real	0m1.528s
+user	0m4.502s
+sys	0m0.205s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/2b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/2b
+
+real	0m1.566s
+user	0m4.594s
+sys	0m0.177s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/2b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/2b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/2b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/2b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 2b
+++ sed s/b//g
+++ xargs
++ leanversion=2
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 2 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/2b
+Checking out fe101c10 to /tmp/get_buggy_lines_9573/Gson-2.................. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff fe101c10:10714ef0..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-2f......................................... OK
+Check out program version: Gson-2f......................................... OK
+Check out program version: Gson-2b......................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 2b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 2b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/2b/fdp-dua-cft-comparison-2b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-2b;clear;0.0769;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/2b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 3b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=3b
++ VERSION=3b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 3b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=3b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/3b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/3b
++ echo -e '\033[Gson 3b] checkout\033[0m'
+[Gson 3b] checkout[0m
++ defects4j checkout -p Gson -v 3b -w d4jprojects/gson/3b
+Checking out 64107353 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 64107353:9e5f86d1..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-3b......................................... OK
++ cd d4jprojects/gson/3b
++ echo -e '\033[Gson 3b] compiling\033[0m'
+[Gson 3b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 3b] running tests\033[0m'
+[Gson 3b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.functional.MapTest::testConcurrentMap
+  - com.google.gson.functional.MapTest::testConcurrentNavigableMap
++ echo -e '\033[0;32m[Gson 3b] checkout done\033[0m'
+[0;32m[Gson 3b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=3b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/3b/target/classes
++ JAVADIR=gson/3b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/3b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/3b/target/classes
+gson/3b/target/classes
++ echo gson/3b/gson/src/main/java
+gson/3b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/3b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/3b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/3b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/3b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/3b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/3b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/3b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/3b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/3b
+
+real	0m3.826s
+user	0m11.199s
+sys	0m0.349s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/3b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/3b
+
+real	0m1.419s
+user	0m4.221s
+sys	0m0.176s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/3b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/3b
+
+real	0m1.415s
+user	0m4.238s
+sys	0m0.152s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/3b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/3b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/3b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/3b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 3b
+++ xargs
+++ sed s/b//g
++ leanversion=3
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 3 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/3b
+Checking out 64107353 to /tmp/get_buggy_lines_9900/Gson-3.................. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 64107353:9e5f86d1..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-3f......................................... OK
+Check out program version: Gson-3f......................................... OK
+Check out program version: Gson-3b......................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 3b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 3b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/3b/fdp-dua-cft-comparison-3b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-3b;clear;0.5;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/3b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 4b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=4b
++ VERSION=4b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 4b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=4b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/4b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/4b
++ echo -e '\033[Gson 4b] checkout\033[0m'
+[Gson 4b] checkout[0m
++ defects4j checkout -p Gson -v 4b -w d4jprojects/gson/4b
+Checking out af68d70c to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff af68d70c:2ab776b5..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-4b......................................... OK
++ cd d4jprojects/gson/4b
++ echo -e '\033[Gson 4b] compiling\033[0m'
+[Gson 4b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 4b] running tests\033[0m'
+[Gson 4b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypeWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+  - com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
++ echo -e '\033[0;32m[Gson 4b] checkout done\033[0m'
+[0;32m[Gson 4b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=4b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/4b/target/classes
++ JAVADIR=gson/4b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/4b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/4b/target/classes
+gson/4b/target/classes
++ echo gson/4b/gson/src/main/java
+gson/4b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/4b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/4b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/4b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/4b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/4b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/4b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/4b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/4b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/4b
+
+real	0m4.844s
+user	0m14.328s
+sys	0m0.224s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/4b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/4b
+
+real	0m1.642s
+user	0m4.862s
+sys	0m0.213s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/4b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/4b
+
+real	0m1.607s
+user	0m4.796s
+sys	0m0.152s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/4b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/4b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/4b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/4b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 4b
+++ sed s/b//g
+++ xargs
++ leanversion=4
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 4 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/4b
+Checking out af68d70c to /tmp/get_buggy_lines_10227/Gson-4................. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff af68d70c:2ab776b5..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-4f......................................... OK
+Check out program version: Gson-4f......................................... OK
+Check out program version: Gson-4b......................................... OK
+Check out program version: Gson-4f......................................... OK
+Check out program version: Gson-4b......................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 4b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 4b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/4b/fdp-dua-cft-comparison-4b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-4b;clear;1.0;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/4b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 5b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=5b
++ VERSION=5b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 5b ']'
+++ cat projects.d4j
+++ grep Gson
+++ xargs
+++ sed s/Gson//g
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=5b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/5b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/5b
++ echo -e '\033[Gson 5b] checkout\033[0m'
+[Gson 5b] checkout[0m
++ defects4j checkout -p Gson -v 5b -w d4jprojects/gson/5b
+Checking out 8383f5c7 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 8383f5c7:af68d70c..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-5b......................................... OK
++ cd d4jprojects/gson/5b
++ echo -e '\033[Gson 5b] compiling\033[0m'
+[Gson 5b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 5b] running tests\033[0m'
+[Gson 5b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601
++ echo -e '\033[0;32m[Gson 5b] checkout done\033[0m'
+[0;32m[Gson 5b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=5b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/5b/target/classes
++ JAVADIR=gson/5b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/5b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/5b/target/classes
+gson/5b/target/classes
++ echo gson/5b/gson/src/main/java
+gson/5b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/5b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/5b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/5b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/5b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/5b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/5b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/5b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/5b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/5b
+
+real	0m4.431s
+user	0m13.111s
+sys	0m0.317s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/5b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/5b
+
+real	0m1.661s
+user	0m4.871s
+sys	0m0.216s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/5b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/5b
+
+real	0m1.673s
+user	0m4.863s
+sys	0m0.203s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/5b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/5b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/5b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/5b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 5b
+++ sed s/b//g
+++ xargs
++ leanversion=5
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 5 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/5b
+Checking out 8383f5c7 to /tmp/get_buggy_lines_10596/Gson-5................. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 8383f5c7:af68d70c..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-5f......................................... OK
+Check out program version: Gson-5f......................................... OK
+Check out program version: Gson-5b......................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 5b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 5b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/5b/fdp-dua-cft-comparison-5b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-5b;clear;1.0;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/5b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 6b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=6b
++ VERSION=6b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 6b ']'
+++ cat projects.d4j
+++ grep Gson
+++ xargs
+++ sed s/Gson//g
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=6b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/6b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/6b
++ echo -e '\033[Gson 6b] checkout\033[0m'
+[Gson 6b] checkout[0m
++ defects4j checkout -p Gson -v 6b -w d4jprojects/gson/6b
+Checking out dea30550 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff dea30550:67bd3a2c..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-6b......................................... OK
++ cd d4jprojects/gson/6b
++ echo -e '\033[Gson 6b] compiling\033[0m'
+[Gson 6b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 6b] running tests\033[0m'
+[Gson 6b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugDeserialize
+  - com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugSerialize
++ echo -e '\033[0;32m[Gson 6b] checkout done\033[0m'
+[0;32m[Gson 6b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=6b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/6b/target/classes
++ JAVADIR=gson/6b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/6b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/6b/target/classes
+gson/6b/target/classes
++ echo gson/6b/gson/src/main/java
+gson/6b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/6b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/6b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/6b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/6b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/6b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/6b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/6b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/6b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/6b
+
+real	0m4.384s
+user	0m12.851s
+sys	0m0.352s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/6b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/6b
+
+real	0m1.647s
+user	0m4.890s
+sys	0m0.176s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/6b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/6b
+
+real	0m1.490s
+user	0m4.401s
+sys	0m0.161s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/6b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/6b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/6b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/6b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 6b
+++ sed s/b//g
+++ xargs
++ leanversion=6
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 6 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/6b
+Checking out dea30550 to /tmp/get_buggy_lines_10919/Gson-6................. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff dea30550:67bd3a2c..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-6f......................................... OK
+Check out program version: Gson-6f......................................... OK
+Check out program version: Gson-6b......................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 6b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 6b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/6b/fdp-dua-cft-comparison-6b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-6b;clear;0.0085;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/6b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 7b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=7b
++ VERSION=7b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 7b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=7b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/7b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/7b
++ echo -e '\033[Gson 7b] checkout\033[0m'
+[Gson 7b] checkout[0m
++ defects4j checkout -p Gson -v 7b -w d4jprojects/gson/7b
+Checking out 2b08c88c to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 2b08c88c:a02f5757..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-7b......................................... OK
++ cd d4jprojects/gson/7b
++ echo -e '\033[Gson 7b] compiling\033[0m'
+[Gson 7b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 7b] running tests\033[0m'
+[Gson 7b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedLongKeys
+  - com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedIntegerKeys
+  - com.google.gson.stream.JsonReaderTest::testPeekingUnquotedStringsPrefixedWithIntegers
++ echo -e '\033[0;32m[Gson 7b] checkout done\033[0m'
+[0;32m[Gson 7b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=7b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/7b/target/classes
++ JAVADIR=gson/7b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/7b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/7b/target/classes
+gson/7b/target/classes
++ echo gson/7b/gson/src/main/java
+gson/7b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/7b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/7b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/7b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/7b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/7b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/7b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/7b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/7b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/7b
+
+real	0m3.698s
+user	0m10.928s
+sys	0m0.285s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/7b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/7b
+
+real	0m1.698s
+user	0m4.991s
+sys	0m0.221s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/7b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/7b
+
+real	0m1.521s
+user	0m4.431s
+sys	0m0.164s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/7b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/7b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/7b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/7b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 7b
+++ sed s/b//g
+++ xargs
++ leanversion=7
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 7 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/7b
+Checking out 2b08c88c to /tmp/get_buggy_lines_11247/Gson-7................. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 2b08c88c:a02f5757..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-7f......................................... OK
+Check out program version: Gson-7f......................................... OK
+Check out program version: Gson-7b......................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 7b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 7b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/7b/fdp-dua-cft-comparison-7b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-7b;clear;0.3333;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/7b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 8b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=8b
++ VERSION=8b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 8b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=8b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/8b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/8b
++ echo -e '\033[Gson 8b] checkout\033[0m'
+[Gson 8b] checkout[0m
++ defects4j checkout -p Gson -v 8b -w d4jprojects/gson/8b
+Checking out 0f66f4fa to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 0f66f4fa:6f6af805..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-8b......................................... OK
++ cd d4jprojects/gson/8b
++ echo -e '\033[Gson 8b] compiling\033[0m'
+[Gson 8b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 8b] running tests\033[0m'
+[Gson 8b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.internal.UnsafeAllocatorInstantiationTest::testInterfaceInstantiation
+  - com.google.gson.internal.UnsafeAllocatorInstantiationTest::testAbstractClassInstantiation
++ echo -e '\033[0;32m[Gson 8b] checkout done\033[0m'
+[0;32m[Gson 8b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=8b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/8b/target/classes
++ JAVADIR=gson/8b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/8b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/8b/target/classes
+gson/8b/target/classes
++ echo gson/8b/gson/src/main/java
+gson/8b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/8b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/8b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/8b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/8b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/8b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/8b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/8b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/8b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/8b
+
+real	0m4.420s
+user	0m13.047s
+sys	0m0.323s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/8b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/8b
+
+real	0m1.632s
+user	0m4.808s
+sys	0m0.207s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/8b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/8b
+
+real	0m1.587s
+user	0m4.663s
+sys	0m0.204s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/8b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/8b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/8b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/8b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 8b
+++ sed s/b//g
+++ xargs
++ leanversion=8
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 8 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/8b
+Checking out 0f66f4fa to /tmp/get_buggy_lines_11582/Gson-8................. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 0f66f4fa:6f6af805..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-8f......................................... OK
+Check out program version: Gson-8f......................................... OK
+Check out program version: Gson-8b......................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 8b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 8b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/8b/fdp-dua-cft-comparison-8b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-8b;notclear;0.0;0.0;0.0;notclear;notclear;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/8b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 9b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=9b
++ VERSION=9b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 9b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=9b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/9b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/9b
++ echo -e '\033[Gson 9b] checkout\033[0m'
+[Gson 9b] checkout[0m
++ defects4j checkout -p Gson -v 9b -w d4jprojects/gson/9b
+Checking out 874e74a3 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 874e74a3:0f66f4fa..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-9b......................................... OK
++ cd d4jprojects/gson/9b
++ echo -e '\033[Gson 9b] compiling\033[0m'
+[Gson 9b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 9b] running tests\033[0m'
+[Gson 9b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonWriterTest::testBoxedBooleans
++ echo -e '\033[0;32m[Gson 9b] checkout done\033[0m'
+[0;32m[Gson 9b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=9b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/9b/target/classes
++ JAVADIR=gson/9b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/9b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/9b/target/classes
+gson/9b/target/classes
++ echo gson/9b/gson/src/main/java
+gson/9b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/9b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/9b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/9b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/9b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/9b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/9b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/9b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/9b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/9b
+
+real	0m4.283s
+user	0m12.682s
+sys	0m0.320s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/9b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/9b
+
+real	0m1.685s
+user	0m4.868s
+sys	0m0.222s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/9b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/9b
+
+real	0m1.583s
+user	0m4.701s
+sys	0m0.179s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/9b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/9b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/9b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/9b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 9b
+++ sed s/b//g
+++ xargs
++ leanversion=9
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 9 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/9b
+Checking out 874e74a3 to /tmp/get_buggy_lines_11921/Gson-9................. OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 874e74a3:0f66f4fa..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-9f......................................... OK
+Check out program version: Gson-9f......................................... OK
+Check out program version: Gson-9b......................................... OK
+Check out program version: Gson-9f......................................... OK
+Check out program version: Gson-9b......................................... OK
+Check out program version: Gson-9f......................................... OK
+Check out program version: Gson-9b......................................... OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 9b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 9b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/9b/fdp-dua-cft-comparison-9b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-9b;clear;0.0323;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/9b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 10b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=10b
++ VERSION=10b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 10b ']'
+++ cat projects.d4j
+++ grep Gson
+++ xargs
+++ sed s/Gson//g
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=10b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/10b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/10b
++ echo -e '\033[Gson 10b] checkout\033[0m'
+[Gson 10b] checkout[0m
++ defects4j checkout -p Gson -v 10b -w d4jprojects/gson/10b
+Checking out bb451eac to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff bb451eac:ecda3582..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-10b........................................ OK
++ cd d4jprojects/gson/10b
++ echo -e '\033[Gson 10b] compiling\033[0m'
+[Gson 10b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 10b] running tests\033[0m'
+[Gson 10b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest::testPrimitiveFieldAnnotationTakesPrecedenceOverDefault
++ echo -e '\033[0;32m[Gson 10b] checkout done\033[0m'
+[0;32m[Gson 10b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=10b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/10b/target/classes
++ JAVADIR=gson/10b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/10b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/10b/target/classes
+gson/10b/target/classes
++ echo gson/10b/gson/src/main/java
+gson/10b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/10b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/10b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/10b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/10b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/10b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/10b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/10b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/10b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/10b
+
+real	0m4.293s
+user	0m12.735s
+sys	0m0.321s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/10b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/10b
+
+real	0m1.644s
+user	0m4.832s
+sys	0m0.227s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/10b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/10b
+
+real	0m1.655s
+user	0m4.829s
+sys	0m0.192s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/10b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/10b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/10b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/10b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ sed s/b//g
+++ xargs
+++ echo 10b
++ leanversion=10
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 10 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/10b
+Checking out bb451eac to /tmp/get_buggy_lines_12276/Gson-10................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff bb451eac:ecda3582..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-10f........................................ OK
+Check out program version: Gson-10f........................................ OK
+Check out program version: Gson-10b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 10b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 10b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/10b/fdp-dua-cft-comparison-10b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-10b;clear;0.1667;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/10b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 11b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=11b
++ VERSION=11b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 11b ']'
+++ cat projects.d4j
+++ sed s/Gson//g
+++ grep Gson
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=11b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/11b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/11b
++ echo -e '\033[Gson 11b] checkout\033[0m'
+[Gson 11b] checkout[0m
++ defects4j checkout -p Gson -v 11b -w d4jprojects/gson/11b
+Checking out 44cad04a to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 44cad04a:791236ac..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-11b........................................ OK
++ cd d4jprojects/gson/11b
++ echo -e '\033[Gson 11b] compiling\033[0m'
+[Gson 11b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 11b] running tests\033[0m'
+[Gson 11b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserialization
++ echo -e '\033[0;32m[Gson 11b] checkout done\033[0m'
+[0;32m[Gson 11b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=11b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/11b/target/classes
++ JAVADIR=gson/11b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/11b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/11b/target/classes
+gson/11b/target/classes
++ echo gson/11b/gson/src/main/java
+gson/11b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/11b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/11b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/11b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/11b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/11b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/11b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/11b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/11b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/11b
+
+real	0m4.615s
+user	0m13.771s
+sys	0m0.273s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/11b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/11b
+
+real	0m1.530s
+user	0m4.489s
+sys	0m0.191s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/11b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/11b
+
+real	0m1.554s
+user	0m4.528s
+sys	0m0.177s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/11b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/11b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/11b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/11b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 11b
+++ sed s/b//g
+++ xargs
++ leanversion=11
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 11 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/11b
+Checking out 44cad04a to /tmp/get_buggy_lines_12599/Gson-11................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 44cad04a:791236ac..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-11f........................................ OK
+Check out program version: Gson-11f........................................ OK
+Check out program version: Gson-11b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 11b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 11b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/11b/fdp-dua-cft-comparison-11b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-11b;clear;0.3333;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/11b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 12b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=12b
++ VERSION=12b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 12b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=12b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/12b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/12b
++ echo -e '\033[Gson 12b] checkout\033[0m'
+[Gson 12b] checkout[0m
++ defects4j checkout -p Gson -v 12b -w d4jprojects/gson/12b
+Checking out 9e6f2bab to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 9e6f2bab:7719e73a..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-12b........................................ OK
++ cd d4jprojects/gson/12b
++ echo -e '\033[Gson 12b] compiling\033[0m'
+[Gson 12b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 12b] running tests\033[0m'
+[Gson 12b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_filledJsonObject
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonObject
++ echo -e '\033[0;32m[Gson 12b] checkout done\033[0m'
+[0;32m[Gson 12b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=12b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/12b/target/classes
++ JAVADIR=gson/12b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/12b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/12b/target/classes
+gson/12b/target/classes
++ echo gson/12b/gson/src/main/java
+gson/12b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/12b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/12b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/12b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/12b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/12b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/12b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/12b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/12b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/12b
+
+real	0m3.356s
+user	0m9.966s
+sys	0m0.296s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/12b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/12b
+
+real	0m1.698s
+user	0m5.035s
+sys	0m0.173s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/12b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/12b
+
+real	0m1.630s
+user	0m4.824s
+sys	0m0.197s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/12b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/12b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/12b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/12b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 12b
+++ sed s/b//g
+++ xargs
++ leanversion=12
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 12 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/12b
+Checking out 9e6f2bab to /tmp/get_buggy_lines_12922/Gson-12................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 9e6f2bab:7719e73a..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-12f........................................ OK
+Check out program version: Gson-12f........................................ OK
+Check out program version: Gson-12b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 12b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 12b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/12b/fdp-dua-cft-comparison-12b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-12b;clear;0.5;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/12b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 13b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=13b
++ VERSION=13b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 13b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=13b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/13b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/13b
++ echo -e '\033[Gson 13b] checkout\033[0m'
+[Gson 13b] checkout[0m
++ defects4j checkout -p Gson -v 13b -w d4jprojects/gson/13b
+Checking out 9a242199 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 9a242199:41e48f7a..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-13b........................................ OK
++ cd d4jprojects/gson/13b
++ echo -e '\033[Gson 13b] compiling\033[0m'
+[Gson 13b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 13b] running tests\033[0m'
+[Gson 13b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonReaderTest::testNegativeZero
++ echo -e '\033[0;32m[Gson 13b] checkout done\033[0m'
+[0;32m[Gson 13b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=13b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/13b/target/classes
++ JAVADIR=gson/13b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/13b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/13b/target/classes
+gson/13b/target/classes
++ echo gson/13b/gson/src/main/java
+gson/13b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/13b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/13b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/13b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/13b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/13b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/13b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/13b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/13b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/13b
+
+real	0m4.050s
+user	0m11.928s
+sys	0m0.353s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/13b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/13b
+
+real	0m1.681s
+user	0m4.926s
+sys	0m0.187s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/13b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/13b
+
+real	0m1.641s
+user	0m4.817s
+sys	0m0.165s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/13b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/13b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/13b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/13b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 13b
+++ sed s/b//g
+++ xargs
++ leanversion=13
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 13 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/13b
+Checking out 9a242199 to /tmp/get_buggy_lines_13257/Gson-13................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 9a242199:41e48f7a..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-13f........................................ OK
+Check out program version: Gson-13f........................................ OK
+Check out program version: Gson-13b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 13b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 13b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/13b/fdp-dua-cft-comparison-13b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-13b;clear;0.25;0.0;0.0;False;False;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/13b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 14b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=14b
++ VERSION=14b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 14b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=14b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/14b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/14b
++ echo -e '\033[Gson 14b] checkout\033[0m'
+[Gson 14b] checkout[0m
++ defects4j checkout -p Gson -v 14b -w d4jprojects/gson/14b
+Checking out a3001480 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff a3001480:5848096f..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-14b........................................ OK
++ cd d4jprojects/gson/14b
++ echo -e '\033[Gson 14b] compiling\033[0m'
+[Gson 14b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 14b] running tests\033[0m'
+[Gson 14b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testDoubleSupertype
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue440WeakReference
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testSubSupertype
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testDoubleSubtype
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue603PrintStream
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testSuperSubtype
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveResolveSimple
++ echo -e '\033[0;32m[Gson 14b] checkout done\033[0m'
+[0;32m[Gson 14b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=14b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/14b/target/classes
++ JAVADIR=gson/14b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/14b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/14b/target/classes
+gson/14b/target/classes
++ echo gson/14b/gson/src/main/java
+gson/14b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/14b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/14b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/14b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b
+
+real	0m3.479s
+user	0m10.245s
+sys	0m0.244s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/14b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b
+
+real	0m1.636s
+user	0m4.853s
+sys	0m0.186s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/14b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b
+
+real	0m1.670s
+user	0m4.901s
+sys	0m0.186s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/14b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/14b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/14b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/14b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 14b
+++ sed s/b//g
+++ xargs
++ leanversion=14
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 14 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/14b
+Checking out a3001480 to /tmp/get_buggy_lines_13580/Gson-14................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff a3001480:5848096f..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-14f........................................ OK
+Check out program version: Gson-14f........................................ OK
+Check out program version: Gson-14b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 14b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 14b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/14b/fdp-dua-cft-comparison-14b.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/Gson$Types$WildcardTypeImpl.nodes.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/Gson$Types$WildcardTypeImpl.edges.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/Gson$Types$WildcardTypeImpl.nodesub.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/Gson$Types$WildcardTypeImpl.edgesub.json
+Class Gson$Types$WildcardTypeImpl has no nodes.
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/Gson$Types.nodes.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/Gson$Types.edges.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/Gson$Types.nodesub.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b/Gson$Types.edgesub.json
+Class Gson$Types has no nodes.
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-14b;clear;1.0;0.0;0.0;notclear;notclear;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/14b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 15b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=15b
++ VERSION=15b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 15b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=15b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/15b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/15b
++ echo -e '\033[Gson 15b] checkout\033[0m'
+[Gson 15b] checkout[0m
++ defects4j checkout -p Gson -v 15b -w d4jprojects/gson/15b
+Checking out ada597e6 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff ada597e6:0aaef0fd..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-15b........................................ OK
++ cd d4jprojects/gson/15b
++ echo -e '\033[Gson 15b] compiling\033[0m'
+[Gson 15b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 15b] running tests\033[0m'
+[Gson 15b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonWriterTest::testNonFiniteDoublesWhenLenient
++ echo -e '\033[0;32m[Gson 15b] checkout done\033[0m'
+[0;32m[Gson 15b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=15b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/15b/target/classes
++ JAVADIR=gson/15b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/15b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/15b/target/classes
+gson/15b/target/classes
++ echo gson/15b/gson/src/main/java
+gson/15b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/15b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/15b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/15b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/15b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/15b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/15b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/15b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/15b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/15b
+
+real	0m3.301s
+user	0m9.782s
+sys	0m0.305s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/15b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/15b
+
+real	0m1.685s
+user	0m4.984s
+sys	0m0.196s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/15b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/15b
+
+real	0m1.522s
+user	0m4.481s
+sys	0m0.137s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/15b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/15b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/15b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/15b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 15b
+++ sed s/b//g
+++ xargs
++ leanversion=15
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 15 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/15b
+Checking out ada597e6 to /tmp/get_buggy_lines_13915/Gson-15................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff ada597e6:0aaef0fd..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-15f........................................ OK
+Check out program version: Gson-15f........................................ OK
+Check out program version: Gson-15b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 15b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 15b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/15b/fdp-dua-cft-comparison-15b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-15b;clear;0.5;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/15b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 16b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=16b
++ VERSION=16b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 16b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=16b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/16b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/16b
++ echo -e '\033[Gson 16b] checkout\033[0m'
+[Gson 16b] checkout[0m
++ defects4j checkout -p Gson -v 16b -w d4jprojects/gson/16b
+Checking out 03a72e75 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 03a72e75:ee691fba..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-16b........................................ OK
++ cd d4jprojects/gson/16b
++ echo -e '\033[Gson 16b] compiling\033[0m'
+[Gson 16b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 16b] running tests\033[0m'
+[Gson 16b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveTypeVariablesResolve12
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveTypeVariablesResolve1
++ echo -e '\033[0;32m[Gson 16b] checkout done\033[0m'
+[0;32m[Gson 16b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=16b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/16b/target/classes
++ JAVADIR=gson/16b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/16b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/16b/target/classes
+gson/16b/target/classes
++ echo gson/16b/gson/src/main/java
+gson/16b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/16b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/16b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/16b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b
+
+real	0m3.294s
+user	0m9.794s
+sys	0m0.293s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/16b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b
+
+real	0m1.679s
+user	0m4.983s
+sys	0m0.220s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/16b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b
+
+real	0m1.666s
+user	0m4.852s
+sys	0m0.204s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/16b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/16b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/16b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/16b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 16b
+++ sed s/b//g
+++ xargs
++ leanversion=16
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 16 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/16b
+Checking out 03a72e75 to /tmp/get_buggy_lines_14238/Gson-16................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 03a72e75:ee691fba..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-16f........................................ OK
+Check out program version: Gson-16f........................................ OK
+Check out program version: Gson-16b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 16b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 16b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/16b/fdp-dua-cft-comparison-16b.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/Gson$Types$WildcardTypeImpl.nodes.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/Gson$Types$WildcardTypeImpl.edges.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/Gson$Types$WildcardTypeImpl.nodesub.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/Gson$Types$WildcardTypeImpl.edgesub.json
+Class Gson$Types$WildcardTypeImpl has no nodes.
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/Gson$Types.nodes.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/Gson$Types.edges.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/Gson$Types.nodesub.json
+Could not open file /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b/Gson$Types.edgesub.json
+Class Gson$Types has no nodes.
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-16b;clear;0.5;0.0;0.0;notclear;notclear;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/16b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 17b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=17b
++ VERSION=17b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 17b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=17b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/17b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/17b
++ echo -e '\033[Gson 17b] checkout\033[0m'
+[Gson 17b] checkout[0m
++ defects4j checkout -p Gson -v 17b -w d4jprojects/gson/17b
+Checking out 7a9fd596 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 7a9fd596:f0aa1118..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-17b........................................ OK
++ cd d4jprojects/gson/17b
++ echo -e '\033[Gson 17b] compiling\033[0m'
+[Gson 17b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 17b] running tests\033[0m'
+[Gson 17b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.DefaultDateTypeAdapterTest::testUnexpectedToken
+  - com.google.gson.DefaultDateTypeAdapterTest::testNullValue
++ echo -e '\033[0;32m[Gson 17b] checkout done\033[0m'
+[0;32m[Gson 17b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=17b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/17b/target/classes
++ JAVADIR=gson/17b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/17b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/17b/target/classes
+gson/17b/target/classes
++ echo gson/17b/gson/src/main/java
+gson/17b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/17b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/17b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/17b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/17b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/17b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/17b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/17b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/17b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/17b
+
+real	0m4.548s
+user	0m13.454s
+sys	0m0.345s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/17b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/17b
+
+real	0m1.724s
+user	0m4.953s
+sys	0m0.198s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/17b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/17b
+
+real	0m1.537s
+user	0m4.579s
+sys	0m0.140s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/17b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/17b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/17b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/17b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ echo 17b
+++ sed s/b//g
+++ xargs
++ leanversion=17
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 17 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/17b
+Checking out 7a9fd596 to /tmp/get_buggy_lines_14565/Gson-17................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 7a9fd596:f0aa1118..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-17f........................................ OK
+Check out program version: Gson-17f........................................ OK
+Check out program version: Gson-17b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 17b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 17b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/17b/fdp-dua-cft-comparison-17b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-17b;clear;1.0;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/17b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ touch coverage/Gson/dummy.zip
++ src/datafilegen.sh Gson 18b dummy.zip -subfiles -ncopy -ncleanup
++ readonly 'NOCOLOR=\033[0m'
++ NOCOLOR='\033[0m'
++ readonly 'GREEN=\033[0;32m'
++ GREEN='\033[0;32m'
++ readonly 'RED=\033[0;31m'
++ RED='\033[0;31m'
++ readonly 'YELLOW=\033'
++ YELLOW='\033'
++ readonly PROJECT_NAME=Gson
++ PROJECT_NAME=Gson
++ readonly VERSION=18b
++ VERSION=18b
++ readonly ZIPFILE=dummy.zip
++ ZIPFILE=dummy.zip
++ readonly DATAGEN=-subfiles
++ DATAGEN=-subfiles
++ readonly COPYFAULTYSRC=-ncopy
++ COPYFAULTYSRC=-ncopy
++ readonly CLEANUP=-ncleanup
++ CLEANUP=-ncleanup
++ main
++ pwd
+/stvr/probabilistic-coupling-experiment/datacollection
++ '[' -z Gson ']'
++ '[' -z 18b ']'
+++ cat projects.d4j
+++ grep Gson
+++ sed s/Gson//g
+++ xargs
++ local project_dir=gson
++ '[' -z gson ']'
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ install_project gson
++ local project_dir=gson
++ local version=18b
++ local d4j_projects=d4jprojects
++ local project_path=d4jprojects/gson/18b
+++ pwd
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ mkdir -p d4jprojects
++ mkdir -p d4jprojects/gson
++ mkdir -p d4jprojects/gson/18b
++ echo -e '\033[Gson 18b] checkout\033[0m'
+[Gson 18b] checkout[0m
++ defects4j checkout -p Gson -v 18b -w d4jprojects/gson/18b
+Checking out b1fb9ca9 to /stvr/probabilistic-coupling-experiment/datacollec OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff b1fb9ca9:08bbb226..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-18b........................................ OK
++ cd d4jprojects/gson/18b
++ echo -e '\033[Gson 18b] compiling\033[0m'
+[Gson 18b] compiling[0m
++ defects4j compile
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
++ echo -e '\033[Gson 18b] running tests\033[0m'
+[Gson 18b] running tests[0m
++ defects4j test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.CollectionTest::testIssue1107
++ echo -e '\033[0;32m[Gson 18b] checkout done\033[0m'
+[0;32m[Gson 18b] checkout done[0m
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ find_exec_dir gson
++ local project=Gson
++ local version=18b
++ local projectdir=gson
++ local 'timetarget=1b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b'
++ local 'mockitobuild=1b 2b 3b 4b 5b 6b 7b 2b 3b 4b 5b 6b 7b 8b 9b 10b 11b 18b 19b 20b 21b'
++ SRCDIR=gson/18b/target/classes
++ JAVADIR=gson/18b/src
++ test Gson == Chart
++ test Gson == Cli
++ test Gson == Closure
++ test Gson == Codec
++ test Gson == Collections
++ test Gson == Compress
++ test Gson == Csv
++ test Gson == Gson
++ JAVADIR=gson/18b/gson/src/main/java
++ test Gson == JacksonCore
++ test Gson == JacksonDatabind
++ test Gson == JacksonXml
++ test Gson == Jsoup
++ test Gson == JxPath
++ test Gson == Lang
++ test Gson == Math
++ test Gson == Mockito
++ test Gson == Time
++ test Gson == Weka
++ echo gson/18b/target/classes
+gson/18b/target/classes
++ echo gson/18b/gson/src/main/java
+gson/18b/gson/src/main/java
++ safilesgen /stvr/probabilistic-coupling-experiment/datacollection gson/18b/target/classes
++ local subsumptiondir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files
++ local satooldir=/stvr/probabilistic-coupling-experiment/datacollection/satool
++ local satool=safilestool.jar
++ local srcdir=/stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/18b/target/classes
++ local destdir=/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/18b
++ mkdir -p subsumption-files
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce ']'
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/18b ']'
++ mkdir /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/18b
++ for v in $destdir/*.json
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/18b/*.json'
++ for v in $destdir/*.log
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/18b/*.log'
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main reduce -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/18b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/18b
+
+real	0m4.477s
+user	0m13.219s
+sys	0m0.380s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main edgesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/18b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/18b
+
+real	0m1.510s
+user	0m4.527s
+sys	0m0.206s
++ java -cp '/stvr/probabilistic-coupling-experiment/datacollection/satool/safilestool.jar:/stvr/probabilistic-coupling-experiment/datacollection/satool/dependency/*' br.usp.each.saeg.subsumption.cli.Main nodesubsume -src /stvr/probabilistic-coupling-experiment/datacollection/d4jprojects/gson/18b/target/classes -dest /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/18b
+
+real	0m1.708s
+user	0m4.998s
+sys	0m0.144s
++ test -subfiles '!=' -subfiles
++ echo 'Don'\''t expand coverage data'
+Don't expand coverage data
++ datafile_calculation /stvr/probabilistic-coupling-experiment/datacollection gson
++ local root=/stvr/probabilistic-coupling-experiment/datacollection
++ local project_dir=gson
++ '[' '!' -d /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/18b ']'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/18b/*.csv'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/18b/*.json'
++ rm -f '/stvr/probabilistic-coupling-experiment/datacollection/results/Gson/18b/*.txt'
++ '[' -subfiles = -fdp ']'
++ '[' -subfiles = -ochiai ']'
++ '[' -subfiles = -subsumption ']'
+++ sed s/b//g
+++ xargs
+++ echo 18b
++ leanversion=18
++ /stvr/probabilistic-coupling-experiment/datacollection/src/get_buggy_lines.sh Gson 18 /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/18b
+Checking out b1fb9ca9 to /tmp/get_buggy_lines_14888/Gson-18................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff b1fb9ca9:08bbb226..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Gson-18f........................................ OK
+Check out program version: Gson-18f........................................ OK
+Check out program version: Gson-18b........................................ OK
++ /stvr/probabilistic-coupling-experiment/datacollection/src/coverage_project.sh Gson 18b
++ '[' -z -ncopy ']'
++ test -ncopy == -copy
++ echo 'Not copying faulty classes.'
+Not copying faulty classes.
++ '[' -z -ncleanup ']'
++ test -ncleanup == -cleanup
++ echo 'Not cleaning up files to generate data.'
+Not cleaning up files to generate data.
++ cd /stvr/probabilistic-coupling-experiment/datacollection
++ src/duacftcomparison.py /stvr/probabilistic-coupling-experiment/datacollection Gson 18b -fdp -json /stvr/probabilistic-coupling-experiment/datacollection/results/Gson/18b/fdp-dua-cft-comparison-18b.json
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Gson-18b;clear;0.25;0.0;0.0;True;True;
++ rm -rf /stvr/probabilistic-coupling-experiment/datacollection/subsumption-files/Gson/reduce/18b
++ rm coverage/Gson/dummy.zip
++ (( i++ ))
++ (( i <= 18  ))

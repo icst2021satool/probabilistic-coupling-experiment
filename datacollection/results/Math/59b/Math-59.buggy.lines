@@ -1,0 +1,3 @@
+org/apache/commons/math/util/FastMath.java#3482#        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
+org/apache/commons/lang/builder/EqualsBuilder.java#380#FAULT_OF_OMISSION
+org/apache/commons/lang/builder/EqualsBuilder.java#382#FAULT_OF_OMISSION

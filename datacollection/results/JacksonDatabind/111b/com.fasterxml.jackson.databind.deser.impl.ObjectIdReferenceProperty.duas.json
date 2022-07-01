@@ -1,0 +1,23 @@
+{
+"Class" : "com.fasterxml.jackson.databind.deser.impl.ObjectIdReferenceProperty", 
+"Methods" : [{ "Name" : "withValueDeserializer" ,
+"Duas" : 10,
+"0" :  "(50,(50,51), this)",
+"1" :  "(50,(50,54), this)",
+"2" :  "(50,54, this)",
+"3" :  "(50,51, this)",
+"4" :  "(50,(50,51), deser)",
+"5" :  "(50,(50,54), deser)",
+"6" :  "(50,54, deser)",
+"7" :  "(50,(50,51), this._valueDeserializer)",
+"8" :  "(50,(50,54), this._valueDeserializer)",
+"9" :  "(50,54, this._nullProvider)"},{ "Name" : "fixAccess" ,
+"Duas" : 7,
+"0" :  "(64,(64,65), this)",
+"1" :  "(64,(64,67), this)",
+"2" :  "(64,65, this)",
+"3" :  "(64,65, config)",
+"4" :  "(64,(64,65), this._forward)",
+"5" :  "(64,(64,67), this._forward)",
+"6" :  "(64,65, this._forward)"}]
+}

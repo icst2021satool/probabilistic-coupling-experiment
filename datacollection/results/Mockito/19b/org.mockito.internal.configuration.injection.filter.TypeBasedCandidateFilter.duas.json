@@ -1,0 +1,16 @@
+{
+"Class" : "org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter", 
+"Methods" : [{ "Name" : "filterCandidate" ,
+"Duas" : 11,
+"0" :  "(21,28, this)",
+"1" :  "(21,28, field)",
+"2" :  "(21,(23,24), field)",
+"3" :  "(21,(23,26), field)",
+"4" :  "(21,28, fieldInstance)",
+"5" :  "(21,28, this.next)",
+"6" :  "(21,28, mockTypeMatches)",
+"7" :  "(21,24, mockTypeMatches)",
+"8" :  "(22,(23,24), mock)",
+"9" :  "(22,(23,26), mock)",
+"10" :  "(22,24, mock)"}]
+}

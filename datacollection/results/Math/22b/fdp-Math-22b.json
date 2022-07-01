@@ -1,0 +1,2258 @@
+[
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%density#1@0$(109,(109,109), this)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%density#1@3$(109,(109,112), this)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%density#1@4$(109,112, this)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%density#1@5$(109,(109,109), x)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%density#1@8$(109,(109,112), x)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%density#1@9$(109,(109,109), this.lower)",
+        [
+            0.25,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%density#1@11$(109,112, this.lower)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%density#1@13$(109,(109,112), this.upper)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%density#1@14$(109,112, this.upper)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%<init>#0@0$(95,102, this)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%<init>#0@1$(95,103, this)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%<init>#0@2$(95,104, this)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%<init>#0@4$(95,(96,102), lower)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%<init>#0@5$(95,102, lower)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%<init>#0@8$(95,(96,102), upper)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%<init>#0@9$(95,103, upper)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.UniformRealDistribution%<init>#0@11$(95,104, inverseCumAccuracy)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.FDistribution%<init>#0@0$(108,118, this)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.FDistribution%<init>#0@1$(108,119, this)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.FDistribution%<init>#0@2$(108,120, this)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.FDistribution%<init>#0@4$(108,(110,114), numeratorDegreesOfFreedom)",
+        [
+            0.05,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.FDistribution%<init>#0@5$(108,118, numeratorDegreesOfFreedom)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.FDistribution%<init>#0@8$(108,(114,118), denominatorDegreesOfFreedom)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.FDistribution%<init>#0@9$(108,119, denominatorDegreesOfFreedom)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.distribution.FDistribution%<init>#0@11$(108,120, inverseCumAccuracy)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@0$(1106,(1106,1107), x)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@5$(1338,(1346,1348), x)",
+        [
+            0.01639344262295082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@30$(256,256, prod)",
+        [
+            0.016129032258064516,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@31$(255,(255,256), i)",
+        [
+            0.016129032258064516,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@33$(255,256, i)",
+        [
+            0.016129032258064516,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@34$(255,255, i)",
+        [
+            0.016129032258064516,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Beta%logBeta#1@4$(195,201, a)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Beta%logBeta#1@8$(195,(195,201), b)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Beta%logBeta#1@9$(195,201, b)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Beta%logBeta#1@11$(201,205, ret)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Beta%logBeta#1@2$(195,(195,195), a)",
+        [
+            0.014925373134328358,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Beta%logBeta#1@5$(195,(195,195), b)",
+        [
+            0.014492753623188406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Beta%logBeta#1@0$(195,(195,195), a)",
+        [
+            0.014285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@8$(246,(252,253), x)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@13$(246,253, x)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@14$(246,258, x)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@15$(246,256, x)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@20$(253,(255,256), n)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@21$(253,(255,258), n)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@22$(253,258, n)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@24$(254,256, prod)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@25$(255,(255,256), i)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@27$(255,256, i)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@28$(255,255, i)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@29$(256,258, prod)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@32$(255,(255,258), i)",
+        [
+            0.013333333333333334,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@8$(531,(601,604), x)",
+        [
+            0.012987012987012988,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@9$(531,604, x)",
+        [
+            0.012987012987012988,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@72$(599,604, c)",
+        [
+            0.012987012987012988,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@75$(604,608, ret)",
+        [
+            0.012987012987012988,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@7$(531,(601,602), x)",
+        [
+            0.011494252873563218,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@10$(531,602, x)",
+        [
+            0.011494252873563218,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@43$(539,602, t)",
+        [
+            0.011494252873563218,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@73$(599,602, c)",
+        [
+            0.011494252873563218,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@74$(602,608, ret)",
+        [
+            0.011494252873563218,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@7$(246,(250,252), x)",
+        [
+            0.011111111111111112,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@5$(531,(539,539), x)",
+        [
+            0.011111111111111112,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@9$(1338,(1346,1364), x)",
+        [
+            0.011111111111111112,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@10$(1338,1364, x)",
+        [
+            0.011111111111111112,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@11$(1338,1365, x)",
+        [
+            0.011111111111111112,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@8$(1338,(1346,1348), x)",
+        [
+            0.010638297872340425,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@18$(539,(540,572), t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@19$(539,573, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@20$(539,574, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@21$(539,575, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@22$(539,576, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@23$(539,577, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@24$(539,578, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@25$(539,581, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@26$(539,582, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@27$(539,583, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@28$(539,584, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@29$(539,586, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@30$(539,587, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@31$(539,588, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@32$(539,589, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@33$(539,590, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@34$(539,591, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@35$(539,592, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@36$(539,593, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@37$(539,594, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@38$(539,595, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@39$(539,596, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@40$(539,597, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@41$(539,598, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@42$(539,599, t)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@6$(1338,1348, x)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@7$(1338,1349, x)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@12$(1348,1359, xpa)",
+        [
+            0.008928571428571428,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@13$(1349,1359, xpb)",
+        [
+            0.008928571428571428,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@14$(1351,1361, hiPrec)",
+        [
+            0.008928571428571428,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@16$(1352,(1353,1359), lores)",
+        [
+            0.008928571428571428,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@4$(531,(539,539), x)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@6$(246,(250,251), x)",
+        [
+            0.008130081300813009,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@16$(246,251, x)",
+        [
+            0.008130081300813009,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@4$(1338,(1346,1346), x)",
+        [
+            0.007142857142857143,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma1p#7@3$(624,(627,631), x)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma1p#7@4$(624,631, x)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@5$(246,(248,250), x)",
+        [
+            0.006993006993006993,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma1p#7@1$(624,(624,627), x)",
+        [
+            0.006993006993006993,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@3$(246,(246,248), x)",
+        [
+            0.006944444444444444,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@3$(531,(534,539), x)",
+        [
+            0.006944444444444444,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@6$(531,539, x)",
+        [
+            0.006944444444444444,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%invGamma1pm1#6@1$(531,(531,534), x)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.special.Gamma%logGamma#0@0$(246,(246,246), x)",
+        [
+            0.006756756756756757,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@9$(154,155, this)",
+        [
+            0.006644518272425249,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@10$(154,(154,155), seed)",
+        [
+            0.006644518272425249,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@0$(154,159, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@1$(154,(161,162), this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@3$(154,168, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@4$(154,169, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@5$(154,(162,163), this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@6$(154,(162,168), this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@7$(154,163, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@8$(154,164, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@11$(154,(154,159), seed)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@12$(154,159, seed)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@13$(154,(161,162), seed)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@15$(154,162, seed)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@16$(154,163, seed)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@17$(154,159, this.v)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@18$(154,(161,162), this.v)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@20$(154,(162,163), this.v)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@21$(154,(162,168), this.v)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@22$(154,163, this.v)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@23$(154,164, this.v)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@24$(162,(162,163), i)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@26$(162,163, i)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@27$(162,164, i)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@28$(162,162, i)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@29$(162,(162,163), i)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@30$(162,(162,168), i)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@31$(162,163, i)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@32$(162,164, i)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%setSeed#1@33$(162,162, i)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@0$(94,120, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@1$(94,112, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@2$(94,113, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@3$(94,114, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@4$(94,115, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@5$(94,116, this)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@6$(94,114, m1)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@7$(94,115, m2)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@8$(94,116, m3)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@9$(94,120, seed)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@10$(100,(111,112), r)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@11$(100,(111,120), r)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@12$(100,112, r)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@13$(100,113, r)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@14$(100,114, r)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@15$(100,115, r)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@16$(100,116, r)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@17$(106,112, this.iRm1)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@18$(107,113, this.iRm2)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@19$(108,114, this.i1)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@20$(109,115, this.i2)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@21$(110,116, this.i3)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@22$(111,(111,112), j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@24$(111,112, j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@25$(111,113, j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@26$(111,114, j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@27$(111,115, j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@28$(111,116, j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@29$(111,111, j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@30$(111,(111,112), j)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@31$(111,(111,120), j)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@32$(111,112, j)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@33$(111,113, j)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@34$(111,114, j)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@35$(111,115, j)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@36$(111,116, j)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.random.AbstractWell%<init>#0@37$(111,111, j)",
+        [
+            0.006493506493506494,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@3$(1338,(1342,1346), x)",
+        [
+            0.006493506493506494,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log1p#11@1$(1338,(1338,1342), x)",
+        [
+            0.00641025641025641,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@8$(1106,(1155,1204), x)",
+        [
+            0.005780346820809248,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@55$(1132,(1154,1155), exp)",
+        [
+            0.0038022813688212928,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@10$(1106,(1155,1204), x)",
+        [
+            0.0035714285714285713,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@51$(1132,(1154,1155), exp)",
+        [
+            0.0035587188612099642,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@18$(1106,(1220,1273), hiPrec)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@20$(1106,(1323,1328), hiPrec)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@110$(1215,1274, epsilon)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@111$(1215,1275, epsilon)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@112$(1215,1276, epsilon)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@113$(1215,1277, epsilon)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@114$(1215,1278, epsilon)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@115$(1215,1279, epsilon)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@119$(1218,1318, lnzb)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@120$(1218,1319, lnzb)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@151$(1279,1303, lnza)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@152$(1279,1304, lnza)",
+        [
+            0.003067484662576687,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@51$(864,(866,874), intVal)",
+        [
+            0.002881844380403458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@52$(864,874, intVal)",
+        [
+            0.002881844380403458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@53$(864,875, intVal)",
+        [
+            0.002881844380403458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@54$(864,882, intVal)",
+        [
+            0.002881844380403458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@55$(864,890, intVal)",
+        [
+            0.002881844380403458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@56$(874,910, intPartA)",
+        [
+            0.002881844380403458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@57$(874,911, intPartA)",
+        [
+            0.002881844380403458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@58$(875,911, intPartB)",
+        [
+            0.002881844380403458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@1$(826,(826,864), x)",
+        [
+            0.0028328611898017,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@2$(826,864, x)",
+        [
+            0.0028328611898017,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@9$(826,(919,922), extra)",
+        [
+            0.002717391304347826,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@59$(903,922, z)",
+        [
+            0.002717391304347826,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@62$(910,922, tempA)",
+        [
+            0.002717391304347826,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@65$(911,922, tempB)",
+        [
+            0.002717391304347826,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@68$(917,922, tempC)",
+        [
+            0.002717391304347826,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@72$(922,931, result)",
+        [
+            0.002717391304347826,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@7$(1106,(1155,1155), x)",
+        [
+            0.002702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@17$(1106,(1220,1222), hiPrec)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@19$(1106,(1323,1324), hiPrec)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@21$(1106,1324, hiPrec)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@22$(1106,1325, hiPrec)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@37$(1106,1235, LN_HI_PREC_COEF)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@38$(1106,1239, LN_HI_PREC_COEF)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@39$(1106,1249, LN_HI_PREC_COEF)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@47$(1109,1229, bits)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@48$(1109,1230, bits)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@116$(1215,1222, epsilon)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@117$(1215,1223, epsilon)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@118$(1215,1224, epsilon)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@121$(1225,1259, xa)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@122$(1225,1260, xa)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@123$(1225,1241, xa)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@124$(1225,1242, xa)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@125$(1232,1260, xb)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@126$(1232,1242, xb)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@129$(1236,1241, ya)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@130$(1236,1242, ya)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@132$(1237,1242, yb)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@133$(1239,(1239,1241), i)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@135$(1239,1249, i)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@136$(1239,1239, i)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@137$(1254,1259, ya)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@138$(1254,1260, ya)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@139$(1254,1241, ya)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@140$(1254,1242, ya)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@141$(1255,1260, yb)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@142$(1255,1242, yb)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@143$(1239,(1239,1241), i)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@144$(1239,(1239,1259), i)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@145$(1239,1249, i)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@146$(1239,1239, i)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@147$(1268,1303, lnza)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@148$(1268,1304, lnza)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@149$(1269,1318, lnzb)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@150$(1269,1319, lnzb)",
+        [
+            0.002638522427440633,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@154$(1320,1324, a)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@156$(1321,1325, b)",
+        [
+            0.002638522427440633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%floor#38@15$(3314,(3319,3323), y)",
+        [
+            0.002105263157894737,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%floor#38@16$(3314,3323, y)",
+        [
+            0.002105263157894737,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%floor#38@9$(3306,(3315,3319), x)",
+        [
+            0.0019083969465648854,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%floor#38@2$(3306,(3310,3310), x)",
+        [
+            0.0019011406844106464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%floor#38@6$(3306,(3310,3314), x)",
+        [
+            0.0019011406844106464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%floor#38@7$(3306,3314, x)",
+        [
+            0.0019011406844106464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%floor#38@1$(3306,(3306,3310), x)",
+        [
+            0.001893939393939394,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@15$(826,(925,931), hiPrec)",
+        [
+            0.001890359168241966,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@56$(1132,(1154,1204), exp)",
+        [
+            0.0018726591760299626,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@45$(1109,1204, bits)",
+        [
+            0.0018214936247723133,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@46$(1109,1215, bits)",
+        [
+            0.0018214936247723133,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@52$(1132,1296, exp)",
+        [
+            0.0018214936247723133,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@53$(1132,1308, exp)",
+        [
+            0.0018214936247723133,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@54$(1132,1309, exp)",
+        [
+            0.0018214936247723133,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@106$(1204,1298, lnm)",
+        [
+            0.0018181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@107$(1204,1299, lnm)",
+        [
+            0.0018181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@108$(1204,1313, lnm)",
+        [
+            0.0018181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@109$(1204,1314, lnm)",
+        [
+            0.0018181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@153$(1320,1328, a)",
+        [
+            0.0018181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@155$(1321,1328, b)",
+        [
+            0.0018181818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@3$(826,882, x)",
+        [
+            0.0018018018018018018,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%exp#8@4$(826,890, x)",
+        [
+            0.0018018018018018018,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@50$(1132,(1154,1154), exp)",
+        [
+            0.0017985611510791368,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@44$(1109,(1134,1154), bits)",
+        [
+            0.0017761989342806395,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@6$(1106,(1123,1132), x)",
+        [
+            0.0017730496453900709,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@42$(1109,1132, bits)",
+        [
+            0.0017730496453900709,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@1$(1106,(1106,1109), x)",
+        [
+            0.0017667844522968198,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@2$(1106,1109, x)",
+        [
+            0.0017667844522968198,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@16$(1106,(1112,1123), x)",
+        [
+            0.0017667844522968198,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.math3.util.FastMath%log#10@40$(1109,(1112,1112), bits)",
+        [
+            0.0017667844522968198,
+            false,
+            "clear"
+        ]
+    ]
+]

@@ -1,0 +1,9 @@
+20:10:31.092 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+20:10:31.471 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+20:11:01.062 [main] INFO  JaguarDF - Test testForgottenImaginaryCharacter(org.apache.commons.math.complex.ComplexFormatTest) : Failed
+20:11:49.131 [main] INFO  JaguarDF - Test testForgottenImaginaryCharacter(org.apache.commons.math.complex.FrenchComplexFormatTest) : Failed
+20:28:21.646 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	17m51.820s
+user	18m21.986s
+sys	0m12.967s

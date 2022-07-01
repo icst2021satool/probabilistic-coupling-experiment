@@ -1,0 +1,137 @@
+JUnit version 4.11
+....I..................................................................................############ Logging method invocation #1 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has returned: "return value" (java.lang.String)
+
+
+.############ Logging method invocation #1 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has thrown: class org.mockito.internal.debugging.VerboseMockInvocationLoggerTest$ThirdPartyException
+
+
+.############ Logging method invocation #1 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has returned: "whatever" (java.lang.String)
+
+
+.############ Logging method invocation #1 on mock/spy ########
+   stubbed: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has returned: "whatever" (java.lang.String)
+
+
+.############ Logging method invocation #1 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has thrown: class org.mockito.internal.debugging.VerboseMockInvocationLoggerTest$ThirdPartyException
+
+############ Logging method invocation #2 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has thrown: class org.mockito.internal.debugging.VerboseMockInvocationLoggerTest$ThirdPartyException
+
+############ Logging method invocation #3 on mock/spy ########
+iMethods.simpleMethod();
+   invoked: -> at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   has thrown: class org.mockito.internal.debugging.VerboseMockInvocationLoggerTest$ThirdPartyException
+
+
+.
+......................................................................................................................................................................................................................................................................org.mockito.internal.exceptions.ExceptionIncludingMockitoWarnings: contains both: actual test failure *and* Mockito warnings.
+unused stubbing blah
+ *** The actual failure is because of: ***
+
+...I.................................................................................................................I........................................................................................................I...........EI.I........III..........................................********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsDetectsUnusedStubTest.shouldDetectUnusedStubbingWhenPrinting(PrintingInvocationsDetectsUnusedStubTest.java:23)
+********************************
+***       Unused stubs       ***
+********************************
+mock.giveMeSomeString("different arg");
+ stubbed: -> at org.mockitousage.debugging.PrintingInvocationsDetectsUnusedStubTest.shouldDetectUnusedStubbingWhenPrinting(PrintingInvocationsDetectsUnusedStubTest.java:22)
+
+.********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.businessLogicWithAsking(PrintingInvocationsWhenEverythingOkTest.java:35)
+ stubbed: -> at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.performStubbing(PrintingInvocationsWhenEverythingOkTest.java:31)
+mockTwo.doSomething("foo");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.businessLogicWithTelling(PrintingInvocationsWhenEverythingOkTest.java:40)
+
+.********************************
+*** Mockito interactions log ***
+********************************
+foo.giveMeSomeString("arg");
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.businessLogicWithAsking(PrintingInvocationsWhenStubNotUsedTest.java:35)
+foo.doSomething(null);
+ invoked: -> at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.businessLogicWithTelling(PrintingInvocationsWhenStubNotUsedTest.java:40)
+********************************
+***       Unused stubs       ***
+********************************
+foo.giveMeSomeString("different arg");
+ stubbed: -> at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.performStubbing(PrintingInvocationsWhenStubNotUsedTest.java:31)
+
+....................II..........................I........................................................................................I...............................I.........................................................................................................................................................................................................................................................................................................I...
+Time: 3.333
+There was 1 failure:
+1) listener(org.mockitousage.bugs.ListenersLostOnResetMockTest)
+Wanted but not invoked:
+invocationListener.reportInvocation(<any>);
+-> at org.mockitousage.bugs.ListenersLostOnResetMockTest.listener(ListenersLostOnResetMockTest.java:23)
+Actually, there were zero interactions with this mock.
+
+	at org.mockito.exceptions.Reporter.wantedButNotInvoked(Reporter.java:269)
+	at org.mockito.internal.verification.checkers.MissingInvocationChecker.check(MissingInvocationChecker.java:42)
+	at org.mockito.internal.verification.Times.verify(Times.java:36)
+	at org.mockito.internal.verification.MockAwareVerificationMode.verify(MockAwareVerificationMode.java:22)
+	at org.mockito.internal.MockHandler.handle(MockHandler.java:81)
+	at org.mockito.internal.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:37)
+	at org.mockito.internal.creation.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:48)
+	at org.mockito.listeners.InvocationListener$$EnhancerByMockitoWithCGLIB$$bcd0eaa3.reportInvocation(<generated>)
+	at org.mockitousage.bugs.ListenersLostOnResetMockTest.listener(ListenersLostOnResetMockTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:96)
+	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:40)
+
+FAILURES!!!
+Tests run: 1102,  Failures: 1
+
+
+real	0m4.038s
+user	0m10.438s
+sys	0m1.146s

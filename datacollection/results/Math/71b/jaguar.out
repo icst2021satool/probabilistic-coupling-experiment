@@ -1,0 +1,9 @@
+01:05:28.794 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+01:05:29.383 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+01:28:43.170 [main] INFO  JaguarDF - Test testMissedEndEvent(org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest) : Failed
+01:29:40.426 [main] INFO  JaguarDF - Test testMissedEndEvent(org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest) : Failed
+02:18:32.742 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	73m5.400s
+user	73m19.288s
+sys	1m35.745s

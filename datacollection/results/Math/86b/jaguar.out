@@ -1,0 +1,10 @@
+20:34:24.170 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+20:34:24.556 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/commons-math, --classesDir, target/classes, --testsDir, target/test-classes, --tests, tests.out, --logLevel, INFO]
+20:41:05.893 [main] INFO  JaguarDF - Test testMath274(org.apache.commons.math.linear.CholeskyDecompositionImplTest) : Failed
+DenseRealMatrix{{14.0,11.0,13.0,15.0,NaN},{11.0,34.0,13.0,8.0,NaN},{13.0,13.0,13.999999999999998,15.0,NaN},{15.0,8.0,15.0,18.000000000000004,NaN},{NaN,NaN,NaN,NaN,NaN}}
+20:41:08.281 [main] INFO  JaguarDF - Test testNotPositiveDefinite(org.apache.commons.math.linear.CholeskyDecompositionImplTest) : Failed
+21:32:25.675 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	58m2.792s
+user	58m54.510s
+sys	0m28.679s
