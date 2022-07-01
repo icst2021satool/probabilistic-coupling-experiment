@@ -1,0 +1,1626 @@
+[
+    [
+        "org.jfree.chart.JFreeChart%setTitle#3@1$(571,(571,574), this)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setTitle#3@11$(571,(571,574), this.title)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.LegendTitle%equals#10@0$(541,(541,542), this)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.LegendTitle%equals#10@20$(541,(541,542), obj)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setTitle#3@2$(571,574, this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setTitle#3@3$(571,578, this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setTitle#3@4$(571,576, this)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setTitle#3@6$(571,574, title)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setTitle#3@7$(571,(575,576), title)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setTitle#3@9$(571,576, title)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setBackgroundPaint#13@0$(959,(959,960), this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setBackgroundPaint#13@4$(959,(960,961), this)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setBackgroundPaint#13@6$(959,961, this)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setBackgroundPaint#13@7$(959,962, this)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setBackgroundPaint#13@11$(959,(960,961), paint)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setBackgroundPaint#13@13$(959,961, paint)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setBackgroundPaint#13@14$(959,(959,960), this.backgroundPaint)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%setBackgroundPaint#13@16$(959,(960,961), this.backgroundPaint)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%getLegend#5@0$(641,(646,647), index)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%getLegend#5@2$(641,(646,647), seen)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%getLegend#5@5$(642,(643,644), iterator)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%getLegend#5@7$(642,644, iterator)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%getLegend#5@8$(644,(645,646), subtitle)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%getLegend#5@10$(644,647, subtitle)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@36$(504,(506,509), dataset)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@0$(504,509, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@1$(504,511, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@2$(504,512, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@3$(504,513, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@4$(504,514, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@5$(504,515, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@6$(504,517, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@7$(504,518, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@8$(504,520, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@9$(504,521, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@10$(504,522, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@11$(504,524, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@12$(504,525, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@13$(504,527, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@14$(504,529, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@15$(504,530, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@16$(504,531, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@17$(504,532, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@18$(504,533, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@19$(504,534, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@20$(504,535, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@21$(504,536, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@22$(504,537, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@23$(504,539, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@24$(504,540, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@25$(504,542, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@26$(504,544, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@27$(504,545, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@28$(504,546, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@29$(504,547, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@30$(504,548, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@31$(504,549, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@32$(504,551, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@33$(504,552, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@38$(504,518, gray)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@39$(504,514, CLOCKWISE)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@40$(504,522, DEFAULT_OUTLINE_PAINT)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@41$(504,525, DEFAULT_OUTLINE_STROKE)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@42$(504,530, DEFAULT_LABEL_FONT)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@43$(504,531, DEFAULT_LABEL_PAINT)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@44$(504,532, DEFAULT_LABEL_BACKGROUND_PAINT)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@45$(504,533, DEFAULT_LABEL_OUTLINE_PAINT)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@46$(504,534, DEFAULT_LABEL_OUTLINE_STROKE)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@47$(504,535, DEFAULT_LABEL_SHADOW_PAINT)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@48$(504,540, RELATIVE)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.PiePlot%<init>#0@49$(504,549, DEFAULT_LEGEND_ITEM_CIRCLE)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.labels.AbstractPieItemLabelGenerator%<init>#0@0$(82,95, this)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.labels.AbstractPieItemLabelGenerator%<init>#0@1$(82,96, this)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.labels.AbstractPieItemLabelGenerator%<init>#0@2$(82,97, this)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.labels.AbstractPieItemLabelGenerator%<init>#0@4$(82,(84,87), labelFormat)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.labels.AbstractPieItemLabelGenerator%<init>#0@5$(82,95, labelFormat)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.labels.AbstractPieItemLabelGenerator%<init>#0@7$(82,(87,90), numberFormat)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.labels.AbstractPieItemLabelGenerator%<init>#0@8$(82,96, numberFormat)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.labels.AbstractPieItemLabelGenerator%<init>#0@10$(82,(90,95), percentFormat)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.labels.AbstractPieItemLabelGenerator%<init>#0@11$(82,97, percentFormat)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@21$(364,(403,411), title)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%notifyListeners#23@15$(1499,(1499,1506), i)",
+        [
+            0.016666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%notifyListeners#23@0$(1497,(1497,1498), this)",
+        [
+            0.0125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%notifyListeners#23@2$(1497,1498, this)",
+        [
+            0.0125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%notifyListeners#23@4$(1497,(1497,1498), this.notify)",
+        [
+            0.0125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%notifyListeners#23@6$(1497,1498, this.changeListeners)",
+        [
+            0.0125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@0$(211,222, this)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@1$(211,223, this)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@2$(211,224, this)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@3$(211,228, this)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@4$(211,229, this)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@5$(211,230, this)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@6$(211,231, this)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@7$(211,232, this)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@9$(211,(213,216), text)",
+        [
+            0.008064516129032258,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@10$(211,222, text)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@12$(211,(216,219), font)",
+        [
+            0.008064516129032258,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@13$(211,223, font)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@15$(211,(219,222), paint)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@16$(211,224, paint)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.TextTitle%<init>#0@17$(211,228, horizontalAlignment)",
+        [
+            0.008064516129032258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@17$(364,393, this)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@18$(364,398, this)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@19$(364,399, this)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@30$(364,(392,393), createLegend)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@36$(364,396, white)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@37$(364,397, BOTTOM)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@41$(386,393, this.plot)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@42$(389,398, this.subtitles)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%setPosition#1@0$(216,(219,220), this)",
+        [
+            0.006993006993006993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%setPosition#1@2$(216,220, this)",
+        [
+            0.006993006993006993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%setPosition#1@3$(216,221, this)",
+        [
+            0.006993006993006993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%setPosition#1@4$(216,221, this)",
+        [
+            0.006993006993006993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%setPosition#1@6$(216,(216,219), position)",
+        [
+            0.006993006993006993,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%setPosition#1@7$(216,(219,220), position)",
+        [
+            0.006993006993006993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%setPosition#1@9$(216,220, position)",
+        [
+            0.006993006993006993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%setPosition#1@10$(216,(219,220), this.position)",
+        [
+            0.006993006993006993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.AbstractBlock%setMargin#0@0$(209,212, this)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.AbstractBlock%setMargin#0@2$(209,(209,212), margin)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.AbstractBlock%setMargin#0@3$(209,212, margin)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.AbstractBlock%setFrame#1@0$(251,254, this)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.AbstractBlock%setFrame#1@2$(251,(251,254), frame)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.AbstractBlock%setFrame#1@3$(251,254, frame)",
+        [
+            0.006944444444444444,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.LineBorder%<init>#0@0$(93,103, this)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.LineBorder%<init>#0@1$(93,104, this)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.LineBorder%<init>#0@2$(93,105, this)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.LineBorder%<init>#0@4$(93,(94,97), paint)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.LineBorder%<init>#0@5$(93,103, paint)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.LineBorder%<init>#0@7$(93,(97,100), stroke)",
+        [
+            0.006896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.LineBorder%<init>#0@8$(93,104, stroke)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.LineBorder%<init>#0@10$(93,(100,103), insets)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.LineBorder%<init>#0@11$(93,105, insets)",
+        [
+            0.006896551724137931,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%notifyListeners#7@0$(357,(357,358), this)",
+        [
+            0.006756756756756757,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%notifyListeners#7@2$(357,358, this)",
+        [
+            0.006756756756756757,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%notifyListeners#7@4$(357,(357,358), this.notify)",
+        [
+            0.006756756756756757,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%notifyListeners#7@6$(357,358, this.listenerList)",
+        [
+            0.006756756756756757,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%notifyListeners#7@15$(359,(359,366), i)",
+        [
+            0.006756756756756757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.BlockContainer%<init>#0@0$(95,99, this)",
+        [
+            0.006369426751592357,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.BlockContainer%<init>#0@1$(95,100, this)",
+        [
+            0.006369426751592357,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.BlockContainer%<init>#0@3$(95,(96,99), arrangement)",
+        [
+            0.006369426751592357,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.BlockContainer%<init>#0@4$(95,99, arrangement)",
+        [
+            0.006369426751592357,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%addChangeListener#5@3$(337,(337,337), class$org$jfree$chart$event$TitleChangeListener)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%addChangeListener#5@4$(337,337, class$org$jfree$chart$event$TitleChangeListener)",
+        [
+            0.00625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%addChangeListener#5@0$(337,337, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%addChangeListener#5@1$(337,337, listener)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%addChangeListener#5@5$(337,337, this.listenerList)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@0$(364,371, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@1$(364,372, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@2$(364,373, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@3$(364,376, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@4$(364,380, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@5$(364,381, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@6$(364,382, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@7$(364,384, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@8$(364,386, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@9$(364,387, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@10$(364,389, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@11$(364,411, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@12$(364,413, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@13$(364,414, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@14$(364,415, this)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@27$(364,(366,371), plot)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@28$(364,386, plot)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@29$(364,387, plot)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@32$(364,376, KEY_ANTIALIASING)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@33$(364,376, VALUE_ANTIALIAS_ON)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@34$(364,382, black)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@35$(364,384, ZERO_INSETS)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@39$(364,411, DEFAULT_BACKGROUND_PAINT)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.JFreeChart%<init>#0@40$(364,413, DEFAULT_BACKGROUND_IMAGE)",
+        [
+            0.006211180124223602,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.Plot%addChangeListener#13@3$(868,(868,868), class$org$jfree$chart$event$PlotChangeListener)",
+        [
+            0.00546448087431694,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.Plot%addChangeListener#13@4$(868,868, class$org$jfree$chart$event$PlotChangeListener)",
+        [
+            0.00546448087431694,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.Plot%addChangeListener#13@0$(868,868, this)",
+        [
+            0.005434782608695652,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.Plot%addChangeListener#13@1$(868,868, listener)",
+        [
+            0.005434782608695652,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.plot.Plot%addChangeListener#13@5$(868,868, this.listenerList)",
+        [
+            0.005434782608695652,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@0$(172,191, this)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@1$(172,192, this)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@2$(172,193, this)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@3$(172,194, this)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@4$(172,195, this)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@5$(172,196, this)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@7$(172,(175,178), position)",
+        [
+            0.0053475935828877,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@8$(172,191, position)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@10$(172,(178,183), horizontalAlignment)",
+        [
+            0.0053475935828877,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@11$(172,192, horizontalAlignment)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@13$(172,(183,187), verticalAlignment)",
+        [
+            0.0053475935828877,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@14$(172,193, verticalAlignment)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@16$(172,(187,191), padding)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.title.Title%<init>#0@17$(172,194, padding)",
+        [
+            0.0053475935828877,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.AbstractBlock%setPadding#2@0$(277,280, this)",
+        [
+            0.0051813471502590676,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.AbstractBlock%setPadding#2@2$(277,(277,280), padding)",
+        [
+            0.0051813471502590676,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.block.AbstractBlock%setPadding#2@3$(277,280, padding)",
+        [
+            0.0051813471502590676,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@0$(116,120, this)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@1$(116,121, this)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@2$(116,122, this)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@3$(116,123, this)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@4$(116,124, this)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@6$(116,(117,120), unitType)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@7$(116,120, unitType)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@8$(116,121, top)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@9$(116,123, left)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@10$(116,122, bottom)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.jfree.chart.util.RectangleInsets%<init>#0@11$(116,124, right)",
+        [
+            0.003436426116838488,
+            true,
+            "clear"
+        ]
+    ]
+]
