@@ -1,0 +1,266 @@
+[
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@7$(281,(308,309), this)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@34$(281,(308,309), pad)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%isInAlphabet#3@2$(537,(537,537), this)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%isInAlphabet#3@8$(537,(537,537), octet)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%isInAlphabet#3@12$(537,(537,537), this.decodeTable)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@13$(281,284, this)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@14$(281,285, this)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@30$(281,(283,284), useHex)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@37$(281,284, HEX_ENCODE_TABLE)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@38$(281,285, HEX_DECODE_TABLE)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@3$(281,303, this)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@4$(281,304, this)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@17$(281,(290,303), lineLength)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@19$(281,(281,281), lineSeparator)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@42$(303,306, this.encodeSize)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@0$(281,281, this)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@5$(281,306, this)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@15$(281,281, lineLength)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@21$(281,281, lineSeparator)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%<init>#0@32$(281,281, pad)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%isInAlphabet#3@0$(537,(537,537), this)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%isInAlphabet#3@4$(537,(537,537), octet)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%isInAlphabet#3@6$(537,(537,537), octet)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base32%isInAlphabet#3@10$(537,(537,537), this.decodeTable)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.BaseNCodec%<init>#0@5$(205,(208,208), lineLength)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.BaseNCodec%<init>#0@12$(208,(209,209), useChunking)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.BaseNCodec%<init>#0@0$(205,209, this)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.BaseNCodec%<init>#0@1$(205,210, this)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.BaseNCodec%<init>#0@2$(205,212, this)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.BaseNCodec%<init>#0@3$(205,209, encodedBlockSize)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.BaseNCodec%<init>#0@6$(205,209, lineLength)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.BaseNCodec%<init>#0@7$(205,210, chunkSeparatorLength)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.BaseNCodec%<init>#0@10$(205,212, pad)",
+        [
+            0.008264462809917356,
+            false,
+            "clear"
+        ]
+    ]
+]

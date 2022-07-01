@@ -1,0 +1,6 @@
+14:04:37.981 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+14:04:38.134 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Csv/3b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Csv/3b/tests.all, --logLevel, INFO]
+14:04:47.223 [main] INFO  JaguarDF - Test testEscapedMySqlNullValue(org.apache.commons.csv.CSVLexerTest) : Failed
+14:04:47.461 [main] INFO  JaguarDF - Test testEscapedCharacter(org.apache.commons.csv.CSVLexerTest) : Failed
+14:04:50.644 [main] INFO  JaguarDF - Test testBackslashEscaping(org.apache.commons.csv.CSVParserTest) : Failed
+14:04:59.198 [main] INFO  JaguarDF - Jaguar-DF has finished!

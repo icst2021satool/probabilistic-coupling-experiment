@@ -1,0 +1,6 @@
+19:06:31.635 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+19:06:31.789 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/34b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/34b/tests.all, --logLevel, INFO]
+19:15:35.863 [main] INFO  JaguarDF - Test testParseReparse(org.apache.commons.compress.archivers.zip.X7875_NewUnixTest) : Failed
+XZTestCase: HeapMax=1431830528 bytes 1365.5 MB
+Attempt to read the whole thing in, should throw ...
+19:22:52.213 [main] INFO  JaguarDF - Jaguar-DF has finished!

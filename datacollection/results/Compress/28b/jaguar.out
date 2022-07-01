@@ -1,0 +1,6 @@
+17:26:39.516 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+17:26:39.640 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/28b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/28b/tests.all, --logLevel, INFO]
+17:31:37.205 [main] INFO  JaguarDF - Test shouldThrowAnExceptionOnTruncatedEntries(org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest) : Failed
+XZTestCase: HeapMax=1431830528 bytes 1365.5 MB
+Attempt to read the whole thing in, should throw ...
+17:40:18.953 [main] INFO  JaguarDF - Jaguar-DF has finished!

@@ -1,0 +1,7 @@
+00:11:01.173 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+00:11:01.324 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/47b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/47b/tests.all, --logLevel, INFO]
+Analysing /dev/null/not-there
+00:24:36.938 [main] INFO  JaguarDF - Test properlyMarksEntriesAsUnreadableIfUncompressedSizeIsUnknown(org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest) : Failed
+XZTestCase: HeapMax=1431830528 bytes 1365.5 MB
+Attempt to read the whole thing in, should throw ...
+00:43:50.400 [main] INFO  JaguarDF - Jaguar-DF has finished!

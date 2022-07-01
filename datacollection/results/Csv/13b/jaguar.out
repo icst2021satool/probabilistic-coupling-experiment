@@ -1,0 +1,5 @@
+14:14:48.588 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+14:14:48.735 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Csv/13b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Csv/13b/tests.all, --logLevel, INFO]
+14:15:29.114 [main] INFO  JaguarDF - Test testMySqlNullOutput(org.apache.commons.csv.CSVPrinterTest) : Failed
+14:15:29.301 [main] INFO  JaguarDF - Test testMySqlNullStringDefault(org.apache.commons.csv.CSVPrinterTest) : Failed
+14:15:39.502 [main] INFO  JaguarDF - Jaguar-DF has finished!

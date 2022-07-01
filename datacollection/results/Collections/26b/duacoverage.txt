@@ -1,0 +1,976 @@
+/stvr/probabilistic-coupling-experiment/datacollection
+Archive:  commons-collections.zip
+   creating: commons-collections/26b/
+  inflating: commons-collections/26b/junit.out  
+  inflating: commons-collections/26b/defects4j.out  
+  inflating: commons-collections/26b/ba-dua.xml  
+   creating: commons-collections/26b/jaguar/
+   creating: commons-collections/26b/jaguar/.jaguar/
+   creating: commons-collections/26b/jaguar/.jaguar/spectra/
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.sequence.EditScript.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.CloneTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.FunctorUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.ReferenceIdentityMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.IfClosure.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.Flat3Map$EntryIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.CompositeMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.splitmap.AbstractIterableGetMapDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.AbstractListDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractBitwiseTrie$BasicEntry.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.ArrayListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.ConstantTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.CursorableLinkedList$Cursor.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap$ViewIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.ReverseListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.UnmodifiableBag.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.ListUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceValues.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.NotPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.AbstractMapBag.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$PrefixRangeEntrySet$SingletonIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$KeySetIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.IterableUtils$8.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.InvokerTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$KeysMultiSet$1.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractBitwiseTrie.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractListValuedMap$WrappedList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.set.ListOrderedSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.Flat3Map.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.FactoryTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$TrieIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.CollectionSortedBag.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap$KeyView.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.ClosureTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.keyvalue.TiedMapEntry.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.GrowthList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$WrappedCollection.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractHashedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.comparators.ReverseComparator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.set.TransformedSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$RangeEntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.Flat3Map$KeySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.queue.TransformedQueue.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractInputCheckedMapDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractMultiValuedMapDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractHashedMap$HashMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.SetUtils$2.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.WhileClosure.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$RangeMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.StaticBucketMap$BaseIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.AnyPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.CollectionBag.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.ListUtils$Partition.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.TransformedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap$InverseViewMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.MapUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multiset.AbstractMultiSetDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.UnmodifiableEntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.SkippingIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractHashedMap$HashIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.PredicateTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.TreeBag.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.ArrayIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.MultiValueMap$ValuesIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$RangeEntryMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.NullIsExceptionPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceKeySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceStrength.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.CollatingIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.keyvalue.MultiKey.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.LazyMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.CollectionUtils$CardinalityHelper.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.ComparatorUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.NullIsTruePredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.NodeListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.TransformerUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.TransformedMultiValuedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$PrefixRangeEntrySet$EntryIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.AbstractUntypedIteratorDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.IdentityPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.PrototypeFactory$PrototypeCloneFactory.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.EntrySetToMapIteratorAdapter.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.sequence.SequencesComparator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multiset.UnmodifiableMultiSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.set.UnmodifiableNavigableSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.ListOrderedMap$ListOrderedMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$TrieEntry.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.SwitchClosure.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.PassiveExpiringMap$ConstantTimeToLiveExpirationPolicy.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.SetUtils$1.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.ListOrderedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$TrieMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.LazyIteratorChain.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$BidiMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.AbstractLinkedList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.SetUtils$5.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.set.AbstractSetDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.AbstractLinkedList$LinkedListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.LoopingListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.StaticBucketMap$Node.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.IterableUtils$13.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.CursorableLinkedList$SubCursor.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.SetUniqueList$SetListListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.FixedSizeMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractHashedMap$HashEntry.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap$EntryView.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.StaticBucketMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.AbstractLinkedList$LinkedSubList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.comparators.FixedOrderComparator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.comparators.TransformingComparator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.InstantiateFactory.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.queue.CircularFifoQueue$1.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.TreeList$TreeListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceBaseIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.set.PredicatedSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.StaticBucketMap$KeySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.PermutationIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.UnmodifiableMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.InstantiateTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.keyvalue.AbstractMapEntry.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$KeySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.PredicatedBag.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.SetUtils$3.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.LinkedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.SynchronizedBag.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.CollectionUtils$EquatorWrapper.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.NullPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.SingletonMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.comparators.ComparatorChain.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceEntry.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractHashedMap$EntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.ForClosure.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$MultiValuedMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.UnmodifiableIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$EntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$KeysMultiSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.PredicatedList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.AbstractLinkedList$LinkedSubListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.ObjectArrayIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.TransformedList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.PassiveExpiringMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.UnmodifiableListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$ValuesIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.NodeCachingLinkedList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractListValuedMap$ValuesListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.ChainedTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.ArrayStack.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.IterableUtils$7$1.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.TreeList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.Flat3Map$FlatMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap$ValueView.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.DualTreeBidiMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.FilterIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.LoopingIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.set.UnmodifiableSortedSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.collection.UnmodifiableCollection.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.PushbackIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap$InverseEntryView.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.CaseInsensitiveMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.SetUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractInputCheckedMapDecorator$EntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.PrototypeFactory.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.UnmodifiableSortedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.collection.IndexedCollection.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.SingletonMap$SingletonMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.PeekingIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$Values.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.collection.AbstractCollectionDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.MultiValueMap$1.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.MultiKeyMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.TransformedSortedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.IteratorIterable.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.LazyList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.FluentIterable.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.UnmodifiableOrderedMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$RangeEntrySet$EntryIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.MultiValueMap$Values.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$EntrySetIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.comparators.BooleanComparator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.CollectionUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.AllPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.ZippingIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.DualTreeBidiMap$BidiOrderedMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.DefaultEquator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.AbstractMapBag$BagIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.set.CompositeSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractLinkedMap$LinkMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.StaticBucketMap$EntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.SplitMapUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.CursorableLinkedList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractLinkedMap$LinkIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.UnmodifiableSortedBag.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.collection.PredicatedCollection$Builder.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$Values.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.TransformerPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.TreeList$AVLNode.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.NotNullPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.OrPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.KeyAnalyzer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.collection.CompositeCollection.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.DefaultedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.NullIsFalsePredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.IteratorUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.UnmodifiableBidiMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.IterableUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.CollectionUtils$SetOperationCardinalityHelper.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.MultiMapUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.SplitMapUtils$WrappedPut.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.ListIteratorWrapper.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap$ViewMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues$1.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.Flat3Map$EntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractReferenceMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.PrototypeFactory$PrototypeSerializationFactory.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.ObjectArrayListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$ValuesIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.SetUniqueList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.MultiValueMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.SingletonListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractListValuedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$MapEntry.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.IterableUtils$2$1.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.comparators.ComparableComparator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.TransformedPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.UnmodifiableMapIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.collection.TransformedCollection.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$KeySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.ConstantFactory.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.ObjectGraphIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$Values.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractMultiValuedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.OnePredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.IteratorChain.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap$Node.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.TreeBidiMap$Inverse.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.ComparatorPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.MapTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.FixedSizeSortedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.splitmap.TransformedSplitMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.SplitMapUtils$WrappedGet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.BoundedIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractMapDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.EnumerationUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.NonePredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$EntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.FilterListIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.LRUMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.AbstractListIteratorDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$PrefixRangeMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.AndPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.Flat3Map$Values.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.iterators.SingletonIterator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$View.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.AbstractPatriciaTrie$PrefixRangeEntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.PredicatedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.TransformedBag.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.TransformerClosure.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.UnmodifiableTrie.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.DualTreeBidiMap$ViewMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.comparators.NullComparator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.InstanceofPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.Flat3Map$FlatMapEntry.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.list.UnmodifiableList.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.queue.CircularFifoQueue.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.SwitchTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.IfTransformer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.EqualPredicate.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bidimap.UnmodifiableSortedBidiMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.queue.UnmodifiableQueue.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.set.UnmodifiableSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.multimap.AbstractSetValuedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.bag.AbstractBagDecorator.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.set.MapBackedSet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceEntrySet.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.AbstractLinkedMap.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.ListOrderedMap$EntrySetView.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.collection.PredicatedCollection.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.functors.ChainedClosure.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.keyvalue.DefaultKeyValue.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.trie.analyzer.StringKeyAnalyzer.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.collection.SynchronizedCollection.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.ClosureUtils.spectra  
+  inflating: commons-collections/26b/jaguar/.jaguar/spectra/org.apache.commons.collections4.map.UnmodifiableOrderedMap.spectra  
+   creating: commons-collections/26b/jaguar/.jaguar/matrix/
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.NullComparator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.SynchronizedBag$SynchronizedBagSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.AbstractLinkedList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map$KeySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.MultiValueMap$ReflectionFactory.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$13.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.UnmodifiableEntrySet$UnmodifiableEntrySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractListValuedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IteratorUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.NullIsTruePredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Transformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$TrieEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.SynchronizedMultiSet$SynchronizedSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.splitmap.TransformedSplitMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.AbstractListIteratorDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractLinkedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.CatchAndRethrowClosure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ListOrderedMap$KeySetView$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$InverseEntryView.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$DataElement.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.FunctorException.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.UnmodifiableNavigableSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.LRUMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.OrPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.ListOrderedSet$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap$HashIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ExceptionClosure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map$FlatMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ResettableListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.FilterIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractListValuedMap$ValuesListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.CollectionUtils$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.ArrayIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.TransformerClosure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.DualHashBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.TransformedSortedSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.AbstractMapMultiSet$UniqueSetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.MultiValuedHashMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$KeySet$KeyIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$Inverse.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.UnmodifiableMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$ViewMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.OrderedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.UnmodifiableOrderedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.StringValueTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.AbstractMapBag$MutableInteger.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.MapUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.LazyIteratorChain.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.EditScript.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$Node.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.LinkedMap$LinkedMapList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.SetUniqueList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ListUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.PrototypeFactory$PrototypeCloneFactory.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.PredicateTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.NodeListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.PredicatedSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$2.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ExceptionTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.AbstractIteratorDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ExceptionFactory.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.ComparatorChain.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ListOrderedMap$KeySetView.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$Values$ValueIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$WeakRef.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.LinkedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.PassiveExpiringMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.UnmodifiableSortedSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.AbstractSortedSetDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.TreeList$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$KeySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractOrderedBidiMapDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.SwitchTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.CollectionSortedBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SetUtils$5.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$ViewMapEntryIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$EntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$EntryView.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.analyzer.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractInputCheckedMapDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.TreeList$TreeListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ListOrderedMap$ListOrderedMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.SingletonMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.TransformedCollection.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.BoundedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.CollectionUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.PredicatedSortedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$MultiValuedMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.ReplacementsHandler.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Bag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.ObjectArrayListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$SoftRef.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$RangeMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceKeySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.queue.CircularFifoQueue.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.UnmodifiableTrie.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$WrappedCollection.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.TransformerUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$7$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.SingletonIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ListOrderedMap$EntrySetView.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.AllPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$Values.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.CollectionBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SplitMapUtils$WrappedGet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ListUtils$LcsVisitor.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.PredicatedCollection$Builder.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.CursorableLinkedList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.BagUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceEntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.FixedOrderComparator$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$Values.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.AndPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.NullPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.FactoryUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ResettableIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.UnmodifiableSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.keyvalue.TiedMapEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractListValuedMap$WrappedList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$KeyView.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.AbstractBagDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.UnmodifiableIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.CollectionUtils$CardinalityHelper.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.UnmodifiableBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.EmptyOrderedIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap$KeySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.IfTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Unmodifiable.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.InvokerTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ArrayStack.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.ArrayListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractSetValuedMap$WrappedSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.SingletonListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractSortedMapDecorator$SortedMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.PrototypeFactory.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$TrieMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.CollectionUtils$SetOperationCardinalityHelper.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.queue.UnmodifiableQueue.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.MapBackedSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$View.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ConstantTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.FluentIterable.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.PassiveExpiringMap$ConstantTimeToLiveExpirationPolicy.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.PredicatedBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$KeysMultiSet$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceBaseIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SetUtils$4.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.CommandVisitor.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.FixedOrderComparator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ComparatorUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.InstantiateTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ListUtils$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.PrototypeFactory$PrototypeSerializationFactory.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.analyzer.StringKeyAnalyzer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.UnmodifiableList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.AbstractLinkedList$LinkedListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.AbstractLinkedList$Node.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractBitwiseTrie$BasicEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.PredicatedNavigableSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.SequencesComparator$Snake.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.TransformedMultiValuedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.AbstractMapMultiSet$UniqueSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$BaseIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractInputCheckedMapDecorator$MapEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$ValuesIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.ListOrderedSet$OrderedSetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.AbstractQuantifierPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap$ValuesIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.FalsePredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.SwitchClosure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceValuesIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.IdentityPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$RangeEntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ListValuedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Factory.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.keyvalue.DefaultMapEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.AbstractMapIteratorDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$ViewIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.CompositeMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SetUtils$2.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SetUtils$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.OrderedBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.MapUtils$2.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.DualTreeBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$EntrySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ConstantFactory.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.DualTreeBidiMap$ViewMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.TransformedList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.UniquePredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$KeySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.MultiSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.UnmodifiableMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$PrefixRangeEntrySet$EntryIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Get.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.EnumerationIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.IteratorIterable.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ListOrderedMap$ListOrderedMapEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.UnmodifiableBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.TransformedNavigableSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.TransformedBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$7.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.MultiValueMap$ValuesIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.PermutationIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.KeyValue.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.ListOrderedSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.LazyList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.keyvalue.DefaultKeyValue.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.AbstractUntypedIteratorDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.NullIsExceptionPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.AbstractSortedBagDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.KeyAnalyzer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ListOrderedMap$ValuesView.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.CursorableLinkedList$SubCursor.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ChainedTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.FixedSizeSortedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$EntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$PrefixRangeEntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$2$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractLinkedMap$LinkEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.PredicatedMultiSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.MultiValuedHashMap$ListValuedHashMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.IteratorEnumeration.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ClosureTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map$KeySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.MultiKeyMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SplitMapUtils$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ClosureUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.MultiValueMap$1$1$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.ReplacementsFinder.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ComparatorPredicate$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.ObjectGraphIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.PredicateUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.AbstractEmptyMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.TransformedSortedBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.PatriciaTrie.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.AbstractNavigableSetDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.MapUtils$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$EntrySet$EntryIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.PredicatedCollection.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.CollectionUtils$3.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap$HashEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.UnmodifiableMultiSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.TreeList$AVLNode.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.AbstractMapMultiSet$EntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.HashedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.AbstractMapMultiSet$MultiSetEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.TransformIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractOrderedMapDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.PredicatedSortedBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$InverseViewMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map$Values.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$5.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.queue.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SortedBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.NullIsFalsePredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.MultiValueMap$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ForClosure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.CompositeSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.EqualPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.AbstractCollectionDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractInputCheckedMapDecorator$EntrySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.splitmap.AbstractIterableGetMapDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceValues.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ListOrderedMap$ValuesView$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map$EntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.BooleanComparator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.queue.TransformedQueue.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SplitMapUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$PrefixRangeMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map$EntrySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.CompositeCollection$CollectionMutator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.PredicatedSortedSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.PredicatedList$PredicatedListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map$ValuesIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SetUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.AbstractListDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.DualTreeBidiMap$BidiOrderedMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.AbstractLinkedList$LinkedSubList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMapDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.ObjectArrayIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.MultiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$MapEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$EntryIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.BoundedCollection.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap$EntrySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Closure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ListUtils$CharSequenceAsList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.CaseInsensitiveMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ComparatorPredicate$Criterion.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.TreeBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.UnmodifiableEntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.SetUniqueList$SetListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.AbstractSerializableSetDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.UnmodifiableEntrySet$UnmodifiableEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Trie.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$BidiMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$12.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.TransformedSortedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.EnumerationUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$TrieIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ComparatorPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractBitwiseTrie.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.MapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$EntryValues$1$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.OrderedIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.splitmap.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.DualLinkedHashBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.BoundedIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$9.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.UnmodifiableSortedBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.FactoryTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.AbstractMapMultiSet$MultiSetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.WhileClosure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.CollatingIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractBidiMapDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractSetValuedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.DeleteCommand.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.CursorableLinkedList$Cursor.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SortedBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.CompositeSet$SetMutator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap$EntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.ListIteratorWrapper.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.FixedSizeList$FixedSizeListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.IfClosure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.ReverseComparator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ReferenceMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$Reference.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.EntrySetToMapIteratorAdapter.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.FilterListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractLinkedMap$LinkIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractSortedBidiMapDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.AbstractOrderedMapIteratorDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.FixedOrderComparator$UnknownObjectBehavior.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.TruePredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.HashBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.DefaultedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.AbstractEmptyIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.CollectionUtils$2.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractLinkedMap$ValuesIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.PrototypeFactory$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$KeysMultiSet$1$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.keyvalue.AbstractKeyValue.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.SynchronizedCollection.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.AbstractMapMultiSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractSortedMapDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.OnePredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.LazyMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap$Values.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceEntrySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.MultiValuedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SetUtils$6.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$4.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.NOPTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractLinkedMap$EntrySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$KeySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.EmptyIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SetUtils$3.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.queue.AbstractQueueDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.TransformedList$TransformedListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$8.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.NodeCachingLinkedList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.IteratorChain.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$UnmodifiableIterable.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$10.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.TransformedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.PassiveExpiringMap$ExpirationPolicy.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.AnyPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.SynchronizedBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.TrieUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractLinkedMap$KeySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.MultiValuedHashMap$SetValuedHashMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.LazySortedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.UniqueFilterIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.InsertCommand.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.MapTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.InstantiateFactory.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ListOrderedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractInputCheckedMapDecorator$EntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Equator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.UnmodifiableSortedBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.UnmodifiableOrderedMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.AbstractSerializableListDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap$HashMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.AbstractMapBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.PredicatedList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.IteratorIterable$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.AbstractDualBidiMap$View.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.EmptyOrderedMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.ListUtils$Partition.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.SequencesComparator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.AbstractMapMultiSet$EntrySetIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.SynchronizedSortedBag.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.CloneTransformer.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.FixedSizeMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.DefaultEquator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.PredicatedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.MultiValueMap$Values.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.MultiMapUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$MultiValuedMapEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.keyvalue.MultiKey.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.AbstractMapMultiSet$MutableInteger.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$ValueView.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.IndexedCollection.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.HashMultiSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.LoopingListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.EmptyMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.NotPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.keyvalue.AbstractMapEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$ValuesIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.NOPClosure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.MultiValueMap$1$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.UnmodifiableCollection.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ListOrderedMap$ListOrderedIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map$FlatMapEntry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.CompositeCollection.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.QueueUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.AbstractSetDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.SingletonMap$SingletonValues.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$PrefixRangeEntrySet$SingletonIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.UnmodifiableListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.CompositeMap$MapMutator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableSortedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableGet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.ReverseListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$EntrySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceStrength.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.CollectionUtils$EquatorWrapper.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$3.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.ComparableComparator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractHashedMap$KeySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Put.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.AbstractLinkedList$LinkedSubListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.Flat3Map$EntryIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.Predicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$KeysMultiSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.keyvalue.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.comparators.TransformingComparator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.UnmodifiableSortedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.SynchronizedMultiSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.TreeList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.EntrySetMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.InstanceofPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$RangeEntryMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$ValueIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.OrderedMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractMapDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.EmptyListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.TransformerPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.EditCommand.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.GrowthList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.ZippingIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.set.TransformedSet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$Node.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceKeySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.collection.package-info.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.TransformedPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractLinkedMap$LinkMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.PushbackIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.AbstractIterableMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ExceptionPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.sequence.KeepCommand.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.SkippingIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.NotNullPredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SetValuedMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SetUtils$SetView.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$RangeEntrySet$EntryIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.SplitMapUtils$WrappedPut.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.queue.PredicatedQueue.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bag.AbstractMapBag$BagIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$KeySet.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.FixedSizeList.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.queue.CircularFifoQueue$1.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$6.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.PeekingIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.BidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.FunctorUtils.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multimap.AbstractMultiValuedMap$Values.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.TreeBidiMap$InverseViewMapEntryIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.ChainedClosure.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.NonePredicate.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.SingletonMap$SingletonMapIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.MultiValueMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$Lock.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.functors.PredicateDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.trie.AbstractPatriciaTrie$Values.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.MultiSet$Entry.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.iterators.LoopingIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap$KeyIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.list.SetUniqueList$SetListListIterator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.StaticBucketMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.multiset.AbstractMultiSetDecorator.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.map.ReferenceIdentityMap.matrix  
+  inflating: commons-collections/26b/jaguar/.jaguar/matrix/org.apache.commons.collections4.IterableUtils$11.matrix  
+  inflating: commons-collections/26b/ba-dua_jaguar.xml  
+  inflating: commons-collections/26b/ba-dua.out  
+  inflating: commons-collections/26b/jaguar.out  
+Trying to fetch Ba-dua.
+[Collections 26b] Jaguar DUA coverage
+Analyzing /stvr/probabilistic-coupling-experiment/datacollection/coverage/Collections/commons-collections/26b/jaguar
+org.apache.commons.collections4.CollectionUtils
+- BA-DUA covered: 495, Jaguar covered: 440
+org.apache.commons.collections4.ClosureUtils
+- BA-DUA covered: 19, Jaguar covered: 16
+org.apache.commons.collections4.SetUtils
+- BA-DUA covered: 61, Jaguar covered: 58
+org.apache.commons.collections4.IterableUtils
+- BA-DUA covered: 150, Jaguar covered: 126
+org.apache.commons.collections4.ListUtils
+- BA-DUA covered: 139, Jaguar covered: 124
+org.apache.commons.collections4.ComparatorUtils
+- BA-DUA covered: 45, Jaguar covered: 35
+org.apache.commons.collections4.TransformerUtils
+- BA-DUA covered: 17, Jaguar covered: 14
+org.apache.commons.collections4.MapUtils
+- BA-DUA covered: 185, Jaguar covered: 159
+org.apache.commons.collections4.multimap.AbstractMultiValuedMap$Values
+- BA-DUA covered: 7, Jaguar covered: 4
+org.apache.commons.collections4.multimap.AbstractMultiValuedMap
+- BA-DUA covered: 92, Jaguar covered: 83
+org.apache.commons.collections4.multimap.TransformedMultiValuedMap
+- BA-DUA covered: 49, Jaguar covered: 43
+org.apache.commons.collections4.functors.ChainedClosure
+- BA-DUA covered: 32, Jaguar covered: 19
+org.apache.commons.collections4.functors.NonePredicate
+- BA-DUA covered: 20, Jaguar covered: 10
+org.apache.commons.collections4.functors.OnePredicate
+- BA-DUA covered: 23, Jaguar covered: 12
+org.apache.commons.collections4.functors.SwitchClosure
+- BA-DUA covered: 75, Jaguar covered: 72
+org.apache.commons.collections4.functors.FunctorUtils
+- BA-DUA covered: 73, Jaguar covered: 70
+org.apache.commons.collections4.functors.SwitchTransformer
+- BA-DUA covered: 77, Jaguar covered: 74
+org.apache.commons.collections4.functors.AllPredicate
+- BA-DUA covered: 26, Jaguar covered: 16
+org.apache.commons.collections4.functors.ChainedTransformer
+- BA-DUA covered: 25, Jaguar covered: 15
+org.apache.commons.collections4.functors.PrototypeFactory$PrototypeSerializationFactory
+- BA-DUA covered: 4, Jaguar covered: 3
+org.apache.commons.collections4.functors.AnyPredicate
+- BA-DUA covered: 24, Jaguar covered: 14
+org.apache.commons.collections4.keyvalue.MultiKey
+- BA-DUA covered: 38, Jaguar covered: 27
+org.apache.commons.collections4.comparators.FixedOrderComparator
+- BA-DUA covered: 106, Jaguar covered: 93
+org.apache.commons.collections4.collection.PredicatedCollection
+- BA-DUA covered: 24, Jaguar covered: 18
+org.apache.commons.collections4.collection.IndexedCollection
+- BA-DUA covered: 56, Jaguar covered: 44
+org.apache.commons.collections4.collection.CompositeCollection
+- BA-DUA covered: 115, Jaguar covered: 85
+org.apache.commons.collections4.collection.TransformedCollection
+- BA-DUA covered: 26, Jaguar covered: 13
+org.apache.commons.collections4.collection.SynchronizedCollection
+- BA-DUA covered: 23, Jaguar covered: 21
+org.apache.commons.collections4.collection.PredicatedCollection$Builder
+- BA-DUA covered: 47, Jaguar covered: 44
+org.apache.commons.collections4.trie.AbstractPatriciaTrie$RangeEntryMap
+- BA-DUA covered: 66, Jaguar covered: 65
+org.apache.commons.collections4.trie.AbstractBitwiseTrie
+- BA-DUA covered: 37, Jaguar covered: 34
+org.apache.commons.collections4.trie.AbstractPatriciaTrie
+- BA-DUA covered: 1013, Jaguar covered: 1012
+org.apache.commons.collections4.iterators.CollatingIterator
+- BA-DUA covered: 155, Jaguar covered: 152
+org.apache.commons.collections4.iterators.ZippingIterator
+- BA-DUA covered: 45, Jaguar covered: 35
+org.apache.commons.collections4.iterators.PermutationIterator
+- BA-DUA covered: 164, Jaguar covered: 161
+org.apache.commons.collections4.bag.TransformedBag
+- BA-DUA covered: 24, Jaguar covered: 14
+org.apache.commons.collections4.bag.AbstractMapBag
+- BA-DUA covered: 233, Jaguar covered: 224
+org.apache.commons.collections4.splitmap.TransformedSplitMap
+- BA-DUA covered: 15, Jaguar covered: 12
+org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceKeySet
+- BA-DUA covered: 6, Jaguar covered: 3
+org.apache.commons.collections4.map.TransformedMap
+- BA-DUA covered: 35, Jaguar covered: 32
+org.apache.commons.collections4.map.MultiKeyMap
+- BA-DUA covered: 659, Jaguar covered: 656
+org.apache.commons.collections4.map.CompositeMap
+- BA-DUA covered: 192, Jaguar covered: 189
+org.apache.commons.collections4.map.StaticBucketMap$EntrySet
+- BA-DUA covered: 45, Jaguar covered: 41
+org.apache.commons.collections4.map.PassiveExpiringMap
+- BA-DUA covered: 42, Jaguar covered: 39
+org.apache.commons.collections4.map.StaticBucketMap$BaseIterator
+- BA-DUA covered: 57, Jaguar covered: 55
+org.apache.commons.collections4.map.StaticBucketMap
+- BA-DUA covered: 326, Jaguar covered: 311
+org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceEntrySet
+- BA-DUA covered: 6, Jaguar covered: 3
+org.apache.commons.collections4.map.AbstractReferenceMap$ReferenceValues
+- BA-DUA covered: 6, Jaguar covered: 3
+org.apache.commons.collections4.map.AbstractHashedMap
+- BA-DUA covered: 476, Jaguar covered: 453
+org.apache.commons.collections4.map.MultiValueMap
+- BA-DUA covered: 91, Jaguar covered: 79
+org.apache.commons.collections4.map.MultiValueMap$Values
+- BA-DUA covered: 7, Jaguar covered: 4
+org.apache.commons.collections4.map.PredicatedMap
+- BA-DUA covered: 41, Jaguar covered: 38
+org.apache.commons.collections4.map.ListOrderedMap
+- BA-DUA covered: 133, Jaguar covered: 124
+org.apache.commons.collections4.map.StaticBucketMap$KeySet
+- BA-DUA covered: 21, Jaguar covered: 19
+org.apache.commons.collections4.queue.CircularFifoQueue
+- BA-DUA covered: 148, Jaguar covered: 145
+org.apache.commons.collections4.queue.TransformedQueue
+- BA-DUA covered: 16, Jaguar covered: 6
+org.apache.commons.collections4.bidimap.AbstractDualBidiMap
+- BA-DUA covered: 95, Jaguar covered: 92
+org.apache.commons.collections4.bidimap.TreeBidiMap$Inverse
+- BA-DUA covered: 41, Jaguar covered: 38
+org.apache.commons.collections4.bidimap.TreeBidiMap
+- BA-DUA covered: 1071, Jaguar covered: 1057
+org.apache.commons.collections4.set.TransformedSet
+- BA-DUA covered: 24, Jaguar covered: 14
+org.apache.commons.collections4.set.MapBackedSet
+- BA-DUA covered: 29, Jaguar covered: 26
+org.apache.commons.collections4.set.CompositeSet
+- BA-DUA covered: 158, Jaguar covered: 109
+org.apache.commons.collections4.set.ListOrderedSet
+- BA-DUA covered: 89, Jaguar covered: 80
+org.apache.commons.collections4.sequence.EditScript
+- BA-DUA covered: 4, Jaguar covered: 1
+org.apache.commons.collections4.list.AbstractLinkedList
+- BA-DUA covered: 306, Jaguar covered: 294
+org.apache.commons.collections4.list.PredicatedList
+- BA-DUA covered: 15, Jaguar covered: 12
+org.apache.commons.collections4.list.TransformedList
+- BA-DUA covered: 24, Jaguar covered: 14
+org.apache.commons.collections4.list.SetUniqueList
+- BA-DUA covered: 87, Jaguar covered: 81
+DUA coverage for project Collections
+Total of DUAs (calculated by BA-DUA): 19261
+Covered DUAs by Jaguar: 14600, coverage perc: 75.8
+Collections:26b:Jaguar coverage perc: 75.8

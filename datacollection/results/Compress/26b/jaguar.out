@@ -1,0 +1,7 @@
+16:57:32.271 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+16:57:32.426 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/26b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/26b/tests.all, --logLevel, INFO]
+XZTestCase: HeapMax=1431830528 bytes 1365.5 MB
+Attempt to read the whole thing in, should throw ...
+17:11:06.592 [main] INFO  JaguarDF - Test skipUsingRead(org.apache.commons.compress.utils.IOUtilsTest) : Failed
+17:11:10.657 [main] INFO  JaguarDF - Test skipUsingSkipAndRead(org.apache.commons.compress.utils.IOUtilsTest) : Failed
+17:11:12.692 [main] INFO  JaguarDF - Jaguar-DF has finished!

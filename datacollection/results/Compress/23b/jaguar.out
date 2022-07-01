@@ -1,0 +1,6 @@
+16:18:54.205 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+16:18:54.356 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/23b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/23b/tests.all, --logLevel, INFO]
+16:21:42.984 [main] INFO  JaguarDF - Test testCompressedHeaderWithNonDefaultDictionarySize(org.apache.commons.compress.archivers.sevenz.SevenZFileTest) : Failed
+XZTestCase: HeapMax=1431830528 bytes 1365.5 MB
+Attempt to read the whole thing in, should throw ...
+16:30:49.136 [main] INFO  JaguarDF - Jaguar-DF has finished!

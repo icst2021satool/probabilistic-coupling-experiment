@@ -1,0 +1,15 @@
+{
+"Class" : "org.apache.commons.codec.language.Caverphone", 
+"Methods" : [{ "Name" : "caverphone" ,
+"Duas" : "6" ,
+"Subsumers" : 3,
+"0" : [ 2], "S0" : [0, 2 ],
+"1" : [ 5, 4, 3], "S1" : [0, 3, 4, 5 ],
+"2" : [ 1], "S2" : [1 ]
+},{ "Name" : "encode" ,
+"Duas" : "4" ,
+"Subsumers" : 2,
+"0" : [ 3, 2, 0], "S0" : [0, 2, 3 ],
+"1" : [ 1], "S1" : [1 ]
+}]
+}

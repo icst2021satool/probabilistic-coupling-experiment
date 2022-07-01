@@ -1,0 +1,6 @@
+16:06:20.011 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+16:06:20.163 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/22b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/22b/tests.all, --logLevel, INFO]
+XZTestCase: HeapMax=1431830528 bytes 1365.5 MB
+16:17:36.915 [main] INFO  JaguarDF - Test testPartialReadTruncatedData(org.apache.commons.compress.compressors.bzip2.PythonTruncatedBzip2Test) : Failed
+Attempt to read the whole thing in, should throw ...
+16:18:14.911 [main] INFO  JaguarDF - Jaguar-DF has finished!

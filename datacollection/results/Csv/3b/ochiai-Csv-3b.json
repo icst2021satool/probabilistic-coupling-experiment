@@ -1,0 +1,2514 @@
+[
+    [
+        "org.apache.commons.csv.Lexer%readEscape#1@0$(89,(90,111), c)",
+        [
+            0.7071067811865476,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%readEscape#1@9$(89,111, c)",
+        [
+            0.7071067811865476,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@1$(205,(210,211), this)",
+        [
+            0.5773502691896258,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@20$(205,211, this)",
+        [
+            0.5773502691896258,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@31$(205,215, tkn)",
+        [
+            0.5773502691896258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@41$(205,215, tkn.content)",
+        [
+            0.5773502691896258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@47$(208,(210,211), c)",
+        [
+            0.5773502691896258,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@56$(211,(212,215), unescaped)",
+        [
+            0.5773502691896258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@57$(211,215, unescaped)",
+        [
+            0.5773502691896258,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@6$(152,(162,163), this)",
+        [
+            0.48038446141526137,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@9$(152,163, this)",
+        [
+            0.48038446141526137,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@10$(152,169, this)",
+        [
+            0.48038446141526137,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@16$(152,167, tkn)",
+        [
+            0.48038446141526137,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@30$(152,(162,163), c)",
+        [
+            0.48038446141526137,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@38$(152,167, tkn.content)",
+        [
+            0.48038446141526137,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@42$(152,169, this.in)",
+        [
+            0.48038446141526137,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@47$(163,(164,167), unescaped)",
+        [
+            0.48038446141526137,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@48$(163,167, unescaped)",
+        [
+            0.48038446141526137,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isEscape#8@0$(171,(171,171), this)",
+        [
+            0.4629100498862757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isEscape#8@2$(171,(171,171), c)",
+        [
+            0.4629100498862757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isEscape#8@4$(171,(171,171), this.escape)",
+        [
+            0.4629100498862757,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%withEscape#4@0$(276,279, this)",
+        [
+            0.30151134457776363,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%withEscape#4@1$(276,280, this)",
+        [
+            0.30151134457776363,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%withEscape#4@3$(276,(276,279), escape)",
+        [
+            0.30151134457776363,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%withEscape#4@4$(276,279, escape)",
+        [
+            0.30151134457776363,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@8$(172,(192,192), this)",
+        [
+            0.2809757434745082,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@11$(172,(197,200), this)",
+        [
+            0.2809757434745082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@15$(172,(192,197), this)",
+        [
+            0.2809757434745082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@46$(172,(192,192), this.escape)",
+        [
+            0.2809757434745082,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@49$(172,(197,200), this.escape)",
+        [
+            0.2809757434745082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@51$(172,(192,197), this.escape)",
+        [
+            0.2809757434745082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@58$(172,(192,197), this.commentStart)",
+        [
+            0.2809757434745082,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@2$(172,(177,177), this)",
+        [
+            0.2672612419124244,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@24$(172,(177,182), this)",
+        [
+            0.2672612419124244,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@41$(172,(177,182), this.delimiter)",
+        [
+            0.2672612419124244,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@44$(172,(177,177), this.escape)",
+        [
+            0.2672612419124244,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@53$(172,(177,182), this.escape)",
+        [
+            0.2672612419124244,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@13$(152,(176,180), this)",
+        [
+            0.24743582965269675,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@45$(152,(176,180), this.ignoreSurroundingSpaces)",
+        [
+            0.24743582965269675,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@0$(55,(66,67), this)",
+        [
+            0.24494897427831783,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@9$(55,(98,106), this)",
+        [
+            0.24494897427831783,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@52$(55,(66,67), this.ignoreEmptyLines)",
+        [
+            0.24494897427831783,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@64$(55,(98,106), this.ignoreSurroundingSpaces)",
+        [
+            0.24494897427831783,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@94$(63,(67,82), eol)",
+        [
+            0.24494897427831783,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%isLineBreak#0@3$(426,(426,426), c)",
+        [
+            0.242535625036333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@5$(172,(182,187), this)",
+        [
+            0.24019223070763068,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@56$(172,(182,187), this.commentStart)",
+        [
+            0.24019223070763068,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@7$(205,(218,220), this)",
+        [
+            0.23570226039551587,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@19$(205,220, this)",
+        [
+            0.23570226039551587,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@30$(205,221, tkn)",
+        [
+            0.23570226039551587,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@34$(205,(218,220), this.in)",
+        [
+            0.23570226039551587,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@37$(205,220, this.in)",
+        [
+            0.23570226039551587,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@40$(205,221, tkn.content)",
+        [
+            0.23570226039551587,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%isLineBreak#0@0$(426,(426,426), c)",
+        [
+            0.23570226039551584,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@1$(152,(152,155), this)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@3$(152,(155,159), this)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@5$(152,(159,162), this)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@7$(152,(162,171), this)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@8$(152,172, this)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@15$(152,171, tkn)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@19$(152,180, tkn)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@25$(152,(152,155), c)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@27$(152,(155,159), c)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@29$(152,(159,162), c)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@31$(152,(162,171), c)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@32$(152,171, c)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@37$(152,171, tkn.content)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@41$(152,172, this.in)",
+        [
+            0.23145502494313785,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@13$(55,(113,116), this)",
+        [
+            0.23145502494313785,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@15$(55,(116,124), this)",
+        [
+            0.23145502494313785,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@16$(55,124, this)",
+        [
+            0.23145502494313785,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@38$(55,124, token)",
+        [
+            0.23145502494313785,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@71$(55,(88,88), lastChar)",
+        [
+            0.23145502494313785,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@78$(58,(113,116), c)",
+        [
+            0.23145502494313785,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@80$(58,(116,124), c)",
+        [
+            0.23145502494313785,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@81$(58,124, c)",
+        [
+            0.23145502494313785,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@85$(58,(88,96), c)",
+        [
+            0.23145502494313785,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@87$(58,(82,88), c)",
+        [
+            0.23145502494313785,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@6$(55,(88,88), this)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@11$(55,(106,109), this)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@23$(55,(88,96), this)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@26$(55,(82,88), this)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@35$(55,(96,98), token)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@36$(55,(96,127), token)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@37$(55,127, token)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@54$(55,(96,98), token.type)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@55$(55,(96,127), token.type)",
+        [
+            0.22941573387056177,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@61$(55,(96,98), INVALID)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@62$(55,(96,127), INVALID)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@76$(58,(106,109), c)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@90$(63,(109,113), eol)",
+        [
+            0.22941573387056177,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@69$(55,(82,82), lastChar)",
+        [
+            0.227429413073671,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isEscape#8@1$(171,(171,171), this)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isEscape#8@3$(171,(171,171), c)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isEscape#8@5$(171,(171,171), this.escape)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isStartOfLine#5@0$(156,(156,156), c)",
+        [
+            0.227429413073671,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isStartOfLine#5@2$(156,(156,156), c)",
+        [
+            0.227429413073671,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isStartOfLine#5@4$(156,(156,156), c)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isEndOfFile#6@0$(163,(163,163), c)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isQuoteChar#9@1$(175,(175,175), this)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isQuoteChar#9@3$(175,(175,175), c)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isQuoteChar#9@5$(175,(175,175), this.quoteChar)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isCommentStart#10@1$(179,(179,179), this)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isCommentStart#10@3$(179,(179,179), c)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isCommentStart#10@5$(179,(179,179), this.commmentStart)",
+        [
+            0.227429413073671,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@2$(55,(82,82), this)",
+        [
+            0.22549380840084865,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@4$(55,(82,82), this)",
+        [
+            0.22549380840084865,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@67$(55,(82,82), lastChar)",
+        [
+            0.22549380840084865,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isEndOfFile#6@1$(163,(163,163), c)",
+        [
+            0.22360679774997896,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%mapNullToDisabled#0@0$(69,(69,69), c)",
+        [
+            0.22360679774997896,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%mapNullToDisabled#0@1$(69,(69,69), c)",
+        [
+            0.22360679774997896,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%mapNullToDisabled#0@2$(69,69, c)",
+        [
+            0.22360679774997896,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%readEndOfLine#3@4$(133,(133,137), c)",
+        [
+            0.22360679774997896,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%readEndOfLine#3@5$(133,(137,137), c)",
+        [
+            0.22360679774997896,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%readEndOfLine#3@8$(133,(137,137), c)",
+        [
+            0.22360679774997896,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isDelimiter#7@1$(167,(167,167), this)",
+        [
+            0.22360679774997896,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isDelimiter#7@3$(167,(167,167), c)",
+        [
+            0.22360679774997896,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isDelimiter#7@5$(167,(167,167), this.delimiter)",
+        [
+            0.22360679774997896,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@21$(602,(615,615), header)",
+        [
+            0.21821789023599236,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@1$(54,58, this)",
+        [
+            0.21650635094610968,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@2$(54,59, this)",
+        [
+            0.21650635094610968,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@8$(54,(55,55), current)",
+        [
+            0.21650635094610968,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@10$(54,58, current)",
+        [
+            0.21650635094610968,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@12$(54,(55,58), current)",
+        [
+            0.21650635094610968,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@2$(152,(155,156), this)",
+        [
+            0.21081851067789195,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@21$(152,156, tkn)",
+        [
+            0.21081851067789195,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@22$(152,157, tkn)",
+        [
+            0.21081851067789195,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@26$(152,(155,156), c)",
+        [
+            0.21081851067789195,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@35$(152,156, EOF)",
+        [
+            0.21081851067789195,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@18$(172,(187,192), this)",
+        [
+            0.21004201260420147,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@34$(172,(187,192), this.quoteChar)",
+        [
+            0.21004201260420147,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@61$(172,(187,192), this.commentStart)",
+        [
+            0.21004201260420147,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@0$(602,606, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@1$(602,607, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@2$(602,608, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@3$(602,609, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@4$(602,610, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@5$(602,611, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@6$(602,612, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@7$(602,613, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@8$(602,614, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@9$(602,615, this)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@11$(602,(603,606), delimiter)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@12$(602,606, delimiter)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@13$(602,607, quoteChar)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@14$(602,608, quotePolicy)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@15$(602,609, commentStart)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@16$(602,610, escape)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@17$(602,611, ignoreSurroundingSpaces)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@18$(602,612, ignoreEmptyLines)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@19$(602,613, recordSeparator)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@20$(602,614, nullToString)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%<init>#2@23$(602,615, header)",
+        [
+            0.20701966780270628,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%readEscape#1@2$(89,(90,106), c)",
+        [
+            0.20412414523193154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%readEscape#1@8$(89,106, c)",
+        [
+            0.20412414523193154,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@6$(172,(187,187), this)",
+        [
+            0.2041241452319315,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@27$(172,(172,177), this)",
+        [
+            0.2041241452319315,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@31$(172,(187,187), this.quoteChar)",
+        [
+            0.2041241452319315,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@36$(172,(172,177), this.quoteChar)",
+        [
+            0.2041241452319315,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@43$(172,(172,177), this.delimiter)",
+        [
+            0.2041241452319315,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@0$(172,(172,172), this)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%validate#1@29$(172,(172,172), this.quoteChar)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@0$(110,114, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@1$(110,115, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@2$(110,116, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@3$(110,117, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@4$(110,118, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@5$(110,119, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@6$(110,120, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@7$(110,121, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@8$(110,122, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@9$(110,123, this)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@11$(110,(111,114), delimiter)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@12$(110,114, delimiter)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@13$(110,115, quoteChar)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@14$(110,116, quotePolicy)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@15$(110,117, commentStart)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@16$(110,118, escape)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@17$(110,119, ignoreSurroundingSpaces)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@18$(110,120, ignoreEmptyLines)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@19$(110,121, recordSeparator)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@20$(110,122, nullToString)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%<init>#0@21$(110,123, header)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%isLineBreak#1@0$(546,(546,546), c)",
+        [
+            0.18786728732554486,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat%isLineBreak#1@3$(546,(546,546), c)",
+        [
+            0.18786728732554486,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@10$(205,(226,227), this)",
+        [
+            0.16012815380508713,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@28$(205,227, tkn)",
+        [
+            0.16012815380508713,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@29$(205,228, tkn)",
+        [
+            0.16012815380508713,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@43$(205,227, TOKEN)",
+        [
+            0.16012815380508713,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@58$(225,(226,227), c)",
+        [
+            0.16012815380508713,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@14$(205,(233,234), this)",
+        [
+            0.1543033499620919,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@23$(205,234, tkn)",
+        [
+            0.1543033499620919,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@24$(205,235, tkn)",
+        [
+            0.1543033499620919,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@45$(205,234, EORECORD)",
+        [
+            0.1543033499620919,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@62$(225,(233,234), c)",
+        [
+            0.1543033499620919,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%getRecords#1@1$(235,(237,238), this)",
+        [
+            0.14907119849998599,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%getRecords#1@4$(235,238, records)",
+        [
+            0.14907119849998599,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%getRecords#1@5$(237,238, rec)",
+        [
+            0.14907119849998599,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@11$(205,(226,229), this)",
+        [
+            0.14907119849998599,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@13$(205,(229,233), this)",
+        [
+            0.14907119849998599,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@59$(225,(226,229), c)",
+        [
+            0.14907119849998599,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@61$(225,(229,233), c)",
+        [
+            0.14907119849998599,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%getRecords#1@0$(235,237, this)",
+        [
+            0.14433756729740646,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%getRecords#1@2$(235,(237,240), this)",
+        [
+            0.14433756729740646,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%getRecords#1@3$(235,240, records)",
+        [
+            0.14433756729740646,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@0$(205,208, this)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@2$(205,(210,217), this)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@3$(205,(217,218), this)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@8$(205,(218,225), this)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@9$(205,225, this)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@33$(205,208, this.in)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@35$(205,(218,225), this.in)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@36$(205,225, this.in)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@48$(208,(210,217), c)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseEncapsulatedToken#2@49$(208,(217,218), c)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@12$(55,(113,115), this)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@17$(55,115, this)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@41$(55,115, token)",
+        [
+            0.13608276348795434,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@77$(58,(113,115), c)",
+        [
+            0.13608276348795434,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isQuoteChar#9@0$(175,(175,175), this)",
+        [
+            0.13608276348795434,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isQuoteChar#9@2$(175,(175,175), c)",
+        [
+            0.13608276348795434,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isQuoteChar#9@4$(175,(175,175), this.quoteChar)",
+        [
+            0.13608276348795434,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@25$(55,(82,83), this)",
+        [
+            0.12909944487358055,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@86$(58,(82,83), c)",
+        [
+            0.12909944487358055,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%withQuoteChar#5@0$(369,372, this)",
+        [
+            0.12909944487358055,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%withQuoteChar#5@1$(369,373, this)",
+        [
+            0.12909944487358055,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%withQuoteChar#5@3$(369,(369,372), quoteChar)",
+        [
+            0.12909944487358055,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVFormat$CSVFormatBuilder%withQuoteChar#5@4$(369,372, quoteChar)",
+        [
+            0.12909944487358055,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@53$(184,(190,192), this.type)",
+        [
+            0.10721125348377948,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@59$(184,(214,188), this.type)",
+        [
+            0.10721125348377948,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%readEndOfLine#3@6$(133,(137,137), c)",
+        [
+            0.10721125348377948,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@3$(184,(190,192), this)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@15$(184,192, this)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@17$(184,(214,188), this)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@24$(184,192, this.record)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@31$(184,(190,192), this.reusableToken)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@42$(184,192, this.reusableToken)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@44$(184,(214,188), this.reusableToken)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@47$(184,(190,192), $SwitchMap$org$apache$commons$csv$Token$Type)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@63$(184,192, this.content)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@68$(184,(214,188), TOKEN)",
+        [
+            0.10369516947304253,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@3$(54,(55,56), this)",
+        [
+            0.10050378152592121,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@5$(54,(55,56), this.lastChar)",
+        [
+            0.10050378152592121,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%initializeHeader#2@2$(247,(248,269), format)",
+        [
+            0.09901475429766744,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%initializeHeader#2@6$(247,269, hdrMap)",
+        [
+            0.09901475429766744,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@54$(184,(190,195), this.type)",
+        [
+            0.09759000729485333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@76$(186,(218,218), sb)",
+        [
+            0.09759000729485333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@78$(186,218, sb)",
+        [
+            0.09759000729485333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@4$(184,(190,195), this)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@14$(184,195, this)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@18$(184,(216,217), this)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@20$(184,217, this)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@21$(184,219, this)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@23$(184,195, this.record)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@25$(184,(216,217), this.record)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@27$(184,219, this.record)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@32$(184,(190,195), this.reusableToken)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@41$(184,195, this.reusableToken)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@48$(184,(190,195), $SwitchMap$org$apache$commons$csv$Token$Type)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@62$(184,195, this.content)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@69$(184,217, this.recordNumber)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@70$(184,219, this.headerMap)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@94$(217,219, this.recordNumber)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@95$(219,221, result)",
+        [
+            0.0949157995752499,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@55$(184,(190,198), this.type)",
+        [
+            0.0936585811581694,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@0$(184,188, this)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@1$(184,189, this)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@5$(184,(190,198), this)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@12$(184,(198,214), this)",
+        [
+            0.09245003270420485,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@16$(184,(214,216), this)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@19$(184,(216,221), this)",
+        [
+            0.09245003270420485,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@26$(184,(216,221), this.record)",
+        [
+            0.09245003270420485,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@28$(184,188, this.reusableToken)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@29$(184,189, this.reusableToken)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@33$(184,(190,198), this.reusableToken)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@39$(184,(198,214), this.reusableToken)",
+        [
+            0.09245003270420485,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@43$(184,(214,216), this.reusableToken)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@45$(184,189, this.lexer)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@49$(184,(190,198), $SwitchMap$org$apache$commons$csv$Token$Type)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@58$(184,(214,216), this.type)",
+        [
+            0.09245003270420485,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@65$(184,(198,214), this.isReady)",
+        [
+            0.09245003270420485,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@67$(184,(214,216), TOKEN)",
+        [
+            0.09245003270420485,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVParser%nextRecord#0@71$(184,221, result)",
+        [
+            0.09245003270420485,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@0$(152,(152,153), this)",
+        [
+            0.09245003270420485,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@23$(152,153, tkn)",
+        [
+            0.09245003270420485,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@24$(152,(152,153), c)",
+        [
+            0.09245003270420485,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@34$(152,153, EORECORD)",
+        [
+            0.09245003270420485,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@33$(55,83, token)",
+        [
+            0.09128709291752768,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@34$(55,85, token)",
+        [
+            0.09128709291752768,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@56$(55,83, EOF)",
+        [
+            0.09128709291752768,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@4$(152,(159,160), this)",
+        [
+            0.09016696346674323,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@18$(152,160, tkn)",
+        [
+            0.09016696346674323,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@28$(152,(159,160), c)",
+        [
+            0.09016696346674323,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%parseSimpleToken#1@36$(152,160, TOKEN)",
+        [
+            0.09016696346674323,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isStartOfLine#5@1$(156,(156,156), c)",
+        [
+            0.09016696346674323,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@5$(55,(82,88), this)",
+        [
+            0.0890870806374748,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@7$(55,(88,96), this)",
+        [
+            0.0890870806374748,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@70$(55,(82,88), lastChar)",
+        [
+            0.0890870806374748,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVLexer%nextToken#0@72$(55,(88,96), lastChar)",
+        [
+            0.0890870806374748,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isStartOfLine#5@5$(156,(156,156), c)",
+        [
+            0.0890870806374748,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isDelimiter#7@0$(167,(167,167), this)",
+        [
+            0.0890870806374748,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isDelimiter#7@2$(167,(167,167), c)",
+        [
+            0.0890870806374748,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.Lexer%isDelimiter#7@4$(167,(167,167), this.delimiter)",
+        [
+            0.0890870806374748,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVRecord%<init>#0@0$(49,51, this)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVRecord%<init>#0@1$(49,52, this)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVRecord%<init>#0@2$(49,53, this)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVRecord%<init>#0@3$(49,(51,51), values)",
+        [
+            0.08606629658238704,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVRecord%<init>#0@5$(49,51, values)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVRecord%<init>#0@6$(49,52, mapping)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVRecord%<init>#0@7$(49,53, comment)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.CSVRecord%<init>#0@8$(49,51, EMPTY_STRING_ARRAY)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@11$(54,(55,55), current)",
+        [
+            0.08606629658238704,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@0$(54,56, this)",
+        [
+            0.08247860988423225,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.csv.ExtendedBufferedReader%read#0@7$(54,56, this.lineCounter)",
+        [
+            0.08247860988423225,
+            false,
+            "clear"
+        ]
+    ]
+]

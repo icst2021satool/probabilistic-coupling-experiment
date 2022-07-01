@@ -1,0 +1,13 @@
+FAULT DETECTION ;Uncon;Status;DUAs; Version;26b
+0.200000;True;clear;org.apache.commons.compress.utils.IOUtils%skip#1@7$(97,(98,99), skipped)
+0.142857;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@10$(101,(96,97), numToSkip)
+0.142857;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@13$(101,97, numToSkip)
+0.060606;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@0$(95,97, input)
+0.060606;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@1$(95,(96,97), numToSkip)
+0.060606;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@4$(95,97, numToSkip)
+0.055556;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@6$(95,104, available)
+0.037037;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@3$(95,104, numToSkip)
+0.034483;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@5$(95,101, numToSkip)
+0.034483;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@8$(97,(98,101), skipped)
+0.034483;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@9$(97,101, skipped)
+0.034483;False;clear;org.apache.commons.compress.utils.IOUtils%skip#1@12$(101,104, numToSkip)

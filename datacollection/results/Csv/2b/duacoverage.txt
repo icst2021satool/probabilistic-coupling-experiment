@@ -1,0 +1,45 @@
+/stvr/probabilistic-coupling-experiment/datacollection
+Archive:  commons-csv.zip
+   creating: commons-csv/2b/
+  inflating: commons-csv/2b/junit.out  
+  inflating: commons-csv/2b/defects4j.out  
+  inflating: commons-csv/2b/ba-dua.xml  
+   creating: commons-csv/2b/jaguar/
+   creating: commons-csv/2b/jaguar/.jaguar/
+   creating: commons-csv/2b/jaguar/.jaguar/spectra/
+  inflating: commons-csv/2b/jaguar/.jaguar/spectra/org.apache.commons.csv.Lexer.spectra  
+  inflating: commons-csv/2b/jaguar/.jaguar/spectra/org.apache.commons.csv.ExtendedBufferedReader.spectra  
+  inflating: commons-csv/2b/jaguar/.jaguar/spectra/org.apache.commons.csv.CSVLexer.spectra  
+  inflating: commons-csv/2b/jaguar/.jaguar/spectra/org.apache.commons.csv.CSVPrinter.spectra  
+  inflating: commons-csv/2b/jaguar/.jaguar/spectra/org.apache.commons.csv.CSVFormat$CSVFormatBuilder.spectra  
+  inflating: commons-csv/2b/jaguar/.jaguar/spectra/org.apache.commons.csv.CSVParser.spectra  
+  inflating: commons-csv/2b/jaguar/.jaguar/spectra/org.apache.commons.csv.CSVFormat.spectra  
+  inflating: commons-csv/2b/jaguar/.jaguar/spectra/org.apache.commons.csv.CSVRecord.spectra  
+  inflating: commons-csv/2b/jaguar/.jaguar/spectra/org.apache.commons.csv.CSVParser$1.spectra  
+   creating: commons-csv/2b/jaguar/.jaguar/matrix/
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.CSVParser.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.package-info.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.CSVLexer.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.Lexer.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.CSVFormat$CSVFormatBuilder.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.CSVParser$2.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.Constants.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.CSVFormat.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.CSVRecord.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.CSVParser$1.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.CSVPrinter$1.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.Token.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.Quote.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.ExtendedBufferedReader.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.Token$Type.matrix  
+  inflating: commons-csv/2b/jaguar/.jaguar/matrix/org.apache.commons.csv.CSVPrinter.matrix  
+  inflating: commons-csv/2b/ba-dua_jaguar.xml  
+  inflating: commons-csv/2b/ba-dua.out  
+  inflating: commons-csv/2b/jaguar.out  
+Trying to fetch Ba-dua.
+[Csv 2b] Jaguar DUA coverage
+Analyzing /stvr/probabilistic-coupling-experiment/datacollection/coverage/Csv/commons-csv/2b/jaguar
+DUA coverage for project Csv
+Total of DUAs (calculated by BA-DUA): 1353
+Covered DUAs by Jaguar: 1153, coverage perc: 85.22
+Csv:2b:Jaguar coverage perc: 85.22

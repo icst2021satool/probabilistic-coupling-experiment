@@ -1,0 +1,13 @@
+14:32:41.082 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+14:32:41.237 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/4b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/4b/tests.all, --logLevel, INFO]
+14:32:56.477 [main] INFO  JaguarDF - Test testJarMarker(org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest) : Failed
+14:33:05.147 [main] INFO  JaguarDF - Test testUtf8FileRoundtripExplicitUnicodeExtra(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest) : Failed
+14:33:05.609 [main] INFO  JaguarDF - Test testUtf8FileRoundtripNoEFSExplicitUnicodeExtra(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest) : Failed
+14:33:06.540 [main] INFO  JaguarDF - Test testCP437FileRoundtripExplicitUnicodeExtra(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest) : Failed
+14:33:07.017 [main] INFO  JaguarDF - Test testUtf8FileRoundtripNoEFSImplicitUnicodeExtra(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest) : Failed
+14:33:07.479 [main] INFO  JaguarDF - Test testCP437FileRoundtripImplicitUnicodeExtra(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest) : Failed
+14:33:07.941 [main] INFO  JaguarDF - Test testASCIIFileRoundtripImplicitUnicodeExtra(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest) : Failed
+14:33:10.710 [main] INFO  JaguarDF - Test testZipArchiveInputStreamReadsUnicodeFields(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest) : Failed
+14:33:11.173 [main] INFO  JaguarDF - Test testASCIIFileRoundtripExplicitUnicodeExtra(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest) : Failed
+14:33:11.644 [main] INFO  JaguarDF - Test testUtf8FileRoundtripImplicitUnicodeExtra(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest) : Failed
+14:33:38.209 [main] INFO  JaguarDF - Jaguar-DF has finished!

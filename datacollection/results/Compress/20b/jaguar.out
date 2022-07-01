@@ -1,0 +1,5 @@
+15:45:16.978 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+15:45:17.129 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/20b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/20b/tests.all, --logLevel, INFO]
+15:47:06.529 [main] INFO  JaguarDF - Test testCpioUnarchiveCreatedByRedlineRpm(org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest) : Failed
+XZTestCase: HeapMax=1431830528 bytes 1365.5 MB
+15:53:13.288 [main] INFO  JaguarDF - Jaguar-DF has finished!

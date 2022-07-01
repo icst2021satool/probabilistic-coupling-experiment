@@ -1,0 +1,2370 @@
+[
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@4$(102,140, buffer)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@8$(102,140, offset)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@9$(102,(106,107), length)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@11$(102,140, length)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@12$(102,107, length)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@32$(104,140, start)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@62$(134,(135,136), currentByte)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@65$(134,(139,140), currentByte)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@66$(134,140, currentByte)",
+        [
+            1.0,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@67$(134,(139,140), currentByte)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@75$(133,140, start)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@41$(117,(133,134), start)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@43$(117,134, start)",
+        [
+            0.5,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@45$(117,133, start)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@6$(102,(116,117), buffer)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@34$(104,(116,117), start)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@36$(104,117, start)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@37$(117,(115,116), start)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@39$(117,(128,128), start)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@47$(117,(116,127), start)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@45$(614,(624,624), storedSum)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@55$(620,(624,624), unsignedSum)",
+        [
+            0.3333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveStreamFactory%createArchiveInputStream#1@10$(198,(224,227), this)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveStreamFactory%createArchiveInputStream#1@26$(198,(223,224), archiverName)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveStreamFactory%createArchiveInputStream#1@45$(198,227, in)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveStreamFactory%createArchiveInputStream#1@62$(198,(224,227), this.entryEncoding)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@41$(614,(624,624), storedSum)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@43$(614,(624,624), storedSum)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@53$(620,(624,624), unsignedSum)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@58$(621,(624,624), signedSum)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@16$(946,991, this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@17$(946,993, this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@40$(946,991, header)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@41$(946,993, header)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@70$(980,985, offset)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@73$(982,(983,985), type)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%evaluateType#25@0$(1064,(1064,1065), header)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseBoolean#4@1$(232,(232,232), buffer)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseBoolean#4@3$(232,(232,232), offset)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@0$(102,(110,111), buffer)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@23$(104,(110,111), start)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@50$(127,(128,129), trailer)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@1$(102,(110,115), buffer)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@2$(102,127, buffer)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@3$(102,134, buffer)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@5$(102,130, buffer)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@7$(102,(116,127), buffer)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@14$(102,143, result)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@15$(103,(115,116), end)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@17$(103,127, end)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@18$(103,(128,128), end)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@22$(103,129, end)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@24$(104,(110,115), start)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@25$(104,(115,116), start)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@27$(104,(128,128), start)",
+        [
+            0.03773584905660377,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@29$(104,(133,134), start)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@31$(104,134, start)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@35$(104,(116,127), start)",
+        [
+            0.03773584905660377,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@53$(129,(128,128), end)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@55$(129,(133,134), end)",
+        [
+            0.03773584905660377,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@58$(130,(128,128), trailer)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@61$(130,(128,133), trailer)",
+        [
+            0.03773584905660377,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@63$(134,(135,139), currentByte)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@64$(134,(139,139), currentByte)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@68$(134,(139,143), currentByte)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@69$(134,143, currentByte)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@70$(143,147, result)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@72$(133,(133,134), start)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@74$(133,134, start)",
+        [
+            0.03773584905660377,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@10$(102,(106,110), length)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveStreamFactory%createArchiveInputStream#1@25$(198,(216,223), archiverName)",
+        [
+            0.029411764705882353,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@49$(127,(128,128), trailer)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@51$(127,(128,129), trailer)",
+        [
+            0.02702702702702703,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveStreamFactory%createArchiveInputStream#1@21$(198,(206,209), archiverName)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveStreamFactory%createArchiveInputStream#1@23$(198,(209,216), archiverName)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveStreamFactory%createArchiveInputStream#1@38$(198,(202,206), in)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveStreamFactory%createArchiveInputStream#1@19$(198,(198,202), archiverName)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@16$(257,(314,322), this)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@45$(278,(314,322), this.currEntry)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isGNUSparse#8@1$(674,(674,674), this)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isGNUSparse#8@3$(674,(674,674), this.linkFlag)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@9$(605,614, storedSum)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@20$(609,613, digits)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@31$(611,(613,613), b)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@33$(611,(613,613), b)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@35$(611,614, b)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@36$(613,(613,614), digits)",
+        [
+            0.02040816326530612,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@38$(613,(615,616), digits)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@40$(613,613, digits)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@47$(614,614, storedSum)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@48$(616,(615,616), digits)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@17$(293,(293,298), len)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@19$(293,(298,303), len)",
+        [
+            0.02040816326530612,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@1$(257,(257,261), this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@3$(257,(261,269), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@4$(257,269, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@5$(257,278, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@6$(257,278, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@7$(257,285, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@8$(257,286, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@10$(257,(288,299), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@12$(257,(299,310), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@14$(257,(310,314), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@17$(257,322, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@18$(257,324, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@29$(257,(257,261), this.hasHitEOF)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@31$(257,(261,269), this.currEntry)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@32$(257,278, this.zipEncoding)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@36$(269,(271,278), headerBuf)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@37$(269,278, headerBuf)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@39$(278,(288,299), this.currEntry)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@41$(278,(299,310), this.currEntry)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@43$(278,(310,314), this.currEntry)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@46$(278,322, this.currEntry)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getNextTarEntry#2@47$(278,324, this.currEntry)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getRecord#5@1$(388,(390,395), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getRecord#5@4$(388,395, headerBuf)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%getRecord#5@8$(389,(390,395), this.hasHitEOF)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%isEOFRecord#6@1$(406,(406,406), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%isEOFRecord#6@2$(406,(406,406), record)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%isEOFRecord#6@5$(406,(406,406), record)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%isEOFRecord#6@7$(406,(406,406), this.recordSize)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%readRecord#7@1$(417,(421,425), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%readRecord#7@3$(417,(421,425), this.recordSize)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%readRecord#7@4$(417,425, record)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveInputStream%readRecord#7@6$(419,(421,425), readNow)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@0$(946,948, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@1$(946,951, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@2$(946,953, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@3$(946,955, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@4$(946,957, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@5$(946,959, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@6$(946,961, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@7$(946,963, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@8$(946,964, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@9$(946,967, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@10$(946,969, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@11$(946,971, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@12$(946,974, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@13$(946,977, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@14$(946,979, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@15$(946,982, this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@24$(946,948, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@25$(946,951, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@26$(946,953, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@27$(946,955, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@28$(946,957, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@29$(946,959, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@30$(946,961, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@31$(946,963, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@32$(946,964, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@33$(946,967, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@34$(946,969, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@35$(946,971, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@36$(946,974, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@37$(946,977, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@38$(946,979, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@39$(946,982, header)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@43$(946,948, encoding)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@44$(946,964, encoding)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@45$(946,971, encoding)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@46$(946,974, encoding)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@49$(946,(948,948), oldStyle)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@51$(946,(964,964), oldStyle)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@53$(946,(971,971), oldStyle)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@55$(946,(974,974), oldStyle)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@58$(946,948, offset)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@59$(946,950, offset)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@64$(963,964, offset)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@65$(963,966, offset)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@66$(970,971, offset)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@67$(970,973, offset)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@68$(973,974, offset)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%parseTarHeader#23@69$(973,976, offset)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isGNULongLinkEntry#9@1$(683,(683,683), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isGNULongLinkEntry#9@5$(683,(683,683), this.linkFlag)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isGNULongNameEntry#10@1$(693,(693,693), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isGNULongNameEntry#10@5$(693,(693,693), this.linkFlag)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isPaxHeader#11@0$(706,(706,706), this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isPaxHeader#11@3$(706,(706,706), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isPaxHeader#11@4$(706,(706,706), this.linkFlag)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%isPaxHeader#11@7$(706,(706,706), this.linkFlag)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@9$(292,(298,299), len)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@11$(292,299, len)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@12$(292,300, len)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@13$(292,(294,295), len)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isArrayZero#2@0$(246,(247,248), a)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isArrayZero#2@2$(246,(246,247), size)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isArrayZero#2@4$(246,(246,247), i)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isArrayZero#2@6$(246,(247,248), i)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@0$(605,(610,611), header)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@1$(605,(610,624), header)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@2$(605,611, header)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@14$(606,620, unsignedSum)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@17$(607,621, signedSum)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@21$(610,(610,611), i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@23$(610,611, i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@25$(610,(612,620), i)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@26$(610,610, i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@29$(611,620, b)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@30$(611,621, b)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@32$(611,(613,615), b)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@51$(618,620, b)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@52$(618,621, b)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@57$(620,620, unsignedSum)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@60$(621,621, signedSum)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@61$(610,(610,611), i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@62$(610,(610,624), i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@63$(610,611, i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@64$(610,(612,612), i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@65$(610,(612,620), i)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@66$(610,610, i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@67$(610,(612,613), i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%verifyCheckSum#12@68$(610,(612,620), i)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctalOrBinary#1@0$(170,(170,171), buffer)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctalOrBinary#1@6$(170,171, buffer)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctalOrBinary#1@7$(170,(170,171), offset)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctalOrBinary#1@13$(170,171, offset)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctalOrBinary#1@18$(170,171, length)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@3$(151,(153,152), buffer1)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@7$(151,(153,152), offset1)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@11$(151,(157,158), length1)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@21$(151,(153,152), buffer2)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@25$(151,(153,152), offset2)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@29$(151,(157,158), length2)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@39$(151,(152,157), minLen)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@43$(152,(153,152), i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@44$(152,152, i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@45$(152,(152,153), i)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@46$(152,(152,157), i)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@48$(152,(153,152), i)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@49$(152,152, i)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@33$(104,133, start)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@56$(129,(133,147), end)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@71$(143,143, result)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@73$(133,(133,147), start)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@76$(133,133, start)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@2$(292,(294,293), buffer)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@5$(292,(294,293), offset)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@14$(292,(294,293), len)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@15$(292,293, len)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@16$(293,(293,294), len)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@18$(293,(298,299), len)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@20$(293,299, len)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@21$(293,300, len)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@22$(293,(294,295), len)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@23$(293,(294,293), len)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@24$(293,293, len)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@0$(292,300, buffer)",
+        [
+            0.018867924528301886,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@1$(292,(294,295), buffer)",
+        [
+            0.018867924528301886,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@3$(292,300, offset)",
+        [
+            0.018867924528301886,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@4$(292,(294,295), offset)",
+        [
+            0.018867924528301886,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@6$(292,301, encoding)",
+        [
+            0.018867924528301886,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarUtils%parseName#5@7$(292,(293,294), len)",
+        [
+            0.018867924528301886,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@9$(151,(151,151), length1)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@10$(151,151, length1)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@27$(151,(151,151), length2)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@28$(151,151, length2)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@38$(151,(152,153), minLen)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ArchiveUtils%isEqual#1@40$(152,(152,153), i)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%<init>#0@0$(185,192, this)",
+        [
+            0.015384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%<init>#0@1$(185,193, this)",
+        [
+            0.015384615384615385,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%<init>#0@3$(186,(188,192), user)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.tar.TarArchiveEntry%<init>#0@4$(186,192, user)",
+        [
+            0.015384615384615385,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@0$(244,(244,246), charsetName)",
+        [
+            0.013157894736842105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@9$(246,(248,249), charsetName)",
+        [
+            0.013157894736842105,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@6$(244,(248,249), UTF_8)",
+        [
+            0.012195121951219513,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveInputStream%count#1@0$(103,104, this)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveInputStream%count#1@1$(103,(103,104), read)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveInputStream%count#1@3$(103,104, read)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveInputStream%count#1@4$(103,104, this.bytesRead)",
+        [
+            0.007194244604316547,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@1$(89,(89,92), this)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@2$(89,92, this)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@3$(89,92, data)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@6$(89,(89,92), this.charsetName)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@7$(89,92, this.charsetName)",
+        [
+            0.007042253521126761,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%getZipEncoding#1@0$(213,(213,214), name)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%getZipEncoding#1@6$(213,214, UTF8_ZIP_ENCODING)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@14$(153,(157,164), len)",
+        [
+            0.005988023952095809,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@25$(162,(157,164), count)",
+        [
+            0.005988023952095809,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@20$(156,162, count)",
+        [
+            0.005847953216374269,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@22$(158,(159,162), x)",
+        [
+            0.005847953216374269,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@23$(158,162, x)",
+        [
+            0.005847953216374269,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@26$(162,164, count)",
+        [
+            0.005847953216374269,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@0$(153,158, input)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@2$(153,(153,156), b)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@3$(153,158, b)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@4$(153,(153,153), offset)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@7$(153,(153,156), offset)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@8$(153,158, offset)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@9$(153,(153,153), len)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@12$(153,(153,156), len)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@13$(153,(157,158), len)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@15$(153,158, len)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@16$(156,(157,158), count)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#2@19$(156,158, count)",
+        [
+            0.005681818181818182,
+            false,
+            "clear"
+        ]
+    ]
+]

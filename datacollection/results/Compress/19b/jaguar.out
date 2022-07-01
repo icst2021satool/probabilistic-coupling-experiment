@@ -1,0 +1,5 @@
+15:37:16.582 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+15:37:16.741 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/19b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/19b/tests.all, --logLevel, INFO]
+15:42:05.502 [main] INFO  JaguarDF - Test testExcessDataInZip64ExtraField(org.apache.commons.compress.archivers.zip.ZipFileTest) : Failed
+XZTestCase: HeapMax=1431830528 bytes 1365.5 MB
+15:44:44.415 [main] INFO  JaguarDF - Jaguar-DF has finished!

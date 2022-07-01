@@ -1,0 +1,642 @@
+[
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@17$(190,(192,193), preHWChar)",
+        [
+            1.0,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@11$(185,(192,193), mappedChar)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@21$(191,(192,193), firstCode)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@14$(188,(189,190), hwChar)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@29$(273,(274,272), mapped)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@10$(185,(192,192), mappedChar)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@13$(188,(189,190), hwChar)",
+        [
+            0.2,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@20$(191,(192,192), firstCode)",
+        [
+            0.2,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@0$(185,191, this)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@2$(185,190, str)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@6$(185,190, index)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@15$(266,(272,281), out)",
+        [
+            0.1,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@37$(276,(272,281), count)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@23$(271,(275,276), last)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@26$(273,(272,281), incount)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@9$(185,(187,197), mappedChar)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@1$(185,188, str)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@3$(185,(187,187), index)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@5$(185,188, index)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@8$(185,(187,188), mappedChar)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@12$(188,(189,189), hwChar)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@15$(188,(189,197), hwChar)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@1$(259,273, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@9$(262,(272,272), str)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@11$(262,273, str)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@14$(266,(272,273), out)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@16$(266,276, out)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@17$(268,(272,272), incount)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@19$(268,273, incount)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@20$(268,(272,273), count)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@22$(268,276, count)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@25$(273,(272,272), incount)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@27$(273,273, incount)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@28$(273,(274,275), mapped)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@30$(273,(275,275), mapped)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@31$(273,(275,278), mapped)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@32$(273,278, mapped)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@33$(273,(275,276), mapped)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@35$(273,276, mapped)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@36$(276,(272,273), count)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@38$(276,276, count)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@39$(278,(275,276), last)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@10$(262,(272,281), str)",
+        [
+            0.043478260869565216,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@4$(185,(187,197), index)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%getMappingCode#1@7$(185,197, mappedChar)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@0$(259,271, this)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@6$(262,(263,266), str)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@7$(262,269, str)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@8$(262,271, str)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@13$(266,281, out)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%map#2@1$(230,(231,234), this)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%map#2@2$(230,234, this)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%map#2@4$(230,(231,231), index)",
+        [
+            0.04,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%map#2@7$(230,(231,234), index)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%map#2@8$(230,234, index)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@3$(259,(259,262), str)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.Soundex%soundex#3@4$(259,262, str)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@31$(50,50, count)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@32$(48,(48,49), i)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@34$(48,(49,50), i)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@36$(48,48, i)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@37$(48,50, i)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@6$(42,54, str)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@11$(42,54, ENGLISH)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@14$(45,(53,54), len)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@28$(50,(53,54), count)",
+        [
+            0.020833333333333332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@24$(48,(49,50), i)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@27$(48,50, i)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@7$(42,(49,50), str)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@9$(42,50, str)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@17$(46,50, chars)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@21$(47,50, count)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@4$(42,(42,45), str)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@5$(42,45, str)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@12$(45,(48,49), len)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@13$(45,(48,53), len)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@22$(48,(48,49), i)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@26$(48,48, i)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@33$(48,(48,53), i)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.language.SoundexUtils%clean#0@0$(42,(42,42), str)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ]
+]

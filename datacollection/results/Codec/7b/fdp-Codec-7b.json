@@ -1,0 +1,2050 @@
+[
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@7$(821,(833,833), isChunked)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@10$(821,833, urlSafe)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@0$(68,78, data)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@1$(68,80, data)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@5$(68,(77,78), len)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@8$(74,82, out)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@9$(77,82, i)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@10$(77,77, i)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@11$(77,(77,78), j)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@13$(77,78, j)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@14$(77,79, j)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@15$(81,(77,78), j)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@16$(81,(77,85), j)",
+        [
+            0.16666666666666666,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@17$(81,78, j)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@18$(81,79, j)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@19$(77,82, i)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@20$(77,77, i)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@57$(465,(496,497), this)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@59$(465,497, this)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@60$(465,498, this)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@90$(465,497, this.buffer)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@143$(465,497, this.lineSeparator)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@144$(465,498, this.lineSeparator)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@3$(68,(70,74), len)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@4$(68,74, len)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@6$(68,(77,85), len)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%decodeHex#0@7$(74,85, out)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%toDigit#3@3$(165,(166,169), digit)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Hex%toDigit#3@4$(165,169, digit)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@151$(482,(496,497), this.pos)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@153$(482,497, this.pos)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@154$(482,498, this.pos)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@55$(465,(496,496), this)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@139$(465,(496,496), this.lineLength)",
+        [
+            0.1111111111111111,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@160$(492,(496,497), this.pos)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@162$(492,497, this.pos)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@163$(492,498, this.pos)",
+        [
+            0.1,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@2$(821,822, binaryData)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@3$(821,(821,822), binaryData)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@19$(465,(517,517), this)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@22$(465,(517,501), this)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@135$(465,(517,517), this.lineLength)",
+        [
+            0.08333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@138$(465,(517,501), this.lineLength)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@188$(516,(517,501), this.currentLinePos)",
+        [
+            0.08333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@17$(986,(989,989), len)",
+        [
+            0.07407407407407407,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@18$(986,990, len)",
+        [
+            0.06896551724137931,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@6$(332,341, this)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@7$(332,(337,337), lineLength)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@10$(332,(340,341), lineLength)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@19$(332,341, lineSeparator)",
+        [
+            0.06666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@36$(341,345, this.encodeSize)",
+        [
+            0.06666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@6$(821,834, binaryData)",
+        [
+            0.06451612903225806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@12$(821,(826,833), maxResultSize)",
+        [
+            0.06451612903225806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@17$(825,(826,833), len)",
+        [
+            0.06451612903225806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@62$(465,(472,475), this)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@92$(465,(472,475), this.buffer)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@96$(465,(472,475), this.encodeSize)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@107$(465,(472,475), this.pos)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@5$(945,(955,960), this)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@24$(945,(955,960), this.buffer)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@30$(950,(955,960), buf)",
+        [
+            0.06451612903225806,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@4$(821,(821,825), binaryData)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@5$(821,825, binaryData)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@14$(821,825, CHUNK_SEPARATOR)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@1$(981,992, chunkSeparator)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@5$(981,(989,989), chunkSize)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@11$(983,986, len)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@12$(984,(985,986), mod)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@14$(984,986, mod)",
+        [
+            0.0625,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@19$(989,(991,992), lenChunksPerfectly)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@22$(990,992, len)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@23$(992,995, len)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encodeBase64#14@0$(821,(821,821), binaryData)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@49$(465,(480,481), this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@51$(465,481, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@52$(465,481, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@53$(465,482, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@54$(465,482, this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@88$(465,481, this.buffer)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@89$(465,482, this.buffer)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@123$(465,(480,481), this.encodeTable)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@133$(465,(480,481), STANDARD_ENCODE_TABLE)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@150$(478,481, this.pos)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@0$(981,990, chunkSeparator)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@2$(981,(988,989), chunkSize)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@6$(981,990, chunkSize)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@7$(945,(960,965), this)",
+        [
+            0.05714285714285714,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@33$(465,(475,477), this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@45$(465,477, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@46$(465,477, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@47$(465,478, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@48$(465,478, this)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@86$(465,477, this.buffer)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@87$(465,478, this.buffer)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@101$(465,477, this.pos)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@110$(465,(475,477), this.modulus)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@121$(465,477, this.encodeTable)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@122$(465,478, this.encodeTable)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@129$(465,477, this.x)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@130$(465,478, this.x)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@31$(950,965, buf)",
+        [
+            0.05555555555555555,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%isUrlSafe#1@1$(360,(360,360), this)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%isUrlSafe#1@3$(360,(360,360), URL_SAFE_ENCODE_TABLE)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%isUrlSafe#1@5$(360,(360,360), this.encodeTable)",
+        [
+            0.05555555555555555,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@2$(465,(502,502), this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@5$(465,505, this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@6$(465,505, this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@7$(465,510, this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@9$(465,(511,501), this)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@27$(465,(502,505), this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@29$(465,(472,472), this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@63$(465,506, in)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@64$(465,506, inPos)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@66$(465,(470,501), inAvail)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@67$(465,(501,502), inAvail)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@68$(465,(501,525), inAvail)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@71$(465,(502,502), this.buffer)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@79$(465,(502,505), this.buffer)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@80$(465,(472,472), this.buffer)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@94$(465,(502,505), this.encodeSize)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@99$(465,(502,505), this.pos)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@108$(465,505, this.modulus)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@125$(465,510, this.x)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@164$(501,(501,502), i)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@166$(501,501, i)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@168$(505,(511,501), this.modulus)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@172$(506,(507,510), b)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@173$(506,510, b)",
+        [
+            0.05405405405405406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@194$(501,(501,525), i)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@0$(945,949, this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@1$(945,951, this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@2$(945,952, this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@3$(945,953, this)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@13$(945,(946,946), pArray)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@17$(945,(946,949), pArray)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@18$(945,949, pArray)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@19$(945,952, pArray)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@20$(945,953, pArray)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@21$(945,949, this.lineLength)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#18@22$(945,949, this.lineSeparator)",
+        [
+            0.05405405405405406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.StringUtils%newString#1@1$(186,(186,190), bytes)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.StringUtils%newString#1@2$(186,190, bytes)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.StringUtils%newString#1@3$(186,190, charsetName)",
+        [
+            0.05,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@1$(465,(465,470), this)",
+        [
+            0.04878048780487805,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@28$(465,471, this)",
+        [
+            0.04878048780487805,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@65$(465,(470,471), inAvail)",
+        [
+            0.04878048780487805,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@70$(465,(465,470), this.eof)",
+        [
+            0.04878048780487805,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@41$(465,(491,492), this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@43$(465,492, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@44$(465,492, this)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@85$(465,492, this.buffer)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@119$(465,(491,492), this.encodeTable)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@131$(465,(491,492), STANDARD_ENCODE_TABLE)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@159$(489,492, this.pos)",
+        [
+            0.041666666666666664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@15$(986,995, len)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@34$(465,(475,487), this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@35$(465,487, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@36$(465,487, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@37$(465,488, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@38$(465,488, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@39$(465,489, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@40$(465,489, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@82$(465,487, this.buffer)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@83$(465,488, this.buffer)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@84$(465,489, this.buffer)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@100$(465,487, this.pos)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@111$(465,(475,487), this.modulus)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@116$(465,487, this.encodeTable)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@117$(465,488, this.encodeTable)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@118$(465,489, this.encodeTable)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@126$(465,487, this.x)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@127$(465,488, this.x)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@128$(465,489, this.x)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@20$(465,(517,501), this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@136$(465,(517,501), this.lineLength)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%setInitialBuffer#6@0$(439,440, this)",
+        [
+            0.03508771929824561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%setInitialBuffer#6@1$(439,441, this)",
+        [
+            0.03508771929824561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%setInitialBuffer#6@2$(439,442, this)",
+        [
+            0.03508771929824561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%setInitialBuffer#6@3$(439,(439,439), out)",
+        [
+            0.03508771929824561,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%setInitialBuffer#6@5$(439,(439,440), out)",
+        [
+            0.03508771929824561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%setInitialBuffer#6@7$(439,440, out)",
+        [
+            0.03508771929824561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%setInitialBuffer#6@8$(439,441, outPos)",
+        [
+            0.03508771929824561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%setInitialBuffer#6@9$(439,442, outPos)",
+        [
+            0.03508771929824561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%setInitialBuffer#6@10$(439,(439,440), outAvail)",
+        [
+            0.03508771929824561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@56$(465,(496,525), this)",
+        [
+            0.034482758620689655,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@140$(465,(496,525), this.lineLength)",
+        [
+            0.034482758620689655,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%getEncodeLength#19@3$(981,(988,995), chunkSize)",
+        [
+            0.034482758620689655,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@181$(515,512, this.pos)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@183$(515,(502,505), this.pos)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@186$(516,516, this.currentLinePos)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@8$(465,(511,512), this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@10$(465,512, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@11$(465,512, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@12$(465,513, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@13$(465,513, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@14$(465,514, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@15$(465,514, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@16$(465,515, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@17$(465,515, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@18$(465,516, this)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@73$(465,512, this.buffer)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@74$(465,513, this.buffer)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@75$(465,514, this.buffer)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@76$(465,515, this.buffer)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@97$(465,512, this.pos)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@112$(465,512, this.encodeTable)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@113$(465,513, this.encodeTable)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@114$(465,514, this.encodeTable)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@115$(465,515, this.encodeTable)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@145$(465,516, this.currentLinePos)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@167$(505,(511,512), this.modulus)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@177$(510,512, this.x)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@178$(510,513, this.x)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@179$(510,514, this.x)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@180$(510,515, this.x)",
+        [
+            0.030303030303030304,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@169$(505,505, this.modulus)",
+        [
+            0.029411764705882353,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@170$(506,506, inPos)",
+        [
+            0.029411764705882353,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@176$(510,510, this.x)",
+        [
+            0.029411764705882353,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@193$(501,(501,502), i)",
+        [
+            0.029411764705882353,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%encode#7@195$(501,501, i)",
+        [
+            0.029411764705882353,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.StringUtils%getBytesUnchecked#0@1$(152,(152,156), string)",
+        [
+            0.028985507246376812,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.StringUtils%getBytesUnchecked#0@2$(152,156, string)",
+        [
+            0.028985507246376812,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.StringUtils%getBytesUnchecked#0@3$(152,156, charsetName)",
+        [
+            0.028985507246376812,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@9$(642,(642,643), i)",
+        [
+            0.027777777777777776,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@12$(642,(643,642), i)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@13$(642,642, i)",
+        [
+            0.027777777777777776,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@21$(332,(350,350), urlSafe)",
+        [
+            0.0273972602739726,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@0$(332,337, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@1$(332,338, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@2$(332,339, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@4$(332,345, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@5$(332,350, this)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@9$(332,337, lineLength)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@13$(332,(333,337), lineSeparator)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@14$(332,338, lineSeparator)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@15$(332,339, lineSeparator)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@17$(332,(346,350), lineSeparator)",
+        [
+            0.02702702702702703,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@23$(332,350, STANDARD_ENCODE_TABLE)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@24$(332,350, URL_SAFE_ENCODE_TABLE)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@0$(642,(642,643), arrayOctet)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@1$(642,(642,647), arrayOctet)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@3$(642,(643,642), arrayOctet)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@4$(642,(642,643), i)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@7$(642,(643,642), i)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@8$(642,642, i)",
+        [
+            0.02702702702702703,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%containsBase64Byte#11@10$(642,(642,647), i)",
+        [
+            0.02702702702702703,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%isBase64#9@0$(613,(613,613), octet)",
+        [
+            0.02666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%isBase64#9@2$(613,(613,613), octet)",
+        [
+            0.02666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%isBase64#9@4$(613,(613,613), octet)",
+        [
+            0.02666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%isBase64#9@7$(613,(613,613), octet)",
+        [
+            0.02666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%isBase64#9@8$(613,(613,613), DECODE_TABLE)",
+        [
+            0.02666666666666667,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%isBase64#9@11$(613,(613,613), DECODE_TABLE)",
+        [
+            0.02666666666666667,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@3$(332,343, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@8$(332,(337,337), lineLength)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@11$(332,(340,343), lineLength)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.codec.binary.Base64%<init>#0@37$(343,345, this.encodeSize)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ]
+]

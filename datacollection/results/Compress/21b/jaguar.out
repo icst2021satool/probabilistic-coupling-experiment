@@ -1,0 +1,12 @@
+15:53:51.820 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+15:53:51.975 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, /PPgSI/workdir/Compress/21b, --classesDir, target/classes, --testsDir, target/test-classes, --tests, /PPgSI/workdir/Compress/21b/tests.all, --logLevel, INFO]
+15:56:51.811 [main] INFO  JaguarDF - Test testSevenEmptyFiles(org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest) : Failed
+15:56:53.662 [main] INFO  JaguarDF - Test testEightFilesSomeNotEmpty(org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest) : Failed
+15:56:55.444 [main] INFO  JaguarDF - Test testSixEmptyFiles(org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest) : Failed
+15:56:57.225 [main] INFO  JaguarDF - Test testEightEmptyFiles(org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest) : Failed
+15:56:59.008 [main] INFO  JaguarDF - Test testNineEmptyFiles(org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest) : Failed
+15:57:00.885 [main] INFO  JaguarDF - Test testSixFilesSomeNotEmpty(org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest) : Failed
+15:57:04.523 [main] INFO  JaguarDF - Test testNineFilesSomeNotEmpty(org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest) : Failed
+15:57:10.028 [main] INFO  JaguarDF - Test testSevenFilesSomeNotEmpty(org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest) : Failed
+XZTestCase: HeapMax=1431830528 bytes 1365.5 MB
+16:05:39.971 [main] INFO  JaguarDF - Jaguar-DF has finished!

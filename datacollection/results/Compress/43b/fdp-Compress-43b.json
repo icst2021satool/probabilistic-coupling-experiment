@@ -1,0 +1,6826 @@
+[
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%getRawInputStream#4@0$(435,439, this)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%getRawInputStream#4@2$(435,(435,438), ze)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%getRawInputStream#4@3$(435,438, ze)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%getRawInputStream#4@4$(435,439, ze)",
+        [
+            0.3333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@58$(1234,(1235,1239), comm)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@59$(1234,1239, comm)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@21$(1043,1105, ze)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@22$(1043,1106, ze)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@33$(1043,(1104,1105), phased)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@94$(1069,1105, buf)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@95$(1069,1106, buf)",
+        [
+            0.16666666666666666,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@24$(1043,1089, ze)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@31$(1043,(1088,1089), phased)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@99$(1069,1089, buf)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%closeEntry#5@7$(538,(538,542), phased)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%closeEntry#5@9$(538,(542,545), phased)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@1$(577,(578,584), this)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@8$(577,(578,584), ae)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@9$(577,(584,584), ae)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@12$(577,(584,584), ae)",
+        [
+            0.14285714285714285,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@14$(577,(584,584), ae)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@2$(577,587, this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@3$(577,588, this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@4$(577,589, this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@5$(577,588, rawStream)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%addRawArchiveEntry#7@11$(577,587, ae)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@5$(549,(557,560), this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@12$(549,(557,560), this.entry)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@1$(936,(936,939), this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@2$(936,939, this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@3$(936,940, this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@4$(936,942, this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@5$(936,(942,944), this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@6$(936,(942,947), this)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@7$(936,944, this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@8$(936,945, this)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@9$(936,942, src)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@10$(936,(942,944), src)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@11$(936,(942,947), src)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@13$(936,(936,939), this.entry)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@14$(936,939, this.entry)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@15$(936,940, this.entry)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@16$(936,942, this.copyBuffer)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@17$(936,(942,944), this.copyBuffer)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@18$(936,(942,947), this.copyBuffer)",
+        [
+            0.125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@19$(936,944, this.copyBuffer)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@20$(936,944, this.streamCompressor)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@21$(942,944, length)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%copyFromZipInputStream#21@22$(942,945, length)",
+        [
+            0.125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@4$(1129,(1134,1135), this)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@7$(1129,(1135,1135), this)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@10$(1129,(1135,1140), this)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@23$(1129,(1134,1135), this.end)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@26$(1129,(1135,1135), this.end)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@32$(1129,(1134,1135), this.loc)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@35$(1129,(1135,1135), this.loc)",
+        [
+            0.09090909090909091,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@38$(1129,(1135,1140), this.addDummy)",
+        [
+            0.09090909090909091,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@7$(1572,(1572,1576), ze)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#0@3$(123,127, this)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#0@6$(123,127, READ)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#0@7$(125,(126,127), extra)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#0@9$(125,127, extra)",
+        [
+            0.0625,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@0$(1129,(1133,1134), this)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@5$(1129,(1134,1142), this)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@6$(1129,1142, this)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@18$(1129,(1133,1134), len)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@21$(1129,(1133,1134), this.end)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@24$(1129,(1134,1142), this.end)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@25$(1129,1142, this.end)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@28$(1129,(1133,1134), this.loc)",
+        [
+            0.058823529411764705,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@33$(1129,(1134,1142), this.loc)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@34$(1129,1142, this.loc)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@39$(1142,1146, len)",
+        [
+            0.058823529411764705,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@2$(1129,1147, this)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@3$(1129,1149, this)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@12$(1129,1146, b)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@14$(1129,1146, off)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@17$(1129,(1129,1133), len)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@30$(1129,1147, this.loc)",
+        [
+            0.05263157894736842,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@31$(1129,1149, this.loc)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@40$(1147,(1148,1149), ret)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@43$(1147,1149, ret)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%read#2@44$(1147,1150, ret)",
+        [
+            0.05263157894736842,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@8$(1572,(1572,1578), ze)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@16$(1572,1578, Never)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%setDefaults#15@2$(794,(794,798), entry)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%shouldAddZip64Extra#17@1$(848,(848,848), this)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%shouldAddZip64Extra#17@7$(848,(848,848), entry)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%shouldAddZip64Extra#17@15$(848,(848,848), this.channel)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%createBoundedInputStream#18@0$(1079,(1079,1079), this)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%createBoundedInputStream#18@3$(1079,1079, this)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%createBoundedInputStream#18@5$(1079,1079, start)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%createBoundedInputStream#18@7$(1079,1079, remaining)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%createBoundedInputStream#18@8$(1079,(1079,1079), this.archive)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#0@1$(123,134, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#0@2$(123,135, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#0@4$(123,134, entry)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#0@5$(123,135, entry)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#1@0$(148,154, this)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#1@2$(153,(154,154), other)",
+        [
+            0.045454545454545456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%<init>#1@3$(153,154, other)",
+        [
+            0.045454545454545456,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%<init>#0@1$(1095,(1097,1101), this)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%<init>#0@2$(1095,1101, this)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%<init>#0@4$(1095,(1097,1101), start)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%<init>#0@5$(1095,1101, start)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile$BoundedInputStream%<init>#0@9$(1096,(1097,1101), this.end)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%setDefaults#15@4$(794,(798,801), entry)",
+        [
+            0.043478260869565216,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@62$(652,(653,653), hasUTF8Flag)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@65$(652,(714,717), hasUTF8Flag)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@18$(791,(791,810), i$)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@1$(1171,(1171,1174), this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@2$(1171,1174, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@3$(1171,1175, this)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@4$(1171,(1176,1177), this)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@8$(1171,1177, this)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@9$(1171,1178, this)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@12$(1171,1175, ze)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@13$(1171,(1176,1177), ze)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@17$(1171,1177, ze)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@18$(1171,1178, ze)",
+        [
+            0.038461538461538464,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@20$(1171,(1171,1174), this.channel)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@21$(1171,1174, DD_SIG)",
+        [
+            0.038461538461538464,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%closeEntry#5@3$(538,(538,542), this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%closeEntry#5@11$(538,(538,542), this.channel)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@5$(1572,(1572,1572), ze)",
+        [
+            0.037037037037037035,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getGeneralPurposeBits#33@4$(1474,(1476,1477), usesDataDescriptor)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getGeneralPurposeBits#33@10$(1474,1477, b)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%versionNeededToExtract#34@4$(1483,(1486,1487), usedDataDescriptor)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%usesDataDescriptor#35@0$(1493,(1493,1493), this)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%usesDataDescriptor#35@4$(1493,(1493,1493), this.channel)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@0$(187,(187,187), this)",
+        [
+            0.03571428571428571,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@10$(187,(187,187), this.dataDescriptorFlag)",
+        [
+            0.03571428571428571,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getLocalFileDataExtra#20@2$(611,(612,612), extra)",
+        [
+            0.03571428571428571,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@3$(1572,(1572,1572), this)",
+        [
+            0.03571428571428571,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@14$(1572,(1572,1572), this.channel)",
+        [
+            0.03571428571428571,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%getEntry#1@0$(374,(375,375), entriesOfThatName)",
+        [
+            0.03571428571428571,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%getEntry#1@2$(374,375, entriesOfThatName)",
+        [
+            0.03571428571428571,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@0$(205,(207,207), generalPurposeFlag)",
+        [
+            0.03333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@46$(1043,1108, LZERO)",
+        [
+            0.03333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@47$(1043,1109, LZERO)",
+        [
+            0.03333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@85$(1069,1108, buf)",
+        [
+            0.03333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@86$(1069,1109, buf)",
+        [
+            0.03333333333333333,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@104$(1074,(1107,1108), zipMethod)",
+        [
+            0.03333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@34$(1043,(1104,1107), phased)",
+        [
+            0.03225806451612903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%close#22@0$(960,(960,961), this)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%close#22@3$(960,961, this)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%close#22@4$(960,(960,961), this.finished)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%destroy#42@1$(1599,(1599,1602), this)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%destroy#42@2$(1599,(1602,1603), this)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%destroy#42@4$(1599,1603, this)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%destroy#42@7$(1599,(1599,1602), this.channel)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%destroy#42@9$(1599,(1602,1603), this.out)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%destroy#42@11$(1599,1603, this.out)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@13$(1026,(1047,1053), entriesWithoutUTF8Flag)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@33$(1029,(1047,1053), ze)",
+        [
+            0.03225806451612903,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getAllExtraFieldsNoCopy#12@0$(415,(415,416), this)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getAllExtraFieldsNoCopy#12@5$(415,416, this)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getAllExtraFieldsNoCopy#12@6$(415,(415,416), this.extraFields)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getUnparseableOnly#13@0$(438,(438,438), this)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getUnparseableOnly#13@3$(438,(438,438), this.unparseableExtra)",
+        [
+            0.03125,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getUnparseableOnly#13@6$(438,438, noExtraFields)",
+        [
+            0.03125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@5$(1043,(1098,1104), this)",
+        [
+            0.02857142857142857,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@49$(1043,(1098,1104), this.entry)",
+        [
+            0.02857142857142857,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@10$(743,(759,782), this)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@45$(751,(759,782), this.entry)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@58$(756,(759,782), effectiveMode)",
+        [
+            0.02857142857142857,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%setDefaults#15@3$(794,(798,799), entry)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%setDefaults#15@5$(794,799, entry)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%shouldAddZip64Extra#17@6$(848,(848,848), entry)",
+        [
+            0.02631578947368421,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@2$(1572,1576, this)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@13$(1572,1576, this.zip64Mode)",
+        [
+            0.025,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getLocalFileDataExtra#20@1$(611,(612,612), extra)",
+        [
+            0.023809523809523808,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%setDefaults#15@0$(794,795, this)",
+        [
+            0.023809523809523808,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%setDefaults#15@1$(794,(794,795), entry)",
+        [
+            0.023809523809523808,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%setDefaults#15@6$(794,795, entry)",
+        [
+            0.023809523809523808,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%setDefaults#15@7$(794,795, this.method)",
+        [
+            0.023809523809523808,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@1$(240,(240,240), data)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@16$(245,249, sum)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@22$(246,(246,249), i$)",
+        [
+            0.023255813953488372,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@41$(251,(251,263), i)",
+        [
+            0.023255813953488372,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getExtraField#19@1$(538,(538,545), this)",
+        [
+            0.022727272727272728,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getExtraField#19@6$(538,(538,545), this.extraFields)",
+        [
+            0.022727272727272728,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getGeneralPurposeBits#33@1$(1474,(1475,1475), this)",
+        [
+            0.022727272727272728,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getGeneralPurposeBits#33@7$(1474,(1475,1475), this.useUTF8Flag)",
+        [
+            0.022727272727272728,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@2$(187,(187,187), this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@12$(187,(187,187), this.languageEncodingFlag)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@0$(235,(235,236), this)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@6$(235,237, this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@7$(235,238, this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@10$(235,237, b)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@13$(235,237, offset)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@14$(235,(235,235), length)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@15$(235,(235,253), length)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@16$(235,(236,237), length)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@22$(235,237, length)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@23$(235,(235,236), this.def)",
+        [
+            0.022222222222222223,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%writeDeflated#3@27$(235,237, this.def)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflateUntilInputIsNeeded#4@0$(256,(256,257), this)",
+        [
+            0.022222222222222223,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflateUntilInputIsNeeded#4@1$(256,(256,259), this)",
+        [
+            0.022222222222222223,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflateUntilInputIsNeeded#4@2$(256,257, this)",
+        [
+            0.022222222222222223,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflateUntilInputIsNeeded#4@3$(256,(256,257), this.def)",
+        [
+            0.022222222222222223,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflateUntilInputIsNeeded#4@4$(256,(256,259), this.def)",
+        [
+            0.022222222222222223,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflate#5@3$(262,(263,266), len)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%flushDeflater#8@0$(596,(596,597), this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%flushDeflater#8@2$(596,597, this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%flushDeflater#8@3$(596,(596,597), this.entry)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%flushDeflater#8@5$(596,597, this.streamCompressor)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@0$(610,(610,615), this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@14$(610,615, this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@15$(610,616, this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@16$(610,617, this)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@22$(610,616, bytesWritten)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@27$(610,617, crc)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@29$(610,(610,615), this.entry)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@40$(610,615, this.entry)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@41$(610,616, this.entry)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@42$(610,617, this.entry)",
+        [
+            0.022222222222222223,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@4$(549,(557,558), this)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@6$(549,558, this)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@11$(549,(557,558), this.entry)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@13$(549,558, EMPTY)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeDataDescriptor#27@10$(1171,(1171,1171), ze)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@7$(610,641, this)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleSizesAndCrc#9@28$(610,641, effectiveMode)",
+        [
+            0.021739130434782608,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@1$(918,(918,921), this)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@2$(918,921, this)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@3$(918,922, this)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@4$(918,923, this)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@5$(918,922, b)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@6$(918,922, offset)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@7$(918,922, length)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@9$(918,(918,921), this.entry)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@10$(918,921, this.entry)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@11$(918,922, this.entry)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%write#20@12$(918,922, this.streamCompressor)",
+        [
+            0.021739130434782608,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@45$(1043,1091, LZERO)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@84$(1069,1091, buf)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@102$(1074,(1090,1091), zipMethod)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%closeEntry#5@1$(538,543, this)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%closeEntry#5@6$(538,(538,538), phased)",
+        [
+            0.02127659574468085,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%closeEntry#5@8$(538,(542,543), phased)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%closeEntry#5@12$(538,543, this.entry)",
+        [
+            0.02127659574468085,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@32$(1043,(1088,1090), phased)",
+        [
+            0.020833333333333332,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@1$(1025,(1028,1032), this)",
+        [
+            0.020833333333333332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@16$(1025,(1028,1032), NEVER)",
+        [
+            0.020833333333333332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@18$(1025,(1028,1032), this.createUnicodeExtraFields)",
+        [
+            0.020833333333333332,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@2$(205,(208,208), generalPurposeFlag)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflate#5@0$(262,264, this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflate#5@1$(262,264, this.outputBuffer)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflate#5@2$(262,(263,264), len)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%deflate#5@4$(262,264, len)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@3$(202,205, this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@5$(202,205, b)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@7$(202,205, offset)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@10$(202,205, length)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@11$(202,(204,205), method)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%flushDeflater#2@0$(227,(228,229), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%flushDeflater#2@1$(227,(228,231), this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%flushDeflater#2@2$(227,229, this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%flushDeflater#2@3$(227,(228,229), this.def)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%flushDeflater#2@4$(227,(228,231), this.def)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@1$(1231,(1249,1249), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@8$(1231,(1296,1299), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@10$(1231,(1269,1275), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@25$(1231,1275, ze)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@26$(1231,1276, ze)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@33$(1231,1299, entryMetaData)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@36$(1231,(1249,1249), this.hasUsedZip64)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@43$(1231,(1296,1299), Always)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@45$(1231,(1269,1275), Always)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@47$(1231,(1296,1299), this.zip64Mode)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@49$(1231,(1269,1275), this.zip64Mode)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@86$(1243,1299, buf)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@87$(1243,1275, buf)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@88$(1243,1276, buf)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%checkIfNeedsZip64#10@7$(651,(652,655), actuallyNeedsZip64)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%isZip64Required#11@1$(659,(659,659), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%isZip64Required#11@3$(659,(659,659), entry1)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%isZip64Required#11@4$(659,(659,659), requestedMode)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%isZip64Required#11@6$(659,(659,659), Always)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%isTooLageForZip32#12@0$(663,(663,663), zipArchiveEntry)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%isTooLageForZip32#12@3$(663,(663,663), zipArchiveEntry)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@0$(1200,(1201,1201), this)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@7$(1200,(1201,1201), this)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@8$(1200,(1201,1201), ze)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@12$(1200,(1201,1201), ze)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@14$(1200,(1201,1201), ze)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@17$(1200,(1201,1201), Always)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@21$(1200,(1201,1201), this.zip64Mode)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@26$(1200,(1201,1201), entryMetaData)",
+        [
+            0.02,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@29$(1201,(1207,1216), needsZip64Extra)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%handleZip64Extra#30@17$(1321,(1321,1338), needsZip64Extra)",
+        [
+            0.02,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@0$(1231,1239, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@3$(1231,1253, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@4$(1231,1254, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@5$(1231,1256, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@6$(1231,1263, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@13$(1231,1239, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@14$(1231,1249, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@15$(1231,1252, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@16$(1231,1253, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@17$(1231,1263, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@18$(1231,1268, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@19$(1231,(1269,1269), ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@21$(1231,1290, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@22$(1231,1293, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@23$(1231,(1269,1269), ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@27$(1231,1240, name)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@28$(1231,1303, name)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@29$(1231,1254, entryMetaData)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@30$(1231,1256, entryMetaData)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@31$(1231,(1296,1296), entryMetaData)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@34$(1231,1254, needsZip64Extra)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@35$(1231,1245, CFH_SIG)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@38$(1231,1253, this.zipEncoding)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@41$(1231,1263, this.calendarInstance)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@52$(1231,1287, ZERO)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@53$(1231,1242, extra)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@54$(1231,1282, extra)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@55$(1231,1306, extra)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@56$(1231,1308, extra)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@57$(1234,(1235,1236), comm)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@60$(1236,1239, comm)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@61$(1239,1311, commentB)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@62$(1240,1279, nameLen)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@63$(1240,1303, nameLen)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@64$(1240,1305, nameLen)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@65$(1241,1284, commentLen)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@66$(1241,1311, commentLen)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@67$(1243,1249, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@68$(1243,1254, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@69$(1243,1256, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@70$(1243,1259, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@71$(1243,1263, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@72$(1243,1268, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@75$(1243,1279, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@76$(1243,1282, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@77$(1243,1284, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@78$(1243,1287, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@79$(1243,1290, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@80$(1243,1293, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@82$(1243,1303, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@83$(1243,1306, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@84$(1243,1311, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@85$(1243,1312, buf)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@89$(1252,1259, zipMethod)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#29@91$(1253,(1256,1256), encodable)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@59$(1043,(1054,1066), oldAlignmentEx)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@63$(1043,(1050,1054), oldAlignmentEx)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@67$(1049,(1054,1054), alignment)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%closeEntry#5@0$(538,545, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@1$(549,(549,553), this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@3$(549,(553,557), this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@8$(549,(549,553), this.finished)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%preClose#6@10$(549,(553,557), this.entry)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@0$(1572,(1572,1572), this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@9$(1572,(1572,1572), AsNeeded)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEffectiveZip64Mode#40@11$(1572,(1572,1572), this.zip64Mode)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%shouldAddZip64Extra#17@2$(848,(848,848), entry)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%shouldAddZip64Extra#17@4$(848,(848,848), entry)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%shouldAddZip64Extra#17@8$(848,(848,848), mode)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%shouldAddZip64Extra#17@12$(848,(848,848), Always)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%versionNeededToExtract#34@3$(1483,(1483,1486), zip64)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%usesDataDescriptor#35@2$(1493,(1493,1493), zipMethod)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@11$(743,(782,782), this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@15$(743,(782,786), this)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@41$(743,(782,786), this.hasCompressionLevelChanged)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@46$(751,(782,782), this.entry)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%checkIfNeedsZip64#10@8$(651,655, actuallyNeedsZip64)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@2$(1200,1216, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@3$(1200,1218, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@10$(1200,1216, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@11$(1200,1218, ze)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@24$(1200,1216, entryMetaData)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@25$(1200,1218, entryMetaData)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@30$(1201,1216, needsZip64Extra)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createCentralFileHeader#28@31$(1201,1218, needsZip64Extra)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryInChunks#4@1$(483,487, this)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryInChunks#4@4$(484,487, byteArrayOutputStream)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryInChunks#4@7$(485,488, count)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryInChunks#4@8$(486,(486,486), i$)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryInChunks#4@10$(486,486, i$)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryInChunks#4@12$(488,(488,493), count)",
+        [
+            0.0196078431372549,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%validateSizeInformation#16@1$(812,(812,825), this)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%validateSizeInformation#16@17$(812,(812,825), this.entry)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%hasZip64Extra#39@1$(1559,(1559,1559), ze)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%hasZip64Extra#39@3$(1559,(1559,1559), HEADER_ID)",
+        [
+            0.0196078431372549,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@1$(202,209, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@2$(202,210, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@9$(202,209, length)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@13$(202,210, this.writtenToOutputStreamForLastEntry)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@14$(202,209, this.sourcePayloadLength)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.StreamCompressor%write#1@15$(202,210, current)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@0$(1043,1075, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@1$(1043,1077, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@2$(1043,1079, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@3$(1043,1085, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@12$(1043,1049, ze)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@15$(1043,1066, ze)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@16$(1043,1074, ze)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@17$(1043,1077, ze)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@18$(1043,1085, ze)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@27$(1043,1067, name)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@28$(1043,1121, name)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@30$(1043,(1079,1079), encodable)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@37$(1043,1071, LFH_SIG)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@40$(1043,1085, this.calendarInstance)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@53$(1043,(1045,1049), oldAlignmentEx)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@65$(1049,(1050,1050), alignment)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@76$(1066,1118, extra)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@77$(1066,1124, extra)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@78$(1067,1115, nameLen)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@79$(1067,1121, nameLen)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@80$(1067,1124, nameLen)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@81$(1069,1080, buf)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@82$(1069,1083, buf)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@83$(1069,1085, buf)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@87$(1069,1115, buf)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@88$(1069,1118, buf)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@89$(1069,1121, buf)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@90$(1069,1124, buf)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@91$(1069,1126, buf)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@100$(1074,1083, zipMethod)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%createLocalFileHeader#25@105$(1075,1079, dataDescriptor)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getGeneralPurposeBits#33@8$(1474,1475, b)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getGeneralPurposeBits#33@9$(1474,1479, b)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@1$(743,(743,747), this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@3$(743,(747,751), this)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@4$(743,751, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@5$(743,752, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@6$(743,754, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@7$(743,756, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@8$(743,757, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@13$(743,786, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@28$(743,751, archiveEntry)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@29$(743,786, archiveEntry)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@30$(743,786, phased)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@34$(743,(743,747), this.finished)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@36$(743,(747,751), this.entry)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%putArchiveEntry#14@37$(743,752, this.entries)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@2$(1025,1032, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@3$(1025,1033, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@4$(1025,1034, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@5$(1025,1034, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@6$(1025,1035, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@7$(1025,1036, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@8$(1025,1037, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@10$(1025,1033, ze)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@11$(1025,1034, ze)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@12$(1025,1034, ze)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@14$(1025,1033, phased)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@19$(1025,1032, this.streamCompressor)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@20$(1025,1037, this.streamCompressor)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@21$(1025,1034, this.metaData)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@22$(1025,1035, this.entry)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@23$(1025,1037, this.entry)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@24$(1025,1033, encodable)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeLocalFileHeader#24@26$(1026,1033, name)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%validateSizeInformation#16@2$(812,(825,825), this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%validateSizeInformation#16@6$(812,(825,831), this)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%validateSizeInformation#16@18$(812,(825,825), this.entry)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%validateSizeInformation#16@22$(812,(825,831), this.entry)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEntryEncoding#41@0$(1582,1583, this)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEntryEncoding#41@3$(1582,1583, this.zipEncoding)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEntryEncoding#41@6$(1582,1583, UTF8_ZIP_ENCODING)",
+        [
+            0.019230769230769232,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%getEntryEncoding#41@8$(1582,(1583,1583), encodable)",
+        [
+            0.019230769230769232,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%setSizesAndOffsetFromZip64Extra#11@14$(734,(737,763), z64)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@3$(865,881, this)",
+        [
+            0.018518518518518517,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@4$(865,879, this)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@21$(867,(878,879), searchedForZip64EOCD)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@23$(873,(876,878), found)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%toDosTime#0@0$(74,81, c)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%toDosTime#0@1$(74,82, c)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%toDosTime#0@2$(74,88, buf)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%toDosTime#0@4$(74,88, offset)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%toDosTime#0@8$(76,(77,81), year)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%toDosTime#0@9$(76,82, year)",
+        [
+            0.018518518518518517,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@5$(187,(187,187), this)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@15$(187,(187,187), this.encryptionFlag)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@2$(1389,(1393,1393), this)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@4$(1389,(1400,1401), this)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@22$(1389,(1393,1393), this)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@25$(1389,(1393,1393), this)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@28$(1389,(1393,1400), this)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@33$(1389,(1393,1393), this.hasUsedZip64)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@35$(1389,(1400,1401), this.hasUsedZip64)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@38$(1389,(1393,1393), this.cdOffset)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@41$(1389,(1393,1393), this.cdLength)",
+        [
+            0.01818181818181818,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@45$(1389,(1393,1400), this.entries)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@32$(953,983, off)",
+        [
+            0.01818181818181818,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@7$(187,(187,187), this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@17$(187,(187,187), this.strongEncryptionFlag)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@11$(240,(242,242), lastIsUnparseableHolder)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@13$(240,(263,269), lastIsUnparseableHolder)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getLocalFileDataExtra#20@0$(611,612, EMPTY)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getLocalFileDataExtra#20@3$(611,612, extra)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%close#22@2$(960,963, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryInChunks#4@0$(483,494, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryInChunks#4@3$(484,494, byteArrayOutputStream)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryInChunks#4@9$(486,(486,494), i$)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@1$(1389,(1389,1393), this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@30$(1389,(1389,1393), Never)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeZip64CentralDirectory#32@32$(1389,(1389,1393), this.zip64Mode)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@3$(462,(466,470), this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@4$(462,470, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@5$(462,471, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@6$(462,473, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@7$(462,474, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@8$(462,475, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@9$(462,476, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@10$(462,477, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@11$(462,478, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@12$(462,479, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@16$(462,(466,470), this.entry)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@17$(462,470, this.streamCompressor)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@18$(462,473, this.streamCompressor)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@19$(462,478, this.streamCompressor)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@20$(462,476, this.metaData)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@21$(462,477, this.entries)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@1$(1348,(1361,1366), this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@2$(1348,1368, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@3$(1348,1369, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@4$(1348,1372, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@5$(1348,1373, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@6$(1348,1376, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@7$(1348,1378, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@8$(1348,1379, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@22$(1348,(1361,1366), this.cdOffset)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@23$(1348,1373, this.cdOffset)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@24$(1348,1372, this.cdLength)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@25$(1348,1376, this.zipEncoding)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@26$(1348,1376, this.comment)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@27$(1348,1379, this.streamCompressor)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@29$(1355,(1356,1361), numberOfEntries)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%writeCentralDirectoryEnd#31@30$(1355,1366, numberOfEntries)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@0$(638,653, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@1$(638,656, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@2$(638,661, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@3$(638,664, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@4$(638,668, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@5$(638,671, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@6$(638,674, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@7$(638,677, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@8$(638,680, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@9$(638,683, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@10$(638,686, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@11$(638,689, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@12$(638,692, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@13$(638,696, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@14$(638,700, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@15$(638,702, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@16$(638,705, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@17$(638,708, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@18$(638,711, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@22$(638,696, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@23$(638,705, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@24$(638,711, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@25$(638,656, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@26$(638,661, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@27$(638,664, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@28$(638,668, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@29$(638,671, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@30$(638,674, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@31$(638,677, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@32$(638,680, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@33$(638,683, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@34$(638,686, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@35$(638,689, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@36$(638,692, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@37$(638,700, this.cfhBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@38$(638,653, this.zipEncoding)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@39$(638,653, UTF8_ZIP_ENCODING)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@40$(638,702, this.entries)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@43$(641,655, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@44$(641,656, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@45$(641,661, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@46$(641,665, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@47$(641,668, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@48$(641,671, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@49$(641,674, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@50$(641,689, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@51$(641,692, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@52$(641,697, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@53$(641,700, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@54$(641,702, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@55$(641,706, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@56$(641,708, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@57$(641,712, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@59$(649,656, off)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@60$(649,658, off)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%readCentralDirectoryEntry#10@61$(651,655, gpFlag)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@0$(1026,1031, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@1$(1026,1032, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@2$(1026,1033, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@3$(1026,1034, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@4$(1026,1035, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@5$(1026,1036, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@6$(1026,1037, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@7$(1026,1038, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@8$(1026,1039, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@9$(1026,1041, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@10$(1026,1054, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@11$(1026,1057, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@15$(1026,1031, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@16$(1026,1033, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@17$(1026,1041, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@18$(1026,1032, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@19$(1026,1033, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@20$(1026,1034, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@21$(1026,1035, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@22$(1026,1037, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@23$(1026,1035, this.shortBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@24$(1026,1036, this.shortBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@25$(1026,1037, this.shortBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@26$(1026,1038, this.shortBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@27$(1026,1054, this.nameMap)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@28$(1026,1057, this.nameMap)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@29$(1026,(1026,1026), i$)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@30$(1026,(1026,1061), i$)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@31$(1026,1026, i$)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@34$(1029,1053, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@35$(1029,1059, ze)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@38$(1053,1057, name)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@39$(1054,(1055,1056), entriesOfThatName)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%resolveLocalFileHeaderData#17@42$(1056,1059, entriesOfThatName)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@0$(865,(867,867), this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@5$(865,870, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@6$(865,871, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@7$(865,872, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@8$(865,873, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@9$(865,(867,867), this.archive)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@11$(865,870, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@12$(865,872, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@13$(865,871, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@14$(865,872, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@15$(865,873, ZIP64_EOCD_LOC_SIG)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@16$(865,873, this.wordBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtCentralDirectory#12@19$(867,(869,870), searchedForZip64EOCD)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@0$(952,983, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@8$(952,972, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@13$(952,(971,972), sig)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@15$(952,(973,974), sig)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@17$(952,983, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@26$(952,972, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@43$(970,(971,972), curr)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@45$(972,(973,974), curr)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@47$(974,(982,983), found)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@49$(974,985, found)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%<init>#0@0$(281,294, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%<init>#0@6$(292,(294,294), success)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%<init>#0@8$(292,(295,299), success)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@0$(603,618, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@1$(603,619, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@2$(603,620, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@3$(603,621, this)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@6$(603,619, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@7$(603,620, this.wordBbuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@8$(603,620, this.archive)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@9$(603,621, this.wordBuf)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@11$(603,(612,617), CFH_SIG)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@12$(603,(617,618), CFH_SIG)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@13$(603,(617,623), CFH_SIG)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@14$(603,623, noUTF8Flag)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@15$(603,618, noUTF8Flag)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@17$(610,(612,617), sig)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@18$(610,(617,618), sig)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%populateFromCentralDirectory#9@21$(621,(617,623), sig)",
+        [
+            0.017857142857142856,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%positionAtEndOfCentralDirectoryRecord#14@1$(937,(939,942), found)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%skipBytes#16@1$(993,(995,998), this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%skipBytes#16@2$(993,998, this)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%skipBytes#16@4$(993,(995,998), this.archive)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%skipBytes#16@5$(993,998, this.archive)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%skipBytes#16@7$(994,(995,998), newPosition)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%skipBytes#16@8$(994,998, newPosition)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@7$(188,(189,196), read)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@9$(188,(196,199), read)",
+        [
+            0.017857142857142856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@8$(187,187, buf)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%encode#2@9$(187,187, offset)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@2$(240,242, data)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@3$(240,246, data)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@15$(242,(251,263), regularExtraFieldCount)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@20$(246,(246,249), len$)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeCentralDirectoryData#3@31$(249,269, result)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@1$(788,(788,791), this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@2$(788,810, this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@7$(788,791, f)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@12$(788,(788,791), this.extraFields)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@16$(791,(791,810), len$)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@1$(462,(462,466), this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream%finish#3@14$(462,(462,466), this.finished)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@1$(952,958, this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@2$(952,960, this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@3$(952,961, this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@4$(952,962, this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@5$(952,966, this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@6$(952,968, this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@7$(952,970, this)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@9$(952,(967,968), sig)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@11$(952,(969,970), sig)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@18$(952,958, this.archive)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@19$(952,961, this.archive)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@20$(952,960, this.wordBbuf)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@21$(952,961, this.wordBbuf)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@22$(952,962, this.wordBbuf)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@23$(952,966, this.wordBbuf)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@24$(952,968, this.wordBbuf)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@25$(952,970, this.wordBbuf)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@30$(953,(956,957), off)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@33$(953,(957,958), off)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@35$(953,958, off)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@37$(954,(957,958), stopSearching)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@39$(966,(967,968), curr)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipFile%tryToLocateSignature#15@41$(968,(969,970), curr)",
+        [
+            0.017543859649122806,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setExtraFields#8@9$(358,(358,365), i$)",
+        [
+            0.015151515151515152,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%parse#1@25$(140,(142,191), start)",
+        [
+            0.014925373134328358,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%supportsMethodOf#13@7$(329,(329,329), entry)",
+        [
+            0.014705882352941176,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getExtraField#19@12$(539,(539,545), i$)",
+        [
+            0.014492753623188406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@1$(201,(201,201), data)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@16$(206,211, sum)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@22$(207,(207,211), i$)",
+        [
+            0.014084507042253521,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@41$(213,(213,225), i)",
+        [
+            0.014084507042253521,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%supportsMethodOf#13@4$(329,(329,329), entry)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%supportsMethodOf#13@12$(329,(329,329), IMPLODING)",
+        [
+            0.013888888888888888,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%supportsMethodOf#13@2$(329,(329,329), entry)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%supportsMethodOf#13@10$(329,(329,329), UNSHRINKING)",
+        [
+            0.01282051282051282,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%supportsMethodOf#13@0$(329,(329,329), entry)",
+        [
+            0.0125,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveOutputStream%count#0@0$(130,131, this)",
+        [
+            0.011764705882352941,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveOutputStream%count#0@1$(130,(130,131), written)",
+        [
+            0.011764705882352941,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveOutputStream%count#0@3$(130,131, written)",
+        [
+            0.011764705882352941,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.ArchiveOutputStream%count#0@4$(130,131, this.bytesWritten)",
+        [
+            0.011764705882352941,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%checkRequestedFeatures#14@1$(342,(342,347), ze)",
+        [
+            0.011627906976744186,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%checkRequestedFeatures#14@3$(342,(347,356), ze)",
+        [
+            0.011627906976744186,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipUtil%supportsEncryptionOf#12@0$(319,(319,319), entry)",
+        [
+            0.011235955056179775,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%encode#0@1$(79,(79,82), this)",
+        [
+            0.010526315789473684,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%encode#0@2$(79,82, this)",
+        [
+            0.010526315789473684,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%encode#0@3$(79,82, name)",
+        [
+            0.010526315789473684,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%encode#0@6$(79,(79,82), this.charsetName)",
+        [
+            0.010526315789473684,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%encode#0@7$(79,82, this.charsetName)",
+        [
+            0.010526315789473684,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@9$(205,(211,211), generalPurposeFlag)",
+        [
+            0.010101010101010102,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@11$(205,(212,212), generalPurposeFlag)",
+        [
+            0.00980392156862745,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@0$(788,(788,789), this)",
+        [
+            0.009708737864077669,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@6$(788,789, this)",
+        [
+            0.009708737864077669,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@8$(788,789, f)",
+        [
+            0.009708737864077669,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%mergeExtraFields#25@11$(788,(788,789), this.extraFields)",
+        [
+            0.009708737864077669,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@7$(205,(210,210), generalPurposeFlag)",
+        [
+            0.009433962264150943,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@5$(205,(209,209), generalPurposeFlag)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%useStrongEncryption#1@2$(147,(148,151), b)",
+        [
+            0.009345794392523364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%parse#1@1$(139,(142,191), data)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%parse#1@20$(139,191, v)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%parse#1@21$(139,192, v)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setExtraFields#8@0$(357,365, this)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setExtraFields#8@1$(357,366, this)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setExtraFields#8@3$(357,365, newFields)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setExtraFields#8@7$(358,(358,365), len$)",
+        [
+            0.009345794392523364,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@12$(206,207, b)",
+        [
+            0.009259259259259259,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@13$(206,208, b)",
+        [
+            0.009259259259259259,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@14$(206,209, b)",
+        [
+            0.009259259259259259,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@15$(206,210, b)",
+        [
+            0.009259259259259259,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@16$(206,211, b)",
+        [
+            0.009259259259259259,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@17$(206,212, b)",
+        [
+            0.009259259259259259,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.GeneralPurposeBit%parse#3@18$(206,213, b)",
+        [
+            0.009259259259259259,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@3$(187,(189,196), expectedLength)",
+        [
+            0.009174311926605505,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@5$(187,(196,199), expectedLength)",
+        [
+            0.009174311926605505,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@15$(194,(189,196), read)",
+        [
+            0.009174311926605505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@17$(194,(196,199), read)",
+        [
+            0.009174311926605505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@0$(187,190, channel)",
+        [
+            0.00909090909090909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@1$(187,190, b)",
+        [
+            0.00909090909090909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@2$(187,(189,190), expectedLength)",
+        [
+            0.00909090909090909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@6$(188,(189,190), read)",
+        [
+            0.00909090909090909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@10$(188,194, read)",
+        [
+            0.00909090909090909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@12$(190,(191,194), readNow)",
+        [
+            0.00909090909090909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.IOUtils%readFully#3@13$(190,194, readNow)",
+        [
+            0.00909090909090909,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setSize#23@0$(675,678, this)",
+        [
+            0.009009009009009009,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setSize#23@2$(675,(675,678), size)",
+        [
+            0.009009009009009009,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setSize#23@3$(675,678, size)",
+        [
+            0.009009009009009009,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getExtraField#19@0$(538,(538,539), this)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getExtraField#19@2$(538,539, this)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getExtraField#19@5$(538,(538,539), this.extraFields)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getExtraField#19@7$(538,539, this.extraFields)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getExtraField#19@10$(539,(539,545), len$)",
+        [
+            0.008928571428571428,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getAllExtraFieldsNoCopy#12@1$(415,(415,418), this)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getAllExtraFieldsNoCopy#12@3$(415,(418,418), this)",
+        [
+            0.008849557522123894,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getAllExtraFieldsNoCopy#12@4$(415,418, this)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getAllExtraFieldsNoCopy#12@7$(415,(415,418), this.extraFields)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getAllExtraFieldsNoCopy#12@8$(415,418, this.extraFields)",
+        [
+            0.008849557522123894,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getAllExtraFieldsNoCopy#12@10$(415,(418,418), this.unparseableExtra)",
+        [
+            0.008849557522123894,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@11$(201,(203,203), lastIsUnparseableHolder)",
+        [
+            0.008771929824561403,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@13$(201,(225,231), lastIsUnparseableHolder)",
+        [
+            0.008771929824561403,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@2$(201,203, data)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@3$(201,207, data)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@15$(203,(213,225), regularExtraFieldCount)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@20$(207,(207,211), len$)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ExtraFieldUtils%mergeLocalFileDataData#2@31$(211,231, result)",
+        [
+            0.008695652173913044,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setMethod#3@0$(221,225, this)",
+        [
+            0.008695652173913044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setMethod#3@2$(221,(221,225), method)",
+        [
+            0.008695652173913044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setMethod#3@3$(221,225, method)",
+        [
+            0.008695652173913044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@4$(244,(252,253), charsetName)",
+        [
+            0.008620689655172414,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@16$(251,(252,253), alias)",
+        [
+            0.008620689655172414,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getName#21@1$(629,(629,629), this)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getName#21@2$(629,629, this)",
+        [
+            0.00847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getName#21@4$(629,(629,629), this.name)",
+        [
+            0.00847457627118644,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%getName#21@5$(629,629, this.name)",
+        [
+            0.00847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setName#22@6$(646,(646,648), name)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setName#22@8$(646,648, name)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setName#22@9$(648,650, name)",
+        [
+            0.008264462809917356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setName#22@0$(646,650, this)",
+        [
+            0.008,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setName#22@1$(646,(646,646), this)",
+        [
+            0.008,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry%setName#22@3$(646,(646,646), name)",
+        [
+            0.008,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@1$(91,(91,94), this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@2$(91,94, this)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@3$(91,94, data)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@6$(91,(91,94), this.charsetName)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.FallbackZipEncoding%decode#1@7$(91,94, this.charsetName)",
+        [
+            0.006060606060606061,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@1$(244,(244,248), charsetName)",
+        [
+            0.005780346820809248,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@3$(244,(248,251), charsetName)",
+        [
+            0.005780346820809248,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@5$(244,(252,255), charsetName)",
+        [
+            0.005780346820809248,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@7$(244,(248,251), UTF_8)",
+        [
+            0.005780346820809248,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@8$(244,251, UTF_8)",
+        [
+            0.005780346820809248,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@13$(251,(251,251), i$)",
+        [
+            0.005780346820809248,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@15$(251,251, i$)",
+        [
+            0.005780346820809248,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%isUTF8#2@17$(251,(252,255), alias)",
+        [
+            0.005780346820809248,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@0$(166,168, b)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@1$(166,168, off)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@2$(166,(167,168), length)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@3$(166,(167,171), length)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@4$(166,168, num)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@5$(166,169, num)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@6$(167,(167,168), i)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@8$(167,168, i)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@9$(167,167, i)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@10$(169,168, num)",
+        [
+            0.0056179775280898875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@11$(169,169, num)",
+        [
+            0.0056179775280898875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@12$(167,(167,168), i)",
+        [
+            0.0056179775280898875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@13$(167,(167,171), i)",
+        [
+            0.0056179775280898875,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@14$(167,168, i)",
+        [
+            0.0056179775280898875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%toLittleEndian#4@15$(167,167, i)",
+        [
+            0.0056179775280898875,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%getZipEncoding#1@0$(213,(213,214), name)",
+        [
+            0.005154639175257732,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper%getZipEncoding#1@6$(213,214, UTF8_ZIP_ENCODING)",
+        [
+            0.005154639175257732,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@0$(80,83, bytes)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@1$(80,83, off)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@2$(80,(82,83), length)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@3$(80,(82,85), length)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@5$(81,83, l)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@6$(82,(82,83), i)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@8$(82,83, i)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@9$(82,82, i)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@10$(83,85, l)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@11$(83,83, l)",
+        [
+            0.004405286343612335,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@12$(82,(82,83), i)",
+        [
+            0.004405286343612335,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@13$(82,(82,85), i)",
+        [
+            0.004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@14$(82,83, i)",
+        [
+            0.004405286343612335,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%fromLittleEndian#0@15$(82,82, i)",
+        [
+            0.004405286343612335,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "org.apache.commons.compress.utils.ByteUtils%checkReadLength#8@1$(257,(257,260), length)",
+        [
+            0.0035714285714285713,
+            true,
+            "clear"
+        ]
+    ]
+]

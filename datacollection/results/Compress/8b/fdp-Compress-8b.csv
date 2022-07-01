@@ -1,0 +1,4 @@
+FAULT DETECTION ;Uncon;Status;DUAs; Version;8b
+1.000000;True;clear;org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@12$(57,(57,86), i)
+0.166667;False;clear;org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@9$(54,(57,86), end)
+0.076923;False;clear;org.apache.commons.compress.archivers.tar.TarUtils%parseOctal#0@4$(52,86, result)
