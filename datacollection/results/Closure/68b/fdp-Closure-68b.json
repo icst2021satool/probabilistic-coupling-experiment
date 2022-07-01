@@ -1,0 +1,6106 @@
+[
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseFunctionType#23@24$(1760,1761, this)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseFunctionType#23@25$(1760,(1760,1761), token)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseFunctionType#23@27$(1760,(1760,1761), LP)",
+        [
+            0.5,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%eatTokensUntilEOL#33@7$(2180,(2180,2182), token)",
+        [
+            0.5,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%eatTokensUntilEOL#33@13$(2180,(2180,2182), EOF)",
+        [
+            0.5,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@21$(338,(351,352), this)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@23$(338,352, this)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@37$(338,(351,352), this.charno)",
+        [
+            0.14285714285714285,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@34$(62,69, EOF)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@59$(67,(68,69), c)",
+        [
+            0.07692307692307693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@2$(338,(349,350), this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@20$(338,350, this)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@42$(338,(349,350), this.sourceEnd)",
+        [
+            0.07142857142857142,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@44$(338,(349,350), this.sourceCursor)",
+        [
+            0.07142857142857142,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@21$(1127,(1130,1134), typeNode)",
+        [
+            0.047619047619047616,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%createJSTypeExpression#10@1$(1211,(1211,1211), n)",
+        [
+            0.04,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpression#20@50$(1666,(1667,1677), basicTypeExpr)",
+        [
+            0.037037037037037035,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@4$(1686,1700, this)",
+        [
+            0.008695652173913044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@5$(1686,1701, this)",
+        [
+            0.008695652173913044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@35$(1698,(1699,1700), string)",
+        [
+            0.008695652173913044,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfoBuilder%build#3@1$(123,(123,131), this)",
+        [
+            0.005555555555555556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfoBuilder%build#3@8$(123,(123,131), this.populated)",
+        [
+            0.005555555555555556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#6@2$(1060,(1060,1060), token)",
+        [
+            0.004132231404958678,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#6@7$(1060,(1060,1060), LC)",
+        [
+            0.004132231404958678,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpressionAnnotation#15@0$(1499,1513, this)",
+        [
+            0.00411522633744856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpressionAnnotation#15@9$(1499,(1499,1513), token)",
+        [
+            0.00411522633744856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpressionAnnotation#15@10$(1499,1513, token)",
+        [
+            0.00411522633744856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpressionAnnotation#15@12$(1499,(1499,1513), LC)",
+        [
+            0.00411522633744856,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%lookAheadForTypeAnnotation#38@4$(2288,2302, matchedLc)",
+        [
+            0.0036900369003690036,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%lookAheadForTypeAnnotation#38@8$(2291,(2294,2301), c)",
+        [
+            0.0036900369003690036,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isJSDocString#7@3$(281,(302,302), c)",
+        [
+            0.0004985044865403788,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%eatTokensUntilEOL#33@5$(2180,(2180,2180), token)",
+        [
+            0.0004621072088724584,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%eatTokensUntilEOL#33@11$(2180,(2180,2180), EOC)",
+        [
+            0.0004621072088724584,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#6@0$(1060,1060, this)",
+        [
+            0.000441306266548985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#6@3$(1060,1060, token)",
+        [
+            0.000441306266548985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#6@4$(1060,1060, lineno)",
+        [
+            0.000441306266548985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#6@5$(1060,1060, startCharno)",
+        [
+            0.000441306266548985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%lookAheadForTypeAnnotation#38@0$(2288,2291, this)",
+        [
+            0.0004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%lookAheadForTypeAnnotation#38@1$(2288,2301, this)",
+        [
+            0.0004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%lookAheadForTypeAnnotation#38@2$(2288,2291, this.stream)",
+        [
+            0.0004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%lookAheadForTypeAnnotation#38@3$(2288,2301, this.stream)",
+        [
+            0.0004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%lookAheadForTypeAnnotation#38@5$(2291,(2292,2293), c)",
+        [
+            0.0004405286343612335,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%lookAheadForTypeAnnotation#38@6$(2291,(2292,2294), c)",
+        [
+            0.0004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%lookAheadForTypeAnnotation#38@9$(2291,2301, c)",
+        [
+            0.0004405286343612335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@0$(1122,1127, this)",
+        [
+            0.00043725404459991256,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@4$(1122,1127, token)",
+        [
+            0.00043725404459991256,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@12$(1122,(1124,1127), onlyParseSimpleNames)",
+        [
+            0.00043725404459991256,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@22$(1127,1136, typeNode)",
+        [
+            0.00043725404459991256,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@23$(1127,1139, typeNode)",
+        [
+            0.00043725404459991256,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@1$(1122,1134, this)",
+        [
+            0.0004222972972972973,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@2$(1122,1136, this)",
+        [
+            0.0004222972972972973,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@6$(1122,1136, lineno)",
+        [
+            0.0004222972972972973,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@7$(1122,1136, startCharno)",
+        [
+            0.0004222972972972973,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@8$(1122,1136, matchingLC)",
+        [
+            0.0004222972972972973,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@13$(1122,1134, this.stream)",
+        [
+            0.0004222972972972973,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseAndRecordTypeNode#8@14$(1122,1136, this.jsdocBuilder)",
+        [
+            0.0004222972972972973,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpression#20@51$(1666,1677, basicTypeExpr)",
+        [
+            0.00041981528127623844,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@1$(1686,1698, this)",
+        [
+            0.00041911148365465214,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@21$(1686,(1697,1698), token)",
+        [
+            0.00041911148365465214,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@32$(1686,(1697,1698), STRING)",
+        [
+            0.00041911148365465214,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@34$(1686,1698, this.stream)",
+        [
+            0.00041911148365465214,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpression#20@0$(1641,1666, this)",
+        [
+            0.00041893590280687055,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpression#20@17$(1641,(1663,1666), token)",
+        [
+            0.00041893590280687055,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpression#20@18$(1641,1666, token)",
+        [
+            0.00041893590280687055,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpression#20@34$(1641,(1663,1666), BANG)",
+        [
+            0.00041893590280687055,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@18$(1686,(1691,1694), token)",
+        [
+            0.0004185851820845542,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@20$(1686,(1694,1697), token)",
+        [
+            0.0004185851820845542,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@29$(1686,(1691,1694), LC)",
+        [
+            0.0004185851820845542,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@31$(1686,(1694,1697), LP)",
+        [
+            0.0004185851820845542,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@14$(1686,(1686,1688), token)",
+        [
+            0.0004177109440267335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@16$(1686,(1688,1691), token)",
+        [
+            0.0004177109440267335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@25$(1686,(1686,1688), STAR)",
+        [
+            0.0004177109440267335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseBasicTypeExpression#21@27$(1686,(1688,1691), LB)",
+        [
+            0.0004177109440267335,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpression#20@15$(1641,(1641,1663), token)",
+        [
+            0.00041562759767248546,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%parseTypeExpression#20@20$(1641,(1641,1663), QMARK)",
+        [
+            0.00041562759767248546,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfoBuilder%markTypeNode#7@1$(177,(177,184), this)",
+        [
+            0.00041476565740356696,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfoBuilder%markTypeNode#7@12$(177,(177,184), this.currentMarker)",
+        [
+            0.00041476565740356696,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@27$(338,(341,344), this)",
+        [
+            0.00041186161449752884,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@40$(338,(341,344), this.charno)",
+        [
+            0.00041186161449752884,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@20$(62,(180,181), this)",
+        [
+            0.00039385584875935406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@26$(62,181, this)",
+        [
+            0.00039385584875935406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@105$(171,181, c1)",
+        [
+            0.00039385584875935406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@107$(172,(180,181), c2)",
+        [
+            0.00039385584875935406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@110$(172,171, c2)",
+        [
+            0.00039385584875935406,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@21$(62,(180,183), this)",
+        [
+            0.0003933910306845004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@22$(62,183, this)",
+        [
+            0.0003933910306845004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@23$(62,184, this)",
+        [
+            0.0003933910306845004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@24$(62,185, this)",
+        [
+            0.0003933910306845004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@25$(62,186, this)",
+        [
+            0.0003933910306845004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@56$(62,187, STRING)",
+        [
+            0.0003933910306845004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@104$(171,184, c1)",
+        [
+            0.0003933910306845004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@108$(172,(180,183), c2)",
+        [
+            0.0003933910306845004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@109$(172,183, c2)",
+        [
+            0.0003933910306845004,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@18$(62,(164,171), this)",
+        [
+            0.00039323633503735744,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@19$(62,172, this)",
+        [
+            0.00039323633503735744,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@99$(163,(164,171), c2)",
+        [
+            0.00039323633503735744,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@100$(163,171, c2)",
+        [
+            0.00039323633503735744,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@103$(171,(173,180), c1)",
+        [
+            0.00039323633503735744,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isJSDocString#7@2$(281,(302,302), c)",
+        [
+            0.00039323633503735744,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isJSDocString#7@0$(281,(281,302), c)",
+        [
+            0.00039077764751856197,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@0$(127,132, this)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@1$(127,129, this)",
+        [
+            0.0003894080996884735,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@2$(127,132, this.properties)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@3$(127,129, this.properties)",
+        [
+            0.0003894080996884735,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@4$(127,(128,129), implicitPrototype)",
+        [
+            0.0003894080996884735,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@5$(127,(128,131), implicitPrototype)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@6$(127,137, implicitPrototype)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@7$(127,(133,134), implicitPrototype)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@9$(131,137, localCount)",
+        [
+            0.0003894080996884735,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@10$(131,134, localCount)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@11$(132,(132,132), i$)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@12$(132,(132,137), i$)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@13$(132,132, i$)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@14$(132,(133,134), property)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@16$(134,137, localCount)",
+        [
+            0.0003894080996884735,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getPropertiesCount#1@17$(134,134, localCount)",
+        [
+            0.0003894080996884735,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@65$(67,(77,161), c)",
+        [
+            0.00038774718883288094,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@82$(67,161, c)",
+        [
+            0.00038774718883288094,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@83$(67,162, c)",
+        [
+            0.00038774718883288094,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@15$(62,162, this)",
+        [
+            0.0003872966692486445,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@16$(62,163, this)",
+        [
+            0.0003872966692486445,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasProperty#2@3$(142,151, this)",
+        [
+            0.000328515111695138,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasProperty#2@13$(145,(146,151), implicitPrototype)",
+        [
+            0.000328515111695138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasProperty#2@17$(151,(151,156), i$)",
+        [
+            0.000328515111695138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasProperty#2@1$(142,(142,145), this)",
+        [
+            0.00032829940906106366,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasProperty#2@2$(142,145, this)",
+        [
+            0.00032829940906106366,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasProperty#2@5$(142,(142,145), propertyName)",
+        [
+            0.00032829940906106366,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasProperty#2@11$(142,(142,145), this.properties)",
+        [
+            0.00032829940906106366,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@64$(67,(72,66), c)",
+        [
+            0.0003278688524590164,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isJSSpace#8@7$(311,(312,312), c)",
+        [
+            0.0003278688524590164,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%eatTokensUntilEOL#33@2$(2180,(2180,2180), token)",
+        [
+            0.0003266906239790918,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%eatTokensUntilEOL#33@9$(2180,(2180,2180), EOL)",
+        [
+            0.0003266906239790918,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%eatTokensUntilEOL#33@0$(2180,2182, this)",
+        [
+            0.00032425421530479895,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%eatTokensUntilEOL#33@4$(2180,2183, token)",
+        [
+            0.00032425421530479895,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%eatTokensUntilEOL#33@15$(2180,2182, SEARCHING_ANNOTATION)",
+        [
+            0.00032425421530479895,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfoBuilder%markAnnotation#5@6$(147,(149,156), marker)",
+        [
+            0.0003237293622531564,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfo%addMarker#6@0$(513,(513,514), this)",
+        [
+            0.0003237293622531564,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfoBuilder%recordOriginalCommentString#0@1$(77,(77,80), this)",
+        [
+            0.00032351989647363315,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfoBuilder%recordOriginalCommentString#0@5$(77,(77,80), this.parseDocumentation)",
+        [
+            0.00032351989647363315,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfo%lazyInitDocumentation#5@0$(497,(497,498), this)",
+        [
+            0.00032351989647363315,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfo%lazyInitDocumentation#5@5$(497,(497,498), this.includeDocumentation)",
+        [
+            0.00032351989647363315,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharno#2@0$(230,(230,230), this)",
+        [
+            0.00031525851197982345,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharno#2@3$(230,(230,230), this.initLineno)",
+        [
+            0.00031525851197982345,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharno#2@5$(230,(230,230), this.lineno)",
+        [
+            0.00031525851197982345,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@1$(394,(394,405), this)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@3$(394,(405,412), this)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@4$(394,412, this)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@5$(394,413, this)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@6$(394,413, this)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@8$(394,(431,435), this)",
+        [
+            0.000315059861373661,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@23$(394,(394,405), this.ungetCursor)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@25$(394,412, this.cursor)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@28$(394,(431,435), this.charno)",
+        [
+            0.000315059861373661,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@35$(394,(405,412), this.sourceEnd)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@37$(394,(405,412), this.sourceCursor)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@38$(394,413, this.sourceCursor)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@39$(394,413, this.sourceString)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@45$(413,(416,417), c)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@51$(413,435, c)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@53$(413,(417,417), c)",
+        [
+            0.000315059861373661,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharIgnoreLineEnd#11@57$(413,(417,431), c)",
+        [
+            0.000315059861373661,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfoBuilder%markAnnotation#5@0$(147,156, this)",
+        [
+            0.00031259768677711783,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.JSDocInfoBuilder%markAnnotation#5@7$(147,156, marker)",
+        [
+            0.00031259768677711783,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharno#2@2$(230,230, this)",
+        [
+            0.0003118178983473651,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharno#2@7$(230,230, this.initCharno)",
+        [
+            0.0003118178983473651,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getCharno#2@8$(230,230, this.charno)",
+        [
+            0.0003118178983473651,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@4$(126,131, this)",
+        [
+            0.0003114294612270321,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@5$(126,(130,131), commentNode)",
+        [
+            0.0003114294612270321,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@7$(126,131, commentNode)",
+        [
+            0.0003114294612270321,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@13$(129,131, this.jsdocBuilder)",
+        [
+            0.0003114294612270321,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@7$(62,83, this)",
+        [
+            0.00031133250311332503,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@84$(81,(82,83), c)",
+        [
+            0.00031133250311332503,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@87$(81,83, c)",
+        [
+            0.00031133250311332503,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isAlpha#6@0$(273,(273,274), c)",
+        [
+            0.00031133250311332503,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isAlpha#6@1$(273,(273,276), c)",
+        [
+            0.00031133250311332503,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isAlpha#6@2$(273,(276,276), c)",
+        [
+            0.00031133250311332503,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isAlpha#6@4$(273,(276,276), c)",
+        [
+            0.00031133250311332503,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isAlpha#6@7$(273,(274,274), c)",
+        [
+            0.00031133250311332503,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@3$(62,81, this)",
+        [
+            0.0003112356053532524,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@4$(62,85, this)",
+        [
+            0.0003112356053532524,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@5$(62,86, this)",
+        [
+            0.0003112356053532524,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@6$(62,87, this)",
+        [
+            0.0003112356053532524,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@36$(62,88, ANNOTATION)",
+        [
+            0.0003112356053532524,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@76$(67,(77,81), c)",
+        [
+            0.0003112356053532524,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@85$(81,(82,85), c)",
+        [
+            0.0003112356053532524,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@86$(81,85, c)",
+        [
+            0.0003112356053532524,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%skipEOLs#37@1$(2248,(2248,2254), this)",
+        [
+            0.0003112356053532524,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%skipEOLs#37@7$(2248,(2248,2254), EOL)",
+        [
+            0.0003112356053532524,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%match#34@1$(2209,(2210,2210), this)",
+        [
+            0.0003109452736318408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%match#34@3$(2209,(2210,2210), token)",
+        [
+            0.0003109452736318408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%match#34@5$(2209,(2210,2210), this.unreadToken)",
+        [
+            0.0003109452736318408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%next#36@1$(2227,(2227,2230), this)",
+        [
+            0.0003109452736318408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%next#36@2$(2227,2230, this)",
+        [
+            0.0003109452736318408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%next#36@5$(2227,(2227,2230), NO_UNREAD_TOKEN)",
+        [
+            0.0003109452736318408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%next#36@7$(2227,(2227,2230), this.unreadToken)",
+        [
+            0.0003109452736318408,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@0$(126,133, this)",
+        [
+            0.00031084861672365556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@1$(126,134, this)",
+        [
+            0.00031084861672365556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@2$(126,136, this)",
+        [
+            0.00031084861672365556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@3$(126,137, this)",
+        [
+            0.00031084861672365556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@8$(126,133, config)",
+        [
+            0.00031084861672365556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@9$(126,134, config)",
+        [
+            0.00031084861672365556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@10$(126,136, errorReporter)",
+        [
+            0.00031084861672365556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@11$(126,133, config.annotationNames)",
+        [
+            0.00031084861672365556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%<init>#0@12$(126,134, config.suppressionNames)",
+        [
+            0.00031084861672365556,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%next#36@0$(2227,(2227,2228), this)",
+        [
+            0.00031084861672365556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%next#36@3$(2227,2228, this)",
+        [
+            0.00031084861672365556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%next#36@4$(2227,(2227,2228), NO_UNREAD_TOKEN)",
+        [
+            0.00031084861672365556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%next#36@6$(2227,(2227,2228), this.unreadToken)",
+        [
+            0.00031084861672365556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser%next#36@8$(2227,2228, this.stream)",
+        [
+            0.00031084861672365556,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@13$(62,(93,94), this)",
+        [
+            0.0003098853424233034,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@37$(62,94, EOC)",
+        [
+            0.0003098853424233034,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@69$(67,(77,93), c)",
+        [
+            0.0003097893432465923,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%matchChar#5@1$(261,263, this)",
+        [
+            0.0003097893432465923,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%matchChar#5@2$(261,(262,263), test)",
+        [
+            0.0003097893432465923,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%matchChar#5@4$(261,263, this.cursor)",
+        [
+            0.0003097893432465923,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%matchChar#5@5$(261,(262,263), c)",
+        [
+            0.0003097893432465923,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%addToString#3@1$(243,(244,249), this)",
+        [
+            0.0003093102381688834,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%addToString#3@2$(243,249, this)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%addToString#3@3$(243,250, this)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%addToString#3@7$(243,249, c)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%addToString#3@9$(243,(244,249), this.stringBuffer)",
+        [
+            0.0003093102381688834,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%addToString#3@10$(243,249, this.stringBuffer)",
+        [
+            0.0003093102381688834,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%addToString#3@14$(243,(244,249), N)",
+        [
+            0.0003093102381688834,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%addToString#3@15$(243,249, N)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%addToString#3@16$(243,250, N)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%ungetChar#4@0$(255,256, this)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%ungetChar#4@1$(255,256, this)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%ungetChar#4@2$(255,257, this)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%ungetChar#4@7$(255,256, c)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%ungetChar#4@9$(255,(255,256), $assertionsDisabled)",
+        [
+            0.0003093102381688834,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%ungetChar#4@10$(255,256, this.ungetCursor)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%ungetChar#4@15$(255,256, this.ungetBuffer)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%ungetChar#4@18$(255,257, this.cursor)",
+        [
+            0.0003093102381688834,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@0$(338,(338,339), this)",
+        [
+            0.00030921459492888067,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@10$(338,(385,389), this)",
+        [
+            0.00030921459492888067,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@24$(338,339, this)",
+        [
+            0.00030921459492888067,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@25$(338,340, this)",
+        [
+            0.00030921459492888067,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@26$(338,(341,342), this)",
+        [
+            0.00030921459492888067,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@28$(338,344, this)",
+        [
+            0.00030921459492888067,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@29$(338,342, this)",
+        [
+            0.00030921459492888067,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@30$(338,(338,339), this.ungetCursor)",
+        [
+            0.00030921459492888067,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@32$(338,340, this.ungetCursor)",
+        [
+            0.00030921459492888067,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@34$(338,339, this.cursor)",
+        [
+            0.00030921459492888067,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@36$(338,(385,389), this.charno)",
+        [
+            0.00030921459492888067,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@39$(338,(341,342), this.charno)",
+        [
+            0.00030921459492888067,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@41$(338,344, this.ungetBuffer)",
+        [
+            0.00030921459492888067,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@53$(340,344, this.ungetCursor)",
+        [
+            0.00030921459492888067,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@3$(338,(349,356), this)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@4$(338,356, this)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@5$(338,357, this)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@6$(338,357, this)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@8$(338,(360,370), this)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@9$(338,(385,386), this)",
+        [
+            0.00030892801977139327,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@11$(338,386, this)",
+        [
+            0.00030892801977139327,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@33$(338,356, this.cursor)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@35$(338,(385,386), this.charno)",
+        [
+            0.00030892801977139327,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@43$(338,(349,356), this.sourceEnd)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@45$(338,(349,356), this.sourceCursor)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@46$(338,357, this.sourceCursor)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@47$(338,357, this.sourceString)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@49$(338,(360,370), this.lineEndChar)",
+        [
+            0.00030892801977139327,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@59$(357,(370,371), c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@65$(357,389, c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@67$(357,(371,371), c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@71$(357,(371,385), c)",
+        [
+            0.00030892801977139327,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@60$(67,(68,70), c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@62$(67,(70,72), c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@63$(67,(72,73), c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isJSSpace#8@0$(311,(311,312), c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isJSSpace#8@6$(311,(312,312), c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isJSSpace#8@8$(311,(312,312), c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isJSSpace#8@10$(311,(312,312), c)",
+        [
+            0.00030892801977139327,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%isJSSpace#8@13$(311,(312,312), c)",
+        [
+            0.00030892801977139327,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@1$(338,(338,349), this)",
+        [
+            0.00030883261272390367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getChar#10@31$(338,(338,349), this.ungetCursor)",
+        [
+            0.00030883261272390367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@0$(62,66, this)",
+        [
+            0.00030883261272390367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream%getJsDocToken#0@1$(62,67, this)",
+        [
+            0.00030883261272390367,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@0$(448,(451,452), prototype)",
+        [
+            0.0001766472354707649,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@9$(450,(451,452), current)",
+        [
+            0.0001766472354707649,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@35$(458,(459,468), thatCtor)",
+        [
+            0.00017655367231638418,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@32$(458,(459,459), thatCtor)",
+        [
+            0.00017649135192375574,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@4$(151,156, this)",
+        [
+            0.00017642907551164433,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@10$(154,(155,156), thatObj)",
+        [
+            0.00017642907551164433,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@12$(154,156, thatObj)",
+        [
+            0.00017642907551164433,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@29$(457,(458,458), thatObj)",
+        [
+            0.00017614937466971993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@11$(154,(155,159), thatObj)",
+        [
+            0.00017614937466971993,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%hasReferenceName#1@0$(77,(77,77), this)",
+        [
+            0.00017583963425356076,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%hasReferenceName#1@2$(77,(77,77), this)",
+        [
+            0.00017583963425356076,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%hasReferenceName#1@4$(77,(77,77), this.ownerFunction)",
+        [
+            0.00017583963425356076,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%hasReferenceName#1@6$(77,(77,77), this.ownerFunction)",
+        [
+            0.00017583963425356076,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@8$(154,(155,155), thatObj)",
+        [
+            0.00017571604287471446,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@3$(438,(468,477), this)",
+        [
+            0.00017503938386136881,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%defineProperty#0@0$(88,92, this)",
+        [
+            0.00017488632388947185,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%defineProperty#0@1$(88,92, name)",
+        [
+            0.00017488632388947185,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%defineProperty#0@3$(88,(89,92), name)",
+        [
+            0.00017488632388947185,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%defineProperty#0@4$(88,92, type)",
+        [
+            0.00017488632388947185,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%defineProperty#0@5$(88,92, inferred)",
+        [
+            0.00017488632388947185,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%defineProperty#0@6$(88,92, inExterns)",
+        [
+            0.00017488632388947185,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%defineProperty#0@7$(88,92, propertyNode)",
+        [
+            0.00017488632388947185,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%defineProperty#0@8$(88,(89,89), proto)",
+        [
+            0.00017488632388947185,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%defineProperty#0@11$(88,(89,92), proto)",
+        [
+            0.00017488632388947185,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasOwnProperty#3@1$(161,(161,161), this)",
+        [
+            0.00017482517482517483,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasOwnProperty#3@3$(161,(161,161), propertyName)",
+        [
+            0.00017482517482517483,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasOwnProperty#3@5$(161,(161,161), this.properties)",
+        [
+            0.00017482517482517483,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@1$(237,(237,240), this)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@2$(237,241, this)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@3$(237,247, this)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@5$(237,(237,240), name)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@6$(237,241, name)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@7$(237,247, name)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@8$(237,240, type)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@9$(237,240, inferred)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@10$(237,240, inExterns)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@11$(237,240, propertyNode)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@12$(237,241, this.properties)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@13$(237,247, this.properties)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@14$(240,247, newProp)",
+        [
+            0.00017482517482517483,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%defineProperty#9@17$(241,(242,247), oldProp)",
+        [
+            0.00017482517482517483,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%hasOwnDeclaredProperty#6@1$(404,(404,404), this)",
+        [
+            0.00017482517482517483,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%hasOwnDeclaredProperty#6@5$(404,(404,404), name)",
+        [
+            0.00017482517482517483,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEquivalentTo#2@0$(323,(330,330), this)",
+        [
+            0.00017310022503029253,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEquivalentTo#2@5$(323,(330,330), jsType)",
+        [
+            0.00017310022503029253,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%getReferenceName#0@1$(68,(68,71), this)",
+        [
+            0.0001724435247456458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%getReferenceName#0@2$(68,71, this)",
+        [
+            0.0001724435247456458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%getReferenceName#0@4$(68,(68,71), this.ownerFunction)",
+        [
+            0.0001724435247456458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%getReferenceName#0@5$(68,71, this.ownerFunction)",
+        [
+            0.0001724435247456458,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.ScriptRuntime%getMessage#8@0$(458,469, messageId)",
+        [
+            0.00016534391534391533,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.ScriptRuntime%getMessage#8@1$(458,482, arguments)",
+        [
+            0.00016534391534391533,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.ScriptRuntime%getMessage#8@3$(461,(462,462), cx)",
+        [
+            0.00016534391534391533,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@0$(69,71, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@1$(69,74, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@2$(69,76, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@3$(69,71, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@4$(69,71, registry)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@5$(69,(71,71), parameters)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@6$(69,(71,71), parameters)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@7$(69,71, parameters)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@8$(69,(74,74), returnType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@9$(69,(74,74), returnType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@10$(69,74, returnType)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@11$(69,76, returnTypeInferred)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@12$(69,74, UNKNOWN_TYPE)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ArrowType%<init>#0@13$(69,71, UNKNOWN_TYPE)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEmptyType#1@0$(156,(156,156), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEmptyType#1@1$(156,(156,156), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEmptyType#1@2$(156,(156,156), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEmptyType#1@4$(156,(156,156), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEmptyType#1@7$(156,(156,156), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEmptyType#1@9$(156,(156,156), this.registry)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEmptyType#1@11$(156,(156,156), LEAST_FUNCTION_TYPE)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%toObjectType#7@0$(469,(469,469), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isSubtype#21@0$(890,(894,895), thisType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isSubtype#21@7$(890,(894,895), thatType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@1$(63,(63,67), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@2$(63,68, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@3$(63,67, types)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@4$(67,67, arr$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@5$(67,(67,67), len$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@6$(67,(67,70), len$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@7$(67,(67,67), i$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@9$(67,67, i$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@10$(67,67, i$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addRequiredParams#0@12$(67,(67,70), i$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@1$(80,(80,84), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@2$(80,85, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@3$(80,84, types)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@4$(80,85, this.registry)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@5$(84,84, arr$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@6$(84,(84,84), len$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@7$(84,(84,87), len$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@8$(84,(84,84), i$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@10$(84,84, i$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@11$(84,84, i$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@12$(84,(84,84), i$)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@13$(84,(84,87), i$)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@14$(84,84, i$)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addOptionalParams#1@15$(84,84, i$)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addVarArgs#2@1$(95,(95,104), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addVarArgs#2@2$(95,107, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addVarArgs#2@3$(95,105, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addVarArgs#2@4$(95,(104,105), type)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addVarArgs#2@5$(95,(104,107), type)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addVarArgs#2@6$(95,107, type)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addVarArgs#2@7$(95,105, type)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addVarArgs#2@8$(95,105, this.registry)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%addVarArgs#2@9$(105,107, type)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%hasOptionalOrVarArgs#3@1$(134,(135,135), lastChild)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionParamBuilder%hasVarArgs#4@1$(140,(141,141), lastChild)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%<init>#0@0$(110,115, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%<init>#0@1$(110,117, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%<init>#0@2$(110,117, registry)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%<init>#0@3$(110,115, implicitPrototype)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%<init>#0@4$(110,(114,115), implicitPrototype)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%<init>#0@5$(110,(114,117), implicitPrototype)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%<init>#0@6$(110,(114,114), nativeType)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%<init>#0@7$(110,(114,115), nativeType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%<init>#0@8$(110,117, OBJECT_TYPE)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%setImplicitPrototype#18@0$(418,(418,418), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%setImplicitPrototype#18@2$(418,419, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%setImplicitPrototype#18@3$(418,419, implicitPrototype)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@0$(471,(471,472), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@3$(471,472, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@4$(471,475, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@5$(471,476, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@7$(471,483, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@8$(471,(471,472), this.unknown)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@11$(472,(473,473), implicitProto)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@12$(472,(473,475), implicitProto)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@13$(472,(473,475), implicitProto)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@14$(472,(473,483), implicitProto)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@15$(472,483, implicitProto)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@16$(475,486, this.unknown)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@18$(476,(476,481), i$)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@23$(483,486, this.unknown)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%hasCachedValues#9@1$(500,(500,500), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%hasCachedValues#9@3$(500,(500,500), this.unknown)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@18$(98,142, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@37$(98,(140,142), alternate)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@77$(126,(140,142), current)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@0$(131,137, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@1$(131,138, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@2$(131,143, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@3$(131,147, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@4$(131,148, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@5$(131,140, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@6$(131,140, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@7$(131,143, registry)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@8$(131,140, registry)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@10$(131,(134,134), source)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@11$(131,137, source)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@14$(131,136, arrowType)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@15$(131,147, arrowType)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@17$(131,(143,143), typeOfThis)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@18$(131,143, typeOfThis)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@19$(131,(140,140), typeOfThis)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@20$(131,(140,140), typeOfThis)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@21$(131,140, typeOfThis)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@22$(131,148, templateTypeName)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@23$(131,(138,138), isConstructor)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@24$(131,(138,138), isConstructor)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@25$(131,(139,140), isConstructor)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@26$(131,(139,143), isConstructor)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@27$(131,140, nativeType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@28$(131,138, ORDINARY)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@29$(131,138, CONSTRUCTOR)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%<init>#0@30$(131,143, UNKNOWN_TYPE)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isConstructor#2@0$(178,(178,178), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isConstructor#2@2$(178,(178,178), CONSTRUCTOR)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isConstructor#2@4$(178,(178,178), this.kind)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getPrototype#9@0$(278,(278,279), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getPrototype#9@3$(278,279, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getPrototype#9@4$(278,279, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getPrototype#9@5$(278,(278,279), this.prototype)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getPrototype#9@8$(278,279, this.registry)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototypeBasedOn#10@0$(290,(290,291), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototypeBasedOn#10@3$(290,291, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototypeBasedOn#10@4$(290,291, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototypeBasedOn#10@6$(290,291, baseType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototypeBasedOn#10@7$(290,(290,291), this.prototype)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototypeBasedOn#10@10$(290,291, this.registry)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@0$(305,(309,309), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@2$(305,314, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@4$(305,(316,317), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@5$(305,317, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@7$(305,(322,331), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@8$(305,332, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@11$(305,319, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@15$(305,(309,313), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@17$(305,(305,309), prototype)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@18$(305,(313,313), prototype)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@20$(305,314, prototype)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@22$(305,(309,313), prototype)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@23$(313,(331,332), replacedPrototype)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@25$(317,(318,319), superClass)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@26$(317,(318,322), superClass)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%setPrototype#11@27$(317,319, superClass)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@2$(507,(510,513), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@3$(507,513, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@4$(507,513, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@5$(507,(507,508), name)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@9$(507,508, type)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@14$(507,(510,513), this.prototype)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@15$(507,513, this.registry)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@16$(508,(509,510), objType)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@19$(508,(510,513), objType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%defineProperty#22@20$(508,513, objType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getSuperClassConstructor#26@1$(675,(675,675), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getSuperClassConstructor#26@2$(675,676, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getSuperClassConstructor#26@6$(676,(677,680), maybeSuperInstanceType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getSuperClassConstructor#26@7$(676,680, maybeSuperInstanceType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isEquivalentTo#29@0$(732,(739,740), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isEquivalentTo#29@9$(732,(741,741), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isEquivalentTo#29@12$(732,(732,735), otherType)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isEquivalentTo#29@13$(732,735, otherType)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isEquivalentTo#29@19$(735,(736,739), that)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isEquivalentTo#29@29$(735,(740,741), that)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isEquivalentTo#29@31$(735,(741,741), that)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isSubtype#33@0$(834,(834,835), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isSubtype#33@13$(834,(834,835), that)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%hasInstanceType#34@1$(903,(903,903), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%addSubType#36@0$(930,(930,931), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%addSubType#36@1$(930,(930,933), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%addSubType#36@2$(930,933, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%addSubType#36@3$(930,931, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%addSubType#36@4$(930,933, subType)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%addSubType#36@5$(930,(930,931), this.subTypes)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%addSubType#36@6$(930,(930,933), this.subTypes)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%addSubType#36@7$(930,933, this.subTypes)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%addSubType#36@8$(931,933, this.subTypes)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%clearCachedValues#37@1$(938,(940,946), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%clearCachedValues#37@3$(938,(946,955), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%clearCachedValues#37@12$(938,(940,946), this.subTypes)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%hasCachedValues#38@0$(968,(968,968), this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%hasCachedValues#38@3$(968,(968,968), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%hasCachedValues#38@4$(968,(968,968), this.prototype)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%register#0@2$(582,(585,589), name)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@0$(608,615, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@1$(608,618, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@2$(608,610, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@3$(608,611, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@4$(608,615, propertyName)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@5$(608,618, propertyName)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@6$(608,611, propertyName)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@7$(608,614, type)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@8$(608,615, type)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@9$(608,611, this.typesIndexedByProperty)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@10$(608,618, this.greatestSubtypeByProperty)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@11$(608,(609,610), typeSet)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@12$(608,(609,614), typeSet)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@13$(608,614, typeSet)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%registerPropertyOnType#1@14$(610,614, typeSet)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@2$(623,624, this)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@3$(623,628, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@6$(623,624, propertyName)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@7$(623,628, propertyName)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@8$(623,(623,623), type)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@16$(623,(623,624), type)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@18$(623,630, type)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@19$(623,624, this.eachRefTypeIndexedByProperty)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@20$(623,628, this.eachRefTypeIndexedByProperty)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@21$(624,(626,627), typeSet)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@22$(624,(626,630), typeSet)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@23$(624,631, typeSet)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%addReferenceTypeIndexedByProperty#2@24$(627,631, typeSet)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createOptionalType#12@2$(899,(899,899), type)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createOptionalType#12@3$(899,(899,900), type)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createOptionalType#12@4$(899,900, type)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createOptionalType#12@5$(899,(899,900), type)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@0$(1159,(1162,1162), lastVarArgs)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@1$(1159,(1162,1165), lastVarArgs)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@2$(1159,1165, parameterTypes)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@3$(1159,1163, parameterTypes)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@4$(1159,1168, builder)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@5$(1159,1165, builder)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@6$(1159,1163, builder)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@7$(1160,(1161,1162), max)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@8$(1160,(1161,1168), max)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@9$(1160,(1162,1163), max)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@11$(1161,(1161,1162), i)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@13$(1161,1165, i)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@14$(1161,1161, i)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@15$(1161,(1162,1163), i)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@17$(1161,1163, i)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createParameters#16@19$(1161,(1161,1168), i)",
+        [
+            0.00016178611875101117,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createFunctionType#17@1$(1180,1181, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createFunctionType#17@3$(1180,1181, returnType)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createFunctionType#17@4$(1180,(1180,1181), lastVarArgs)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createFunctionType#17@7$(1180,1181, parameterTypes)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%getCtorExtendedInterfaces#2@0$(96,(96,97), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%getCtorExtendedInterfaces#2@1$(96,(96,99), this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionPrototypeType%getCtorExtendedInterfaces#2@2$(96,97, this)",
+        [
+            0.00016178611875101117,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEquivalentTo#2@1$(323,(330,330), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEquivalentTo#2@6$(323,(330,330), jsType)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%toObjectType#7@1$(469,(469,469), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%toObjectType#7@2$(469,469, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isSubtype#21@1$(890,(894,898), thisType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isSubtype#21@6$(890,(890,894), thatType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isSubtype#21@8$(890,(894,898), thatType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isSubtype#21@10$(890,(898,902), thatType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isSubtype#21@12$(890,(902,911), thatType)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isSubtype#21@14$(890,(911,914), thatType)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@1$(438,(438,443), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@2$(438,(468,468), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@4$(438,(478,478), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@7$(438,(478,484), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@8$(438,484, this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@10$(438,(468,477), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@15$(438,(438,443), that)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@17$(438,(443,450), that)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@19$(438,(450,457), that)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@20$(438,457, that)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@21$(438,(477,478), that)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@28$(457,(458,458), thatObj)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@30$(457,458, thatObj)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@31$(457,484, thatObj)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%isSubtype#21@33$(458,(459,468), thatCtor)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getReferenceName#19@0$(424,(424,425), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getReferenceName#19@2$(424,425, this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getReferenceName#19@3$(424,(424,425), this.className)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%getReferenceName#19@5$(424,425, this.className)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasReferenceName#20@0$(433,(433,433), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%hasReferenceName#20@2$(433,(433,433), this.className)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%implicitPrototypeChainIsUnknown#22@0$(491,(492,493), p)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%implicitPrototypeChainIsUnknown#22@3$(491,(493,496), p)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%implicitPrototypeChainIsUnknown#22@4$(491,496, p)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%implicitPrototypeChainIsUnknown#22@5$(496,(492,493), p)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%implicitPrototypeChainIsUnknown#22@6$(496,(492,498), p)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%implicitPrototypeChainIsUnknown#22@8$(496,(493,496), p)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.PrototypeObjectType%implicitPrototypeChainIsUnknown#22@9$(496,496, p)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@1$(151,(151,153), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@2$(151,(153,154), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@6$(151,(151,153), that)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@7$(151,154, that)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%isEquivalentTo#9@9$(154,(155,159), thatObj)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%toString#1@0$(97,(97,98), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%toString#1@3$(97,98, this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%toString#1@4$(97,(97,98), this.constructor)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%toString#1@6$(97,98, this.constructor)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%hashCode#10@0$(168,(168,169), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.InstanceObjectType%hashCode#10@3$(168,169, this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@1$(448,(451,450), prototype)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@2$(448,(449,451), current)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@5$(448,(451,450), current)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@6$(448,450, current)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@7$(450,(449,451), current)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@8$(450,(449,455), current)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@10$(450,(451,450), current)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isImplicitPrototype#7@11$(450,450, current)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@1$(471,(471,486), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@2$(471,486, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@9$(471,(471,486), this.unknown)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%isUnknownType#8@10$(471,486, this.unknown)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%cast#10@0$(520,(520,520), type)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%cast#10@1$(520,(520,520), type)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.ObjectType%cast#10@2$(520,520, type)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@0$(98,(102,102), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@2$(98,102, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@3$(98,(105,105), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@5$(98,105, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@6$(98,(110,110), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@9$(98,155, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@10$(98,(110,111), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@13$(98,(117,124), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@14$(98,124, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@15$(98,149, this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@16$(98,150, this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@26$(98,(98,102), alternate)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@27$(98,104, alternate)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@29$(98,(111,117), alternate)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@30$(98,149, alternate)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@31$(98,(131,131), alternate)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@35$(98,(131,131), alternate)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@38$(98,(140,143), alternate)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@40$(98,(143,148), alternate)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@45$(98,(102,102), alternate)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@46$(98,(102,102), this.isAllType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@48$(98,(105,105), this.isNativeUnknownType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@53$(98,(117,124), this.alternates)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@54$(98,124, this.alternates)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@55$(98,149, this.alternates)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@56$(102,(110,110), this.isAllType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@59$(104,(106,110), isAlternateUnknown)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@61$(104,(105,105), isAlternateUnknown)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@62$(105,(110,111), this.isNativeUnknownType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@67$(124,(125,126), it)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@68$(124,(125,149), it)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@69$(124,126, it)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@73$(126,(131,131), current)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@76$(126,(131,140), current)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@78$(126,(140,143), current)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%addAlternate#1@80$(126,(143,148), current)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%reduceAlternatesWithoutUnion#2@1$(164,(164,166), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%reduceAlternatesWithoutUnion#2@3$(164,(166,173), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%reduceAlternatesWithoutUnion#2@4$(164,173, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%reduceAlternatesWithoutUnion#2@14$(164,(164,166), this.isAllType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%reduceAlternatesWithoutUnion#2@22$(164,(166,173), this.isNativeUnknownType)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%reduceAlternatesWithoutUnion#2@28$(164,173, this.alternates)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%reduceAlternatesWithoutUnion#2@32$(173,(174,176), size)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%reduceAlternatesWithoutUnion#2@33$(173,(176,177), size)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@0$(192,(192,193), this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@2$(192,198, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@3$(192,193, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@4$(192,(194,195), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@6$(192,195, this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@7$(192,195, this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@8$(192,(192,193), this.result)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@11$(192,195, this.registry)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@12$(193,(194,195), this.result)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.UnionTypeBuilder%build#3@15$(195,198, this.result)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getPrototype#9@1$(278,(278,281), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getPrototype#9@2$(278,281, this)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getPrototype#9@6$(278,(278,281), this.prototype)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%getPrototype#9@7$(278,281, this.prototype)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isInterface#3@1$(183,(183,183), this)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isInterface#3@3$(183,(183,183), INTERFACE)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.FunctionType%isInterface#3@5$(183,(183,183), this.kind)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@0$(937,941, builder)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@1$(937,939, builder)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@2$(938,938, arr$)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@3$(938,(938,938), len$)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@4$(938,(938,941), len$)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@5$(938,(938,938), i$)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@7$(938,938, i$)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@8$(938,938, i$)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@9$(938,(938,938), i$)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@10$(938,(938,941), i$)",
+        [
+            0.00016175994823681658,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@11$(938,938, i$)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry%createUnionType#14@12$(938,938, i$)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.jstype.JSType%isEquivalentTo#2@4$(323,(323,330), jsType)",
+        [
+            0.00016155088852988692,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#27@0$(825,827, this)",
+        [
+            0.0001593879502709595,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#27@1$(825,827, this)",
+        [
+            0.0001593879502709595,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#27@2$(825,827, propType)",
+        [
+            0.0001593879502709595,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#27@3$(825,(826,827), value)",
+        [
+            0.0001593879502709595,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#27@5$(825,827, value)",
+        [
+            0.0001593879502709595,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#27@6$(825,827, this.propListHead)",
+        [
+            0.0001593879502709595,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%initResourceConfig#0@0$(62,(62,63), annotationNames)",
+        [
+            0.00015661707126076742,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@0$(90,(94,96), recognizedAnnotations)",
+        [
+            0.00015659254619480113,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@1$(90,(94,99), recognizedAnnotations)",
+        [
+            0.00015659254619480113,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@2$(90,96, NOT_IMPLEMENTED)",
+        [
+            0.00015659254619480113,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@3$(90,100, annotationBuilder)",
+        [
+            0.00015659254619480113,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@4$(90,96, annotationBuilder)",
+        [
+            0.00015659254619480113,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@5$(93,(93,93), i$)",
+        [
+            0.00015659254619480113,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@6$(93,(93,100), i$)",
+        [
+            0.00015659254619480113,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@7$(93,93, i$)",
+        [
+            0.00015659254619480113,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@8$(93,(94,96), unrecognizedAnnotation)",
+        [
+            0.00015659254619480113,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@9$(93,(94,99), unrecognizedAnnotation)",
+        [
+            0.00015659254619480113,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@10$(93,96, unrecognizedAnnotation)",
+        [
+            0.00015659254619480113,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@2$(603,(607,611), this)",
+        [
+            0.00015114873035066505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@3$(603,611, this)",
+        [
+            0.00015114873035066505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@4$(603,612, this)",
+        [
+            0.00015114873035066505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@13$(603,611, child)",
+        [
+            0.00015114873035066505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@14$(603,612, child)",
+        [
+            0.00015114873035066505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@22$(603,(607,611), this.last)",
+        [
+            0.00015114873035066505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@23$(603,611, this.last)",
+        [
+            0.00015114873035066505,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putBooleanProp#28@2$(832,(832,832), value)",
+        [
+            0.00015008254539996998,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putBooleanProp#28@0$(832,832, this)",
+        [
+            0.00015006002400960383,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putBooleanProp#28@1$(832,832, propType)",
+        [
+            0.00015006002400960383,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#29@0$(836,838, this)",
+        [
+            0.00015006002400960383,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#29@1$(836,838, this)",
+        [
+            0.00015006002400960383,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#29@2$(836,838, propType)",
+        [
+            0.00015006002400960383,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#29@3$(836,(837,838), value)",
+        [
+            0.00015006002400960383,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#29@5$(836,838, value)",
+        [
+            0.00015006002400960383,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#29@6$(836,838, this.propListHead)",
+        [
+            0.00015006002400960383,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@0$(603,605, this)",
+        [
+            0.00015001500150015003,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@1$(603,(607,608), this)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@5$(603,608, this)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@6$(603,608, this)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@7$(603,(603,603), child)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@9$(603,(604,604), child)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@11$(603,605, child)",
+        [
+            0.00015001500150015003,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@12$(603,606, child)",
+        [
+            0.00015001500150015003,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@15$(603,608, child)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@16$(603,608, child)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@17$(603,(603,603), child.parent)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@19$(603,(604,604), child.next)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#11@21$(603,(607,608), this.last)",
+        [
+            0.00015001500150015003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node$StringNode%<init>#0@0$(278,282, this)",
+        [
+            0.00014988009592326138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node$StringNode%<init>#0@2$(278,(279,282), str)",
+        [
+            0.00014988009592326138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node$StringNode%<init>#0@3$(278,282, str)",
+        [
+            0.00014988009592326138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#21@1$(764,(765,768), this)",
+        [
+            0.000149655791679138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#21@4$(764,(765,768), this.propListHead)",
+        [
+            0.000149655791679138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#21@6$(764,(765,768), result)",
+        [
+            0.000149655791679138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#22@1$(777,(777,778), item)",
+        [
+            0.000149655791679138,
+            true,
+            "clear"
+        ]
+    ]
+]

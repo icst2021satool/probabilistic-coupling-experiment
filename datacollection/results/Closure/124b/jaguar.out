@@ -1,0 +1,2931 @@
+19:35:45.607 [main] INFO  JaguarDF - Welcome to Jaguar-DF CLI!
+19:35:46.113 [main] DEBUG JaguarDF - CLI Arguments: [--projectDir, d4jprojects/closure-compiler, --classesDir, build/classes, --testsDir, build/test, --tests, tests.out, --logLevel, INFO]
+Nov 09, 2020 7:54:57 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: foo.js:1: WARNING - 'foo.bar.goo' used but not goog.require'd
+var foo = {}; var bar = new foo.bar.goo();
+                        ^
+
+Nov 09, 2020 7:54:57 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: D4J_Closure_124_BUGGY_VERSION
+Built on: 2020/11/09 11:34
+Closure Compiler (http://code.google.com/closure/compiler)
+Version: D4J_Closure_124_BUGGY_VERSION
+Built on: 2020/11/09 11:34
+20:54:26.837 [main] INFO  JaguarDF - Test testIssue1017(com.google.javascript.jscomp.ExploitAssignsTest) : Failed
+Nov 09, 2020 8:57:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                        ^
+
+Nov 09, 2020 8:57:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                           ^
+
+Nov 09, 2020 8:57:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportSymbol('foobar', a.b.c)
+                                                                                                                                              ^
+
+Nov 09, 2020 8:57:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+Nov 09, 2020 8:57:33 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property A of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                     ^
+
+Nov 09, 2020 8:57:33 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:2: WARNING - assignment to property B of enum{E}
+found   : number
+required: string
+ @export */ var E = {A:8, B:9};goog.exportSymbol('E', E);
+                          ^
+
+Nov 09, 2020 8:57:33 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 09, 2020 8:57:38 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = function(d, e, f) {};goog.exportSymbol('foobar', a)
+                                                                                                                  ^
+
+Nov 09, 2020 8:57:38 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = function(d, e, f) {};goog.exportSymbol('foobar', a)
+                                                                                                                     ^
+
+Nov 09, 2020 8:57:38 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = function(d, e, f) {};goog.exportSymbol('foobar', a)
+                                                                                                                        ^
+
+Nov 09, 2020 8:57:38 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+Nov 09, 2020 8:57:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                        ^
+
+Nov 09, 2020 8:57:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                           ^
+
+Nov 09, 2020 8:57:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = {}; a.b.c = function(d, e, f) {};goog.exportProperty(a.b, 'cprop', a.b.c)
+                                                                                                                                              ^
+
+Nov 09, 2020 8:57:43 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+Nov 09, 2020 8:57:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b for exported function p1
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                            ^
+
+Nov 09, 2020 8:57:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                     ^
+
+Nov 09, 2020 8:57:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                        ^
+
+Nov 09, 2020 8:57:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                           ^
+
+Nov 09, 2020 8:57:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function g
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                            ^
+
+Nov 09, 2020 8:57:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function h
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                               ^
+
+Nov 09, 2020 8:57:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function i
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('a.b', a.b);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                                  ^
+
+Nov 09, 2020 8:57:47 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 7 warning(s), 100% typed
+Nov 09, 2020 8:57:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                     ^
+
+Nov 09, 2020 8:57:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                        ^
+
+Nov 09, 2020 8:57:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                           ^
+
+Nov 09, 2020 8:57:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function g
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                            ^
+
+Nov 09, 2020 8:57:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function h
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                               ^
+
+Nov 09, 2020 8:57:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.prototype.c for exported function i
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('hello', a);goog.exportProperty(a.b, 'c', a.b.c);goog.exportProperty(a.b.prototype, 'c', a.b.prototype.c);
+                                                                                                                                                                                                  ^
+
+Nov 09, 2020 8:57:52 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 6 warning(s), 100% typed
+Nov 09, 2020 8:57:56 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b for exported function p1
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('prefix', a.b);goog.exportProperty(a.b, 'c', a.b.c);
+                                                                                                                            ^
+
+Nov 09, 2020 8:57:56 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function d
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('prefix', a.b);goog.exportProperty(a.b, 'c', a.b.c);
+                                                                                                                                                     ^
+
+Nov 09, 2020 8:57:56 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function e
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('prefix', a.b);goog.exportProperty(a.b, 'c', a.b.c);
+                                                                                                                                                        ^
+
+Nov 09, 2020 8:57:56 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine type of parameter a.b.c for exported function f
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var a = {}; a.b = function(p1) {}; a.b.c = function(d, e, f) {};a.b.prototype.c = function(g, h, i) {};goog.exportSymbol('prefix', a.b);goog.exportProperty(a.b, 'c', a.b.c);
+                                                                                                                                                           ^
+
+Nov 09, 2020 8:57:56 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 4 warning(s), 100% typed
+Nov 09, 2020 8:58:19 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:7: WARNING - Unable to determine return type for exported function internalName
+internalName = function(param1) {return param1;};goog.exportSymbol('externalName', internalName)
+               ^
+
+Nov 09, 2020 8:58:19 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:7: WARNING - Unable to determine type of parameter internalName for exported function param1
+internalName = function(param1) {return param1;};goog.exportSymbol('externalName', internalName)
+                        ^
+
+Nov 09, 2020 8:58:19 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 93.3% typed
+Nov 09, 2020 8:58:24 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:7: WARNING - Unable to determine return type for exported function internalName
+internalName = function(param1) {return /** @type {V} */ (param1);};goog.exportSymbol('externalName', internalName)
+               ^
+
+Nov 09, 2020 8:58:24 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:7: WARNING - Unable to determine type of parameter internalName for exported function param1
+internalName = function(param1) {return /** @type {V} */ (param1);};goog.exportSymbol('externalName', internalName)
+                        ^
+
+Nov 09, 2020 8:58:24 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:7: WARNING - Bad type annotation. Unknown type V
+internalName = function(param1) {return /** @type {V} */ (param1);};goog.exportSymbol('externalName', internalName)
+                                                   ^
+
+Nov 09, 2020 8:58:24 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 87.5% typed
+Nov 09, 2020 8:58:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:5: WARNING - Unable to determine return type for exported function internalName
+internalName = function(a) {  return 6;
+               ^
+
+Nov 09, 2020 8:58:47 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 8:58:51 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:5: WARNING - Unable to determine return type for exported function internalName
+internalName = function(a) {  return a;
+               ^
+
+Nov 09, 2020 8:58:51 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 8:59:14 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine return type for exported function InternalName
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var InternalName = function() {  return 6;};goog.exportSymbol('ExternalName', InternalName)
+                                                                                                                    ^
+
+Nov 09, 2020 8:59:14 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 8:59:32 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:1: WARNING - Unable to determine return type for exported function id
+var goog = {};goog.exportSymbol = function(a, b) {}; goog.exportProperty = function(a, b, c) {}; var id = function() {return 'id'};
+                                                                                                          ^
+
+Nov 09, 2020 8:59:32 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 8:59:37 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:4: WARNING - Unable to determine type of parameter InternalName for exported function b$$2
+ var InternalName = function(a,b,c) {  return 6;};goog.exportSymbol('ExternalName', InternalName)
+                               ^
+
+Nov 09, 2020 8:59:37 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: testcode:4: WARNING - Unable to determine type of parameter InternalName for exported function c$$1
+ var InternalName = function(a,b,c) {  return 6;};goog.exportSymbol('ExternalName', InternalName)
+                                 ^
+
+Nov 09, 2020 8:59:37 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 09, 2020 10:06:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Missing return statement. Function expected to return number.
+/** @return {number} */ function f() { if (f) { return 3; } }
+                        ^
+
+Nov 09, 2020 10:06:52 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+Nov 09, 2020 10:07:06 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Rename prototypes and inline variables cannot be used together
+
+Nov 09, 2020 10:07:06 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:08:09 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. unnamed function statement
+function () {}
+^
+
+Nov 09, 2020 10:08:09 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:08:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:2: WARNING - missing goog.provide('f')
+function f() { var arguments; }
+         ^
+
+Nov 09, 2020 10:08:52 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Nov 09, 2020 10:09:01 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - invalid cast - must be a subtype or supertype
+from: number
+to  : string
+function f() { var xyz = /** @type {string} */ (0); }
+                                               ^
+
+Nov 09, 2020 10:09:01 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 10:09:49 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing { before function body
+var foo = {bar: function(e) }
+                            ^
+
+Nov 09, 2020 10:09:49 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing } after property list
+var foo = {bar: function(e) }
+                            ^
+
+Nov 09, 2020 10:09:49 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Nov 09, 2020 10:09:54 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. Unsupported syntax: ERROR
+function hi
+^
+
+Nov 09, 2020 10:09:54 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing ( before function parameters.
+function hi
+          ^
+
+Nov 09, 2020 10:09:54 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing ) after formal parameters
+function hi
+          ^
+
+Nov 09, 2020 10:09:54 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing formal parameter
+function hi
+          ^
+
+Nov 09, 2020 10:09:54 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing { before function body
+function hi
+          ^
+
+Nov 09, 2020 10:09:54 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing } after function body
+function hi
+          ^
+
+Nov 09, 2020 10:09:54 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 6 error(s), 0 warning(s)
+Nov 09, 2020 10:09:59 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - required "goog.beer" namespace not provided yet
+goog.require('goog.beer');
+^
+
+Nov 09, 2020 10:09:59 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:10:04 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. missing ] after element list
+var x = [1, 2
+            ^
+
+Nov 09, 2020 10:10:04 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:10:18 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - inconsistent return type
+found   : boolean
+required: number
+/** @return {number} */ function f() { return true; }
+                                              ^
+
+Nov 09, 2020 10:10:18 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+Nov 09, 2020 10:10:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - inconsistent return type
+found   : boolean
+required: number
+/** @return {number} */ function f() { return true; }
+                                              ^
+
+Nov 09, 2020 10:10:23 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 10:10:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:9: WARNING - actual parameter 1 of C.prototype.someMethod does not match formal parameter
+found   : number
+required: string
+x.someMethod(x.someProperty);
+             ^
+
+Nov 09, 2020 10:10:43 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 10:10:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:3: ERROR - constant x assigned a value more than once
+var x = 1; foo(); x = 2;
+                  ^
+
+Nov 09, 2020 10:10:52 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:11:12 PM com.google.javascript.jscomp.Tracer logCurrentThreadTrace
+WARNING: timers:
+      12.060 Start        [Compiler] parseInputs
+    1 12.061 Done    1 ms [Compiler] parseInputs
+    2 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        [Compiler] normalize
+    0 12.063 Done    0 ms [Compiler] normalize
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+    0 12.063 Start        JSCompiler
+    0 12.063 Done    0 ms JSCompiler
+ TOTAL Compiler 2 (1 ms)
+
+Nov 09, 2020 10:11:26 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:4: WARNING - Parse error. Cycle detected in inheritance chain of type Foo
+ */ Foo = /** @type {function(new:Foo)} */ (AyncTestCase());
+                                  ^
+
+Nov 09, 2020 10:11:26 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 60% typed
+Nov 09, 2020 10:11:51 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - required "foo" namespace never provided
+var goog = {}; goog.require = function(x) {}; goog.require('foo');
+                                              ^
+
+Nov 09, 2020 10:11:51 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:11:56 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - missing goog.getCssName around literal 'foo'
+var x = 'foo';
+        ^
+
+Nov 09, 2020 10:11:56 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:12:00 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:8: WARNING - actual parameter 1 of goog.getCssName does not match formal parameter
+found   : number
+required: string
+var x = goog.getCssName(123, 'a');
+                        ^
+
+Nov 09, 2020 10:12:00 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 10:12:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - dangerous use of the global this object
+function f() { this.y = 3; }
+               ^
+
+Nov 09, 2020 10:12:20 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:12:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - dangerous use of the global this object
+function f() { this.y = 3; }
+               ^
+
+Nov 09, 2020 10:12:25 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:12:35 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i1:1: ERROR - 'Foo' used but not goog.require'd
+new Foo();
+^
+
+Nov 09, 2020 10:12:35 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:12:40 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - missing goog.provide('Foo')
+/** @constructor */ function Foo() {}
+                             ^
+
+Nov 09, 2020 10:12:40 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:13:33 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - variable x is undeclared
+x = 3;
+^
+
+Nov 09, 2020 10:13:33 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:13:43 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Variable referenced before declaration: x
+x = 3; var x = 5;
+^
+
+Nov 09, 2020 10:13:43 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:13:48 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - enum key a must be a syntactic constant
+/** @define {boolean} */ var COMPILED = false; var goog = {};goog.exportSymbol = function() {};goog.provide('Foo'); /** @enum */ Foo = {a: 3};
+                                                                                                                                        ^
+
+Nov 09, 2020 10:13:48 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Nov 09, 2020 10:13:53 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - initializing variable
+found   : string
+required: number
+/** @type {number} */ var n = window.name;
+                              ^
+
+Nov 09, 2020 10:13:53 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 10:13:58 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - Bad type annotation. Unknown type n
+/** @type {n} */ var n = window.name;
+           ^
+
+Nov 09, 2020 10:13:58 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 10:14:08 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - Function x.f: called with 1 argument(s). Function requires at least 0 argument(s) and no more than 0 argument(s).
+var x = x || {}; x.f = function() {}; x.f(3);
+                                      ^
+
+Nov 09, 2020 10:14:08 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 10:14:27 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Variable f has been deprecated.
+/** @deprecated */ function f() { } function g() { f(); }
+                                                   ^
+
+Nov 09, 2020 10:14:27 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+Nov 09, 2020 10:14:32 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i1:1: ERROR - Access to private variable f not allowed outside file i0.
+function g() { f(); }
+               ^
+
+Nov 09, 2020 10:14:32 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+Nov 09, 2020 10:14:37 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:2: ERROR - unreachable code
+ 3; }
+ ^
+
+Nov 09, 2020 10:14:37 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:15:26 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - TightenTypes requires type checking. Please use --check_types.
+
+Nov 09, 2020 10:15:26 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:16:00 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - constant FOO assigned a value more than once
+var FOO = true; FOO = false
+                ^
+
+Nov 09, 2020 10:16:00 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:16:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - enum key a must be a syntactic constant
+/** @define {boolean} */ var COMPILED = false; var goog = {};goog.exportSymbol = function() {};goog.provide('Foo'); /** @enum */ Foo = {a: 3};
+                                                                                                                                        ^
+
+Nov 09, 2020 10:16:25 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s), 100% typed
+Nov 09, 2020 10:16:30 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - constant foo assigned a value more than once
+var goog = {}; goog.provide('foo'); function f() { foo = {};}
+                                                   ^
+
+Nov 09, 2020 10:16:30 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:16:35 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - constant foo$bar assigned a value more than once
+var goog = {}; goog.provide('foo.bar'); function f() { foo.bar = {};}
+                                                       ^
+
+Nov 09, 2020 10:16:35 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:17:09 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - x.z is never defined
+var x = {}; var y = x.z;
+                    ^
+
+Nov 09, 2020 10:17:09 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:19:56 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. unlabelled break must be inside loop or switch
+function f() { try { } catch(e) { break; } }
+                                  ^
+
+Nov 09, 2020 10:19:56 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s), 100% typed
+Nov 09, 2020 10:20:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: i0:1: WARNING - References to the global RegExp object prevents optimization of regular expressions.
+/(a)/.test("a");var a = RegExp.$1
+                        ^
+
+Nov 09, 2020 10:20:11 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Nov 09, 2020 10:21:01 PM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs:1: WARNING - name extern is not undefined in the externs.
+extern.foo
+^
+
+Nov 09, 2020 10:21:01 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Nov 09, 2020 10:21:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - Parse error. getters are not supported in older versions of JS. If you are targeting newer versions of JS, set the appropriate language_in option.
+var a = {get f(){}}
+^
+
+Nov 09, 2020 10:21:11 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 09, 2020 10:21:16 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: i0:1: ERROR - variables, functions, and arguments cannot be deleted in ES5 strict mode
+var a  = 2; delete a;
+            ^
+
+Nov 09, 2020 10:21:16 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 28.6% typed
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:31:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s)
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:02 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+this.foo = {}; this.foo.bar = {};
+^
+
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+this.foo = {}; this.foo.bar = {};
+               ^
+
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 4 warning(s), 87.5% typed
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - Suspicious code. The result of the 'getprop' operator is not being used.
+/** @constructor */ function Foo() {} this.Foo;
+                                      ^
+
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+/** @constructor */ function Foo() {} this.Foo;
+                                      ^
+
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 4 warning(s), 100% typed
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:13 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 50% typed
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:30 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:41 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:47 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:2: WARNING - Property dom never defined on goog
+goog.dom.DomHelper = function(){};
+^
+
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Property dom never defined on goog
+var y = goog.dom.DomHelper;
+        ^
+
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:2: ERROR - variable goog is undeclared
+goog.dom.DomHelper = function(){};
+^
+
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 4 warning(s), 60% typed
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:53 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:9: WARNING - Property c never defined on A.prototype.b
+  var x; if (x) { x = a.b.b; } else { x = a.b.c; }
+                                          ^
+
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 86.7% typed
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:32:58 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:04 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:09 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:15 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:2: WARNING - Property require never defined on goog
+goog.require('foo.bar')
+^
+
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable foo is undeclared
+foo.bar = function(){};  // definition
+^
+
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:2: ERROR - variable goog is undeclared
+goog.require('foo.bar')
+^
+
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 3 warning(s), 57.1% typed
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:20 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:26 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s)
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:32 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 90.9% typed
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:37 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - Suspicious code. The result of the 'add' operator is not being used.
+/** @constructor */ var DomHelper = function(){};/** method */ DomHelper.method = function() {};function f() { var x = DomHelper; x.method() + x.method(); }
+                                                                                                                                  ^
+
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:43 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:48 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:33:54 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Bad type annotation. Unknown type Missing
+ * @extends {Missing}
+             ^
+
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 78.6% typed
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:00 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: Missing
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:3: WARNING - Bad type annotation. Unknown type Missing
+ * @extends {Missing}
+             ^
+
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 78.6% typed
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: Missing
+Nov 10, 2020 2:34:05 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:11 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable x is undeclared
+/** @constructor */ var DomHelper = function(){};DomHelper.prototype.method = function() {   this.field = 3;  return x.field;}
+                                                                                                                     ^
+
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 2 warning(s), 83.3% typed
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:16 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:22 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:28 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:33 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:39 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:44 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:50 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:34:56 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:01 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:07 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:12 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:18 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:24 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 99.1% typed
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: void
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: void
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: void
+Nov 10, 2020 2:35:29 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: void
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:1: ERROR - variable goog is undeclared
+/** @constructor */ goog.Foo = function(){};
+                    ^
+
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 2 warning(s), 66.7% typed
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:35 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - dangerous use of the global this object
+function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+                ^
+
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - cannot instantiate non-constructor
+function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+                                                                                        ^
+
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 4 warning(s), 75% typed
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:40 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:1: WARNING - Parse error. illegal use of unknown JSDoc tag "contstructor"; ignoring it
+/** @contstructor */function F() {  this.field1 = 3;}F.prototype.method1 = function() {  this.field1 = 5;};(new F()).method1();
+    ^
+
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:46 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:12: WARNING - Property inherits never defined on goog
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+^
+
+Nov 10, 2020 2:35:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:5: ERROR - variable alert is undeclared
+  alert('hi');
+  ^
+
+Nov 10, 2020 2:35:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: in1:12: ERROR - variable goog is undeclared
+goog.inherits(a.b.DerivedClass, a.b.BaseClass);
+^
+
+Nov 10, 2020 2:35:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 3 warning(s), 92.6% typed
+Nov 10, 2020 2:35:52 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:52 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:52 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:52 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:52 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:52 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:52 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:52 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:52 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:35:57 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:03 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:08 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s)
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:14 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: in1:2: WARNING - goog.dom.Foo defined before its owner. goog.dom is defined at in1:3
+/** @constructor */ goog.dom.Foo = function() {};
+                    ^
+
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 3 warning(s), 100% typed
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:19 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:25 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s)
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:31 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:3: WARNING - attempted re-definition of type Function
+found   : function (new:Function, *): ?
+expected: function (new:Function, ...[*]): ?
+ * @param {*} var_args */ function Function(var_args) {}/** @type {!Function} */ Function.prototype.apply;/** @type {!Function} */ Function.prototype.bind;/** @type {!Function} */ Function.prototype.call;/** @constructor 
+                          ^
+
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: externs1:8: WARNING - attempted re-definition of type Array
+found   : function (new:Array, *): Array
+expected: function (new:Array, ...[*]): Array
+ @return {!Array} */function Array(var_args) {}
+                    ^
+
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 2 warning(s), 100% typed
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: length
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: T
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+Nov 10, 2020 2:36:36 AM com.google.javascript.jscomp.SymbolTable$JSDocInfoCollector visitTypeNode
+WARNING: Could not find symbol for type: number
+LOG:unknown:///unknown:1+23: Semicolon inserted
+LOG:unknown:///unknown:1+23: Semicolon inserted
+LOG:unknown:///unknown:1+40: Semicolon inserted
+LOG:unknown:///unknown:1+40: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+66: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+66: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+103: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+103: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+37: Semicolon inserted
+LOG:unknown:///unknown:1+37: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+98: Semicolon inserted
+LOG:unknown:///unknown:1+99: Semicolon inserted
+LOG:unknown:///unknown:1+98: Semicolon inserted
+LOG:unknown:///unknown:1+99: Semicolon inserted
+LOG:unknown:///unknown:1+68: Semicolon inserted
+LOG:unknown:///unknown:1+72: Semicolon inserted
+LOG:unknown:///unknown:1+68: Semicolon inserted
+LOG:unknown:///unknown:1+72: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+109: Semicolon inserted
+LOG:unknown:///unknown:1+110: Semicolon inserted
+LOG:unknown:///unknown:1+109: Semicolon inserted
+LOG:unknown:///unknown:1+110: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+48: Semicolon inserted
+LOG:unknown:///unknown:1+48: Semicolon inserted
+LOG:unknown:///unknown:1+44: Semicolon inserted
+LOG:unknown:///unknown:1+71: Semicolon inserted
+LOG:unknown:///unknown:1+44: Semicolon inserted
+LOG:unknown:///unknown:1+71: Semicolon inserted
+LOG:unknown:///unknown:1+104: Semicolon inserted
+LOG:unknown:///unknown:1+105: Semicolon inserted
+LOG:unknown:///unknown:1+104: Semicolon inserted
+LOG:unknown:///unknown:1+105: Semicolon inserted
+LOG:unknown:///unknown:1+18: Semicolon inserted
+LOG:unknown:///unknown:1+18: Semicolon inserted
+LOG:unknown:///unknown:1+97: Semicolon inserted
+LOG:unknown:///unknown:1+98: Semicolon inserted
+LOG:unknown:///unknown:1+97: Semicolon inserted
+LOG:unknown:///unknown:1+98: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+28: Semicolon inserted
+LOG:unknown:///unknown:1+28: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+63: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+63: Semicolon inserted
+LOG:unknown:///unknown:1+16: Semicolon inserted
+LOG:unknown:///unknown:1+16: Semicolon inserted
+LOG:unknown:///unknown:1+20: Semicolon inserted
+LOG:unknown:///unknown:1+20: Semicolon inserted
+WARNING:unknown:///unknown:1+2 - 3: Will not work in IE
+java.lang.Exception
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:52)
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:40)
+	at java.util.AbstractList.add(AbstractList.java:108)
+	at com.google.caja.reporting.AbstractMessageQueue.addMessage(AbstractMessageQueue.java:25)
+	at com.google.caja.parser.js.Parser.parseExpressionAtom(Parser.java:1138)
+	at com.google.caja.parser.js.Parser.parseOp(Parser.java:792)
+	at com.google.caja.parser.js.Parser.parseExpressionInt(Parser.java:727)
+	at com.google.caja.parser.js.Parser.parseExpressionStmt(Parser.java:1281)
+	at com.google.caja.parser.js.Parser.parseStatementWithoutLabel(Parser.java:706)
+	at com.google.caja.parser.js.Parser.parseStatement(Parser.java:306)
+	at com.google.caja.parser.js.Parser.parseTerminatedStatement(Parser.java:1312)
+	at com.google.caja.parser.js.Parser.parseProgramOrFunctionBody(Parser.java:325)
+	at com.google.caja.parser.js.Parser.parseProgram(Parser.java:314)
+	at com.google.caja.parser.js.Parser.parse(Parser.java:272)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:42)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:31)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:26)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:22)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testConversion(JsonMLConversionTest.java:79)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testArray(JsonMLConversionTest.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at br.usp.each.saeg.jaguardf.cli.JaguarRunner.run(JaguarRunner.java:64)
+	at br.usp.each.saeg.jaguardf.cli.JaguarRunner.main(JaguarRunner.java:96)
+WARNING:unknown:///unknown:1+2 - 3: Will not work in IE
+java.lang.Exception
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:52)
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:40)
+	at java.util.AbstractList.add(AbstractList.java:108)
+	at com.google.caja.reporting.AbstractMessageQueue.addMessage(AbstractMessageQueue.java:25)
+	at com.google.caja.parser.js.Parser.parseExpressionAtom(Parser.java:1138)
+	at com.google.caja.parser.js.Parser.parseOp(Parser.java:792)
+	at com.google.caja.parser.js.Parser.parseExpressionInt(Parser.java:727)
+	at com.google.caja.parser.js.Parser.parseExpressionStmt(Parser.java:1281)
+	at com.google.caja.parser.js.Parser.parseStatementWithoutLabel(Parser.java:706)
+	at com.google.caja.parser.js.Parser.parseStatement(Parser.java:306)
+	at com.google.caja.parser.js.Parser.parseTerminatedStatement(Parser.java:1312)
+	at com.google.caja.parser.js.Parser.parseProgramOrFunctionBody(Parser.java:325)
+	at com.google.caja.parser.js.Parser.parseProgram(Parser.java:314)
+	at com.google.caja.parser.js.Parser.parse(Parser.java:272)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:42)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:31)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:26)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:22)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testConversion(JsonMLConversionTest.java:86)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testArray(JsonMLConversionTest.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at br.usp.each.saeg.jaguardf.cli.JaguarRunner.run(JaguarRunner.java:64)
+	at br.usp.each.saeg.jaguardf.cli.JaguarRunner.main(JaguarRunner.java:96)
+WARNING:unknown:///unknown:1+2 - 3: Will not work in IE
+java.lang.Exception
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:52)
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:40)
+	at java.util.AbstractList.add(AbstractList.java:108)
+	at com.google.caja.reporting.AbstractMessageQueue.addMessage(AbstractMessageQueue.java:25)
+	at com.google.caja.parser.js.Parser.parseExpressionAtom(Parser.java:1138)
+	at com.google.caja.parser.js.Parser.parseOp(Parser.java:792)
+	at com.google.caja.parser.js.Parser.parseExpressionInt(Parser.java:727)
+	at com.google.caja.parser.js.Parser.parseExpressionStmt(Parser.java:1281)
+	at com.google.caja.parser.js.Parser.parseStatementWithoutLabel(Parser.java:706)
+	at com.google.caja.parser.js.Parser.parseStatement(Parser.java:306)
+	at com.google.caja.parser.js.Parser.parseTerminatedStatement(Parser.java:1312)
+	at com.google.caja.parser.js.Parser.parseProgramOrFunctionBody(Parser.java:325)
+	at com.google.caja.parser.js.Parser.parseProgram(Parser.java:314)
+	at com.google.caja.parser.js.Parser.parse(Parser.java:272)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:42)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:31)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:26)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:22)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testConversion(JsonMLConversionTest.java:79)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testArray1(JsonMLConversionTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at br.usp.each.saeg.jaguardf.cli.JaguarRunner.run(JaguarRunner.java:64)
+	at br.usp.each.saeg.jaguardf.cli.JaguarRunner.main(JaguarRunner.java:96)
+WARNING:unknown:///unknown:1+2 - 3: Will not work in IE
+java.lang.Exception
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:52)
+	at com.google.caja.reporting.EchoingMessageQueue$1.add(EchoingMessageQueue.java:40)
+	at java.util.AbstractList.add(AbstractList.java:108)
+	at com.google.caja.reporting.AbstractMessageQueue.addMessage(AbstractMessageQueue.java:25)
+	at com.google.caja.parser.js.Parser.parseExpressionAtom(Parser.java:1138)
+	at com.google.caja.parser.js.Parser.parseOp(Parser.java:792)
+	at com.google.caja.parser.js.Parser.parseExpressionInt(Parser.java:727)
+	at com.google.caja.parser.js.Parser.parseExpressionStmt(Parser.java:1281)
+	at com.google.caja.parser.js.Parser.parseStatementWithoutLabel(Parser.java:706)
+	at com.google.caja.parser.js.Parser.parseStatement(Parser.java:306)
+	at com.google.caja.parser.js.Parser.parseTerminatedStatement(Parser.java:1312)
+	at com.google.caja.parser.js.Parser.parseProgramOrFunctionBody(Parser.java:325)
+	at com.google.caja.parser.js.Parser.parseProgram(Parser.java:314)
+	at com.google.caja.parser.js.Parser.parse(Parser.java:272)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:42)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:31)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:26)
+	at com.google.caja.parser.js.JsonMLParser.parse(JsonMLParser.java:22)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testConversion(JsonMLConversionTest.java:86)
+	at com.google.javascript.jscomp.jsonml.JsonMLConversionTest.testArray1(JsonMLConversionTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at br.usp.each.saeg.jaguardf.cli.JaguarRunner.run(JaguarRunner.java:64)
+	at br.usp.each.saeg.jaguardf.cli.JaguarRunner.main(JaguarRunner.java:96)
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+36: Semicolon inserted
+LOG:unknown:///unknown:1+36: Semicolon inserted
+LOG:unknown:///unknown:1+13: Semicolon inserted
+LOG:unknown:///unknown:1+13: Semicolon inserted
+LOG:unknown:///unknown:1+29: Semicolon inserted
+LOG:unknown:///unknown:1+29: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+87: Semicolon inserted
+LOG:unknown:///unknown:1+88: Semicolon inserted
+LOG:unknown:///unknown:1+87: Semicolon inserted
+LOG:unknown:///unknown:1+88: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+26: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+26: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+17: Semicolon inserted
+LOG:unknown:///unknown:1+41: Semicolon inserted
+LOG:unknown:///unknown:1+41: Semicolon inserted
+LOG:unknown:///unknown:1+48: Semicolon inserted
+LOG:unknown:///unknown:1+48: Semicolon inserted
+LOG:unknown:///unknown:1+106: Semicolon inserted
+LOG:unknown:///unknown:1+107: Semicolon inserted
+LOG:unknown:///unknown:1+106: Semicolon inserted
+LOG:unknown:///unknown:1+107: Semicolon inserted
+LOG:unknown:///unknown:1+23: Semicolon inserted
+LOG:unknown:///unknown:1+23: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+46: Semicolon inserted
+LOG:unknown:///unknown:1+46: Semicolon inserted
+LOG:unknown:///unknown:1+25: Semicolon inserted
+LOG:unknown:///unknown:1+25: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+61: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+61: Semicolon inserted
+LOG:unknown:///unknown:1+62: Semicolon inserted
+LOG:unknown:///unknown:1+63: Semicolon inserted
+LOG:unknown:///unknown:1+68: Semicolon inserted
+LOG:unknown:///unknown:1+63: Semicolon inserted
+LOG:unknown:///unknown:1+68: Semicolon inserted
+LOG:unknown:///unknown:1+5: Semicolon inserted
+LOG:unknown:///unknown:1+5: Semicolon inserted
+LOG:unknown:///unknown:1+84: Semicolon inserted
+LOG:unknown:///unknown:1+84: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+30: Semicolon inserted
+LOG:unknown:///unknown:1+38: Semicolon inserted
+LOG:unknown:///unknown:1+38: Semicolon inserted
+LOG:unknown:///unknown:1+33: Semicolon inserted
+LOG:unknown:///unknown:1+33: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+35: Semicolon inserted
+LOG:unknown:///unknown:1+59: Semicolon inserted
+LOG:unknown:///unknown:1+59: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+27: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+32: Semicolon inserted
+LOG:unknown:///unknown:1+32: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+42: Semicolon inserted
+LOG:unknown:///unknown:1+58: Semicolon inserted
+LOG:unknown:///unknown:1+58: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+59: Semicolon inserted
+LOG:unknown:///unknown:1+43: Semicolon inserted
+LOG:unknown:///unknown:1+59: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+39: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+119: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+119: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+37: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+37: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+117: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+117: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+22: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+119: Semicolon inserted
+LOG:unknown:///unknown:1+134: Semicolon inserted
+LOG:unknown:///unknown:1+95: Semicolon inserted
+LOG:unknown:///unknown:1+102: Semicolon inserted
+LOG:unknown:///unknown:1+119: Semicolon inserted
+LOG:unknown:///unknown:1+134: Semicolon inserted
+LOG:unknown:///unknown:1+15: Semicolon inserted
+LOG:unknown:///unknown:1+15: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+34: Semicolon inserted
+LOG:unknown:///unknown:1+107: Semicolon inserted
+LOG:unknown:///unknown:1+108: Semicolon inserted
+LOG:unknown:///unknown:1+117: Semicolon inserted
+LOG:unknown:///unknown:1+107: Semicolon inserted
+LOG:unknown:///unknown:1+108: Semicolon inserted
+LOG:unknown:///unknown:1+117: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+LOG:unknown:///unknown:1+19: Semicolon inserted
+Nov 10, 2020 5:20:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Syntax error: Wrong type of child number 1 for VarDecl. Expected: [InitPatt, IdPatt]. Found: IdExpr.
+
+Nov 10, 2020 5:20:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Nov 10, 2020 6:12:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:13:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:13:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+Nov 10, 2020 6:13:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:13:54 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:14:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:14:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+Nov 10, 2020 6:14:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+Nov 10, 2020 6:14:40 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 2 syntax errors.
+Nov 10, 2020 6:15:20 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:15:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+Nov 10, 2020 6:16:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing input: JSCompiler test code: Compilation produced 1 syntax errors.
+06:46:48.011 [main] INFO  JaguarDF - Jaguar-DF has finished!
+
+real	671m5.146s
+user	672m45.967s
+sys	8m12.953s

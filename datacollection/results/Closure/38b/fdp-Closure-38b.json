@@ -1,0 +1,5730 @@
+[
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addNumber#7@15$(244,(249,265), negativeZero)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%isNegativeZero#8@2$(270,(270,270), x)",
+        [
+            0.25,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addNumber#7@0$(243,265, this)",
+        [
+            0.07692307692307693,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addNumber#7@8$(243,265, x)",
+        [
+            0.07692307692307693,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%opToStr#74@14$(2124,(2124,2148), operator)",
+        [
+            0.041666666666666664,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transformTokenType#14@15$(1109,(1109,1139), token)",
+        [
+            0.02631578947368421,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processUnaryExpression#24@32$(976,(977,978), operand)",
+        [
+            0.02564102564102564,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processUnaryExpression#24@34$(976,978, operand)",
+        [
+            0.02564102564102564,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processUnaryExpression#24@35$(976,979, operand)",
+        [
+            0.02564102564102564,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@17$(213,(216,216), first)",
+        [
+            0.022727272727272728,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transformTokenType#14@22$(1109,(1109,1153), token)",
+        [
+            0.018867924528301886,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processUnaryExpression#24@10$(975,(977,977), type)",
+        [
+            0.018867924528301886,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%isNumber#110@0$(2297,(2297,2297), this)",
+        [
+            0.008333333333333333,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%precedence#26@7$(1162,(1162,1196), type)",
+        [
+            0.0035087719298245615,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@12$(213,(216,220), first)",
+        [
+            0.0024752475247524753,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@20$(214,(216,220), prev)",
+        [
+            0.0024752475247524753,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@228$(86,(116,120), n)",
+        [
+            0.0019455252918287938,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@38$(119,169, this)",
+        [
+            0.0019120458891013384,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@45$(119,(119,169), node)",
+        [
+            0.0019120458891013384,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@138$(119,169, node)",
+        [
+            0.0019120458891013384,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%isNegativeZero#8@0$(270,(270,270), x)",
+        [
+            0.001893939393939394,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%parseTestCode#37@0$(1468,(1471,1472), this)",
+        [
+            0.0013831258644536654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%parseTestCode#37@4$(1468,1472, this)",
+        [
+            0.0013831258644536654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%parseTestCode#37@5$(1468,(1471,1472), this.inputsById)",
+        [
+            0.0013831258644536654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%parseTestCode#37@10$(1472,1474, this.inputsById)",
+        [
+            0.0013831258644536654,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%parseTestCode#37@2$(1468,1474, this)",
+        [
+            0.0013605442176870747,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%parseTestCode#37@3$(1468,1475, this)",
+        [
+            0.0013605442176870747,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%parseTestCode#37@8$(1469,1474, input)",
+        [
+            0.0013605442176870747,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%parseTestCode#37@9$(1469,1475, input)",
+        [
+            0.0013605442176870747,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getCodingConvention#42@3$(1882,(1883,1883), convention)",
+        [
+            0.0011534025374855825,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@14$(232,(250,254), options)",
+        [
+            0.0009149130832570906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@27$(232,254, options)",
+        [
+            0.0009149130832570906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@42$(232,(250,254), options.checkTypes)",
+        [
+            0.0009149130832570906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@44$(232,254, TYPE_PARSE_ERROR)",
+        [
+            0.0009149130832570906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@46$(232,254, OFF)",
+        [
+            0.0009149130832570906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@13$(232,(248,250), options)",
+        [
+            0.00089126559714795,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@41$(232,(248,250), CHECK_TYPES)",
+        [
+            0.00089126559714795,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@11$(232,(246,248), options)",
+        [
+            0.0008904719501335708,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@39$(232,(246,248), CHECK_TYPES)",
+        [
+            0.0008904719501335708,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@39$(119,144, this)",
+        [
+            0.0008628127696289905,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@44$(119,(119,144), node)",
+        [
+            0.0008628127696289905,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@139$(119,144, node)",
+        [
+            0.0008628127696289905,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%disables#3@10$(121,(121,129), i$)",
+        [
+            0.0008481764206955047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroup%forType#0@1$(72,(72,75), type)",
+        [
+            0.0008481764206955047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroup%forType#0@6$(72,(72,75), singletons)",
+        [
+            0.0008481764206955047,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%disables#3@0$(118,121, this)",
+        [
+            0.000847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%disables#3@1$(118,121, this.guards)",
+        [
+            0.000847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%disables#3@2$(118,(118,118), i$)",
+        [
+            0.000847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%disables#3@4$(118,118, i$)",
+        [
+            0.000847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroup%forType#0@2$(72,75, type)",
+        [
+            0.000847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroup%forType#0@7$(72,75, singletons)",
+        [
+            0.000847457627118644,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroupWarningsGuard%disables#1@0$(45,(45,45), this)",
+        [
+            0.0008319467554076539,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroupWarningsGuard%disables#1@3$(45,(45,45), this)",
+        [
+            0.0008319467554076539,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroupWarningsGuard%disables#1@5$(45,(45,45), otherGroup)",
+        [
+            0.0008319467554076539,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroupWarningsGuard%disables#1@6$(45,(45,45), this.level)",
+        [
+            0.0008319467554076539,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroupWarningsGuard%disables#1@9$(45,(45,45), this.group)",
+        [
+            0.0008319467554076539,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroupWarningsGuard%enables#2@1$(50,(50,58), this)",
+        [
+            0.0008319467554076539,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroupWarningsGuard%enables#2@6$(50,(50,58), this.level)",
+        [
+            0.0008319467554076539,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroup%isSubGroup#2@0$(118,(119,120), this)",
+        [
+            0.0008319467554076539,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroup%isSubGroup#2@2$(118,(118,118), i$)",
+        [
+            0.0008319467554076539,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroup%isSubGroup#2@4$(118,118, i$)",
+        [
+            0.0008319467554076539,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticGroup%isSubGroup#2@5$(118,(119,120), type)",
+        [
+            0.0008319467554076539,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addNumber#7@5$(243,(245,249), x)",
+        [
+            0.0006035003017501509,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@140$(86,245, this)",
+        [
+            0.0006027727546714888,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@218$(86,245, n)",
+        [
+            0.0006027727546714888,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@287$(86,245, this.cc)",
+        [
+            0.0006027727546714888,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@343$(90,(127,244), type)",
+        [
+            0.0006027727546714888,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@474$(92,(244,244), childCount)",
+        [
+            0.0006027727546714888,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addNumber#7@6$(243,(249,249), x)",
+        [
+            0.0006016847172081829,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@179$(86,103, this)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@180$(86,104, this)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@181$(86,108, this)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@182$(86,120, this)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@257$(86,103, context)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@258$(86,108, context)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@293$(86,104, this.cc)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@397$(90,102, type)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@399$(90,(113,116), type)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@404$(91,98, opstr)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@405$(91,104, opstr)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@494$(92,(98,98), childCount)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@496$(92,98, childCount)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@585$(93,(97,98), first)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@587$(93,103, first)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@605$(94,(97,98), last)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@608$(94,(113,116), last)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@609$(94,120, last)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@614$(102,120, p)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@617$(108,120, rhsContext)",
+        [
+            0.0005330490405117271,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@402$(91,(97,97), opstr)",
+        [
+            0.0005200208008320333,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%isDirective#6@6$(477,(480,480), n)",
+        [
+            0.00041649312786339027,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%isDirective#6@11$(479,(480,480), nType)",
+        [
+            0.00041425020712510354,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%isString#118@1$(2329,(2329,2329), this)",
+        [
+            0.0003965107057890563,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@9$(213,(216,216), first)",
+        [
+            0.0003769317753486619,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@1$(211,236, this)",
+        [
+            0.0003745318352059925,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@7$(211,(235,236), binOp)",
+        [
+            0.0003745318352059925,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@14$(213,(220,224), first)",
+        [
+            0.00037230081906180194,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@22$(214,(224,230), prev)",
+        [
+            0.00036832412523020257,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@0$(211,230, this)",
+        [
+            0.0003681885125184094,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@5$(211,230, op)",
+        [
+            0.0003681885125184094,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%addOp#6@6$(211,230, binOp)",
+        [
+            0.0003681885125184094,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%getContextForNoInOperator#18@1$(1166,(1166,1166), context)",
+        [
+            0.000361271676300578,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%getContextForNoInOperator#18@3$(1166,(1166,1166), IN_FOR_INIT_CLAUSE)",
+        [
+            0.000361271676300578,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%getContextForNoInOperator#18@4$(1166,1166, IN_FOR_INIT_CLAUSE)",
+        [
+            0.000361271676300578,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%getContextForNoInOperator#18@5$(1166,1166, OTHER)",
+        [
+            0.000361271676300578,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@32$(119,246, this)",
+        [
+            0.00035385704175513094,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@51$(119,(119,246), node)",
+        [
+            0.00035385704175513094,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@132$(119,246, node)",
+        [
+            0.00035385704175513094,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@14$(86,622, this)",
+        [
+            0.00035323207347227127,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@15$(86,623, this)",
+        [
+            0.00035323207347227127,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@265$(86,623, this.cc)",
+        [
+            0.00035323207347227127,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@314$(86,622, START_OF_EXPR)",
+        [
+            0.00035323207347227127,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@374$(90,(127,621), type)",
+        [
+            0.00035323207347227127,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@410$(92,(621,621), childCount)",
+        [
+            0.00035323207347227127,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@503$(93,622, first)",
+        [
+            0.00035323207347227127,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@45$(232,289, OFF)",
+        [
+            0.00033967391304347825,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@59$(232,(287,289), CHECK_VARIABLES)",
+        [
+            0.00033967391304347825,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@61$(232,289, CHECK_VARIABLES)",
+        [
+            0.00033967391304347825,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@63$(280,(287,289), composedGuards)",
+        [
+            0.00033967391304347825,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@65$(280,289, composedGuards)",
+        [
+            0.00033967391304347825,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@21$(232,(287,287), options)",
+        [
+            0.00033955857385398983,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@57$(232,(287,287), options.checkSymbols)",
+        [
+            0.00033955857385398983,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%enables#4@5$(141,(141,149), i$)",
+        [
+            0.0003299241174529858,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%enables#4@1$(141,(142,144), group)",
+        [
+            0.0003156565656565657,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%enables#4@3$(141,(144,147), group)",
+        [
+            0.0003156565656565657,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%enables#4@8$(141,(142,144), guard)",
+        [
+            0.0003156565656565657,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%enables#4@10$(141,(144,147), guard)",
+        [
+            0.0003156565656565657,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$CompactCodePrinter%maybeCutLine#2@1$(491,(491,506), this)",
+        [
+            0.00031133250311332503,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$CompactCodePrinter%maybeCutLine#2@15$(491,(491,506), this.lineLengthThreshold)",
+        [
+            0.00031133250311332503,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$CompactCodePrinter%maybeCutLine#2@17$(491,(491,506), this.lineLength)",
+        [
+            0.00031133250311332503,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%add#5@11$(188,(189,189), c)",
+        [
+            0.0003071253071253071,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%add#5@16$(188,(189,194), c)",
+        [
+            0.0003071253071253071,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@141$(86,192, this)",
+        [
+            0.0003050640634533252,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@219$(86,192, n)",
+        [
+            0.0003050640634533252,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@558$(93,(191,192), first)",
+        [
+            0.0003050640634533252,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%addExpr#7@14$(874,(874,881), context)",
+        [
+            0.0002990430622009569,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%addExpr#7@17$(874,(874,881), IN_FOR_INIT_CLAUSE)",
+        [
+            0.0002990430622009569,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%precedence#26@10$(1162,(1162,1227), type)",
+        [
+            0.0002978850163836759,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%addExpr#7@3$(874,881, this)",
+        [
+            0.0002978850163836759,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%addExpr#7@4$(874,(874,874), n)",
+        [
+            0.0002978850163836759,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%addExpr#7@7$(874,881, n)",
+        [
+            0.0002978850163836759,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%addExpr#7@10$(874,(874,874), minPrecedence)",
+        [
+            0.0002978850163836759,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%addExpr#7@15$(874,881, context)",
+        [
+            0.0002978850163836759,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@342$(90,(127,191), type)",
+        [
+            0.0002942041776993233,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%getLastChar#6@0$(207,(207,207), this)",
+        [
+            0.000293513354857646,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%getLastChar#6@3$(207,(207,207), this.code)",
+        [
+            0.000293513354857646,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%endStatement#2@0$(139,(143,144), this)",
+        [
+            0.0002922267679719462,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%endStatement#2@2$(139,144, this)",
+        [
+            0.0002922267679719462,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%endStatement#2@7$(139,(139,143), needSemiColon)",
+        [
+            0.0002922267679719462,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%endStatement#2@8$(139,(143,144), this.statementStarted)",
+        [
+            0.0002922267679719462,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%identifierEscape#14@0$(1089,(1089,1090), s)",
+        [
+            0.0002918004085205719,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%identifierEscape#14@5$(1089,1090, s)",
+        [
+            0.0002918004085205719,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isLatin#82@2$(2400,(2404,2402), LARGEST_BASIC_LATIN)",
+        [
+            0.0002913752913752914,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isLatin#82@8$(2402,2402, index)",
+        [
+            0.0002913752913752914,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isLatin#82@10$(2403,(2404,2402), c)",
+        [
+            0.0002913752913752914,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isLatin#82@12$(2402,(2402,2408), index)",
+        [
+            0.0002913752913752914,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isLatin#82@0$(2400,2403, s)",
+        [
+            0.00029129041654529564,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isLatin#82@3$(2401,(2402,2403), len)",
+        [
+            0.00029129041654529564,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isLatin#82@5$(2402,(2402,2403), index)",
+        [
+            0.00029129041654529564,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isLatin#82@7$(2402,2403, index)",
+        [
+            0.00029129041654529564,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isLatin#82@4$(2401,(2402,2408), len)",
+        [
+            0.0002909514111143439,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%getLastChar#6@1$(207,(207,207), this)",
+        [
+            0.0002906131938390003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%getLastChar#6@4$(207,(207,207), this.code)",
+        [
+            0.0002906131938390003,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%add#5@1$(182,(189,194), this)",
+        [
+            0.0002882675122513693,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@21$(86,402, this)",
+        [
+            0.0002876042565429968,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@267$(86,402, this.cc)",
+        [
+            0.0002876042565429968,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@660$(381,(401,402), preferLineBreaks)",
+        [
+            0.0002876042565429968,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%isWordChar#9@4$(274,(274,274), ch)",
+        [
+            0.0002875215641173088,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%add#5@14$(188,(194,203), c)",
+        [
+            0.0002874389192296637,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%add#5@12$(188,(189,189), c)",
+        [
+            0.00028735632183908046,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%getLastChar#6@2$(207,207, this)",
+        [
+            0.0002860411899313501,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%getLastChar#6@5$(207,207, this.code)",
+        [
+            0.0002860411899313501,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%add#5@2$(182,203, this)",
+        [
+            0.00028546959748786756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%add#5@8$(182,(184,188), newcode)",
+        [
+            0.00028546959748786756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%add#5@9$(182,188, newcode)",
+        [
+            0.00028546959748786756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%add#5@10$(182,203, newcode)",
+        [
+            0.00028546959748786756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%isWordChar#9@0$(274,(274,274), ch)",
+        [
+            0.00028546959748786756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%isWordChar#9@2$(274,(274,274), ch)",
+        [
+            0.00028546959748786756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%isWordChar#9@5$(274,(274,274), ch)",
+        [
+            0.00028546959748786756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%maybeEndStatement#3@1$(154,(154,160), this)",
+        [
+            0.00028546959748786756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%maybeEndStatement#3@2$(154,160, this)",
+        [
+            0.00028546959748786756,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeConsumer%maybeEndStatement#3@8$(154,(154,160), this.statementNeedsEnded)",
+        [
+            0.00028546959748786756,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@666$(387,(391,395), c)",
+        [
+            0.0002841716396703609,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%<init>#0@3$(49,(51,56), outputCharset)",
+        [
+            0.0002805836139169473,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@10$(692,(694,694), sourceMap)",
+        [
+            0.0002789400278940028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@26$(694,(716,720), createSourceMap)",
+        [
+            0.0002789400278940028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@10$(60,(66,66), createSrcMap)",
+        [
+            0.0002789400278940028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@12$(60,(67,67), createSrcMap)",
+        [
+            0.0002789400278940028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%startSourceMapping#1@3$(91,(93,106), this)",
+        [
+            0.0002789400278940028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%startSourceMapping#1@24$(91,(93,106), this.createSrcMap)",
+        [
+            0.0002789400278940028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%endSourceMapping#2@1$(114,(114,121), this)",
+        [
+            0.0002789400278940028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%endSourceMapping#2@12$(114,(114,121), this.createSrcMap)",
+        [
+            0.0002789400278940028,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@1$(692,(695,695), outputFormat)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@5$(692,695, lineBreak)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@6$(692,695, preferEndOfFileBreak)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@8$(692,695, lineLengthThreshold)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@15$(692,695, sourceMapDetailLevel)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@20$(692,(695,695), COMPACT)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@27$(694,695, createSourceMap)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$CompactCodePrinter%endFile#3@0$(515,(516,517), this)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$CompactCodePrinter%endFile#3@21$(515,(516,517), this.preferLineBreakAtEndOfFile)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@5$(659,(664,664), this)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@13$(659,(664,664), this.prettyPrint)",
+        [
+            0.000278473962684489,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@381$(90,(381,381), type)",
+        [
+            0.0002781641168289291,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@4$(692,(702,702), outputFormat)",
+        [
+            0.00027808676307007786,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@16$(692,702, outputCharset)",
+        [
+            0.00027808676307007786,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@23$(692,(702,702), TYPED)",
+        [
+            0.00027808676307007786,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@28$(695,702, mcp)",
+        [
+            0.00027808676307007786,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@3$(659,(664,664), this)",
+        [
+            0.00027808676307007786,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@11$(659,(664,664), this.outputTypes)",
+        [
+            0.00027808676307007786,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@668$(387,(395,401), c)",
+        [
+            0.0002771618625277162,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@20$(86,388, this)",
+        [
+            0.0002760143527463428,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@321$(86,388, STATEMENT)",
+        [
+            0.0002760143527463428,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@662$(387,(387,388), c)",
+        [
+            0.0002760143527463428,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@664$(387,388, c)",
+        [
+            0.0002760143527463428,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@669$(387,387, c)",
+        [
+            0.0002760143527463428,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@671$(387,(387,405), c)",
+        [
+            0.0002760143527463428,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@231$(86,(376,376), context)",
+        [
+            0.00027533039647577095,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@296$(86,(376,376), PRESERVE_BLOCK)",
+        [
+            0.00027533039647577095,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@655$(376,(377,381), preserveBlock)",
+        [
+            0.00027533039647577095,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@657$(376,(405,746), preserveBlock)",
+        [
+            0.00027533039647577095,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@19$(692,(707,711), tagAsStrict)",
+        [
+            0.0002752546105147261,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@200$(86,(373,376), n)",
+        [
+            0.0002752546105147261,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@372$(90,(127,373), type)",
+        [
+            0.0002752546105147261,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@507$(93,387, first)",
+        [
+            0.0002752546105147261,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@6$(60,(62,62), lineLengthThreshold)",
+        [
+            0.0002751031636863824,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@0$(692,711, root)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@12$(692,(692,692), sourceMapDetailLevel)",
+        [
+            0.000275027502750275,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@29$(695,712, mcp)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@30$(695,714, mcp)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@33$(702,711, cg)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter%toSource#0@35$(714,720, code)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@0$(60,62, this)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@1$(60,64, this)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@2$(60,65, this)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@3$(60,66, this)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@4$(60,67, this)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@7$(60,62, lineLengthThreshold)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@8$(60,64, createSrcMap)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@13$(60,(61,61), sourceMapDetailLevel)",
+        [
+            0.000275027502750275,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%<init>#0@15$(60,65, sourceMapDetailLevel)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%startSourceMapping#1@0$(91,(91,91), this)",
+        [
+            0.000275027502750275,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%startSourceMapping#1@10$(91,(92,92), node)",
+        [
+            0.000275027502750275,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$MappedCodePrinter%startSourceMapping#1@19$(91,(91,91), this.sourceMapDetailLevel)",
+        [
+            0.000275027502750275,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@1$(659,(659,664), this)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@6$(659,670, this)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@8$(659,(659,664), this.root)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@9$(659,670, this.root)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@14$(659,664, COMPACT)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@15$(659,664, PRETTY)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@16$(659,670, this.lineBreak)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@17$(659,670, this.preferLineBreakAtEndOfFile)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@18$(659,670, this.lineLengthThreshold)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@19$(659,670, this.sourceMap)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@20$(659,670, this.sourceMapDetailLevel)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@21$(659,670, this.outputCharset)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodePrinter$Builder%build#1@22$(659,670, this.tagAsStrict)",
+        [
+            0.000275027502750275,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%opToStr#74@0$(2124,(2124,2166), operator)",
+        [
+            0.00027495188342040145,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@1$(86,(86,90), this)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@2$(86,125, this)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@4$(86,746, this)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@185$(86,90, n)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@186$(86,92, n)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@187$(86,93, n)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@188$(86,94, n)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@189$(86,125, n)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@193$(86,746, n)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@260$(86,(86,90), this.cc)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@261$(86,125, this.cc)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@262$(86,746, this.cc)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%add#1@403$(91,(97,125), opstr)",
+        [
+            0.00027495188342040145,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CodeGenerator%<init>#0@0$(49,56, this)",
+        [
+            0.00027495188342040145,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initCompilerOptionsIfTesting#36@1$(1453,(1453,1458), this)",
+        [
+            0.00026102845210127906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initCompilerOptionsIfTesting#36@4$(1453,(1453,1458), this.options)",
+        [
+            0.00026102845210127906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@0$(1388,1392, c)",
+        [
+            0.00023702299123014932,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@3$(1389,(1389,1392), n)",
+        [
+            0.00023702299123014932,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transformTree#1@1$(170,(174,185), node)",
+        [
+            0.0002192982456140351,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%isAssignmentOp#36@0$(1437,(1437,1452), n)",
+        [
+            0.0002072538860103627,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@0$(380,389, this)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@1$(380,390, this)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@2$(380,391, this)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@3$(380,392, this)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@4$(380,394, this)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@5$(380,396, this)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@6$(380,397, this)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@7$(380,389, nodeType)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@8$(380,(381,381), left)",
+        [
+            0.00018846588767433095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@10$(380,(383,383), left)",
+        [
+            0.00018846588767433095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@12$(380,391, left)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@13$(380,393, left)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@14$(380,394, left)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@15$(380,(385,385), right)",
+        [
+            0.00018846588767433095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@17$(380,(387,387), right)",
+        [
+            0.00018846588767433095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@19$(380,392, right)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@20$(380,393, right)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@21$(380,395, right)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@22$(380,396, right)",
+        [
+            0.00018846588767433095,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@23$(380,(381,381), left.parent)",
+        [
+            0.00018846588767433095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@25$(380,(383,383), left.next)",
+        [
+            0.00018846588767433095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@27$(380,(385,385), right.parent)",
+        [
+            0.00018846588767433095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%<init>#2@29$(380,(387,387), right.next)",
+        [
+            0.00018846588767433095,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%isReservedKeyword#16@0$(753,(753,753), this)",
+        [
+            0.00018439977872026554,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%isReservedKeyword#16@3$(753,(753,753), this)",
+        [
+            0.00018439977872026554,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%isReservedKeyword#16@5$(753,(753,753), identifier)",
+        [
+            0.00018439977872026554,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%isReservedKeyword#16@6$(753,(753,753), this.this$0)",
+        [
+            0.00018439977872026554,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%isReservedKeyword#16@9$(753,(753,753), this.this$0)",
+        [
+            0.00018439977872026554,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@11$(109,(122,122), config)",
+        [
+            0.0001832508704416346,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@17$(109,(122,122), ECMASCRIPT3)",
+        [
+            0.0001832508704416346,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@21$(109,(122,122), config.languageMode)",
+        [
+            0.0001832508704416346,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@4$(1913,(1915,1920), this)",
+        [
+            0.00018321729571271528,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@12$(1913,(1915,1920), $SwitchMap$com$google$javascript$jscomp$CompilerOptions$LanguageMode)",
+        [
+            0.00018321729571271528,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@16$(1913,(1915,1920), this.options)",
+        [
+            0.00018321729571271528,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@21$(1913,1920, ECMASCRIPT5)",
+        [
+            0.00018321729571271528,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@25$(1920,1929, mode)",
+        [
+            0.00018321729571271528,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@5$(109,(118,118), config)",
+        [
+            0.00018291567587342235,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@16$(109,(118,118), ECMASCRIPT3)",
+        [
+            0.00018291567587342235,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@20$(109,(118,118), config.languageMode)",
+        [
+            0.00018291567587342235,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@7$(126,145, this)",
+        [
+            0.00018284878405558602,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@15$(126,(139,145), config)",
+        [
+            0.00018284878405558602,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@20$(126,(139,145), $SwitchMap$com$google$javascript$jscomp$parsing$Config$LanguageMode)",
+        [
+            0.00018284878405558602,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@24$(126,(139,145), config.languageMode)",
+        [
+            0.00018284878405558602,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@26$(126,145, ES5_RESERVED_KEYWORDS)",
+        [
+            0.00018284878405558602,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transformTokenType#14@81$(1109,(1109,1273), token)",
+        [
+            0.000176522506619594,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@2$(119,201, this)",
+        [
+            0.000176522506619594,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@81$(119,(200,201), node)",
+        [
+            0.000176522506619594,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@87$(119,201, node)",
+        [
+            0.000176522506619594,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@78$(119,(119,200), node)",
+        [
+            0.00017596339961288053,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.BasicErrorManager%toArray#2@2$(105,111, errors)",
+        [
+            0.00017316017316017316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.BasicErrorManager%toArray#2@5$(106,(106,111), i$)",
+        [
+            0.00017316017316017316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%isVar#125@1$(2357,(2357,2357), this)",
+        [
+            0.00017155601303825698,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%isFunction#94@1$(2233,(2233,2233), this)",
+        [
+            0.00016636167027116953,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@34$(498,(493,496), child)",
+        [
+            0.00016490765171503957,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@36$(498,496, child)",
+        [
+            0.00016490765171503957,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@37$(498,497, child)",
+        [
+            0.00016490765171503957,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@6$(1390,1390, c)",
+        [
+            0.0001646090534979424,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@7$(1389,(1389,1390), n)",
+        [
+            0.0001646090534979424,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@9$(1389,1389, n)",
+        [
+            0.0001646090534979424,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@10$(1389,1389, n.next)",
+        [
+            0.0001646090534979424,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%maybeSetLengthFrom#12@1$(360,(360,363), this)",
+        [
+            0.00016420361247947455,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%maybeSetLengthFrom#12@5$(360,(360,363), this.config)",
+        [
+            0.00016420361247947455,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%maybeSetLengthFrom#12@7$(360,(360,363), this.isIdeMode)",
+        [
+            0.00016420361247947455,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%hasHaltingErrors#47@3$(2010,(2010,2010), this)",
+        [
+            0.00016420361247947455,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%hasHaltingErrors#47@0$(2010,(2010,2010), this)",
+        [
+            0.00016417665407978985,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@6$(109,(122,122), config)",
+        [
+            0.00016355904481517829,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@23$(109,(122,122), config.isIdeMode)",
+        [
+            0.00016355904481517829,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@1$(1388,1390, c)",
+        [
+            0.00016233766233766234,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@2$(1389,(1389,1390), n)",
+        [
+            0.00016233766233766234,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@4$(1389,1389, n)",
+        [
+            0.00016233766233766234,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@5$(1390,1392, c)",
+        [
+            0.00016233766233766234,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getChildCount#50@8$(1389,(1389,1392), n)",
+        [
+            0.00016233766233766234,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CompilerInput%getAstRoot#1@0$(119,(121,122), root)",
+        [
+            0.00016215339711366953,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CompilerInput%getAstRoot#1@2$(119,125, root)",
+        [
+            0.00016215339711366953,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CompilerInput%getAstRoot#1@3$(119,122, root)",
+        [
+            0.00016215339711366953,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CompilerInput%getAstRoot#1@4$(119,123, root)",
+        [
+            0.00016215339711366953,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@3$(313,(313,323), irNode)",
+        [
+            0.00016175994823681658,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CompilerInput%<init>#0@2$(75,(81,82), ast)",
+        [
+            0.00016155088852988692,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CompilerInput%<init>#0@4$(75,82, ast)",
+        [
+            0.00016155088852988692,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CompilerInput%<init>#0@5$(75,82, isExtern)",
+        [
+            0.00016155088852988692,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CompilerInput%<init>#0@0$(75,(81,81), ast)",
+        [
+            0.00016152479405588758,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%parse#1@4$(85,99, this)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%parse#1@6$(85,(95,99), compiler)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%parse#1@7$(85,99, compiler)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%parse#1@11$(86,99, this.root)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%parse#1@12$(86,104, this.root)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst%process#1@1$(58,(58,65), this)",
+        [
+            0.00016116035455278002,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst%process#1@2$(58,70, this)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst%process#1@3$(58,70, this)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst%process#1@8$(58,(65,69), externs)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst%process#1@10$(58,(69,70), root)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst%process#1@12$(58,70, root)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst%process#1@15$(58,(58,65), this.checkOnly)",
+        [
+            0.00016116035455278002,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst%process#1@16$(58,70, this.compiler)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst%process#1@17$(58,70, this.compiler)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst$PrepareAnnotations%shouldTraverse#0@2$(131,(131,134), n)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.PrepareAst$PrepareAnnotations%visit#1@3$(139,(139,149), n)",
+        [
+            0.00016116035455278002,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%parse#1@0$(85,(95,95), this)",
+        [
+            0.00016113438607798906,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%parse#1@9$(86,(95,95), this.root)",
+        [
+            0.00016113438607798906,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@6$(782,(788,789), item)",
+        [
+            0.00016113438607798906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@9$(782,789, item)",
+        [
+            0.00016113438607798906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@14$(787,(788,789), result)",
+        [
+            0.00016113438607798906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@16$(787,789, result)",
+        [
+            0.00016113438607798906,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%isObjectLit#111@1$(2301,(2301,2301), this)",
+        [
+            0.00016108247422680412,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%getSourceName#20@1$(654,(655,655), name)",
+        [
+            0.00016108247422680412,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@3$(782,(784,785), item)",
+        [
+            0.00016095284081764043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@10$(782,785, item)",
+        [
+            0.00016095284081764043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@11$(782,(784,785), propType)",
+        [
+            0.00016095284081764043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#22@0$(769,(770,771), this)",
+        [
+            0.00016095284081764043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#22@2$(769,771, this)",
+        [
+            0.00016095284081764043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#22@3$(769,(770,771), this.propListHead)",
+        [
+            0.00016095284081764043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#22@5$(769,(770,771), result)",
+        [
+            0.00016095284081764043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#22@7$(769,771, result)",
+        [
+            0.00016095284081764043,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getSourceFileName#38@1$(1091,(1092,1092), file)",
+        [
+            0.000160926939169617,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%parse#1@3$(85,104, this)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%parse#1@8$(85,104, this.sourceFile)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%getAstRoot#0@0$(51,(51,52), this)",
+        [
+            0.00016084928422068523,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%getAstRoot#0@2$(51,55, this)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%getAstRoot#0@3$(51,52, this)",
+        [
+            0.00016084928422068523,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%getAstRoot#0@4$(51,53, this)",
+        [
+            0.00016084928422068523,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%getAstRoot#0@5$(51,52, compiler)",
+        [
+            0.00016084928422068523,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%getAstRoot#0@6$(51,(51,52), this.root)",
+        [
+            0.00016084928422068523,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%getAstRoot#0@8$(51,55, this.root)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%getAstRoot#0@9$(51,53, this.root)",
+        [
+            0.00016084928422068523,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.JsAst%getAstRoot#0@10$(51,53, this.inputId)",
+        [
+            0.00016084928422068523,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@0$(1913,(1913,1915), this)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@2$(1913,1935, this)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@7$(1913,1929, this)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@8$(1913,(1913,1915), this.parserConfig)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@19$(1913,1929, this.options)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@23$(1913,1929, this.extraAnnotationNames)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getParserConfig#44@27$(1929,1935, this.parserConfig)",
+        [
+            0.00016084928422068523,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%getInputId#100@2$(2860,(2864,2864), n)",
+        [
+            0.0001608234158893535,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%getInputId#100@5$(2860,(2864,2864), n)",
+        [
+            0.0001608234158893535,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%getInputId#100@8$(2860,(2860,2864), n)",
+        [
+            0.0001608234158893535,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@7$(478,480, this)",
+        [
+            0.00016079755587715066,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@8$(478,481, this)",
+        [
+            0.00016079755587715066,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@17$(478,480, n)",
+        [
+            0.00016079755587715066,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@18$(478,481, n)",
+        [
+            0.00016079755587715066,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@26$(478,(479,480), type)",
+        [
+            0.00016079755587715066,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%getSourceName#20@2$(654,655, name)",
+        [
+            0.00016079755587715066,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@4$(232,(234,235), this)",
+        [
+            0.00016074586079408456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@8$(232,235, this)",
+        [
+            0.00016074586079408456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@9$(232,235, this)",
+        [
+            0.00016074586079408456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@33$(232,(234,235), this.outStream)",
+        [
+            0.00016074586079408456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@36$(232,235, logger)",
+        [
+            0.00016074586079408456,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getCodingConvention#42@0$(1882,1883, this)",
+        [
+            0.00016059097478721696,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getCodingConvention#42@1$(1882,1883, this.defaultCodingConvention)",
+        [
+            0.00016059097478721696,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%getCodingConvention#42@4$(1882,1883, convention)",
+        [
+            0.00016059097478721696,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getSourceFileName#38@2$(1091,1092, file)",
+        [
+            0.00016056518946692356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@6$(478,497, this)",
+        [
+            0.00016056518946692356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@16$(478,497, n)",
+        [
+            0.00016056518946692356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@30$(493,(493,496), child)",
+        [
+            0.00016056518946692356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@32$(493,496, child)",
+        [
+            0.00016056518946692356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@33$(493,497, child)",
+        [
+            0.00016056518946692356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@35$(498,(493,503), child)",
+        [
+            0.00016056518946692356,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%isScript#116@0$(2321,(2321,2321), this)",
+        [
+            0.00016046213093709883,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@27$(478,(479,484), type)",
+        [
+            0.00016041065126724414,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@2$(478,(485,487), this)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@4$(478,503, this)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@5$(478,504, this)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@11$(478,(485,487), n)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@13$(478,503, n)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@14$(478,504, n)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@15$(478,493, n)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@20$(478,(485,487), parent)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@22$(478,504, parent)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@24$(478,(485,487), this.callback)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@25$(478,504, this.callback)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@28$(478,(487,493), type)",
+        [
+            0.00016038492381716118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@31$(493,(493,503), child)",
+        [
+            0.00016038492381716118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%pushScope#12@5$(563,(566,569), this)",
+        [
+            0.00016038492381716118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%pushScope#12@13$(563,(566,569), this.scopeCallback)",
+        [
+            0.00016038492381716118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%popScope#14@1$(583,(583,586), this)",
+        [
+            0.00016038492381716118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%popScope#14@9$(583,(583,586), this.scopeCallback)",
+        [
+            0.00016038492381716118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%<init>#0@7$(230,(232,235), cb)",
+        [
+            0.00016035920461834508,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%getInputId#100@0$(2860,(2860,2860), n)",
+        [
+            0.000160333493666827,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeUtil%getInputId#100@4$(2860,2864, n)",
+        [
+            0.000160333493666827,
+            false,
+            "nounc"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@0$(478,484, this)",
+        [
+            0.000160333493666827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%traverseBranch#9@9$(478,484, n)",
+        [
+            0.000160333493666827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%pushScope#12@0$(563,(563,563), this)",
+        [
+            0.000160333493666827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%pushScope#12@2$(563,564, this)",
+        [
+            0.000160333493666827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%pushScope#12@3$(563,565, this)",
+        [
+            0.000160333493666827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%pushScope#12@7$(563,564, node)",
+        [
+            0.000160333493666827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%pushScope#12@8$(563,(563,563), this.curNode)",
+        [
+            0.000160333493666827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%pushScope#12@10$(563,564, this.scopeRoots)",
+        [
+            0.000160333493666827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%pushScope#12@11$(563,565, this.cfgs)",
+        [
+            0.000160333493666827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%popScope#14@3$(583,(586,589), this)",
+        [
+            0.000160333493666827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%popScope#14@4$(583,589, this)",
+        [
+            0.000160333493666827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%popScope#14@5$(583,591, this)",
+        [
+            0.000160333493666827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%popScope#14@12$(583,(586,589), this.scopeRoots)",
+        [
+            0.000160333493666827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%popScope#14@13$(583,589, this.scopeRoots)",
+        [
+            0.000160333493666827,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%popScope#14@15$(583,591, this.cfgs)",
+        [
+            0.000160333493666827,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%<init>#0@0$(230,235, this)",
+        [
+            0.0001603077909586406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%<init>#0@1$(230,236, this)",
+        [
+            0.0001603077909586406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%<init>#0@2$(230,237, this)",
+        [
+            0.0001603077909586406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%<init>#0@3$(230,238, this)",
+        [
+            0.0001603077909586406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%<init>#0@5$(230,235, compiler)",
+        [
+            0.0001603077909586406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.NodeTraversal%<init>#0@9$(230,238, scopeCreator)",
+        [
+            0.0001603077909586406,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@11$(749,(748,749), x)",
+        [
+            0.00016020506247997436,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@13$(749,749, x)",
+        [
+            0.00016020506247997436,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@17$(232,(260,267), options)",
+        [
+            0.00016005121638924455,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@48$(232,(260,267), options.checkGlobalThisLevel)",
+        [
+            0.00016005121638924455,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@12$(749,(748,751), x)",
+        [
+            0.0001599488163787588,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@8$(749,(748,748), x)",
+        [
+            0.0001596169193934557,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@9$(749,(748,751), x)",
+        [
+            0.00015936254980079682,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processName#15@1$(736,(739,745), this)",
+        [
+            0.00015928639694170118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processName#15@2$(736,745, this)",
+        [
+            0.00015928639694170118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processName#15@6$(736,(739,745), nameNode)",
+        [
+            0.00015928639694170118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processName#15@7$(736,745, nameNode)",
+        [
+            0.00015928639694170118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processName#15@11$(736,(736,739), asString)",
+        [
+            0.00015928639694170118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processName#15@12$(736,745, this.this$0)",
+        [
+            0.00015928639694170118,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@33$(119,242, this)",
+        [
+            0.00015928639694170118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@50$(119,(119,242), node)",
+        [
+            0.00015928639694170118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@133$(119,242, node)",
+        [
+            0.00015928639694170118,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticType%equals#0@1$(115,(115,115), this)",
+        [
+            0.0001591596371160274,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticType%equals#0@5$(115,(115,115), type)",
+        [
+            0.0001591596371160274,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticType%equals#0@7$(115,(115,115), this.key)",
+        [
+            0.0001591596371160274,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SourceFile%<init>#0@0$(86,90, this)",
+        [
+            0.00015910898965791568,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SourceFile%<init>#0@1$(86,92, this)",
+        [
+            0.00015910898965791568,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SourceFile%<init>#0@2$(86,93, this)",
+        [
+            0.00015910898965791568,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SourceFile%<init>#0@3$(86,(87,87), fileName)",
+        [
+            0.00015910898965791568,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SourceFile%<init>#0@6$(86,(87,90), fileName)",
+        [
+            0.00015910898965791568,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SourceFile%<init>#0@7$(86,90, fileName)",
+        [
+            0.00015910898965791568,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%enables#4@4$(141,(141,141), i$)",
+        [
+            0.0001590077913817777,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%enables#4@6$(141,141, i$)",
+        [
+            0.0001590077913817777,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.DiagnosticType%equals#0@2$(115,(115,115), type)",
+        [
+            0.0001590077913817777,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@1$(109,143, sourceFile)",
+        [
+            0.0001589825119236884,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@3$(109,143, sourceString)",
+        [
+            0.0001589825119236884,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@10$(109,143, config)",
+        [
+            0.0001589825119236884,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@14$(109,143, errorReporter)",
+        [
+            0.0001589825119236884,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@34$(134,(142,143), astRoot)",
+        [
+            0.0001589825119236884,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@36$(134,143, astRoot)",
+        [
+            0.0001589825119236884,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@38$(143,147, root)",
+        [
+            0.0001589825119236884,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard$GuardComparator%compare#0@4$(62,(63,64), priorityDiff)",
+        [
+            0.0001589319771137953,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard$GuardComparator%compare#0@6$(62,64, priorityDiff)",
+        [
+            0.0001589319771137953,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@0$(747,(748,749), propType)",
+        [
+            0.00015865460891638903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@5$(747,(748,749), x)",
+        [
+            0.00015865460891638903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@7$(747,749, x)",
+        [
+            0.00015865460891638903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@10$(749,751, x)",
+        [
+            0.00015865460891638903,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@0$(232,(233,234), this)",
+        [
+            0.0001584786053882726,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@19$(232,(267,274), options)",
+        [
+            0.0001584786053882726,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@31$(232,(233,234), this.errorManager)",
+        [
+            0.0001584786053882726,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@54$(232,(267,274), ECMASCRIPT5_STRICT)",
+        [
+            0.0001584786053882726,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@4$(87,89, this)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@5$(87,(87,89), guard)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@10$(87,89, guard)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuards#1@0$(99,100, this)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuards#1@1$(99,(99,99), i$)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuards#1@3$(99,99, i$)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@2$(232,275, this)",
+        [
+            0.00015842839036755386,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@3$(232,293, this)",
+        [
+            0.00015842839036755386,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@20$(232,278, options)",
+        [
+            0.00015842839036755386,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.Compiler%initOptions#0@62$(280,293, composedGuards)",
+        [
+            0.00015842839036755386,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SuppressDocWarningsGuard%<init>#0@0$(40,43, this)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SuppressDocWarningsGuard%<init>#0@1$(40,43, OFF)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SuppressDocWarningsGuard%<init>#0@2$(34,43, this.suppressors)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SuppressDocWarningsGuard%<init>#0@3$(42,(42,42), i$)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SuppressDocWarningsGuard%<init>#0@4$(42,(42,49), i$)",
+        [
+            0.00015842839036755386,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.SuppressDocWarningsGuard%<init>#0@5$(42,42, i$)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CheckLevel%isOn#0@1$(30,(30,30), this)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.CheckLevel%isOn#0@3$(30,(30,30), OFF)",
+        [
+            0.00015842839036755386,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@0$(87,91, this)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@1$(87,92, this)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@2$(87,93, this)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@3$(87,94, this)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@6$(87,(87,91), guard)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@7$(87,92, guard)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@8$(87,93, guard)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@9$(87,94, guard)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@11$(87,91, this.numberOfAdds)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@12$(87,92, this.orderOfAddition)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@13$(87,93, this.guards)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuard#0@14$(87,94, this.guards)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard$GuardComparator%compare#0@0$(62,69, this)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard$GuardComparator%compare#0@1$(62,69, a)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard$GuardComparator%compare#0@2$(62,69, b)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard$GuardComparator%compare#0@3$(62,69, this.orderOfAddition)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard$GuardComparator%compare#0@5$(62,(63,69), priorityDiff)",
+        [
+            0.0001584032947885316,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@0$(109,134, sourceFile)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@2$(109,134, sourceString)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@8$(109,128, config)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@9$(109,129, config)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@13$(109,131, errorReporter)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@25$(109,128, config.isIdeMode)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@26$(109,129, config.isIdeMode)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@27$(112,118, compilerEnv)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@28$(112,124, compilerEnv)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@29$(112,125, compilerEnv)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@30$(112,127, compilerEnv)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@31$(112,128, compilerEnv)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@32$(112,129, compilerEnv)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%parse#3@33$(112,131, compilerEnv)",
+        [
+            0.0001584032947885316,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.ComposeWarningsGuard%addGuards#1@2$(99,(99,102), i$)",
+        [
+            0.00015837820715869496,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%position2charno#13@1$(366,368, position)",
+        [
+            0.00015792798483891344,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%position2charno#13@2$(366,(367,368), lineIndex)",
+        [
+            0.00015792798483891344,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%isDirective#6@3$(477,(477,479), n)",
+        [
+            0.00015792798483891344,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%isDirective#6@4$(477,479, n)",
+        [
+            0.00015792798483891344,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processAstRoot#4@1$(442,444, this)",
+        [
+            0.00015792798483891344,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processAstRoot#4@2$(442,444, this.this$0)",
+        [
+            0.00015792798483891344,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processAstRoot#4@5$(442,444, node)",
+        [
+            0.00015792798483891344,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processAstRoot#4@6$(443,(443,443), i$)",
+        [
+            0.00015792798483891344,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processAstRoot#4@8$(443,443, i$)",
+        [
+            0.00015792798483891344,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setFileOverviewJsDoc#2@1$(194,(200,208), this)",
+        [
+            0.00015775358889414735,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setFileOverviewJsDoc#2@15$(194,(200,208), this.fileOverviewInfo)",
+        [
+            0.00015775358889414735,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transformTree#1@7$(170,185, irFactory)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transformTree#1@14$(172,185, irNode)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transformTree#1@15$(172,187, irNode)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@0$(126,131, this)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@1$(126,133, this)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@2$(126,134, this)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@3$(126,135, this)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@4$(126,135, this)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@5$(126,137, this)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@10$(126,(131,131), sourceFile)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@11$(126,131, sourceFile)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@12$(126,133, config)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%<init>#0@17$(126,134, errorReporter)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@0$(313,319, this)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@1$(313,321, this)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@2$(313,(313,317), irNode)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@4$(313,318, irNode)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@5$(313,320, irNode)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@6$(313,321, irNode)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@7$(313,317, node)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@8$(313,319, node)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setSourceInfo#11@9$(313,321, node)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%setFileOverviewJsDoc#2@20$(194,(195,200), rootNodeJsDoc)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%handleJsDoc#6@7$(260,(261,268), comment)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transform#7@0$(272,277, this)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transform#7@1$(272,277, node)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transform#7@2$(272,277, irNode)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transform#7@3$(272,278, irNode)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory%transform#7@6$(273,(274,277), jsDocInfo)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processAstRoot#4@0$(442,446, this)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processAstRoot#4@3$(442,446, node)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processAstRoot#4@4$(442,447, node)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%processAstRoot#4@7$(443,(443,446), i$)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%parseDirectives#5@1$(461,(462,471), this)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%parseDirectives#5@3$(461,(462,471), node)",
+        [
+            0.0001576789656259855,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher%parseDirectives#5@7$(461,(471,474), directives)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@0$(119,254, this)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@79$(119,(119,254), node)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.TypeSafeDispatcher%process#0@80$(119,254, node)",
+        [
+            0.0001576789656259855,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%setLineno#41@0$(1147,1151, this)",
+        [
+            0.00015765410688948448,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%setLineno#41@1$(1147,1151, lineno)",
+        [
+            0.00015765410688948448,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%setLineno#41@2$(1147,(1148,1149), charno)",
+        [
+            0.00015765410688948448,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%setLineno#41@5$(1149,1151, charno)",
+        [
+            0.00015765410688948448,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%extractLineno#44@0$(1192,(1192,1193), lineCharNo)",
+        [
+            0.00015735641227380016,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%extractCharno#45@0$(1204,(1204,1205), lineCharNo)",
+        [
+            0.00015735641227380016,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getProp#24@5$(801,(802,803), item)",
+        [
+            0.0001558846453624318,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@3$(747,(748,751), x)",
+        [
+            0.0001551590380139643,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%extractLineno#44@1$(1192,(1192,1195), lineCharNo)",
+        [
+            0.0001539882968894364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%extractLineno#44@2$(1192,1195, lineCharNo)",
+        [
+            0.0001539882968894364,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%clonePropsFrom#21@0$(762,(762,762), this)",
+        [
+            0.00015126304643775526,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%clonePropsFrom#21@2$(762,764, this)",
+        [
+            0.00015126304643775526,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%clonePropsFrom#21@3$(762,765, this)",
+        [
+            0.00015126304643775526,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%clonePropsFrom#21@4$(762,764, other)",
+        [
+            0.00015126304643775526,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%clonePropsFrom#21@5$(762,(762,762), this.propListHead)",
+        [
+            0.00015126304643775526,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%clonePropsFrom#21@7$(762,764, other.propListHead)",
+        [
+            0.00015126304643775526,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%mergeLineCharNo#43@2$(1178,1183, lineno)",
+        [
+            0.00015119443604475356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%mergeLineCharNo#43@7$(1178,(1180,1183), charno)",
+        [
+            0.00015119443604475356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%mergeLineCharNo#43@8$(1178,1183, charno)",
+        [
+            0.00015119443604475356,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%mergeLineCharNo#43@5$(1178,(1178,1180), charno)",
+        [
+            0.0001511715797430083,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%mergeLineCharNo#43@0$(1178,(1178,1178), lineno)",
+        [
+            0.00015114873035066505,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getProp#24@6$(801,(802,805), item)",
+        [
+            0.0001511030522816561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getProp#24@7$(801,805, item)",
+        [
+            0.0001511030522816561,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@6$(747,(748,751), x)",
+        [
+            0.00014988009592326138,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@1$(747,(748,751), propType)",
+        [
+            0.00014961101137043686,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@2$(747,(748,748), x)",
+        [
+            0.00014936519790888724,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#28@1$(833,841, this)",
+        [
+            0.0001487652484379649,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#28@6$(833,841, propType)",
+        [
+            0.0001487652484379649,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#28@7$(833,(840,841), value)",
+        [
+            0.0001487652484379649,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#28@9$(833,841, value)",
+        [
+            0.0001487652484379649,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#28@11$(833,841, this.propListHead)",
+        [
+            0.0001487652484379649,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@0$(782,787, this)",
+        [
+            0.0001485222040695084,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@4$(782,(784,787), item)",
+        [
+            0.0001485222040695084,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@5$(782,787, item)",
+        [
+            0.0001485222040695084,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@7$(782,(788,791), item)",
+        [
+            0.0001485222040695084,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@8$(782,791, item)",
+        [
+            0.0001485222040695084,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@12$(782,(784,787), propType)",
+        [
+            0.0001485222040695084,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@13$(782,787, propType)",
+        [
+            0.0001485222040695084,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@15$(787,(788,791), result)",
+        [
+            0.0001485222040695084,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@2$(782,(782,784), item)",
+        [
+            0.0001484560570071259,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%createConfig#0@3$(64,(66,67), extraAnnotationNames)",
+        [
+            0.00014823599169878446,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%createConfig#0@7$(64,67, annotationNames)",
+        [
+            0.00014823599169878446,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%createConfig#0@9$(67,72, effectiveAnnotationNames)",
+        [
+            0.00014823599169878446,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%initResourceConfig#1@0$(77,(77,78), annotationNames)",
+        [
+            0.00014823599169878446,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@0$(90,(94,96), recognizedAnnotations)",
+        [
+            0.00014821402104639098,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@1$(90,(94,99), recognizedAnnotations)",
+        [
+            0.00014821402104639098,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@2$(90,96, NOT_IMPLEMENTED)",
+        [
+            0.00014821402104639098,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@3$(90,100, annotationBuilder)",
+        [
+            0.00014821402104639098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@4$(90,96, annotationBuilder)",
+        [
+            0.00014821402104639098,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@5$(93,(93,93), i$)",
+        [
+            0.00014821402104639098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@6$(93,(93,100), i$)",
+        [
+            0.00014821402104639098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@7$(93,93, i$)",
+        [
+            0.00014821402104639098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@8$(93,(94,96), unrecognizedAnnotation)",
+        [
+            0.00014821402104639098,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@9$(93,(94,99), unrecognizedAnnotation)",
+        [
+            0.00014821402104639098,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.Config%buildAnnotationNames#0@10$(93,96, unrecognizedAnnotation)",
+        [
+            0.00014821402104639098,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%createConfig#0@0$(64,72, isIdeMode)",
+        [
+            0.00014821402104639098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%createConfig#0@1$(64,72, languageMode)",
+        [
+            0.00014821402104639098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%createConfig#0@2$(64,72, acceptConstKeyword)",
+        [
+            0.00014821402104639098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.jscomp.parsing.ParserRunner%createConfig#0@8$(64,72, suppressionNames)",
+        [
+            0.00014821402104639098,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#28@0$(833,839, this)",
+        [
+            0.0001479727730097662,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#28@4$(833,(833,839), propType)",
+        [
+            0.0001479727730097662,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putProp#28@5$(833,839, propType)",
+        [
+            0.0001479727730097662,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getProp#24@0$(797,801, this)",
+        [
+            0.00014773230905599054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getProp#24@3$(797,(797,801), propType)",
+        [
+            0.00014773230905599054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%getProp#24@4$(797,801, propType)",
+        [
+            0.00014773230905599054,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%lookupProperty#20@4$(747,751, x)",
+        [
+            0.0001464986815118664,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@1$(608,(612,613), this)",
+        [
+            0.00014259232853272493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@5$(608,613, this)",
+        [
+            0.00014259232853272493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@6$(608,613, this)",
+        [
+            0.00014259232853272493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@15$(608,613, child)",
+        [
+            0.00014259232853272493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@16$(608,613, child)",
+        [
+            0.00014259232853272493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@21$(608,(612,613), this.last)",
+        [
+            0.00014259232853272493,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@0$(608,610, this)",
+        [
+            0.00014257199885942402,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@7$(608,(608,608), child)",
+        [
+            0.00014257199885942402,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@9$(608,(609,609), child)",
+        [
+            0.00014257199885942402,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@11$(608,610, child)",
+        [
+            0.00014257199885942402,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@12$(608,611, child)",
+        [
+            0.00014257199885942402,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@17$(608,(608,608), child.parent)",
+        [
+            0.00014257199885942402,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%addChildToBack#12@19$(608,(609,609), child.next)",
+        [
+            0.00014257199885942402,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putBooleanProp#29@2$(846,(846,846), value)",
+        [
+            0.00014257199885942402,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putBooleanProp#29@0$(846,846, this)",
+        [
+            0.00014255167498218105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putBooleanProp#29@1$(846,846, propType)",
+        [
+            0.00014255167498218105,
+            false,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#30@0$(850,852, this)",
+        [
+            0.00014249073810202338,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#30@1$(850,852, propType)",
+        [
+            0.00014249073810202338,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#30@2$(850,(851,852), value)",
+        [
+            0.00014249073810202338,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#30@4$(850,852, value)",
+        [
+            0.00014249073810202338,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%putIntProp#30@5$(850,852, this.propListHead)",
+        [
+            0.00014249073810202338,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node$StringNode%<init>#0@0$(196,200, this)",
+        [
+            0.0001422475106685633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node$StringNode%<init>#0@2$(196,(197,200), str)",
+        [
+            0.0001422475106685633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node$StringNode%<init>#0@3$(196,200, str)",
+        [
+            0.0001422475106685633,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#23@1$(782,(782,783), item)",
+        [
+            0.00014204545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#22@1$(769,(770,773), this)",
+        [
+            0.00014204545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#22@4$(769,(770,773), this.propListHead)",
+        [
+            0.00014204545454545454,
+            true,
+            "clear"
+        ]
+    ],
+    [
+        "com.google.javascript.rhino.Node%removeProp#22@6$(769,(770,773), result)",
+        [
+            0.00014204545454545454,
+            true,
+            "clear"
+        ]
+    ]
+]
