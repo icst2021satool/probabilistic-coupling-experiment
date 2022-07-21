@@ -150,11 +150,11 @@ JacksonDatabind  | JacksonDatabind.zip | all d4j versions
 JacksonXml       | jackson-dataformat-xml | all d4j versions
 Jsoup            | jsoup.zip | all d4j versions
 JxPath           | commons-jxpath.zip | all d4j versions
-Lang             | **not available** | **none**
+Lang             | commons-lang.zip | 1-34
 Math             | commons-math1.zip | 1-40
 Math             | commons-math2.zip | 41-80
 Math             | commons-math3.zip | 81-106
-Mockito          | **not available** | **none**
+Mockito          | mockito.zip | all d4j versions
 Time             | joda-time.zip | all  d4j versions
 
 This repository has already the `datacollection/coverage/PROJECTID` directories, but it does not contain the coverage zip files due to space restrictions. 
