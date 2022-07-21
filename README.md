@@ -7,8 +7,8 @@ It includes:
 1. a link to Jaguar's raw data needed to calculated FDP as well as to the scripts used to generate them;
 2. the scripts to generate FDP for each faulty version;
 3. the FDP for each version of d4j's projects;
-4. spreadsheets aggregating the highest FDP for every faulty version; and
-5. Dockerfile to generate the environment to run the scripts.
+4. spreadsheets aggregating the highest FDP for every faulty version. 
+<!-- ; and 5. Dockerfile to generate the environment to run the scripts. -->
 
 
 In what follows, we describe the structure of directories of the repository and the data they contain.
