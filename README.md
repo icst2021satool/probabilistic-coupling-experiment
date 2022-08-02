@@ -165,16 +165,19 @@ For example, let us say one wants to generate data for project **Chart**, the zi
 The data from **Chart 2b** is expanded using ```datacollection/coverage/Chart/jfreechart.zip``` when **datafilegen.sh** generates FDP data. 
 
 ### datacollection/results
-**results** has a sub-directory for each of the d4j's projects. And for each project, there is a sub-directory for every faulty version. These latter directories contain the FDP  or ochiai data generated.
+**results** has a sub-directory for each of the d4j's projects. And for each project, there is a sub-directory for every faulty version. These latter directories contain the FDP  or ochiai data generated. We discuss the contents of the main files below.
 
-Csv and json files are saved on ```results/PROJECTID/VERSION``` directory after the execution of **datafilegen.sh**; they contain the DUAs sorted by the FDP or ochiai ranking.  The following files are generated at  [datacollection/results/Chart/2b](https://github.com/marcoschaim/probabilistic-coupling/tree/master/datacollection/results/Chart/2b):
+Csv and json files are saved on ```results/PROJECTID/VERSION``` directory after the execution of **datafilegen.sh**; they contain the DUAs sorted by the FDP or ochiai ranking.  The following files are generated at  [datacollection/results/Chart/2b](https://github.com/icst2021satool/probabilistic-coupling-experiment/tree/master/datacollection/results/Chart/2b):
 
 * [fdp-Chart-2b.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/fdp-Chart-2b.csv) (contains Chart 2b DUAs ranked by FDP)
-* fdp-Chart-2b.json (ignored in the repository because it has the same information contained in the csv file)
-* ochiai-Chart-2b.csv (ignored in the repository because ochiai data is not explored in the  paper)
-* ochiai-Chart-2b.json (ignored in the repository because ochiai data is not explored in the  paper)
+* [fdp-Chart-2b.json](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/fdp-Chart-2b.json) (it has the same information contained in the csv file)
 * [DatasetUtilities.java](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/DatasetUtilities.java)  (buggy class of Chart 2b)
 * [Chart-2.buggy.lines](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/Chart-2.buggy.lines) (contains the buggy lines of Chart 2b)
+* [duacoverage.txt](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/duacoverage.txt) (DUA coverage for the faulty version collect using Jaguar and BA-DUA)
+* [fdp-dua-cft-comparison-2b.json](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/fdp-dua-cft-comparison-2b.json) (it indicates whether the top DUAs are subsumed or not by node and edge coverage)
+* [org.jfree.data.general.DatasetUtilities.duas.json](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/org.jfree.data.general.DatasetUtilities.duas.json) (it contains the DUAs of the fault revealing class in json format)
+* [jaguar.out](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/jaguar.out) (output from aguar)
+* [tests.out](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/tests.out) (output from Junit execution; not present in all versions)
 
 Below we present the top line of the file `results/Chart/2b/fdp-Chart-2b.csv`:
 
