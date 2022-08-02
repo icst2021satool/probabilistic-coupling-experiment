@@ -165,6 +165,14 @@ For example, let us say one wants to generate data for project **Chart**, the zi
 The data from **Chart 2b** is expanded using ```datacollection/coverage/Chart/jfreechart.zip``` when **datafilegen.sh** generates FDP data. 
 
 ### datacollection/results
+The ``datacollection/results`` contains a sub-directory for each of the d4j's projects and also two sub-directories that aggregate the FDP data for comparing  DUAs versus unconstrained DUAs and the comparison between DUA coverage and edge and node coverage with respect to their fault detection ability.
+
+#### results/uncduas-vs-subduas
+
+This directory has csv files that aggregate the FDP data for each d4j's project and files -- uncduas-vs-subduas-plot.csv, uncduas-vs-subduas-fixed.csv, and uncduas-vs-subduas.csv, which are described below. 
+
+#### results/PROJECTID
+
 **results** has a sub-directory for each of the d4j's projects. And for each project, there is a sub-directory for every faulty version. These latter directories contain the FDP  or ochiai data generated. We discuss the contents of the main files below.
 
 Csv and json files are saved on ```results/PROJECTID/VERSION``` directory after the execution of **datafilegen.sh**; they contain the DUAs sorted by the FDP or ochiai ranking.  The following files are generated at  [datacollection/results/Chart/2b](https://github.com/icst2021satool/probabilistic-coupling-experiment/tree/master/datacollection/results/Chart/2b):
@@ -176,10 +184,10 @@ Csv and json files are saved on ```results/PROJECTID/VERSION``` directory after 
 * [duacoverage.txt](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/duacoverage.txt) (DUA coverage for the faulty version collect using Jaguar and BA-DUA)
 * [fdp-dua-cft-comparison-2b.json](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/fdp-dua-cft-comparison-2b.json) (it indicates whether the top DUAs are subsumed or not by node and edge coverage)
 * [org.jfree.data.general.DatasetUtilities.duas.json](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/org.jfree.data.general.DatasetUtilities.duas.json) (it contains the DUAs of the fault revealing class in json format)
-* [jaguar.out](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/jaguar.out) (output from aguar)
+* [jaguar.out](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/jaguar.out) (output from Jaguar)
 * [tests.out](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/Chart/2b/tests.out) (output from Junit execution; not present in all versions)
 
-Below we present the top line of the file `results/Chart/2b/fdp-Chart-2b.csv`:
+Below we present the top line of the file `results/Chart/2b/fdp-Chart-2b.csv`, the main result file:
 
 ```
 FAULT DETECTION ;Uncon;Status;DUAs; Version;2b
