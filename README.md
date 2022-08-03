@@ -184,16 +184,16 @@ Chart;15b;1.000000;5;clear;0.000000;0;False;True;1.000000
 
 The columns ``Program``, ``Version``, ``UncFdpMax``, ``NoUncFdpMax``, ``Status``, ``SubFdpMax``, ``NoSubFdpMax``, ``LessFdpUnc``, ``MoreFdpUnc``, 
 ``FdpMaxDF`` refer to the following information:
-* ``Program``: d4j project,
-* ``Version``: fault,
-* ``UncFdpMax``:  maximum FDP for unconstrained DUAs,
-* ``NoUncFdpMax``: number of unconstrained DUAs with maximum FDP,
-* ``Status``: whether the method of the maximum FDP DUAs was cleared for subsumption calculation; that is, SAtool was able to find the subsumption relationship for the method,
-* ``SubFdpMax``:  maximum FDP for subsumed DUAs,
-* ``NoSubFdpMax``: number of subsumed DUAs with maximum FDP,
-* ``LessFdpUnc``:  boolean value informing if UncFdpMax < SubFdpMax,
-* ``MoreFdpUnc``: boolean value informing if UncFdpMax > SubFdpMax,
-* ``FdpMaxDF``: maximum between UncFdpMax and SubFdpMax -- Max(UncFdpMax,SubFdpMax).
+1. **Program**: d4j project,
+2. **Version**: fault,
+3. **UncFdpMax**:  maximum FDP for unconstrained DUAs,
+4. **NoUncFdpMax**: number of unconstrained DUAs with maximum FDP,
+5. **Status**: whether the method of the maximum FDP DUAs was cleared for subsumption calculation; that is, SAtool was able to find the subsumption relationship for the method,
+6. **SubFdpMax**:  maximum FDP for subsumed DUAs,
+7. **NoSubFdpMax**: number of subsumed DUAs with maximum FDP,
+8. **LessFdpUnc**:  boolean value informing if UncFdpMax < SubFdpMax,
+9. **MoreFdpUnc**: boolean value informing if UncFdpMax > SubFdpMax,
+10. **FdpMaxDF**: maximum between UncFdpMax and SubFdpMax -- Max(UncFdpMax,SubFdpMax).
 
 #### results/PROJECTID
 
