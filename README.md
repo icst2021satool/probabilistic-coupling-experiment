@@ -169,7 +169,31 @@ The ``datacollection/results`` contains a sub-directory for each of the d4j's pr
 
 #### results/uncduas-vs-subduas
 
-This directory has csv files that aggregate the FDP data for each d4j's project and files -- uncduas-vs-subduas-plot.csv, uncduas-vs-subduas-fixed.csv, and uncduas-vs-subduas.csv, which are described below. 
+This [results/uncduas-vs-subduas](https://github.com/icst2021satool/probabilistic-coupling-experiment/tree/master/datacollection/results/uncduas-vs-subduas) directory has csv files that aggregate the FDP data for d4j's projects and also all projects. 
+The cvs files for d4j's projects are  not cleaned up for unreliable versions (see Table III in the STVR paper) and are used to generated [uncduas-vs-subduas-fixed.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/tree/master/datacollection/results/uncduas-vs-subduas/uncduas-vs-subduas-fixed.csv) in which these data were removed. The [uncduas-vs-subduas-plot.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/tree/master/datacollection/results/uncduas-vs-subduas/uncduas-vs-subduas-plot.csv) file was used to generate the violin plots (Figures 11 and 12). We show an excerpt of this file below.
+
+
+```
+Program;Version;UncFdpMax;NoUncFdpMax;Status;SubFdpMax;NoSubFdpMax;LessFdpUnc;MoreFdpUnc;FdpMaxDF
+Chart;11b;0.062500;5;clear;0.062500;20;False;False;0.062500
+Chart;12b;0.250000;4;clear;0.000000;0;False;True;0.250000
+Chart;13b;1.000000;130;clear;1.000000;26;False;False;1.000000
+Chart;14b;0.133333;4;clear;0.000000;0;False;True;0.133333
+Chart;15b;1.000000;5;clear;0.000000;0;False;True;1.000000
+```
+
+The columns ``Program``, ``Version``, ``UncFdpMax``, ``NoUncFdpMax``, ``Status``, ``SubFdpMax``, ``NoSubFdpMax``, ``LessFdpUnc``, ``MoreFdpUnc``, 
+``FdpMaxDF`` refer to the following information:
+* ``Program``: d4j project,
+* ``Version``: fault,
+* ``UncFdpMax``:  maximum FDP for unconstrained DUAs,
+* ``NoUncFdpMax``: number of unconstrained DUAs with maximum FDP,
+* ``Status``: whether the method of the maximum FDP DUAs was cleared for subsumption calculation; that is, SAtool was able to find the subsumption relationship for the method,
+* ``SubFdpMax``:  maximum FDP for subsumed DUAs,
+* ``NoSubFdpMax``: number of subsumed DUAs with maximum FDP,
+* ``LessFdpUnc``:  boolean value informing if UncFdpMax < SubFdpMax,
+* ``MoreFdpUnc``: boolean value informing if UncFdpMax > SubFdpMax,
+* ``FdpMaxDF``: maximum between UncFdpMax and SubFdpMax -- Max(UncFdpMax,SubFdpMax).
 
 #### results/PROJECTID
 
