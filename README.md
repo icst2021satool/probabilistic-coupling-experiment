@@ -7,9 +7,7 @@ It includes:
 1. a link to Jaguar's raw data needed to calculated FDP as well as to the scripts used to generate them;
 2. the scripts to generate FDP for each faulty version;
 3. the FDP for each version of d4j's projects;
-4. spreadsheets aggregating the highest FDP for every faulty version. 
-<!-- ; and 5. Dockerfile to generate the environment to run the scripts. -->
-
+4. cvs files aggregating the highest FDP for every faulty version. 
 
 In what follows, we describe the structure of directories of the repository and the data they contain.
 
@@ -182,7 +180,7 @@ Chart;14b;0.133333;4;clear;0.000000;0;False;True;0.133333
 Chart;15b;1.000000;5;clear;0.000000;0;False;True;1.000000
 ```
 
-The columns ``Program``, ``Version``, ``UncFdpMax``, ``NoUncFdpMax``, ``Status``, ``SubFdpMax``, ``NoSubFdpMax``, ``LessFdpUnc``, ``MoreFdpUnc``, 
+The columns ``Program``, ``Version``, ``UncFdpMax``, ``NoUncFdpMax``, ``Status``, ``SubFdpMax``, ``NoSubFdpMax``, ``LessFdpUnc``, ``MoreFdpUnc``, and
 ``FdpMaxDF`` refer to the following information:
 1. **Program**: d4j project,
 2. **Version**: fault,
@@ -195,6 +193,30 @@ The columns ``Program``, ``Version``, ``UncFdpMax``, ``NoUncFdpMax``, ``Status``
 9. **MoreFdpUnc**: boolean value informing if UncFdpMax > SubFdpMax,
 10. **FdpMaxDF**: maximum between UncFdpMax and SubFdpMax -- Max(UncFdpMax,SubFdpMax).
 
+
+#### results/duas-vs-cfts
+
+This repository contains data regarding the yield of data flow testing. It contains cvs files showing whether the top fault revealing DUAs are subsumed by edges and nodes. It contains txt files that are the output of the execution of duacftcomparison_batch.sh for each d4j's projects. The relevant file is 
+[duas-vs-cfts-fixed.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/tree/master/datacollection/results/duas-vs-cfts/duas-vs-cfts-fixed.csv); it contains the data cleared of unreliable versions (STVR's paper Table III). Below we show an excerpt of this file.
+
+```
+Version;TopDUAsStatus;DUAMaxFdp;NodeMaxFdp;EdgeMaxFdp;topDUANodeSubsumption;topDUAEdgeSubsumption;
+Chart-1b;clear;1.0;0.0;0.0;True;True;
+Chart-2b;clear;1.0;0.0;0.0;True;True;
+Chart-3b;clear;0.3333;0.0;0.0;True;True;
+Chart-4b;clear;1.0;0.0;0.0;True;True;
+Chart-5b;clear;0.5;0.0;0.0;True;True;
+```
+
+The columns ``Version``, ``TopDUAsStatus``, ``DUAMaxFdp``, ``NodeMaxFdp``, ``EdgeMaxFdp``, ``topDUANodeSubsumption``, and ``topDUAEdgeSubsumption`` refer to the following information:
+1. **Version**: d4j project and fault,
+3. **TopDUAsStatus**:  status o top fault revealing DUAs; that is, whether SAtool was able to find the DUA-edge and DUA-node subsumptions relationshiop for all top DUAs,
+4. **DUAMaxFdp**: maximum FDP for unconstrained DUAs,,
+5. **NodeMaxFdp**: unavailable information (always zero),
+6. **EdgeMaxFdp**: unavailable information (always zero),
+7. **topDUANodeSubsumption**: boolean value indicating whether node coverage subsumes at least one top fault revealing DUA,
+8. **topDUAEdgeSubsumption**: boolean value indicating whether edge coverage subsumes at least one top fault revealing DUA.
+ 
 #### results/PROJECTID
 
 **results** has a sub-directory for each of the d4j's projects. And for each project, there is a sub-directory for every faulty version. These latter directories contain the FDP  or ochiai data generated. We discuss the contents of the main files below.
