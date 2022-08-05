@@ -110,9 +110,27 @@ This python program aggregates data for all faulty versions of a particular d4j 
 
 ### datacollection/batch-src:
 
-This directory contains whose purpose is to run scripts for several d4j's projects at once; that is, in batch mode. There are four types of scrips:
+This directory contains scripts whose purpose is to run scripts contained in the directory ``datacollection/src`` for several d4j's projects at once (e.g., in batch mode) or to generate, clean up, and check the aggregate FDP data. There are four types of scrips:
 
-1. Scripts to collect FDP data in batch mode.
+1. Scripts to collect FDP data in batch mode. These scripts basically run the script **src/faultdetect_project.sh** for all faulty versions of the d4j projects.
+
+* [Chart-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Chart-batch.sh)
+* [Cli-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Cli-batch.sh)	      
+* [Closure-batch-fdp.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Compress-batch.sh)  
+* [Codec-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Codec-batch.sh)	    
+* [Collections-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Collections-batch.sh)  
+* [Compress-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Closure-batch.sh)     
+* [Csv-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Csv-batch.sh)	  
+* [Gson-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Gson-batch.sh)	  
+* [JacksonCore-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/JacksonCore-batch.sh)  
+* [JacksonDatabind-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/JacksonDatabind-batch.sh)  
+* [JacksonXml-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/JacksonXml-batch.sh)	    
+* [Jsoup-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Jsoup-batch.sh)	    
+* [JxPath-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/JxPath-batch.sh)  
+* [Lang-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Lang-batch.sh)    
+* [Math-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Math-batch.sh)
+* [Mockito-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Mockito-batch.sh)
+* [Time-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Time-batch.sh)
 
 2. Scripts to generate csv file for analysis.
 * [batch-duacft-comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-duacft-comparison.sh). This script runs script **src/duacftcomparison_batch.sh** for all d4j's projects. [duacftcomparison_batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison_batch.sh), in itself, is a batch script since it calls **src/duacftcomparison.py** for every faulty version of a particular d4j project. Script [duacftcomparison.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison.py) determine whether control flow criteria (edge and node coverage) subsumes those DUAs with the highest FDP value.
