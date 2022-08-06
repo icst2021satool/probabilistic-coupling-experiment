@@ -479,6 +479,34 @@ for the d4j's projects, excepting Lang and Mockito.
 
 This directory contains the **satool** jar file and the libraries it uses. **satool** generates the json files of the **subsumption-files** directory.
 
+# Probabilistic coupling replication roadmap
+
+The replication package is based on docker. So you should install it before starting the replication of the probabilistic coupling experiment.
+
+## Clone docker repository
+
+1. Clone the repository: git clone https://github.com/icst2021satool/dockers.git in the target computer.
+2. Access the **Dockerfile** in  directory the ``probabilistic-coupling``.
+* ``cd probabilistic-coupling``
+* ``ls Dockerfile``
+
+## Build docker image
+Run the command below on the ``probabilistic-coupling`` directory.
+
+* ``docker build -t probablistic-coupling-experiment .``
+
+The above command will create an docker image that clones [this](https://github.com/icst2021satool/probabilistic-coupling-experiment) repository and install all tools needed to run the experiment.
+
+## Run the container
+
+* ``docker container run -ti probablistic-coupling-experiment``
+
+After running the container, it will be on ``datacollection/src`` directory.  You should then run  the following command:
+
+* ``source init.sh``
+
+After this command, scripts can be run.
+
 # References
 
 [1] Yiqun T. Chen, Rahul Gopinath, Anita Tadakamalla, Michael D. Ernst, Reid Holmes, Gordon Fraser, Paul Ammann, and René Just. 2020. Revisiting the relationship between fault detection, test adequacy criteria, and test set size. In <i>Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering</i> (<i>ASE '20</i>). Association for Computing Machinery, New York, NY, USA, 237–249. [DOI](https://doi.org/10.1145/3324884.3416667)
