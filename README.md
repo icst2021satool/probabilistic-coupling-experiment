@@ -79,6 +79,7 @@ For example, by running the command below:
 
 **datafilegen.sh** saves csv and json files containing FDP (or ochiai) data on ```results/Chart/2b``` directory. The descriptions of these files are presented at [results directory](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/README.md#datacollectionresults)
 
+
 <!--
 edgematrix/nodematrix/cftmatrix: edge and node matrix files are saved on the  *subsumption-files/PROJECT_NAME/reduce/VERSION* directory. To keep the matrix files one should not use the -cleanup option; otherwise,  they are gzipped in a single file and moved to **subsumption-files/reduce** folder. **datafilegen.sh** calls  **createcftmatrix.py** to generate the matrix files. To generate fdp and ochiai rankings from the gzip file, it has to be converted to a zip file and moved to the **coverage/PROJECTID** folder. For fdp and ochiai ranking calculation is supposed that a zip file with the matrix data is located at **coverage/PROJECTID** folder.
 -->
@@ -131,7 +132,7 @@ These are scripts or python programs called by **datafilegen.sh**. See details o
 
 This directory contains scripts whose purpose is to run scripts contained in the directory ``datacollection/src`` for several d4j's projects at once (e.g., in batch mode) or to generate, clean up, and check the aggregate FDP data. There are four types of scrips:
 
-1. Scripts to collect FDP data in batch mode. These scripts basically run the script **src/faultdetect_project.sh** for all faulty versions of the d4j projects.
+1. Scripts to collect FDP data in batch mode. These scripts  run the script **src/faultdetect_project.sh** for all faulty versions of the d4j projects to generate the contents of the ``datacollection/results/PROJECTID/VERSION`` directories.
 
 * [Chart-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Chart-batch.sh)
 * [Cli-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Cli-batch.sh)	      
@@ -151,7 +152,14 @@ This directory contains scripts whose purpose is to run scripts contained in the
 * [Mockito-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Mockito-batch.sh)
 * [Time-batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/Time-batch.sh)
 
-2. Scripts to generate csv file for analysis.
+Example: ``./Closure-batch-fdp.sh``
+
+This command runs **src/faultdetect_project.sh** for Closure to generate the FDP data contained in ``datacollection/results/Closure/VERSION`` directories. In this particular script, **src/faultdetect_project.sh** is run nine times since the Jaguar coverage data was divided in nine zip files (see description of **datacollection/coverage** directory). It may take a couple of days to collect data for Closure and Math; other projects a couple of hours.
+
+2. Scripts to aggregate FDP data for analysis.
+
+* [gen_csv_udua_dua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/gen_csv_udua_dua_comparison.sh) calls **src/duafdpaggregation.py** to generate cvs files that aggregate maximum FDP data for all faults of a d4j project.  It then generates [results/uncduas-vs-subduas/uncduas-vs-subduas.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/uncduas-vs-subduas/uncduas-vs-subduas.csv), which aggregates maximum FDP data for all d4j's projects. Note that this cvs file will be cleaned up to remove unreliable faults.
+
 * [batch-duacft-comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-duacft-comparison.sh). This script runs script **src/duacftcomparison_batch.sh** for all d4j's projects. [duacftcomparison_batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison_batch.sh), in itself, is a batch script since it calls **src/duacftcomparison.py** for every faulty version of a particular d4j project. Script [duacftcomparison.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison.py) determine whether control flow criteria (edge and node coverage) subsumes those DUAs with the highest FDP value.
 
 3.  Scripts to generate subsumption-files for a d4j project.
@@ -159,16 +167,23 @@ This directory contains scripts whose purpose is to run scripts contained in the
 * [batch-subsumption-files.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-subsumption-files.sh). This script invokes **src/faultdetect_project.sh** (and implicitly **src/datafilegen.sh**) to generate the subsumption files for all fault versions of the d4j's projects. Additionally, a tar.gz file is created with all subsumption files for all versions compressed. The targ.gz files are saved on ```subsumption-files/PROJECTID```.
 
 4. Scripts to cleanup data from unreliable versions.
+* [cleanup_udua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/cleanup_udua_comparison.sh) cleans up cvs file **uncduas-vs-subduas.csv** from unreliable versions (see Table III of the STVR paper)  and 
+generates two cleared files: **uncduas-vs-subduas-fixed.csv** and **uncduas-vs-subduas-plot.csv**. The second one is used to create violin plots (Figures 11 and 12) of the paper and the data regarding fault detection ability of unconstrained DUAs and DUAs presented (Table V) in the STVR paper. (See ``datacollection/results`` directory below).
+
+* [cleanup_cft_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/cleanup_cft_comparison.sh) does the same job of cleaning cvs file **duas-vs-cfts.csv** up  from unreliable versions (see Table III of the STVR paper)  and 
+generates a cleared file: **duas-vs-cfts.csv-fixed.csv**. This file is used to create bar charts of the paper (Figure 13) and data regarding the yield of data flow testing with respect to control flow testing (Table VII).  (See ``datacollection/results`` directory below).
 
 5. Scripts to check the results.
+* [check_udua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/check_udua_comparison.sh) verifies the faults for which we could not calculated the subsumption relationship or it was disrupted,  there was loss of fault detection ability. Part of its results was used to generate Table VI of the STVR paper.
 
-#### Scripts to collect data in batch mode
+* [check_cft_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/check_cft_comparison.sh)  verifies the data used to assess the yield of data flow testing against control flow testing presented in Table VII and Figure 13 of the STVR paper.
 
 ### datacollection/coverage:
 
 **coverage** has a sub-directory for each of d4j's projects. In each of these sub-directories there should be one or more zip files containing the data flow coverage collected with Jaguar. Because the zip files occupy too much space, we make them availabe at [here](https://drive.google.com/drive/folders/1Yv_nWJrwMO1twRaqXZ3e34JWFLArYjeN?usp=sharing). 
 
-To run the scripts to generate the FDP data for each version, one should place the project's zip file containing its data flow coverage on the project's folder. 
+To facilite the execution of the scripts to generate the FDP data for each version, we placed the very same files on http://143.107.58.177. 
+**datafilegen.sh** invokes ``wget http://143.107.58.177/PROJECTCOVERAGEZIPFILE`` command to download the zip file with Jaguar's data flow coverage for a particular project being analyzed before its execution. 
 
 The table below maps each project identifier to its zip file contained [here](https://drive.google.com/drive/folders/1Yv_nWJrwMO1twRaqXZ3e34JWFLArYjeN?usp=sharing). **Math** and **Closure** required to divide their coverage data into several files, each one containg a subset of the faulty versions' coverage. 
 
@@ -204,10 +219,10 @@ Time             | joda-time.zip | all  d4j versions
 
 This repository has already the `datacollection/coverage/PROJECTID` directories, but it does not contain the coverage zip files due to space restrictions. 
 
-For example, let us say one wants to generate data for project **Chart**, the zip file **jfreechart.zip** should be placed at ```datacolection/coverage/Chart```. **datafilegen.sh** will look for the zip file at ```datacollection/coverage/Chart/jfreechart.zip``` when the command below is issued:
+For example, let us say one wants to generate data for project **Chart** for fault **2b**. She or he will issue the following command:
 *  ```src/datafilegen.sh Chart 2b jfreechart.zip -fdp -copy -cleanup``` 
 
-The data from **Chart 2b** is expanded using ```datacollection/coverage/Chart/jfreechart.zip``` when **datafilegen.sh** generates FDP data. 
+**datafilegen.sh** checks whether **jfreechart.zip** already exists on ``datacolection/coverage/Chart``. If it does not, it  will invoke ``wget http://143.107.58.177/jfreechart.zip`` to download  **jfreechart.zip** at ```datacollection/coverage/Chart```. The data from **Chart 2b** is expanded using ```datacollection/coverage/Chart/jfreechart.zip``` when **datafilegen.sh** generates FDP data. 
 
 ### datacollection/results
 The ``datacollection/results`` contains a sub-directory for each of the d4j's projects and also two sub-directories that aggregate the FDP data for comparing  DUAs versus unconstrained DUAs and the comparison between DUA coverage and edge and node coverage with respect to their fault detection ability.
