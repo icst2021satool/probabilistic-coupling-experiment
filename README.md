@@ -162,6 +162,8 @@ This command runs **src/faultdetect_project.sh** for Closure to generate the FDP
 
 * [batch-duacft-comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-duacft-comparison.sh). This script runs script **src/duacftcomparison_batch.sh** for all d4j's projects. [duacftcomparison_batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison_batch.sh), in itself, is a batch script since it calls **src/duacftcomparison.py** for every faulty version of a particular d4j project. Script [duacftcomparison.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison.py) determine whether control flow criteria (edge and node coverage) subsumes those DUAs with the highest FDP value.
 
+* [gen_csv_udua_dua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/gen_csv_dua_cft_comparison.sh)  aggregates all cvs files genereated by **batch-duacft-comparison.sh** in a single cvs file called [results/duas-vs-cfts/duas-vs-cfts.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/results/duas-vs-cfts/duas-vs-cfts.csv). Note that this cvs file will be cleaned up to remove unreliable faults.
+
 3.  Scripts to generate subsumption-files for a d4j project.
 
 * [batch-subsumption-files.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-subsumption-files.sh). This script invokes **src/faultdetect_project.sh** (and implicitly **src/datafilegen.sh**) to generate the subsumption files for all fault versions of the d4j's projects. Additionally, a tar.gz file is created with all subsumption files for all versions compressed. The targ.gz files are saved on ```subsumption-files/PROJECTID```.
@@ -506,6 +508,35 @@ After running the container, it will be on ``datacollection/src`` directory.  Yo
 * ``source init.sh``
 
 After this command, scripts can be run.
+
+## FDP data generation
+
+Firstly, on ``datacollection/batch-src`` directory, run *all* scripts listed in the first item of **datacollection/batch-src**. 
+
+For example: ``./Codec-batch.sh``
+
+These scripts do not require paramters. They generate a file called ``PROJECTID-fdp.out.tar.gz`` on the ``datacollection`` directory when finished. These files were used to debug the scripts and can be removed if the results are genered accordingly. As metioned before, for some projects, notably Closure and Math, these scripts can take a couple of days. No particular order of execution is needed.
+
+## FDP data aggregation
+
+Then, on ``datacollection/batch-src`` directory, run  scripts listed in the second item of **datacollection/batch-src** to generate the aggregated data. In this order:
+
+1. [gen_csv_udua_dua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/gen_csv_udua_dua_comparison.sh)
+2. [batch-duacft-comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-duacft-comparison.sh)
+3. [gen_csv_dua_cft_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/gen_csv_dua_cft_comparison.sh) 
+
+These scripts do not require parameters and will aggregate FDP data as mentioned The first two scripst may take longer to run.
+
+## Data cleanup
+
+On ``datacollection/batch-src`` directory, run  scripts listed in the fourth item of **datacollection/batch-src**: [cleanup_udua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/cleanup_udua_comparison.sh)  [cleanup_cft_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/cleanup_cft_comparison.sh).
+They will generate aggregated cvs files cleared of unreliable versions. No particular execution order is required.
+
+## Checking
+
+On ``datacollection/batch-src`` directory, run  scripts listed in the fifth item of **datacollection/batch-src**, namely, [check_udua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/check_udua_comparison.sh) and [check_cft_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/check_cft_comparison.sh), to check the aggregated results. No execution order needed.
+
+
 
 # References
 
