@@ -483,7 +483,7 @@ This directory contains the **satool** jar file and the libraries it uses. **sat
 
 # Probabilistic coupling replication roadmap
 
-The replication package is based on docker. So you should install it before starting the replication of the probabilistic coupling experiment.
+The replication package is based on docker. So you should install it before starting the replication of the probabilistic coupling experiment. In what follows, we present the steps to replicate the probabilistic coupling experiment.
 
 ## Clone docker repository
 
@@ -535,8 +535,6 @@ They will generate aggregated cvs files cleared of unreliable versions. No parti
 ## Checking
 
 On ``datacollection/batch-src`` directory, run  scripts listed in the fifth item of **datacollection/batch-src**, namely, [check_udua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/check_udua_comparison.sh) and [check_cft_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/check_cft_comparison.sh), to check the aggregated results. No execution order needed.
-
-
 
 # References
 
