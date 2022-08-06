@@ -40,7 +40,7 @@ This directory contains the shell scripts and Python programs to generate the FD
 * [duacftcomparison_batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison_batch.sh) 
 * [duafdpaggregation.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duafdpaggregation.py)
 
-The main files are the shell scripts **datafilegen.sh** and **faultdetect_project.sh**. They are detailed below.
+The main files are the shell scripts **datafilegen.sh**, **faultdetect_project.sh**, and **duacftcomparison_batch.sh**. They are detailed below.
 
 #### datafilegen.sh
 [datafilegen.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/datafilegen.sh) generates several data related to the calculation of the fault detection probability (FDP) or ochiai association metric.  This script supposes it is run at **datacolletion** directory using ```src/datafilegen.sh```. The parameters are as follows:
@@ -91,14 +91,30 @@ Example: ```src/faultdetect_project.sh Compress 1 47 commons-compress-exception.
 
 In the example, **faultdetect_project.sh** calls **datafilegen.sh** for each of 47 active versions of project Compress.
 
-#### get_buggy_lines.sh,comparisonv2.py, and faultdetectv3.py
 
-These are scripts or python programs called by **datafilegen.sh**. See details of them in the description of **datafilegen.sh**.
+#### duacftcomparison_batch.sh
+
+[duacftcomparison_batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison_batch.sh) firstly generates the subsumption files and then calls the python program [src/duacftcomparison.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison.py) for  all faulty versions of a d4j project. 
+
+Example: ```src/duacftcomparison_batch.sh Chart 1 26 >& results/duas-vs-cfts/Chart-dua-cft-comparison.txt```
+
+In this example, **duacftcomparison_batch.sh** generates the subsumption files and calls **duacftcomparison.py** for all Chart's faults. The output of its execution is saved on ``results/duas-vs-cfts/Chart-dua-cft-comparison.txt`` which will be used to aggregate  fault detection ability of DUA versus DUA-node and DUA-edge subsmption on cvs files (see discussion on **batch-src/batch-duacft-comparison.sh**). 
+
+[batch-duacft-comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/batch-duacft-comparison.sh) invokes **duacftcomparison_batch.sh** for all d4j's projects. (See descripton below)
+
+#### duacftcomparison.py
+
+[duacftcomparison.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison.py) identifies the top fault revealing DUAs for a particular faulty version and checks whether they are subsumed by nodes and edge coverage. It generates a file with this information called ``fdp-dua-cft-comparison-VERSION.json`` and saves it on the ```datacollection/results/PROJECTID/VERSION```directory.
+
 
 #### duafdpaggregation.py
 
 This python program aggregates data for all faulty versions of a particular d4j project. It is called by 
 [gen_csv_udua_dua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/gen_csv_udua_dua_comparison.sh) to generate files that aggregate maximum FDP for all d4j projects. 
+
+#### get_buggy_lines.sh,comparisonv2.py, and faultdetectv3.py
+
+These are scripts or python programs called by **datafilegen.sh**. See details of them in the description of **datafilegen.sh**.
 
 #### init.sh,  coverage_project.sh, coverage_jaguar.py, and coverage_csv.sh
 
