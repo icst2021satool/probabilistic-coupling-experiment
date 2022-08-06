@@ -40,7 +40,7 @@ This directory contains the shell scripts and Python programs to generate the FD
 * [duacftcomparison_batch.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duacftcomparison_batch.sh) 
 * [duafdpaggregation.py](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/duafdpaggregation.py)
 
-The main files are the shell scripts **datafilegen.sh**, **faultdetect_project.sh**, and **duacftcomparison_batch.sh**. They are detailed below.
+The main files are the shell scripts **datafilegen.sh**, **faultdetect_project.sh**, **duacftcomparison_batch.sh**, **duacftcomparison.py**, and **duafdpaggregation.py**. They are detailed below.
 
 #### datafilegen.sh
 [datafilegen.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/src/datafilegen.sh) generates several data related to the calculation of the fault detection probability (FDP) or ochiai association metric.  This script supposes it is run at **datacolletion** directory using ```src/datafilegen.sh```. The parameters are as follows:
@@ -110,7 +110,11 @@ In this example, **duacftcomparison_batch.sh** generates the subsumption files a
 #### duafdpaggregation.py
 
 This python program aggregates data for all faulty versions of a particular d4j project. It is called by 
-[gen_csv_udua_dua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/gen_csv_udua_dua_comparison.sh) to generate files that aggregate maximum FDP for all d4j projects. 
+[gen_csv_udua_dua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/gen_csv_udua_dua_comparison.sh) to generate cvs files that aggregate maximum FDP for all d4j projects.  (See description below) 
+
+Example: ``src/duafdpaggregation.py Chart 1 26 ./results results/uncduas-vs-subduas/Chart1-26.csv``
+
+The result of its execution  for Chart is saved on ``results/uncduas-vs-subduas/Chart1-26.csv``
 
 #### get_buggy_lines.sh,comparisonv2.py, and faultdetectv3.py
 
