@@ -138,7 +138,7 @@ This directory contains scripts whose purpose is to run scripts contained in the
 
 Example: ``./Closure-batch-fdp.sh``
 
-This command runs **src/faultdetect_project.sh** for Closure to generate the FDP data contained in ``datacollection/results/Closure/VERSION`` directories. In this particular script, **src/faultdetect_project.sh** is run nine times since the Jaguar coverage data was divided in nine zip files (see description of **datacollection/coverage** directory). It may take a couple of days to collect data for Closure and Math; other projects a couple of hours.
+This command runs **src/faultdetect_project.sh** for Closure to generate the FDP data contained in ``datacollection/results/Closure/VERSION`` directories. In this particular script, **src/faultdetect_project.sh** is run nine times since the Jaguar coverage data was divided in nine zip files (see description of **datacollection/coverage** directory). It may take a couple of days to collect data for Closure and Math; other projects take a couple of hours.
 
 2. Scripts to aggregate FDP data for analysis.
 
@@ -157,10 +157,10 @@ This command runs **src/faultdetect_project.sh** for Closure to generate the FDP
 generates two cleared files: **uncduas-vs-subduas-fixed.csv** and **uncduas-vs-subduas-plot.csv**. The second one is used to create violin plots (Figures 11 and 12) of the paper and the data regarding fault detection ability of unconstrained DUAs and DUAs presented (Table V) in the STVR paper. (See ``datacollection/results`` directory below).
 
 * [cleanup_cft_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/cleanup_cft_comparison.sh) does the same job of cleaning cvs file **duas-vs-cfts.csv** up  from unreliable versions (see Table III of the STVR paper)  and 
-generates a cleared file: **duas-vs-cfts.csv-fixed.csv**. This file is used to create bar charts of the paper (Figure 13) and data regarding the yield of data flow testing with respect to control flow testing (Table VII).  (See ``datacollection/results`` directory below).
+generates a cleared file: **duas-vs-cfts.csv-fixed.csv**. This file is used to create bar charts of the paper (Figure 13) and data regarding the yield of data flow testing with respect to control flow testing (Table VII).  (See **datacollection/results** directory below).
 
 5. Scripts to check the results.
-* [check_udua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/check_udua_comparison.sh) verifies the faults for which we could not calculated the subsumption relationship or it was disrupted,  there was loss of fault detection ability. Part of its results was used to generate Table VI of the STVR paper.
+* [check_udua_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/check_udua_comparison.sh) verifies the faults for which we could not calculated the subsumption relationship, the subsumption relationship was disrupted, or fault detection ability was lost. Part of its results was used to generate Table VI of the STVR paper.
 
 * [check_cft_comparison.sh](https://github.com/icst2021satool/probabilistic-coupling-experiment/blob/master/datacollection/batch-src/check_cft_comparison.sh)  verifies the data used to assess the yield of data flow testing against control flow testing presented in Table VII and Figure 13 of the STVR paper.
 
@@ -234,7 +234,7 @@ The columns ``Program``, ``Version``, ``UncFdpMax``, ``NoUncFdpMax``, ``Status``
 2. **Version**: fault,
 3. **UncFdpMax**:  maximum FDP for unconstrained DUAs,
 4. **NoUncFdpMax**: number of unconstrained DUAs with maximum FDP,
-5. **Status**: whether the method of the maximum FDP DUAs was cleared for subsumption calculation; that is, SAtool was able to find the subsumption relationship for the method,
+5. **Status**: whether the method of the maximum FDP DUAs was cleared for subsumption calculation; that is, SAtool was able to find the subsumption relationship for the method or there was no subsumption disruption,
 6. **SubFdpMax**:  maximum FDP for subsumed DUAs,
 7. **NoSubFdpMax**: number of subsumed DUAs with maximum FDP,
 8. **LessFdpUnc**:  boolean value informing if UncFdpMax < SubFdpMax,
@@ -244,7 +244,7 @@ The columns ``Program``, ``Version``, ``UncFdpMax``, ``NoUncFdpMax``, ``Status``
 
 #### results/duas-vs-cfts
 
-This repository contains data regarding the yield of data flow testing. It contains cvs files showing whether the top fault revealing DUAs are subsumed by edges and nodes. It contains txt files that are the output of the execution of duacftcomparison_batch.sh for each d4j's projects. The relevant file is 
+This repository contains data regarding the yield of data flow testing. It contains cvs files showing whether the top fault revealing DUAs are subsumed by edges and nodes. It contains txt files that are the output of the execution of **duacftcomparison_batch.sh** for each d4j's projects. The relevant file is 
 [duas-vs-cfts-fixed.csv](https://github.com/icst2021satool/probabilistic-coupling-experiment/tree/master/datacollection/results/duas-vs-cfts/duas-vs-cfts-fixed.csv); it contains the data cleared of unreliable versions (STVR's paper Table III). Below we show an excerpt of this file.
 
 ```
@@ -293,7 +293,7 @@ The cvs files contain the following columns:
 
 1. **FAULT DETECTION**: a *real value f* (O < f <= 1.0) informing the probabilistic coupling (or fault detection probability -- FDP) calculated using all tests belonging to the test suite created by the project's developers. We refer the reader to [Chen et al. 2020 ASE paper](https://doi.org/10.1145/3324884.3416667) for the definition of probablistic coupling.
 2. **Uncon**: **true** means the DUA (definition use association) is unconstrained and **false** subsumed; we refer the reader to the paper for the definition of unconstrained and subsumed DUAs. 
-3. **Status**: **clear** means that the Subsumption Algorithm (SA) could calculate the subsumption relationship for the method's DUAs; **notclear** means SA could not find the subsumption relationship. 
+3. **Status**: **clear** means that the Subsumption Algorithm (SA) could calculate the subsumption relationship for the method's DUAs; **nounc** means SA could not find the subsumption relationship; **wrong** means that there was subsumption disruption. 
 4. **DUAs**: the description of the DUA; we refer the reader to the paper for the definition of definition use associations (DUAs).
 
 For the excerpt of `results/Chart/2b/fdp-Chart-2b.csv`:
