@@ -459,7 +459,7 @@ folder ``datacollection/subsumption-files/PROJECTID/reduce/VERSION``.
 These files can optionally be removed after the execution of the scripts 
 to generate FDP data.
 In order to save space, **subsumption files** are available compressed [here](https://drive.google.com/drive/folders/1r9YyHduev5Ig1RG7I-ENkjcqND2ker0M?usp=sharing)
-for the d4j's projects, excepting Lang and Mockito.
+for the d4j's projects.
 
 ### datacollection/satool
 
