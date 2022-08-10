@@ -5,11 +5,11 @@ set -x
 DataCollectionHome=$DATACOLLECTION_HOME
 
 cd ${DataCollectionHome}
-#src/faultdetect_project.sh Closure 1 10 closure-compiler1.zip -fdp -copy -cleanup >& Closure-1-10-fdp-duas.out
-#gzip Closure-1-10-fdp-duas.out
+src/faultdetect_project.sh Closure 1 10 closure-compiler1.zip -fdp -copy -cleanup >& Closure-1-10-fdp-duas.out
+gzip Closure-1-10-fdp-duas.out
 
-#src/faultdetect_project.sh Closure 11 30 closure-compiler2.zip -fdp -copy -cleanup >& Closure-11-30-fdp-duas.out
-#gzip Closure-11-30-fdp-duas.out
+src/faultdetect_project.sh Closure 11 30 closure-compiler2.zip -fdp -copy -cleanup >& Closure-11-30-fdp-duas.out
+gzip Closure-11-30-fdp-duas.out
 
 src/faultdetect_project.sh Closure 31 50 closure-compiler3.zip -fdp -copy -cleanup >& Closure-31-50-fdp-duas.out
 gzip Closure-31-50-fdp-duas.out
